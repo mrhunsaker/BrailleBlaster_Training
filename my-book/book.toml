@@ -1,8 +1,8 @@
 [book]
-title = "3D Printing Course for Blind and Visually Impaired Learners"
+title = "BrailleBlaster v3 Training"
 authors = ["Michael Ryan Hunsaker, M.Ed., Ph.D."]
 language = "en"
-description = "An introduction to 3D printing for blind and visually impaired learners, using OpenSCAD and 3DMake to create accessible 3D models."
+description = "An introduction to BrailleBlaster and training documents"
 src = "src"
 text-direction = "ltr"
 
@@ -34,8 +34,8 @@ use-default-preprocessors = true
 [output.html]
 default-theme = "Rust"
 preferred-dark-theme = "Navy"
-site-url = "https://mrhunsaker.github.io/VI_3DMake_OpenSCAD_Curriculum/"
-git-repository-url = "https://github.com/mrhunsaker/VI_3DMake_OpenSCAD_Curriculum"
+site-url = "https://mrhunsaker.github.io/BrailleBlaster_Training"
+git-repository-url = "https://github.com/mrhunsaker/BrailleBlaster_Training"
 no-section-label = false
 
 [output.html.search]
