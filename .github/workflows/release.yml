@@ -1,0 +1,57 @@
+name: Build and Release mdBook with Pandoc and LaTeX
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Add cargo bin to PATH
+        run: echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+      - name: Install mdBook and mdbook-indexing
+        run: |
+          cargo install mdbook --locked
+          cargo install mdbook-indexing --locked
+
+      # mdbook build triggers all backends defined in book.toml:
+      #   output.html     → docs/html/
+      #   output.markdown → docs/markdown/
+      - name: Build book (HTML + Markdown)
+        run: |
+          cd my-book
+          mdbook build
+
+      - name: Verify release artifacts exist
+        run: |
+          test -d my-book/docs/html
+          test -d my-book/docs/markdown
+
+      - name: Package Markdown output
+        run: |
+          cd my-book/docs
+          zip -r markdown-output.zip markdown/
+
+      - name: Upload release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            my-book/docs/markdown-output.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,56 @@
+[book]
+title = "3D Printing Course for Blind and Visually Impaired Learners"
+authors = ["Michael Ryan Hunsaker, M.Ed., Ph.D."]
+language = "en"
+description = "An introduction to 3D printing for blind and visually impaired learners, using OpenSCAD and 3DMake to create accessible 3D models."
+src = "src"
+text-direction = "ltr"
+
+
+[output.html.print]
+enable = true    # include support for printable output
+page-break = true # insert page-break after each chapter
+
+
+[preprocessor.index]
+
+[preprocessor.indexing]
+suppress_head = true
+
+[preprocessor.indexing.see_instead]
+"CLI" = "Command Line Interface"
+"CMD" = "Command Prompt"
+
+[preprocessor.indexing.nest_under]
+
+
+[preprocessor.links]
+
+[build]
+build-dir = "docs"
+create-missing = true
+use-default-preprocessors = true
+
+[output.html]
+default-theme = "Rust"
+preferred-dark-theme = "Navy"
+site-url = "https://mrhunsaker.github.io/VI_3DMake_OpenSCAD_Curriculum/"
+git-repository-url = "https://github.com/mrhunsaker/VI_3DMake_OpenSCAD_Curriculum"
+no-section-label = false
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.markdown]

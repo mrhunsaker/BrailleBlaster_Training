@@ -1,0 +1,41 @@
+# Ignore submodule folder
+Simplifying-3D-Printing-with-OpenSCAD/
+programmingwithopenscad.github.io/
+CodeSolutions/
+
+# Exclude docs folder
+docs/
+
+# Exclude all backup files (common extensions)
+*~
+*.bak
+*.backup
+*.tmp
+*.swp
+*.txt
+
+# Exclude scripts folder
+scripts/
+
+# Exclude all Python files
+*.py
+*.bak
+
+my-book/docs/
+*.aux
+*.log
+*.tex
+*.toc
+
+textbooks/
+admonitions_mdbook.md
+
+old_files/
+admonitions_mdbook.md
+remove_unicode.py
+node_modules/
+index_terms.txt
+PS_Complete_Curriculum.md
+CMD_Complete_Curriculum.md
+GitBash_Complete_Curriculum.md
+old/
