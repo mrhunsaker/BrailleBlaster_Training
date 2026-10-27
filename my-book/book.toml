@@ -2,7 +2,7 @@
 title = "BrailleBlaster v3 Training"
 authors = ["Michael Ryan Hunsaker, M.Ed., Ph.D."]
 language = "en"
-description = "An introduction to BrailleBlaster and training documents"
+description = "BrailleBlaster Training Documents"
 src = "src"
 text-direction = "ltr"
 
@@ -18,8 +18,7 @@ page-break = true # insert page-break after each chapter
 suppress_head = true
 
 [preprocessor.indexing.see_instead]
-"CLI" = "Command Line Interface"
-"CMD" = "Command Prompt"
+
 
 [preprocessor.indexing.nest_under]
 
