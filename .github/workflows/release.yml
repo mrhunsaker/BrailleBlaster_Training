@@ -25,10 +25,9 @@ jobs:
       - name: Add cargo bin to PATH
         run: echo "$HOME/.cargo/bin" >> $GITHUB_PATH
 
-      - name: Install mdBook and mdbook-indexing
+      - name: Install mdBook
         run: |
           cargo install mdbook --locked
-          cargo install mdbook-indexing --locked
 
       # mdbook build triggers all backends defined in book.toml:
       #   output.html     → docs/html/

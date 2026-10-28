@@ -4,7 +4,7 @@
 set -e
 
 # Define directories relative to script location
-SCRIPTDIR="$(cd "$(dirname "${BASHSOURCE[0]}")" && pwd)"
+SCRIPTDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BOOKDIR="$SCRIPTDIR/my-book"
 BUILDOUTPUT="$BOOKDIR/docs"
 

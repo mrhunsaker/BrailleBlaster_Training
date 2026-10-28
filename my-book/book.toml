@@ -2,40 +2,25 @@
 title = "BrailleBlaster v3 Training"
 authors = ["Michael Ryan Hunsaker, M.Ed., Ph.D."]
 language = "en"
-description = "BrailleBlaster Training Documents"
+description = "A hands-on curriculum for learning BrailleBlaster braille transcription software, with an instructor guide and capstone project."
 src = "src"
 text-direction = "ltr"
 
-
-[output.html.print]
-enable = true    # include support for printable output
-page-break = true # insert page-break after each chapter
-
-
-[preprocessor.index]
-
-[preprocessor.indexing]
-suppress_head = true
-
-[preprocessor.indexing.see_instead]
-
-
-[preprocessor.indexing.nest_under]
-
-
-[preprocessor.links]
-
 [build]
 build-dir = "docs"
-create-missing = true
+create-missing = false
 use-default-preprocessors = true
 
 [output.html]
 default-theme = "Rust"
 preferred-dark-theme = "Navy"
-site-url = "https://mrhunsaker.github.io/BrailleBlaster_Training"
+site-url = "/BrailleBlaster_Training/"
 git-repository-url = "https://github.com/mrhunsaker/BrailleBlaster_Training"
 no-section-label = false
+
+[output.html.print]
+enable = true
+page-break = true
 
 [output.html.search]
 enable = true

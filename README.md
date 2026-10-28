@@ -1,151 +1,89 @@
-# 3D Printing Course for Blind and Visually Impaired Learners
+{
+	"settings": {
+		"workbench.iconTheme": "none"
+	}
+}# BrailleBlaster v3 Training
 
-This repository is the publishing workspace for an accessible ebook and web edition of a full 3D printing curriculum built around OpenSCAD and 3DMake. The source manuscript lives in `my-book/src`, the book is built with mdBook plus Pandoc output profiles, and the release artifacts include HTML, EPUB, LaTeX, and PDF outputs.
+A hands-on curriculum for learning **BrailleBlaster**, the free, open-source braille transcription program from the American Printing House for the Blind (APH). It is written for teachers of students with visual impairments, paraeducators, braille transcribers, and the trainers who teach them.
 
-The project is designed for blind and visually impaired learners and instructors. The content emphasizes screen-reader-friendly workflows, command-line toolchains, text-based CAD, and non-visual verification practices.
+**Read the book online:** <https://mrhunsaker.github.io/BrailleBlaster_Training>
 
-## What This Repository Produces
+## What is in the book
 
-- A multi-page HTML book in `my-book/docs/html/`
-- A distributable EPUB in `my-book/docs/pandoc/epub/OpenSCAD_Curriculum.epub`
-- LaTeX source in `my-book/docs/pandoc/latex/OpenSCAD_Curriculum.tex`
-- A PDF build generated from the LaTeX output and written to the repository root as `OpenSCAD_Curriculum.pdf`
+- **24 lessons** in three units: Universal (1 to 13), Advanced (14 to 19), and Transcriber-Focused (20 to 24)
+- Every lesson has objectives, a concept section, step-by-step menu paths, a worked demonstration, a practice document, and an answer key, with citations to *Braille Formats 2016*
+- A **capstone** transcription project with a scoring rubric
+- An **Instructor Guide** with pacing plans, teaching notes, and assessment guidance
+- **Reference** pages: shortcuts, glossary, troubleshooting, and resources
 
-The book metadata is defined in `my-book/book.toml`:
+About 55 hours of material including the capstone. Pacing plans for a twelve-week course, a five-day intensive, a one-day workshop, and self-paced study are on the Syllabus page.
 
-- Title: `3D Printing Course for Blind and Visually Impaired Learners`
-- Author: `Michael Ryan Hunsaker, M.Ed., Ph.D.`
-- Current repo version: `1.0.0`
-
-## Source Of Truth
-
-The root `README.md` is for contributors and maintainers of the publishing project. The actual book content starts in `my-book/src`.
-
-Key manuscript files:
-
-- `my-book/src/README.md` - book introduction
-- `my-book/src/SUMMARY.md` - mdBook table of contents
-- `my-book/src/Syllabus.md` - course syllabus
-- `my-book/src/3dMake_All_Lessons.md` - consolidated lesson compendium
-- `my-book/src/3DMake_Appendices_Complete.md` - appendices and reference material
-- `my-book/src/CLI_Appendices_Complete.md` - shell and automation appendices
-- `my-book/src/Backmatter_Complete.md` - glossary, troubleshooting, references
-
-Supporting directories:
-
-- `my-book/theme` - custom mdBook theme assets
-- `my-book/scripts` - book-processing helper scripts
-- `CodeSolutions` - example OpenSCAD code used alongside the curriculum
-- `textbooks` - supplemental EPUB textbooks bundled with the project
-
-## Repository Layout
+## Repository layout
 
 ```text
 .
 ├── README.md
-├── mdbook_generate.ps1
-├── mdbook_generate.sh
-├── version.json
-├── versioning.py
+├── mdbook_generate.sh / .ps1   Build helpers
+├── version.json                Book version
 ├── my-book/
-│   ├── book.toml
-│   ├── src/
-│   ├── theme/
-│   ├── scripts/
-│   └── docs/
-├── CodeSolutions/
-└── textbooks/
+│   ├── book.toml               mdBook configuration
+│   ├── src/                    The editable manuscript
+│   │   ├── SUMMARY.md          Table of contents
+│   │   ├── README.md           Book introduction
+│   │   ├── start/              How to use, setup, syllabus
+│   │   ├── units/              Unit overviews and checkpoints
+│   │   ├── lessons/            Lessons 1 to 24
+│   │   ├── capstone/
+│   │   ├── instructor/
+│   │   ├── reference/
+│   │   └── about/
+│   └── theme/                  Custom mdBook theme
+├── AddlFiles/                  Earlier source drafts (see AddlFiles/README.md)
+└── CURRICULUM_REVIEW.md        Editorial notes for maintainers
 ```
 
-Notes:
+`my-book/docs` is generated output and is not committed.
 
-- `my-book/src` is the editable manuscript.
-- `my-book/docs` is generated output.
-- `OpenSCAD_Curriculum.aux`, `.toc`, `.ent`, and similar files in the repository root are LaTeX build artifacts.
+## Building the book
 
-## Building The Book
-
-### Requirements
-
-- `mdbook`
-- `mdbook-pandoc`
-- A TeX distribution with `lualatex`
-- Python, for helper scripts such as versioning and content transforms
-
-Install mdBook tooling with Cargo:
+Install mdBook (version 0.5 or later is recommended, because the custom theme uses features from recent releases):
 
 ```bash
-cargo install mdbook mdbook-pandoc
+cargo install mdbook --locked
 ```
 
-### Windows
-
-```powershell
-.\mdbook_generate.ps1
-```
-
-### Linux Or macOS
+Then build from the repository root:
 
 ```bash
-bash mdbook_generate.sh
+bash mdbook_generate.sh        # Linux or macOS
+.\mdbook_generate.ps1          # Windows PowerShell
 ```
 
-What the build scripts do:
+or directly:
 
-1. Validate that `mdbook` is installed and `my-book/book.toml` exists.
-2. Build the book from `my-book/src` into `my-book/docs`.
-3. Generate Pandoc outputs configured in `my-book/book.toml`.
-4. Compile the LaTeX output with `lualatex` to produce the PDF.
+```bash
+cd my-book
+mdbook build       # writes my-book/docs/html and my-book/docs/markdown
+mdbook serve       # live preview at http://localhost:3000
+```
 
-## Output Paths
+GitHub Actions builds and deploys the site to GitHub Pages on every push to `main` (`.github/workflows/deploy.yml`) and attaches the Markdown output to tagged releases.
 
-- HTML site: `my-book/docs/html/index.html`
-- EPUB: `my-book/docs/pandoc/epub/OpenSCAD_Curriculum.epub`
-- LaTeX: `my-book/docs/pandoc/latex/OpenSCAD_Curriculum.tex`
-- PDF: `OpenSCAD_Curriculum.pdf`
+## Editing guidance
 
-## Editing Guidance
-
-- Edit manuscript files in `my-book/src`, not generated files in `my-book/docs`.
-- Treat `my-book/docs` as build output.
-- If you change structure or metadata, update `my-book/book.toml` and `my-book/src/SUMMARY.md` as needed.
-- Root-level LaTeX artifacts can be regenerated by rerunning the build scripts.
+- Edit files in `my-book/src`. Never edit `my-book/docs`.
+- Follow the lesson pattern: Lesson at a glance, Learning objectives, Why this matters, How to use this lesson, The Concept, Step by step, Worked Demonstration, Practice Document, Answer Key, Key takeaways, Source Citations.
+- Use **bold** menu paths with `>` (for example **File > Open**) and code style for shortcuts.
+- Each Markdown file has exactly one `#` heading.
+- Cite *Braille Formats 2016* sections where a rule is stated, and verify menu paths against the current BrailleBlaster documentation.
+- When you add or rename a lesson, update `my-book/src/SUMMARY.md`, the unit page, the Syllabus table, and the shortcuts "Where tools live" table.
 
 ## Versioning
 
-Version information is stored in `version.json` and managed with `versioning.py`.
+Version information is in `version.json`.
 
-Examples:
+## Credits and license
 
-```bash
-python versioning.py --current
-python versioning.py patch
-python versioning.py minor
-python versioning.py major
-python versioning.py --set 1.2.3
-```
+Written by Michael Ryan Hunsaker, M.Ed., Ph.D. Released under the Apache License 2.0. See `LICENSE`.
 
-## Supplemental Materials
-
-The `textbooks` directory contains companion EPUB references used alongside the course:
-
-- `Programming_with_OpenSCAD.epub`
-- `Simplifying_3D_Printing_with_OpenSCAD.epub`
-
-These are supplemental texts, separate from the curriculum ebook generated by this repository.
-
-## Practical Entry Points
-
-If you are maintaining the publication pipeline, start with:
-
-- `README.md`
-- `my-book/book.toml`
-- `mdbook_generate.ps1`
-- `mdbook_generate.sh`
-
-If you are editing curriculum content, start with:
-
-- `my-book/src/README.md`
-- `my-book/src/SUMMARY.md`
-- `my-book/src/3dMake_All_Lessons.md`
-- `my-book/src/Syllabus.md`
+BrailleBlaster is developed by the American Printing House for the Blind and released under the GNU Public License v3. This is an independent training resource and is not an official APH publication.
