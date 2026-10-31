@@ -1,0 +1,16 @@
+Part A: A short code sample inside prose.
+
+In Python, you can define a function like this. The def keyword tells Python that what follows is a function.
+
+def add_one(number):
+    return number + 1
+
+The return keyword sends a value back to the caller. Notice that the name add_one uses an underscore.
+
+Part B: Mixed content.
+
+In computer science, we often use algorithms with mathematical foundations. For example, the binary search algorithm has a time complexity of O(log n).
+
+The formula for the midpoint is mid = (low + high) / 2, rounded down.
+
+This algorithm is efficient because it halves the search space with each step.

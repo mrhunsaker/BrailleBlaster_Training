@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Configure page numbers under **Settings > Page Numbers**.
 - Edit and delete page numbers deliberately and review them in the Page Change List.
 
+> [!TIP]
+> **More practice:** [Lab 6: Running Heads and Page Numbers](../labs/lab-6-running-heads-and-page-numbers.md) and the [Page Numbering and Running Head Plan](../reference/job-aids.md).
+
 ## Why this matters
 
 Every finished braille volume needs to tell its reader where they are — which print page this braille page corresponds to, which braille page they're on, and, for a multi-volume or sectioned work, enough context to navigate confidently without sight. Page numbering is not a cosmetic finishing touch; it's core to how a braille reader locates material, matches a braille page back to a print page a sighted teacher or parent is looking at, and cites specific pages in discussion or homework. Because print and braille pagination essentially never line up one-to-one (braille takes more physical space per unit of text), BrailleBlaster tracks print and braille page numbers as two related but independent systems, and this lesson is about managing both correctly — along with the running head that helps orient a reader at the top of every page.

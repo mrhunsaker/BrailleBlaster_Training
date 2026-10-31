@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://openebook.org/namespaces/oeb-package/1.0/" unique-identifier="sample-nimas-style-0001">
+  <metadata>
+    <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:Title>Sample NIMAS-Style Science Reader</dc:Title>
+      <dc:Creator>Test Publisher</dc:Creator>
+      <dc:Language>en-US</dc:Language>
+      <dc:Identifier id="sample-nimas-style-0001">sample-nimas-style-0001</dc:Identifier>
+    </dc-metadata>
+  </metadata>
+  <manifest>
+    <item id="dtbook" href="sample-dtbook.xml" media-type="application/x-dtbook+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="dtbook"/>
+  </spine>
+</package>

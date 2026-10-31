@@ -1,0 +1,17 @@
+name: Accessibility barrier
+description: Something on the site is hard to use with a screen reader, a braille display, or the keyboard
+labels: ["accessibility"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page address
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: What happened?
+      description: Include your browser, operating system, and assistive technology.
+    validations:
+      required: true

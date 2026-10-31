@@ -6,6 +6,26 @@ These notes support Lessons 14 to 19. Unit 2 relies on learners seeing what surv
 
 **Read the lesson:** [Importing Source Formats I: Markdown and OpenDocument](../lessons/14-importing-markdown-and-opendocument.md). **Suggested time:** 120 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Use the same short document in every format and ask what survived.
+
+**Common pitfalls and fixes**
+
+- Assuming every format imports equally well → test each one.
+- Not checking math → always read the Braille View.
+- Misreading Markdown lists → check nesting after import.
+
+**Going further.** Markdown variants and OpenDocument styles.
+
+**Practice tiers**
+
+- *Beginner:* Open each format.
+- *Intermediate:* Record what survived.
+- *Advanced:* Recommend the best source format.
+
+**Companion practice:** [Lab 2](../labs/lab-2-import-comparison.md).
+
 ### Check for understanding
 
 - States what Markdown and ODT preserve.
@@ -18,6 +38,26 @@ These notes support Lessons 14 to 19. Unit 2 relies on learners seeing what surv
 
 **Read the lesson:** [Importing Source Formats II: LaTeX, XML, NIMAS, and EPUB](../lessons/15-importing-latex-xml-nimas-epub.md). **Suggested time:** 150 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Teach LaTeX through the math. Remind learners that BrailleBlaster converts LaTeX math to ASCII Math, and that unsupported notation is the exception to plan for.
+
+**Common pitfalls and fixes**
+
+- Judging by the source instead of the result → read the Braille View.
+- Treating general XML as NIMAS → they are different workflows.
+- Fighting a stubborn LaTeX file → convert to HTML another way (Lab 3).
+
+**Going further.** Macros, packages, and custom commands that BrailleBlaster does not support.
+
+**Practice tiers**
+
+- *Beginner:* Open a simple LaTeX file.
+- *Intermediate:* Verify every equation.
+- *Advanced:* Use the HTML fallback.
+
+**Companion practice:** [Lab 2](../labs/lab-2-import-comparison.md); [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
+
 ### Check for understanding
 
 - Explains the math consequence of LaTeX.
@@ -29,6 +69,26 @@ These notes support Lessons 14 to 19. Unit 2 relies on learners seeing what surv
 ## Lesson 16: Choosing an Import Workflow
 
 **Read the lesson:** [Choosing an Import Workflow](../lessons/16-choosing-an-import-workflow.md). **Suggested time:** 90 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Make this a decision-making session: give learners descriptions of six sources and have them choose and defend a workflow.
+
+**Common pitfalls and fixes**
+
+- Using one workflow for everything.
+- Skipping the log.
+- Not keeping the original.
+
+**Going further.** Documenting a repeatable workflow for an agency.
+
+**Practice tiers**
+
+- *Beginner:* Identify the format.
+- *Intermediate:* Choose a workflow.
+- *Advanced:* Write the workflow as a procedure for others.
+
+**Companion practice:** [Lab 2](../labs/lab-2-import-comparison.md).
 
 ### Demonstration idea
 
@@ -56,6 +116,26 @@ Have learners take one short document and produce it in two different source for
 
 **Read the lesson:** [What Pandoc Does for BrailleBlaster](../lessons/17-what-pandoc-does.md). **Suggested time:** 60 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Start with the problem, then reveal the tool. Make clear that Pandoc is a structure converter, and that BrailleBlaster opens LaTeX directly.
+
+**Common pitfalls and fixes**
+
+- Fear of the command line → begin with one command and the cookbook.
+- Wrong file paths → check the current folder.
+- Converting without checking → treat the output as a new import.
+
+**Going further.** Options such as standalone output, table of contents, and math output.
+
+**Practice tiers**
+
+- *Beginner:* Explain what Pandoc does.
+- *Intermediate:* Run a conversion.
+- *Advanced:* Document a fallback workflow.
+
+**Companion practice:** [Lab 3](../labs/lab-3-when-latex-misbehaves.md); [Pandoc Cookbook](../reference/pandoc-cookbook.md).
+
 ### Tips and pitfalls
 
 **Tip:** For a class of newer transcribers, this lesson works best as a short closing discussion rather than a technical deep dive — the goal is a working mental model ("there's a shared conversion engine under a lot of this, and that's why 'convert to HTML first' keeps coming up as advice"), not command-line fluency. Save deeper Pandoc mechanics for transcribers who go on to take a more technical, IT-adjacent role within your agency.
@@ -76,6 +156,27 @@ As a closing exercise for the full course, have learners write a short memo (a p
 
 **Read the lesson:** [Advanced Formatting: Boxes, Plays, Poems, and Deep Lists](../lessons/18-advanced-formatting.md). **Suggested time:** 180 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Recognition first: look at print examples and ask what each *does*. Then apply styles.
+
+**Common pitfalls and fixes**
+
+- Using a box style for anything slightly set off → "Is it really in a box in the print?"
+- Confusing a poetry line with a stanza container.
+- Using inconsistent play formatting → write a one-page play guide.
+- Not checking the Braille View.
+
+**Going further.** Nested boxes, concrete poems, line numbering with Tools > Line Number Tools (Wrap Prose, increment), and custom styles.
+
+**Practice tiers**
+
+- *Beginner:* Format a simple box, poem, and play.
+- *Intermediate:* Format each with edge cases.
+- *Advanced:* Plan a document that mixes all three.
+
+**Companion practice:** [Lab 9](../labs/lab-9-special-structures.md).
+
 ### Demonstration idea
 
 Take a one-page excerpt containing a short boxed "fun fact" sidebar, four lines of a two-character script exchange, and a four-line poem stanza. Apply Box (or Full Box, depending on the sidebar's exact print treatment), the appropriate Play styles for the character names and dialogue lines, and Poetic Stanza for the poem, in that order. After each one, check Breadcrumbs to confirm the container wraps exactly the intended text — no more, no less — before moving to the next element.
@@ -92,13 +193,33 @@ Take a one-page excerpt containing a short boxed "fun fact" sidebar, four lines 
 
 ### Extension activity
 
-Provide learners a one-page excerpt combining a boxed sidebar, a short two-character script exchange, and a short poem. Have them apply the correct style to each, verify each container's extent using Breadcrumbs, and look up the specific margin specification for one of the three styles in the built-in Style Appendix, reporting back what they found.
+Provide learners a one-page excerpt combining a boxed sidebar, a short two-character script exchange, and a short poem. Have them apply the correct style to each, verify each container's extent using Breadcrumbs, and look up the specific margin specification for one of the three styles in the built-in the style specification tables in the User Guide, reporting back what they found.
 
 ---
 
 ## Lesson 19: The eBraille Format
 
 **Read the lesson:** [The eBraille Format](../lessons/19-ebraille.md). **Suggested time:** 60 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Compare, do not drill. Show a BRF and an eBraille publication side by side if you can, and discuss what each is for.
+
+**Common pitfalls and fixes**
+
+- Believing eBraille replaces BRF → it supplements it.
+- Overstating tool support → check the installed version.
+- Editing an eBraille package by hand → inspect, do not edit.
+
+**Going further.** Packaging, and the relationship to NIMAS tags.
+
+**Practice tiers**
+
+- *Beginner:* Explain eBraille.
+- *Intermediate:* Choose the right format for a scenario.
+- *Advanced:* Inspect an `.ebrl` package.
+
+**Companion practice:** [Policy and Standards Background](../reference/policy-background.md).
 
 ### Tips and pitfalls
 

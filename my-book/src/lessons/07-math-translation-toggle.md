@@ -16,6 +16,12 @@ By the end of this lesson you will be able to:
 - Flag only the true math in a mixed passage with `Ctrl+M`.
 - Choose between Nemeth Block and Nemeth Inline indicators.
 
+> [!NOTE]
+> This lesson uses **Nemeth within UEB contexts**. BrailleBlaster also supports **UEB Technical Material**, a different way to write math, and the student's team decides which one is used. See [Lesson 29](29-ueb-technical-and-numeric-material.md) before you start if you are not sure which code your student reads.
+
+> [!TIP]
+> **More practice:** the math items in the [Drill Bank](../reference/drill-bank.md#c-math-lessons-7-and-8) and [Lab 7](../labs/lab-7-relaxation-plan.md).
+
 ## Why this matters
 
 Ordinary prose translates directly from print letters to braille letters. Mathematical and scientific notation does not — braille math uses its own linear notation (Nemeth Code, or UEB Technical Material) that doesn't correspond one-to-one with how the expression looks in print. Before BrailleBlaster can translate a stretch of text as math instead of as prose, you have to tell it, explicitly, that the selected text *is* math. That single flag — on or off — is the Math Translation Toggle, and it's the gateway to everything else math-related in the program.

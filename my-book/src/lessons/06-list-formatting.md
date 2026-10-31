@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Explain why runover lines sit two cells past the deepest level in use.
 - Format a list that is eight levels deep and check it against the answer key.
 
+> [!TIP]
+> **More practice:** [Drill B3](../reference/drill-bank.md#b-styles-headings-and-lists-lessons-4-to-6) (a list that is not a list) and [Lab 9](../labs/lab-9-special-structures.md).
+
 ---
 
 ## How to use this lesson

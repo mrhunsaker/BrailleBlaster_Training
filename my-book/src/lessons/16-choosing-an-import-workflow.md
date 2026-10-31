@@ -15,6 +15,9 @@ By the end of this lesson you will be able to:
 - Compare all six source types side by side.
 - Apply the six core principles of importing and a production checklist.
 
+> [!TIP]
+> **More practice:** the [Import Log job aid](../reference/job-aids.md) and [Lab 2](../labs/lab-2-import-comparison.md).
+
 ---
 
 ## How to use this lesson

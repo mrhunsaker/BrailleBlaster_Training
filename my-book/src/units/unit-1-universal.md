@@ -20,6 +20,8 @@ Unit 1 covers the skills that **every** BrailleBlaster user needs, whether you t
 
 Suggested total time: about 30 hours.
 
+**Practice beyond the lessons:** the [Drill Bank](../reference/drill-bank.md) has quick items for Lessons 3 to 8, and [Labs 1, 5, 7, and 8](../labs/index.md) put several lessons to work on real files.
+
 ## How the unit is organized
 
 - **Lessons 1 to 6: Getting started and formatting.** Interface, importing from Word, emphasis, and the three most common structures: styles, headings, and lists.

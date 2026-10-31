@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd">
+<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-3" xml:lang="en-US">
+  <head>
+    <meta name="dc:Title" content="Sample NIMAS-Style Science Reader"/>
+    <meta name="dc:Creator" content="Test Publisher"/>
+    <meta name="dc:Language" content="en-US"/>
+    <meta name="dc:Identifier" content="sample-nimas-style-0001"/>
+    <meta name="dtb:uid" content="sample-nimas-style-0001"/>
+  </head>
+  <book>
+    <frontmatter>
+      <doctitle>Sample NIMAS-Style Science Reader</doctitle>
+      <docauthor>Test Publisher</docauthor>
+    </frontmatter>
+    <bodymatter>
+      <level1 id="ch1">
+        <pagenum id="p1" page="normal">1</pagenum>
+        <h1>Chapter 1: Energy and Motion</h1>
+        <prodnote id="pn1" render="optional">Publisher production note: this chapter is printed in two columns.</prodnote>
+        <p>Energy is the ability to do work. A <strong>roller coaster</strong> at the top of a hill has stored energy.</p>
+        <level2 id="ch1s1">
+          <h2>Kinds of Energy</h2>
+          <p>The three kinds you will study first are:</p>
+          <list type="ul">
+            <li>Kinetic energy</li>
+            <li>Potential energy
+              <list type="ul">
+                <li>A stretched spring</li>
+                <li>A book on a high shelf</li>
+              </list>
+            </li>
+            <li>Thermal energy</li>
+          </list>
+          <pagenum id="p2" page="normal">2</pagenum>
+          <sidebar id="sb1">
+            <hd>Did You Know?</hd>
+            <p>Energy cannot be created or destroyed. It can only change from one form to another.</p>
+          </sidebar>
+        </level2>
+        <level2 id="ch1s2">
+          <h2>Calculating Speed</h2>
+          <p>Speed is distance divided by time. For example, if the distance is 120 miles and the time is 2 hours, then
+            <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>120</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>60</m:mn></m:math>
+            miles per hour.</p>
+          <imggroup id="ig1">
+            <img id="img1" src="roller-coaster.png" alt="A roller coaster at the top of a hill and at the bottom."/>
+            <caption>Figure 1.1 A roller coaster at the top of a hill and at the bottom.</caption>
+          </imggroup>
+        </level2>
+      </level1>
+      <level1 id="ch2">
+        <pagenum id="p3" page="normal">3</pagenum>
+        <h1>Chapter 2: Forces</h1>
+        <p>A force is a push or a pull. Forces can change the speed or the direction of an object.</p>
+      </level1>
+    </bodymatter>
+  </book>
+</dtbook>

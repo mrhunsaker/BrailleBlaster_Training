@@ -14,6 +14,8 @@ Suggested total time: about 10.5 hours.
 
 **Prerequisites:** Unit 1, plus Lessons 14 and 15 if you will work from NIMAS or other imported sources.
 
+**Practice beyond the lessons:** [Labs 4 and 6](../labs/index.md), the [Job Aids](../reference/job-aids.md), and [Policy and Standards Background](../reference/policy-background.md).
+
 ## The production sequence
 
 The lessons follow the order you will actually work in:
@@ -24,6 +26,9 @@ The lessons follow the order you will actually work in:
 4. **Divide into volumes** and build the table of contents ([Lesson 23](../lessons/23-toc-and-volumes.md)).
 5. **Generate** the title page, Special Symbols page, and Transcriber's Notes page ([Lesson 24](../lessons/24-t-page-generator.md)).
 6. **Proofread,** then emboss or export.
+
+> [!IMPORTANT]
+> **Check where your tools are.** Lessons 23 and 24 use the TOC Builder, Volume Manager, and T-Page Generator. In the current 3.x source these three live in a hidden **Debug** menu (press `Ctrl+Shift+` ` to show it), and the 3.x User Guide does not describe them. Each lesson says how to find them and gives a manual method for when they are missing.
 
 > [!IMPORTANT]
 > A generator or an automatic import saves time but never removes the need to proofread. Every lesson in this unit ends with verification.

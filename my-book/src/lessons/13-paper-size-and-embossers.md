@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Create and select an embosser profile, and tell **File > Print** from **File > Emboss**.
 - Troubleshoot a bad emboss in a sensible order.
 
+> [!TIP]
+> **More practice:** [Lab 5: Page Properties and the Test Emboss](../labs/lab-5-test-page-and-embosser.md) and the [Embosser Profile Log](../reference/job-aids.md).
+
 ## Why this matters
 
 Every other skill in this course produces a file on screen. This lesson is about turning that file into physical braille — or at least setting up the document so that it *can* be, correctly, the first time it reaches a real embosser. Getting page setup right before transcription begins saves enormous rework later, because page size, margins, and lines-per-page directly determine where BrailleBlaster places every page break in the finished document.
@@ -179,7 +182,7 @@ Do not immediately emboss all 180 pages. Produce a short test, inspect the physi
 
 ### Production rule
 
-**Paper → Page Properties → Embosser → Test → Full production.**
+**Paper > Page Properties > Embosser > Test > Full production.**
 
 ---
 
@@ -238,8 +241,15 @@ When embossed output doesn't match expectations, work through the problem in thi
 - BrailleBlaster's page defaults (11.5" × 11" paper, 0.5"/0.5"/1.25"/0.48" margins) are a starting point, not a universal standard — confirm your agency's specifications.
 - Interpoint controls single- vs. double-sided embossing.
 - An embosser profile (Settings → Embosser Settings) is required before embossing; when the exact model isn't listed, Generic with Text only or Text with margins is the fallback.
-- File → Print sends the Print View to a regular printer; File → Emboss (`Ctrl+E`) sends the Braille View to an embosser — these are not interchangeable.
+- File > Print sends the Print View to a regular printer; File > Emboss (`Ctrl+E`) sends the Braille View to an embosser — these are not interchangeable.
 - Each embosser needs its own profile under **Settings > Embosser Settings**, specifying Name, Device, Manufacturer, and Model.
 - Generic (Text only, Text with margins, or Graphics Embosser) is the correct fallback when a specific model isn't listed or isn't known.
 - Advanced embosser options (available for Generic profiles) control low-level byte-string behavior and should be treated as a last-resort troubleshooting tool, not a routine setting.
 - When embossed output looks wrong, check the Manufacturer/Model selection first, try Generic Text Only as a diagnostic isolation step second, and only then consider Advanced options.
+
+---
+
+## Source Citations
+
+- BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Setting up Your Document" (Translation Settings, Page Numbers, Page Properties), "Printing and Embossing," and "Setting up an Embosser" (profile fields and the Generic Text only, Text with margins, and Graphics Embosser choices).
+- Braille Authority of North America, *Braille Formats 2016*, for page-layout principles.

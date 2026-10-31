@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Inspect an imported document in the Print View and Style View and correct styles instead of adding spaces.
 - Decide when converting a file outside BrailleBlaster is worth the extra layer of interpretation.
 
+> [!TIP]
+> **More practice:** four real Word files in the [sample files](../samples/index.md), and [Lab 1: Rescue a Poorly Formatted Word Document](../labs/lab-1-rescue-word-document.md), which teaches the Three-Pass Method.
+
 ## Why this matters
 
 In production transcription work, print material rarely arrives as a NIMAS file — it just as often arrives as a Word document (.docx) or, less commonly today, an OpenDocument Text file (.odt) from a publisher, a teacher, or a parent. BrailleBlaster can open both directly, using the structure already present in the file — headings, lists, bold and italic runs, tables — to jump-start the transcription instead of starting from a blank page. How well that jump-start works, though, depends entirely on how well-structured the source file is, which makes this lesson as much about *diagnosing* a Word document as it is about opening one.
@@ -197,3 +200,10 @@ Requires the most checking. Headings and lists should be verified as structural 
 - A visually-formatted-but-structurally-flat document transfers in as largely undifferentiated Body Text, regardless of how correct it looks in Word.
 - Diagnose before fixing: read the whole document, correct structure before emphasis, and use Find and Replace with Formatting to batch-correct repeated patterns.
 - When a file behaves unpredictably, converting to a simpler intermediate format and reopening it can be faster than fighting the original.
+
+---
+
+## Source Citations
+
+- BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Opening Files" and "Pasting Text" (supported file types; pasted text arrives as Body Text), and "Formatting Styles."
+- Braille Authority of North America, *Braille Formats: Principles of Print-to-Braille Transcription, 2016*, at [brailleauthority.org/formats/formats2016.html](https://www.brailleauthority.org/formats/formats2016.html).

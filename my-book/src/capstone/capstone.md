@@ -13,7 +13,7 @@ You will be given the print source as a plain-text document with a legend (below
 
 ## Deliverables
 
-1. The BrailleBlaster document (`.bbz`).
+1. The BrailleBlaster document (`.bbx`).
 2. A BRF export of each volume.
 3. A **production log** of no more than one page that records:
    - the page setup and embosser or paper you assumed;
@@ -113,8 +113,8 @@ Work in roughly this order. The lessons that apply to each task are listed.
 6. **Box and figure.** Treat the box by its function. Write a short transcriber-generated description for the figure, apart from the print caption. (Lessons 18 and 22)
 7. **Page numbers and running head.** Add print page numbers 41 and 42 at the right points, and a running head that fits. (Lesson 21)
 8. **Notes.** Write at least one inline and one separate Transcriber's Note. (Lesson 22)
-9. **Volumes and TOC.** For this short chapter, divide it into two pretend volumes at a natural boundary, insert End of Volume markers, build the TOC, and disperse it. (Lesson 23)
-10. **T-pages.** Generate a title page, a Special Symbols page for the highlighting typeform, and a Transcriber's Notes page. (Lesson 24)
+9. **Volumes and TOC.** For this short chapter, divide it into two pretend volumes at a natural boundary with the **Volume Manager**, build the TOC with the **TOC Builder**, and disperse it to the volumes. These tools are in the Debug menu in current 3.x builds. If they are unavailable, use the manual method in [Lesson 23](../lessons/23-toc-and-volumes.md). (Lesson 23)
+10. **T-pages.** Generate, or build by hand, a title page, a Special Symbols page for the highlighting typeform, and a Transcriber's Notes page. See the "hidden or unavailable" section of [Lesson 24](../lessons/24-t-page-generator.md). (Lesson 24)
 11. **Output.** Export a BRF for each volume. (Lesson 13)
 12. **Proof and log.** Complete the proofreading checklist and the production log.
 

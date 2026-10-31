@@ -6,6 +6,27 @@ These notes support Lessons 20 to 24. Unit 3 is a production workflow, so teach 
 
 **Read the lesson:** [Importing and Working with NIMAS Files](../lessons/20-nimas-production-files.md). **Suggested time:** 150 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Frame NIMAS as the publisher's source: structure and meaning without visual design. Then make clear that it still needs a human.
+
+**Common pitfalls and fixes**
+
+- Assuming it is perfect → review every element.
+- Skipping image descriptions → use the Image Describer, and enhance descriptions where needed.
+- Ignoring production notes → decide on each one.
+- Not checking completeness → compare against the print.
+
+**Going further.** Dividing a NIMAS file among several transcribers, Alphabetic Reference tools, and the legal context (Policy and Standards Background).
+
+**Practice tiers**
+
+- *Beginner:* Open and navigate a NIMAS file.
+- *Intermediate:* Decide on notes, sidebars, and images.
+- *Advanced:* Plan a multi-transcriber production.
+
+**Companion practice:** [Lab 4](../labs/lab-4-nimas-style-file.md).
+
 ### Demonstration idea
 
 Open a sample NIMAS textbook chapter and, before making any changes, use the Book Tree to answer three questions out loud: How many major sections does this lesson have? Where are the practice problems relative to the main instructional text? Is there a glossary or notes section at the chapter's end? Only after mapping the chapter's shape this way should learners begin detailed style review — this mirrors the "read before you fix" principle from [Lesson 2](../lessons/02-opening-word-documents.md), applied to a file type that offers a purpose-built tool (the Book Tree) for doing exactly that reading efficiently.
@@ -31,6 +52,27 @@ Provide learners with a short sample NIMAS chapter. Have them use the Book Tree 
 ## Lesson 21: Running Heads and Page Numbering
 
 **Read the lesson:** [Running Heads and Page Numbering](../lessons/21-running-heads-and-page-numbers.md). **Suggested time:** 150 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Print comparison: show a print book and the braille equivalent and point out what braille adds. In braille nothing is automatic.
+
+**Common pitfalls and fixes**
+
+- Forgetting to set up → make it part of the start-of-job checklist.
+- Running head too long for the longest page number.
+- Confusing braille and print numbers → use the Braille Preview's three navigation modes.
+- Not reviewing the Page Change List.
+
+**Going further.** Special page numbering, T-pages, and agency-specific standards.
+
+**Practice tiers**
+
+- *Beginner:* Add a running head and page numbers.
+- *Intermediate:* Edit and delete numbers deliberately.
+- *Advanced:* Plan numbering for a multi-volume work.
+
+**Companion practice:** [Lab 6](../labs/lab-6-running-heads-and-page-numbers.md).
 
 ### Demonstration idea
 
@@ -65,6 +107,26 @@ Have learners build a short practice volume containing: a T-page title page, a T
 
 **Read the lesson:** [Transcriber's Notes in the Text](../lessons/22-transcribers-notes.md). **Suggested time:** 90 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Teach the decision before the mechanics: is a note needed, and where does it belong?
+
+**Common pitfalls and fixes**
+
+- Writing too many notes → a note is for the reader's need, not the transcriber's comfort.
+- Mixing a print caption with a description → keep them apart.
+- Putting a note in the wrong place → inline versus its own paragraph.
+
+**Going further.** Standard wording, and keeping the Transcriber's Notes page consistent with the notes in the text.
+
+**Practice tiers**
+
+- *Beginner:* Add an inline note.
+- *Intermediate:* Add a paragraph note.
+- *Advanced:* Write a set of notes and make them consistent.
+
+**Companion practice:** [Lab 7](../labs/lab-7-relaxation-plan.md).
+
 ### Check for understanding
 
 - Decides whether a note is needed and where it goes.
@@ -77,6 +139,27 @@ Have learners build a short practice volume containing: a T-page title page, a T
 
 **Read the lesson:** [The TOC Tool and Distributing a TOC Among Volumes](../lessons/23-toc-and-volumes.md). **Suggested time:** 120 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Teach the sequence: plan, insert volume breaks, build the TOC, disperse, verify.
+
+**Common pitfalls and fixes**
+
+- Building the TOC before volumes exist → Disperse to Volumes will warn you.
+- Breaking volumes at an arbitrary sheet count → use natural boundaries.
+- Page numbers with letters (such as C13) are not found automatically → use the Page Number tool.
+- Forgetting to prepare the document → remove emphasis, delete bullets, format sidebars.
+
+**Going further.** TOC headings (Centered, Centered NB, Cell 5, Cell 7), Override Margin for multi-level TOCs, and Volume types.
+
+**Practice tiers**
+
+- *Beginner:* Insert volume breaks.
+- *Intermediate:* Build and disperse a TOC.
+- *Advanced:* Plan and verify a four-volume set.
+
+**Companion practice:** [Job Aid 6](../reference/job-aids.md).
+
 ### Check for understanding
 
 - Inserts End of Volume markers before building the TOC.
@@ -88,6 +171,27 @@ Have learners build a short practice volume containing: a T-page title page, a T
 ## Lesson 24: The T-Page Generator
 
 **Read the lesson:** [The T-Page Generator](../lessons/24-t-page-generator.md). **Suggested time:** 120 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Teach the production order: generate T-pages last, inside the generator, and then proofread.
+
+**Common pitfalls and fixes**
+
+- Generating too early → volumes are not yet set.
+- Editing T-pages in the Print View → those edits are lost when the generator reopens.
+- Forgetting that special symbols are arranged by volume.
+- Trusting Auto Fill blindly → check every symbol it finds.
+
+**Going further.** Auto Fill Options and rules for special symbols, Copy Current Volume, and the secondary title page.
+
+**Practice tiers**
+
+- *Beginner:* Generate a title page.
+- *Intermediate:* Generate all pages for one volume.
+- *Advanced:* Generate pages for a multi-volume set and verify each.
+
+**Companion practice:** [Job Aids 7 and 8](../reference/job-aids.md).
 
 ### Check for understanding
 

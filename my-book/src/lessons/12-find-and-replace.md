@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Choose Replace or Replace All on purpose.
 - Spot a Replace All that would damage a document before you run it.
 
+> [!TIP]
+> **More practice:** [Lab 8: A Safe Find-and-Replace Cleanup](../labs/lab-8-find-and-replace-cleanup.md), which includes a deliberate trap.
+
 ## Why this matters
 
 A single-page worksheet can be corrected by eye. A three-hundred-page textbook cannot. Production transcription depends on being able to find — and, when appropriate, fix — every instance of a pattern across an entire document reliably, whether that pattern is a misspelled term, a formatting inconsistency inherited from a poorly-structured source file ([Lesson 2](02-opening-word-documents.md)), or a style that needs to change document-wide for consistency. BrailleBlaster's Find and Replace tool does this for both plain text *and* formatting, which is what makes it a genuinely global tool rather than a simple word-search box.
@@ -200,3 +203,9 @@ This is unsafe. Without Whole Word, `the` can occur inside longer words. Replace
 - The Formatting panel extends search to Styles, Containers, and Text Attributes, with an Add/Not toggle on the Find side for precise, structure-aware corrections.
 - Replace All is powerful and should be used only after confirming, via a plain Find pass, that every match really should be changed.
 - Only one formatting condition can be active per Find or Replace box at a time; multi-condition corrections require sequential passes.
+
+---
+
+## Source Citations
+
+- BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Finding and Replacing Text and Styles" (Finding Text, Replacing Text, Finding Formatted Text, Replacing Formatted Text, Resetting Find and Replace, Repeating the Last Search).

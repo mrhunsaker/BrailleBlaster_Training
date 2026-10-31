@@ -49,6 +49,6 @@ How well a specific screen reader works with a specific BrailleBlaster release c
 
 ## Getting help
 
-- **Help > Search** inside BrailleBlaster, plus the built-in Math Help and Style Appendix.
+- The **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`), **Math > Math Help**, and the style specification tables in Appendix A of the guide.
 - The [Troubleshooting guide](../reference/troubleshooting.md) in this course.
 - The [Resources page](../reference/resources.md), which links to the official user guide, quick-reference cards, and training videos.

@@ -15,6 +15,9 @@ By the end of this lesson you will be able to:
 - Create a title page, a Special Symbols page, and a Transcriber's Notes page with the T-Page Generator.
 - Verify what the generator produced instead of trusting it blindly.
 
+> [!TIP]
+> **More practice:** the [Production Checklist and Production Log](../reference/job-aids.md).
+
 ---
 
 ## How to use this lesson
@@ -40,6 +43,27 @@ BrailleBlaster distinguishes **Normal**, **T-page**, and **P-page** numbering. T
 Current release information recommends using the T-Page Generator to create T-pages rather than manually applying T-page numbering. 
 
 The generator automates structure; it does not remove the need for proofreading.
+
+### Where to find the generator
+
+> [!IMPORTANT]
+> **Where these tools live depends on your BrailleBlaster version.** The older 2.x User Guide describes the T-Page Generator as an ordinary tool. In the current 3.x source code, however, it sits in a **Debug** menu that stays hidden until you press `Ctrl+Shift+` ` (the backtick key) in the Print View. The 3.x User Guide does not document it, so it may be unfinished. To find out what your version does, press `Ctrl+Shift+` ` and look for a **Debug** item in the menu bar. If there is one, use it and **proofread everything it produces**. If it is missing or does not work, use the manual method described below.
+
+### Before you open the generator
+
+> [!IMPORTANT]
+> Generate the T-pages **last**. The official guide recommends using the T-Page Generator after you have finished the whole transcription, including any volume breaks ([Lesson 23](23-toc-and-volumes.md)), because BrailleBlaster uses the volume breaks to place the T-pages in the right volumes. Special symbols are also arranged by volume, so check your volume breaks before you start on that tab.
+
+> [!WARNING]
+> Make every edit to a T-page **inside the generator window**. If you edit a generated T-page directly in the Print View and then reopen the generator, those edits are lost.
+
+Open the **T-Page Generator**. The window has four tabs: **Title Page 1**, **Title Page 2** (a secondary title page, when your format or agency requires one), **Special Symbols**, and **Transcriber's Notes**. The buttons at the bottom stay the same on every tab:
+
+- **Previous Volume** and **Next Volume** move between volumes, so you can make changes for one volume at a time.
+- **Copy Current Volume** copies everything you have entered for the current volume to all the volumes.
+- **OK** saves your changes, and **Cancel** closes the window without saving.
+
+On the title page tabs, the **Emphasis**, **Translation** (Uncontracted or Direct), **Margin**, and **Settings** (for centering) menus adjust the text. The default title page margin is 1-3.
 
 ---
 
@@ -243,6 +267,17 @@ The descriptions belong with the figures as transcriber-generated descriptions/T
 Use the Transcriber's Notes Page rather than repeating the same explanation throughout the text.
 
 ---
+
+## If the generator is hidden or unavailable: building the pages by hand
+
+The documented tools are enough to build transcriber-generated pages yourself.
+
+1. **Type each page.** Place the cursor where the page belongs and type its text. Use the styles the lesson describes for each page: centered text for title lines, Body Text for ordinary lines, and the **Transcriber's Note** style (**Styles > Miscellaneous > Transcriber's Note**) for the notes page. For a Miscellaneous style, select the whole set of text first, because the program adds the note indicators around the selection.
+2. **End the page.** Press `Ctrl+Enter` (**Edit > Page Break**) after each page so that the next one starts on a new braille page.
+3. **Number the pages as T-pages.** Open **Edit > Page Number Dialog**, go to the **Edit Page Number** tab, then the **Page Number Type** tab, and choose **T-page**. Once you change the type, the braille page numbers keep that type until you choose another, so switch back to **Normal** for the body.
+4. **Check the result.** Use the Braille Preview and **Navigate > Go To Page** to confirm that the T-pages are numbered t1, t2, and so on, and that the body begins on page 1.
+
+This is slower and easier to get wrong than the generator, especially the Special Symbols page, which must list every symbol and typeform the volume uses. Keep a list as you work.
 
 ## Complete T-Page Workflow
 

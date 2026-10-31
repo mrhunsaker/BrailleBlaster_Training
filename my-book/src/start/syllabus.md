@@ -12,6 +12,7 @@ By the end of the course, a learner can:
 6. Set up pages and embossers and produce a BRF.
 7. Produce a multi-volume transcription with running heads, page numbers, Transcriber's Notes, a table of contents, and T-pages.
 8. Explain transcription decisions in writing.
+9. Build tables, control page breaks, handle images, correct a translation, set up an alternative math code, number lines, format glossaries and indexes, and proofread in passes (Unit 4).
 
 ## Lesson plan and suggested time
 
@@ -56,11 +57,30 @@ Times are planning estimates for an instructor-led session including practice. S
 | 23 | [The TOC Tool and Distributing a TOC Among Volumes](../lessons/23-toc-and-volumes.md) | 120 |
 | 24 | [The T-Page Generator](../lessons/24-t-page-generator.md) | 120 |
 
+### Unit 4: Specialized Content (about 14 hours)
+
+| #  | Lesson | Minutes |
+| -- | ------ | ------- |
+| 25 | [Tables](../lessons/25-tables.md) | 150 |
+| 26 | [Controlling the Page with Style Options](../lessons/26-controlling-the-page.md) | 120 |
+| 27 | [Images and Tactile Graphics](../lessons/27-images-and-tactile-graphics.md) | 90 |
+| 28 | [Editing the Translation](../lessons/28-editing-the-translation.md) | 90 |
+| 29 | [UEB Technical Material, Numeric Passages, and Other Codes](../lessons/29-ueb-technical-and-numeric-material.md) | 120 |
+| 30 | [Line Numbers for Prose and Poetry](../lessons/30-line-numbers.md) | 60 |
+| 31 | [Glossaries and Indexes](../lessons/31-glossaries-and-indexes.md) | 90 |
+| 32 | [Proofreading and Quality Assurance](../lessons/32-proofreading-and-quality-assurance.md) | 120 |
+
+These lessons are independent. The [Unit 4 page](../units/unit-4-specialized.md) suggests where to fit each among the earlier lessons.
+
+### Labs (about 10 hours)
+
+Nine integrated [labs](../labs/index.md) use the [sample files](../samples/index.md). Do each lab after the lessons it lists. Labs are recommended for instructor-led courses and optional for self-paced study.
+
 ### Capstone (about 4 hours)
 
 [Capstone: Transcribe a Textbook Chapter](../capstone/capstone.md)
 
-**Total:** about 55 hours including the capstone.
+**Total:** about 55 hours for Units 1 to 3 and the capstone, about 69 hours with Unit 4, and about 79 hours with the labs.
 
 ## Pacing plans
 

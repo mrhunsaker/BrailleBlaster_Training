@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this curriculum, please cite it as below."
+title: "BrailleBlaster v3 Training"
+type: dataset
+authors:
+  - family-names: Hunsaker
+    given-names: Michael Ryan
+version: 2.2.0
+license: Apache-2.0
+repository-code: "https://github.com/mrhunsaker/BrailleBlaster_Training"
+url: "https://mrhunsaker.github.io/BrailleBlaster_Training"
+abstract: "A hands-on curriculum for learning BrailleBlaster braille transcription software, with labs, sample files, an instructor guide, and a capstone project."
+keywords:
+  - braille
+  - BrailleBlaster
+  - accessibility
+  - teacher of students with visual impairments

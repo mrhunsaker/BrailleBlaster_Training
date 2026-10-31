@@ -11,10 +11,13 @@
 
 By the end of this lesson you will be able to:
 
-- Put End of Volume markers in the body text before building the TOC.
+- Insert volume breaks with the **Volume Manager** before building the TOC, or plan the same breaks by hand if the tool is unavailable.
 - Build and update a Table of Contents and disperse it to volumes.
 - Plan volume breaks at natural boundaries and not at an arbitrary sheet count.
 - Verify volume and page numbers before proofreading.
+
+> [!TIP]
+> **More practice:** the [Volume Plan job aid](../reference/job-aids.md).
 
 ---
 
@@ -45,6 +48,43 @@ Proofread
 ```
 
 BrailleBlaster's User Guide specifically includes **Building the Table of Contents (TOC)**, **Formatting a Table of Contents Entry**, and **Disperse to Volumes** as TOC functions.  BrailleBlaster also supports volume-aware navigation. 
+
+### How this works in BrailleBlaster: the Volume Manager and the TOC Builder
+
+> [!IMPORTANT]
+> **Where these tools live depends on your BrailleBlaster version.** The older 2.x User Guide describes the Volume Manager and the TOC Builder as an ordinary tool. In the current 3.x source code, however, it sits in a **Debug** menu that stays hidden until you press `Ctrl+Shift+` ` (the backtick key) in the Print View. The 3.x User Guide does not document it, so it may be unfinished. To find out what your version does, press `Ctrl+Shift+` ` and look for a **Debug** item in the menu bar. If there is one, use it and **proofread everything it produces**. If it is missing or does not work, use the manual method described below.
+
+In the practice documents below, a line such as `[END OF VOLUME]` is a plain-text stand-in that shows you *where* a break belongs. In BrailleBlaster you do not type that marker. You insert a real **volume break** with the Volume Manager, and BrailleBlaster adds the End of Volume statement and records which text belongs to which volume. Defining volumes this way is what lets the T-Page Generator, the TOC Builder, and BRF saving work correctly, so do it first.
+
+**Insert a volume break**
+
+1. Place the cursor where the break should fall. The break is inserted directly *before* the cursor, so everything before the cursor becomes one volume and everything after it becomes the next.
+2. Open **Volume Manager > Insert** and choose the type: **Normal** (End of Volume), **Preliminary** (End of Preliminary Volume), or **Supplementary** (End of Supplementary Volume). Your agency's guidelines decide which types to use.
+3. The best cursor position is on a print page indicator, which puts the break before that indicator. If the print page starts at the top of a braille page and has no indicator, put the cursor at the start of the first element on that braille page, and the break lands on the previous braille page.
+
+To fix a mistake, use **Change Volume Type** or **Delete Current Volume**. Deleting works only when a break already exists.
+
+**Build the TOC**
+
+Before you open the TOC Builder, finish the preparation the official guide recommends: remove emphasis where it should not carry into the TOC, delete bullets, format non-TOC elements such as sidebars, and insert the volume breaks. Then:
+
+1. Open the **TOC Builder**. A TOC toolbar appears.
+2. Select the text of an entry and click **TOC Entry** or press `F4`. BrailleBlaster applies the margins, blank lines, and guide dots. A multi-level list becomes a multi-level TOC, and headings become their TOC equivalents.
+3. For custom levels, check **Override Margin** and enter the indent and runover cells.
+4. For TOC headings, which repeat when they are referenced in another volume, use the **Headings** menu: Centered, Centered NB (no blank lines), Cell 5, or Cell 7.
+5. To convert numbers into page numbers with guide dots, check **Find Page** and enter any **Page Prefix**. Page numbers that include letters, such as C13 or G5, are not found automatically, so use the **Page Number** tool on the highlighted text.
+6. At each place where the TOC should divide, click **Volume Split**. This inserts the text "TOC Volume Split Placeholder."
+7. Click **Disperse to Volumes**. The placeholders become volume numbers, and each volume keeps only the entries and headings that occur in it. If you click Disperse before any volumes exist, you get a warning to create volumes first.
+
+### If the tools are hidden or unavailable: building by hand
+
+The same result is possible with documented tools, at the cost of more care and more proofreading.
+
+- **Volumes.** Decide the break points with the Volume Plan job aid. **File > Export > Save BRF/PEF** then produces the BRF for the volume or volumes your document defines. If your version does not define volumes, produce one BRF per volume by saving separate documents, each holding one volume's text.
+- **Table of contents.** Type the entries as a list, using the list styles from [Lesson 6](06-list-formatting.md), and add the braille page numbers yourself. Confirm each page number in the Braille Preview with **Navigate > Go To Page**, because they must match the final pagination. Re-check them after *any* change that moves text.
+- **Volume numbers in the TOC.** Add the volume number next to each entry by hand, and re-check it when a break moves.
+
+A hand-built TOC is easy to get wrong after a late edit. Build it **last**, and treat it as the most error-prone part of the job.
 
 ### Planning with 35–50 sheets
 

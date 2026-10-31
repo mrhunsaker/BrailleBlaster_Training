@@ -31,7 +31,7 @@ This lesson is deliberately short and hands-on. You will not transcribe anything
 Read **The Concept** first. Then work through the **Orientation Exercise**, which uses a short practice passage you paste into a new document. Check your results against the **Answer Key**.
 
 > [!NOTE]
-> BrailleBlaster changes between releases. This course follows the BrailleBlaster 3.x documentation. If a menu item has moved in your version, use **Help > Search** to find it. The idea behind each step stays the same even when a label changes.
+> BrailleBlaster changes between releases. This course follows the BrailleBlaster 3.x documentation. If a menu item has moved in your version, use the **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`) to find it. The idea behind each step stays the same even when a label changes.
 
 ---
 
@@ -53,7 +53,7 @@ You choose which views are visible and in what order.
 
 1. Go to **View > Toggle Views**. A check mark appears beside each view that is open.
 2. Uncheck a view to hide it. Check it to show it again. (`Alt+P` toggles the Print View.)
-3. A view that you hide and then show again comes back on the **right-hand side** of the window.
+3. A view that you hide and then show again comes back on the **right-hand side** of the window. At least one view must always stay displayed.
 4. To put the views in the order you prefer, go to **View > Toggle Views > Rearrange Views** and use **Move Up** and **Move Down**. The views appear from left to right in the order of the list.
 
 The same **Toggle Views** menu also turns on the **Breadcrumbs** bar, which you will use heavily in [Lesson 4](04-layout-styles.md). Breadcrumbs show every style that wraps the text at the cursor.
@@ -64,12 +64,15 @@ By default the Braille View shows braille cells. If you turn off **View Braille*
 
 ### The Braille Preview
 
-The **Braille Preview** (`Alt+Home`) shows the document the way it would appear as an embossed BRF, laid out on whole braille pages. Pages appear in **2 Page View**, like an open bound book, with even-numbered pages on the left and odd-numbered pages on the right. If you are producing single-sided material, you can turn 2 Page View off under **View > 2 Page View**.
+The **Braille Preview** (**File > Braille Preview**, or `Alt+Home`) shows the document the way it would appear as an embossed BRF, laid out on whole braille pages. Pages appear in **2 Page View**, like an open bound book, with even-numbered pages on the left and odd-numbered pages on the right. If you are producing single-sided material, you can turn 2 Page View off under **View > 2 Page View**.
 
 In the Braille Preview you can move through the document in two ways:
 
-- by **print page number**, which is the number normally shown in the top right corner of a braille page, or
+- by **print page number**, which is the number normally shown in the top right corner of a braille page,
+- by **braille page number**, which is the number normally shown in the bottom right corner (and includes T-pages and P-pages), or
 - by **ordinal page number**, which is the page's position out of the total number of pages, whatever the print and braille page numbers say.
+
+The Braille Preview also has a **Find** box, with a **Six Key** checkbox for searching in six-key input and an **Uppercase** checkbox that appears when a BRF is loaded (some BRFs use uppercase ASCII to simulate braille and others use lowercase). Its status line shows the page, line, and cell number of the cursor, and screen readers can read it.
 
 > [!TIP]
 > If you open a BRF file in BrailleBlaster, it opens in the Braille Preview and cannot be edited. A BRF is a finished product. To change it, you need the original source file.
@@ -79,13 +82,14 @@ In the Braille Preview you can move through the document in two ways:
 You can move line by line with the arrow keys, but BrailleBlaster offers faster ways:
 
 - **Previous Element** and **Next Element** jump from one text element to the next, where an element is a block shown in the Style View. This is much quicker than line-by-line movement in a long document.
-- `Ctrl+Home` and `Ctrl+End` jump to the beginning and end of the file.
-- `Ctrl+G` goes to a specific page.
+- Both are on the **Navigate** menu, with the shortcuts `Ctrl+Up` (previous element) and `Ctrl+Down` (next element).
+- **Navigate > Home** (`Ctrl+Home`) and **Navigate > End** (`Ctrl+End`) jump to the beginning and end of the file.
+- **Navigate > Go To Page** (`Ctrl+G`) goes to a specific page. You choose whether the number is a print page, a braille page, or an ordinal page, and in a document with volumes you can search within a single volume.
 - For a NIMAS textbook, the **Book Tree** lets you jump by section and heading. See [Lesson 20](20-nimas-production-files.md).
 
 ### Making the screen comfortable
 
-You can increase or decrease the font size (`Ctrl` plus the plus key, or `Ctrl` plus the minus key). Be aware that a larger font or larger toolbar icons change how much text fits on screen in the Print and Braille Views. Adjust until you can work comfortably.
+You can increase or decrease the font size with **View > Increase Font Size** and **Decrease Font Size** (`Ctrl` plus the plus key, or `Ctrl` plus the minus key). **View > Icon Size** gives Small, Medium, or Large toolbar icons, and **View > Toolbar** shows or hides each group of buttons. By default every group is shown except the View and Math tools, so turn on the Math group before the math lessons. Larger text or icons change how much fits on screen in the Print and Braille Views. Adjust until you can work comfortably.
 
 ### What happens when you paste
 
@@ -94,24 +98,27 @@ When you copy text from another document and paste it into BrailleBlaster, all o
 ### Files you will meet
 
 - `Ctrl+N` creates a new document and `Ctrl+O` opens a file.
-- BrailleBlaster's default save format is **BBZ**, a zipped file set that keeps images and other resources alongside the document.
-- A **BRF** is the finished, embosser-ready braille file. You create one with **File > Export > Save BRF/PEF**. See [Lesson 13](13-paper-size-and-embossers.md).
-- BrailleBlaster can open Word, OpenDocument, Markdown, LaTeX, HTML, EPUB, XML and NIMAS, and plain text files. [Lesson 2](02-opening-word-documents.md) and [Lessons 14](14-importing-markdown-and-opendocument.md) through [16](16-choosing-an-import-workflow.md) cover them.
+- BrailleBlaster saves a **BBX** file by default. A BBX is BrailleBlaster's own XML format. **Save** keeps your changes in the current file, and **Save As** writes a new file and leaves the original alone.
+- A **BBZ** is a zipped NIMAS file set. Saving a NIMAS ZIP produces a BBZ, which keeps the images with the document so the Image Describer works well.
+- A **BRF** is the finished, embosser-ready braille file, and a **PEF** is the Portable Embosser Format. You create either with **File > Export > Save BRF/PEF**. Neither can be edited in BrailleBlaster, so make every change first. See [Lesson 13](13-paper-size-and-embossers.md). If you must edit a BRF, the free BrailleZephyr editor is meant for that.
+- **File > Open** lists every file type BrailleBlaster recognizes: BBX and BBZ, BRF (preview only), BRL, Word (`.docx`), EPUB, HTML and XHTML, Markdown, OpenDocument (`.odt`), LaTeX (`.tex`), plain text, and NIMAS XML or ZIP. [Lesson 2](02-opening-word-documents.md) and [Lessons 14](14-importing-markdown-and-opendocument.md) through [16](16-choosing-an-import-workflow.md) cover them.
 
 ### A map of the menus
 
 This is where the tools in this course live. Use it as a table of contents for the program.
 
-- **File**: open, new, print, emboss, export. See [Lesson 2](02-opening-word-documents.md) and [Lesson 13](13-paper-size-and-embossers.md).
-- **Edit**: Find and Replace (`Ctrl+F`), Page Break (`Ctrl+Enter`), Edit Page Number. See [Lesson 12](12-find-and-replace.md) and [Lesson 21](21-running-heads-and-page-numbers.md).
-- **View**: Toggle Views, Rearrange Views, View Braille, 2 Page View, toolbars. This lesson.
-- **Styles**: applying styles, Repeat Last Style (`Ctrl+R`), Configure. See [Lessons 4](04-layout-styles.md), [5](05-heading-levels.md), and [6](06-list-formatting.md).
-- **Emphasis**: bold, italics, underline, script, and the other typeforms. See [Lesson 3](03-typeface-emphasis.md).
-- **Tools**: Contraction Relaxer, Change Translation, Unwrap Element. See [Lesson 4](04-layout-styles.md) and [Lesson 11](11-contraction-relaxer.md).
+- **File**: New, Open, Save, Save As, Braille Preview, Print, Emboss, and **Export > Save BRF/PEF**. See [Lesson 2](02-opening-word-documents.md) and [Lesson 13](13-paper-size-and-embossers.md).
+- **Edit**: Undo, Redo, Cut, Copy, Paste, Paste as Math, Find and Replace (`Ctrl+F`), Line Break (`Shift+Enter`), Page Break, Set Cell Position, and the Page Number Dialog. See [Lesson 12](12-find-and-replace.md) and [Lesson 21](21-running-heads-and-page-numbers.md).
+- **Navigate**: Home, End, Go To Page, Previous Element, Next Element, and Bookmarks. This lesson.
+- **View**: Toggle Views, Rearrange Views, View Braille, Increase and Decrease Font Size, toolbars. This lesson.
+- **Styles**: applying styles, Repeat Last Style (`Ctrl+R`), Options, Configure. See [Lessons 4](04-layout-styles.md), [5](05-heading-levels.md), and [6](06-list-formatting.md).
+- **Emphasis**: bold, italics, underline, script, and the other typeforms, plus the Remove Emphasis tools. See [Lesson 3](03-typeface-emphasis.md).
+- **Tools**: Contraction Relaxer, Change Translation, Correct Braille Translation, Unwrap Element, Six Key Mode, Spell Check, Line Number Tools, and Convert to Print Page Number. See [Lessons 4](04-layout-styles.md) and [11](11-contraction-relaxer.md).
 - **Math**: Toggle Math Translation, Nemeth Block and Inline, ASCII Math Hub, Spatial Math Editor. See [Lessons 7](07-math-translation-toggle.md) through [10](10-spatial-number-lines.md).
-- **Insert**: Running Head and related tools. See [Lesson 21](21-running-heads-and-page-numbers.md).
-- **Settings**: Page Properties, Embosser Settings, Page Numbers. See [Lesson 13](13-paper-size-and-embossers.md) and [Lesson 21](21-running-heads-and-page-numbers.md).
-- **Help**: Search, Math Help, and the Style Appendix, which lists the margins and spacing for each style.
+- **Insert**: Running Head, Table, Image Manager (the image placeholder), Blank Print Page Indicator, Note Separation Line, and Insert Link. See [Lesson 21](21-running-heads-and-page-numbers.md).
+- **Settings**: Translation Settings, Page Properties, Embosser Settings, and Page Numbers. See [Lesson 13](13-paper-size-and-embossers.md) and [Lesson 21](21-running-heads-and-page-numbers.md).
+- **Window**, and **Debug**: the Debug menu is hidden by default. Press `Ctrl+Shift+` ` to show or hide it. In current 3.x source it holds the TOC Builder, T-Page Generator, Volume Manager, and Alphabetic Reference tools (see [Lesson 23](23-toc-and-volumes.md) and [Lesson 24](24-t-page-generator.md)).
+- **Help**: Check For Updates, View Log, the BrailleBlaster Website, the **BrailleBlaster User Guide** (`F1`), About BrailleBlaster, Privacy settings, and Reset BB. The style specification tables, which list the margins and spacing for each style, are in Appendix A of the User Guide.
 
 ---
 

@@ -1,0 +1,28 @@
+name: Content error or outdated step
+description: A lesson, lab, or reference page says something that is wrong or no longer true
+labels: ["content"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where is it?
+      description: The lesson or lab and the step, for example "Lesson 13, Setting up the embosser".
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: BrailleBlaster version and operating system
+      placeholder: "3.2.1 on Windows 11"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What does the book say, and what did you see?
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested correction (optional)

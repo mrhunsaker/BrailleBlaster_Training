@@ -15,6 +15,8 @@ Suggested total time: about 11 hours.
 
 **Prerequisite:** Unit 1, or equivalent experience.
 
+**Practice beyond the lessons:** [Labs 2, 3, and 9](../labs/index.md) use the [sample files](../samples/index.md), including a LaTeX file and an EPUB.
+
 ## The big idea of this unit
 
 > **Importing is not transcribing.** A file that opens is only a starting point. Every format carries a different amount of real structure, and your job is to find out what survived and fix what did not.

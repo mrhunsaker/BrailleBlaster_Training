@@ -17,6 +17,9 @@ By the end of this lesson you will be able to:
 - Use Repeat Last Style and Unwrap Element to work faster and recover from mistakes.
 - Say why you choose what a block of text *is* instead of typing margins by hand.
 
+> [!TIP]
+> **More practice:** the style items in the [Drill Bank](../reference/drill-bank.md#b-styles-headings-and-lists-lessons-4-to-6) and the [Style Map job aid](../reference/job-aids.md).
+
 ## Why this matters
 
 [Lesson 3](03-typeface-emphasis.md) was about how individual words look. **Styles** are about how whole blocks of text are laid out on the braille page: their margins, their spacing, whether they start a new line, and how they behave when they cross a page break. If emphasis is the "font" of braille, styles are the "paragraph formatting," and they matter more, because braille margins are a reader's main navigation cue. A misapplied style does not just look wrong. It can make a document genuinely hard to read by finger.
@@ -84,8 +87,10 @@ Unwrap Element removes List, Poetic Stanza, Box, Full Box, and Prose styles and 
 
 **Change how many style levels you see.** Some styles, such as headings and lists, have numbered levels. BrailleBlaster shows five by default but supports up to eight. Go to **Styles > Configure > Style Levels** and choose the number that fits the document. A heavily nested textbook chapter may need more than the default five.
 
+**Use a loadout for speed.** There are not enough shortcut keys for every style, so BrailleBlaster groups styles into **loadouts**. Press `Ctrl+Shift` plus a letter to choose a loadout (for example `Ctrl+Shift+H` for headings, `Ctrl+Shift+L` for lists, or `Ctrl+Shift+B` for basic styles). Then press `Alt+1` to `Alt+8` to apply the style level in that loadout. The full list is on the [Shortcuts page](../reference/shortcuts.md#style-loadouts).
+
 > [!NOTE]
-> If a style does not seem to give the margins you expect, do not fix it by typing spaces or numbers. Look it up in the **Style Appendix** under **Help**, which gives the margins and spacing for each style, and check Breadcrumbs to confirm which style is really applied.
+> If a style does not seem to give the margins you expect, do not fix it by typing spaces or numbers. Look it up in the style specification tables in Appendix A of the User Guide, which gives the margins and spacing for each style, and check Breadcrumbs to confirm which style is really applied.
 
 ---
 

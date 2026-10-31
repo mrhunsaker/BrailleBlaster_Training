@@ -15,6 +15,9 @@ By the end of this lesson you will be able to:
 - Predict what is likely to survive a conversion and what must be checked.
 - Use "convert to HTML first" as a deliberate troubleshooting step.
 
+> [!TIP]
+> **More practice:** the [Pandoc Cookbook](../reference/pandoc-cookbook.md) and [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
+
 ## Why this matters
 
 Throughout this course — Word and OpenDocument import ([Lesson 2](02-opening-word-documents.md)), LaTeX handling ([Lesson 16](16-choosing-an-import-workflow.md)), even the general idea of a broad, forgiving range of supported file formats — one piece of infrastructure keeps showing up without being named directly: **Pandoc**, a widely-used, open-source document-conversion tool. BrailleBlaster leans on Pandoc-supported formats for a meaningful share of its import capability, and understanding roughly what Pandoc is and does — without needing to become a command-line expert — gives a transcriber a genuinely useful mental model for *why* some files import cleanly and others don't, and *what's actually possible* when a file doesn't open the way you'd expect.

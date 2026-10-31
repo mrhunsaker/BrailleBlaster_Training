@@ -1,0 +1,15 @@
+Embosser Test Page
+
+This page checks an embosser profile and the page properties of a document.
+
+Body text test. This paragraph is long enough to wrap onto several braille lines so that you can check where the first line starts and where each runover line starts. Count the cells on a test emboss and compare them with the Body Text style, which uses 3-1 margins.
+
+A list test, entered as three plain lines:
+
+First item
+Second item
+Third item
+
+A math test: x + 5 = 12
+
+A long-line test: the quick brown fox jumps over the lazy dog, and then the quick brown fox jumps over the lazy dog again, so that a line keeps running past the right margin and has to wrap.

@@ -1,0 +1,17 @@
+Outline of a Report
+
+1. Introduction
+   1.1 Background
+      1.1.1 Historical Context
+      1.1.2 Modern Applications
+   1.2 Purpose
+2. Main Content
+   2.1 First Topic
+      2.1.1 Subtopic A
+         2.1.1.1 Detail 1
+         2.1.1.2 Detail 2
+      2.1.2 Subtopic B
+   2.2 Second Topic
+3. Conclusion
+   3.1 Summary
+   3.2 Future Work

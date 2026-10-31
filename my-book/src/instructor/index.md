@@ -5,7 +5,8 @@ This guide is for anyone teaching the course to a group, whether you are a unive
 ## What is in this guide
 
 - **This page:** how to run a session, materials, and accommodations.
-- **Teaching notes** for [Unit 1](unit-1.md), [Unit 2](unit-2.md), and [Unit 3](unit-3.md): a demonstration idea, tips and pitfalls, a check for understanding, and an extension for each lesson.
+- **Teaching notes** for [Unit 1](unit-1.md), [Unit 2](unit-2.md), [Unit 3](unit-3.md), and [Unit 4](unit-4.md): a demonstration idea, tips and pitfalls, a check for understanding, and an extension for each lesson.
+- **[Session Plans](session-plans.md):** fifteen ready-to-run sessions that use the drills and labs.
 - **[Assessment and Grading](assessment.md):** how to use answer keys, unit checkpoints, and the capstone rubric.
 
 ## The teaching philosophy

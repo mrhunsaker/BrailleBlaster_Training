@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Format poems by line and stanza, using line numbers where needed.
 - Format deep lists with the correct list style and margins.
 
+> [!TIP]
+> **More practice:** [Lab 9: Special Structures Studio](../labs/lab-9-special-structures.md), with an original play, poem, and outline.
+
 ## Why this matters
 
 Most transcription work lives comfortably in body text, headings, and simple lists — the styles covered in [Lesson 4](04-layout-styles.md). But sooner or later, every transcriber meets print material that doesn't fit those shapes: a sidebar set off in a box, a script with character names and stage directions, a poem where line breaks are meaningful, or an outline nested more deeply than a simple bulleted list. BrailleBlaster has dedicated styles for exactly these cases, each following its own section of *Braille Formats 2016*, and this lesson is a tour of the ones a transcriber meets often enough to need working familiarity with, beyond the basics.
@@ -68,7 +71,7 @@ The mechanical steps are the same as any other style application ([Lesson 4](04-
 1. Highlight the text (a full box's contents, a script's lines, a poem's stanza).
 2. Go to **Styles** and select the appropriate style — Box/Full Box, the relevant Play style, or Poetic Stanza — or use the corresponding toolbar button.
 3. Check Breadcrumbs to confirm the CONTAINER wrapping applied correctly around the full intended extent of the material — a box or stanza that only wraps part of its intended contents is a common and easy-to-miss error.
-4. Consult the Style Appendix (**Help**) for the specific margin and spacing specification of the style in question if the result doesn't look right, rather than guessing at manual adjustments.
+4. Consult the style specification tables in Appendix A of the User Guide for the specific margin and spacing specification of the style in question if the result doesn't look right, rather than guessing at manual adjustments.
 
 ---
 
@@ -228,7 +231,7 @@ Preserve the distinction between the vocabulary heading and its definitions. The
 - Play styles handle the specific repeating structure of scripts — character names, dialogue, and stage directions — as their own distinct elements.
 - Poetic Stanza preserves meaningful line breaks in poetry, and is the correct container to use (instead of Prose) when applying Line Numbers to poetry.
 - BrailleBlaster's List styles extend well beyond the handful of levels shown by default, supporting genuinely deep outline structures — but deep visual indentation in a source document doesn't automatically mean deep logical nesting is warranted in the braille.
-- Applying any specialized style follows the same basic workflow as [Lesson 4](04-layout-styles.md)'s styles; consult the built-in Style Appendix for the specific margin rules of a style you're using for the first time.
+- Applying any specialized style follows the same basic workflow as [Lesson 4](04-layout-styles.md)'s styles; consult the style specification tables in Appendix A of the User Guide for the specific margin rules of a style you're using for the first time.
 
 ---
 

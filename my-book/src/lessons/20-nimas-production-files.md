@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Decide whether each publisher production note should be kept, hidden, or removed.
 - Proofread an imported NIMAS file for missing headings and nested lists.
 
+> [!TIP]
+> **More practice:** [Lab 4: A NIMAS-Style File](../labs/lab-4-nimas-style-file.md), and the legal context in [Policy and Standards Background](../reference/policy-background.md).
+
 ## Why this matters
 
 **NIMAS** (the National Instructional Materials Accessibility Standard) is, for many production transcribers, the single most common source format they'll open — it's the XML-based format publishers submit to the National Instructional Materials Access Center (NIMAC) so that accessible formats, including braille, can be produced for K-12 students with qualifying print disabilities under IDEA 2004. BrailleBlaster was built from the start around taking advantage of NIMAS's rich markup, which is why NIMAS files typically arrive in BrailleBlaster far more pre-formatted than an average Word document ([Lesson 2](02-opening-word-documents.md)) — but "more pre-formatted" is not the same as "finished," and this lesson covers both the shortcuts NIMAS gives you and the manual review it still requires.
@@ -103,6 +106,8 @@ The XML is the source structure; BrailleBlaster's styles are the working transcr
 
 ## Practice Document
 
+**Production notes.** Publishers add *production notes* to NIMAS files. Some help the transcriber and others do not. Go to **Tools > Production Note Manager** to **Keep**, **Hide**, or **Remove** each kind. The default is **Hide**. Open the Book Tree from **Navigate > Book Tree**, or press `Alt+End`.
+
 ### Scenario 1 — clean NIMAS structure
 
 ```xml
@@ -186,3 +191,10 @@ Use the Book Tree and other navigation tools rather than scrolling linearly. A s
 - MathML embedded in a NIMAS file is automatically converted to ASCII Math and translated into the document's braille math code.
 - The Book Tree is the fastest way to get a structural overview of a NIMAS book; Publisher's Production Notes are a valuable, easily-overlooked source of context.
 - Large NIMAS textbooks can be divided along publisher-designated sections for parallel work by multiple transcribers, then rejoined into one final file.
+
+---
+
+## Source Citations
+
+- BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Opening Files," "Using a NIMAS XML File," and "Operations Specific To NIMAS Files" (Image Describer, Publisher's Production Notes, Navigating a NIMAS File, Dividing a NIMAS File into Multiple Files, Book Tree, Alphabetic Reference).
+- 20 U.S.C. §1412(a)(23) and 34 CFR §300.172, summarized in [Policy and Standards Background](../reference/policy-background.md).

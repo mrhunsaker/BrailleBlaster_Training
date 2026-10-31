@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Describe how eBraille relates to the tag-based thinking behind NIMAS.
 - Say why eBraille supplements and does not replace embossed braille.
 
+> [!NOTE]
+> **Background:** see [Policy and Standards Background](../reference/policy-background.md) for where eBraille and NIMAS fit in the wider standards picture.
+
 ## Why this matters
 
 For decades the end product of braille transcription has been the **BRF** (Braille Ready File). A BRF is built around a fixed page: a set number of cells per line and lines per page, hard-coded for one paper size. That is exactly right for embossing a physical book. It is a poor fit for a refreshable braille display, especially the newer multiline displays, where the "page" is whatever the device can show, and that changes from device to device.
@@ -26,10 +29,10 @@ For decades the end product of braille transcription has been the **BRF** (Brail
 
 ## How to use this lesson
 
-This is a **concept lesson**. There is no click path to memorize, because export support depends on the version of BrailleBlaster you have installed. Read the sections, work through the three exercises at the end, and check your answers against the key.
+This is mostly a **concept lesson**, with one short hands-on section that is optional. Read the sections, work through the three exercises at the end, and check your answers against the key.
 
 > [!NOTE]
-> eBraille is new and still being adopted. Check the Help menu and the release notes for your BrailleBlaster version to see which eBraille tools are available. The concepts below do not depend on any one menu.
+> eBraille is new and still being adopted. BrailleBlaster has an eBraille exporter, but in the current 3.x source it is an **experimental** feature that is hidden from the normal menus. The section "Making an eBraille file with BrailleBlaster" explains how to reach it. The concepts do not depend on any menu.
 
 ---
 
@@ -57,7 +60,33 @@ An eBraille publication can be packaged as a single `.ebrl` file, unzipped onto 
 
 ### Who supports it
 
-Production tools including BrailleBlaster, Duxbury, and others have committed to supporting eBraille, and device support is developing for displays such as APH's Monarch and several single-line displays. A BRF-to-eBraille converter is part of the surrounding tooling, so existing BRF files do not have to be re-transcribed from scratch.
+Production tools including BrailleBlaster, Duxbury, and others have committed to supporting eBraille, and device support is developing for displays such as APH's Monarch and several single-line displays. BrailleBlaster's own exporter is described below. A BRF-to-eBraille converter is part of the surrounding tooling, so existing BRF files do not have to be re-transcribed from scratch.
+
+### Making an eBraille file with BrailleBlaster
+
+BrailleBlaster 3.x includes an eBraille exporter. It converts the document's structure into XHTML and packages it as an `.ebrl` file. In the current source it is still experimental, so treat what it produces as a draft to inspect and not as a finished product. There are two ways to reach it.
+
+**From the menus.** Press `Ctrl+Shift+` ` (the backtick key) in the Print View to show the hidden **Debug** menu. The debug mode then adds **File > Export > Export to eBraille**. Choose it, pick a file name, and BrailleBlaster writes a file with the extension `.ebrl`.
+
+**From the command line.** BrailleBlaster can convert a file without opening the program window. Run the program with the `export` command:
+
+```bash
+brailleblaster export ebraille <input-file> <output-file>
+```
+
+The same `export` command also creates `brf` and `pef` files, and accepts `--braille-profile <profile>` to choose the braille settings. The command line is useful for converting many files at once. The name of the program on your computer depends on how it was installed.
+
+**What the package contains.** As the exporter is written today, the `.ebrl` file is a zip container holding:
+
+- `mimetype`, a one-line file;
+- `package.opf`, the package document that lists everything in the publication;
+- `META-INF/container.xml`, which points to the package document;
+- `index.html`, a navigation document;
+- `ebraille/document0.html`, the content, one file per document;
+- `ebraille/css/default.css`, the style sheet.
+
+> [!NOTE]
+> At the time of writing, the exporter's `mimetype` file says `application/epub+zip`, because it builds on EPUB packaging. The eBraille specification is still developing, so check the current specification before relying on a file with a particular reading device.
 
 ### What it does not do
 
@@ -93,7 +122,7 @@ For each situation, say whether a BRF, an eBraille publication, or both are the 
 
 ### Exercise 3: Look inside an eBraille file (optional)
 
-If you can obtain a sample `.ebrl` file (see the DAISY eBraille page in the sources below), make a **copy** and give the copy a `.zip` extension. A packaged eBraille file is a zip container, like an EPUB. Extract it and open one of the XHTML files in a plain text editor.
+If you can obtain a sample `.ebrl` file (see the DAISY eBraille page in the sources below), or you can make one with BrailleBlaster's exporter, make a **copy** and give the copy a `.zip` extension. A packaged eBraille file is a zip container, like an EPUB. Extract it and open one of the XHTML files in a plain text editor. If it came from BrailleBlaster, look for the files listed above.
 
 1. Can you find a heading in the markup? What tag marks it?
 2. Do you see hard line breaks at a fixed width, as you would in a BRF? Why or why not?
@@ -121,6 +150,7 @@ If you can obtain a sample `.ebrl` file (see the DAISY eBraille page in the sour
 - eBraille is a DAISY Consortium standard (version 1.0, August 2025) for digital, reflowable braille reading, built on an EPUB 3-compatible file set and packaged as `.ebrl`.
 - A BRF assumes one fixed page size. eBraille content reflows to fit whatever braille display it is opened on.
 - Its core idea, applying structural tags to braille content, mirrors how BrailleBlaster already reads structural tags from NIMAS files, just in the opposite direction.
+- BrailleBlaster 3.x has an experimental eBraille exporter (**File > Export > Export to eBraille** in debug mode, or `brailleblaster export ebraille` on the command line). Inspect its output before you rely on it.
 - eBraille supplements BRF and physical embossing. It does not replace them.
 
 ---

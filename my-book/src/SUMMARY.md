@@ -44,6 +44,32 @@
   - [Lesson 23: The TOC Tool and Distributing a TOC Among Volumes](lessons/23-toc-and-volumes.md)
   - [Lesson 24: The T-Page Generator](lessons/24-t-page-generator.md)
 
+# Unit 4: Specialized Content
+
+- [Unit overview and checkpoint](units/unit-4-specialized.md)
+  - [Lesson 25: Tables](lessons/25-tables.md)
+  - [Lesson 26: Controlling the Page](lessons/26-controlling-the-page.md)
+  - [Lesson 27: Images and Tactile Graphics](lessons/27-images-and-tactile-graphics.md)
+  - [Lesson 28: Editing the Translation](lessons/28-editing-the-translation.md)
+  - [Lesson 29: UEB Technical Material and Other Codes](lessons/29-ueb-technical-and-numeric-material.md)
+  - [Lesson 30: Line Numbers](lessons/30-line-numbers.md)
+  - [Lesson 31: Glossaries and Indexes](lessons/31-glossaries-and-indexes.md)
+  - [Lesson 32: Proofreading and Quality Assurance](lessons/32-proofreading-and-quality-assurance.md)
+
+# Labs and Samples
+
+- [Labs Overview](labs/index.md)
+  - [Lab 1: Rescue a Poorly Formatted Word Document](labs/lab-1-rescue-word-document.md)
+  - [Lab 2: Import Comparison](labs/lab-2-import-comparison.md)
+  - [Lab 3: When LaTeX Misbehaves](labs/lab-3-when-latex-misbehaves.md)
+  - [Lab 4: A NIMAS-Style File](labs/lab-4-nimas-style-file.md)
+  - [Lab 5: Page Properties and the Test Emboss](labs/lab-5-test-page-and-embosser.md)
+  - [Lab 6: Running Heads and Page Numbers](labs/lab-6-running-heads-and-page-numbers.md)
+  - [Lab 7: Choosing the Right Translation Control](labs/lab-7-relaxation-plan.md)
+  - [Lab 8: A Safe Find-and-Replace Cleanup](labs/lab-8-find-and-replace-cleanup.md)
+  - [Lab 9: Special Structures Studio](labs/lab-9-special-structures.md)
+- [Sample Files](samples/index.md)
+
 # Capstone
 
 - [Capstone: Transcribe a Textbook Chapter](capstone/capstone.md)
@@ -54,11 +80,17 @@
   - [Teaching Notes: Unit 1](instructor/unit-1.md)
   - [Teaching Notes: Unit 2](instructor/unit-2.md)
   - [Teaching Notes: Unit 3](instructor/unit-3.md)
+  - [Teaching Notes: Unit 4](instructor/unit-4.md)
+  - [Session Plans](instructor/session-plans.md)
   - [Assessment and Grading](instructor/assessment.md)
 
 # Reference
 
 - [Keyboard Shortcuts and Menu Paths](reference/shortcuts.md)
+- [Practice Drill Bank](reference/drill-bank.md)
+- [Job Aids](reference/job-aids.md)
+- [Pandoc Cookbook](reference/pandoc-cookbook.md)
+- [Policy and Standards Background](reference/policy-background.md)
 - [Glossary](reference/glossary.md)
 - [Troubleshooting](reference/troubleshooting.md)
 - [Resources](reference/resources.md)

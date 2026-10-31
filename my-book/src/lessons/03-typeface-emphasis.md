@@ -17,6 +17,9 @@ By the end of this lesson you will be able to:
 - Recognize when print emphasis should be disregarded rather than carried into braille.
 - Apply emphasis in BrailleBlaster by selecting existing text first.
 
+> [!TIP]
+> **More practice:** the emphasis items in the [Drill Bank](../reference/drill-bank.md#a-emphasis-lesson-3).
+
 ## Why this matters
 
 Print documents lean on bold, italics, underlining, and color to carry meaning — a bolded key term, an italicized book title, a highlighted warning. None of that survives a straight copy-and-paste into braille. A braille reader can't see that a word was yellow. Braille has its own, much more limited vocabulary for "this text is different," and the transcriber's first and most repeated job is deciding which print emphasis actually matters to the reader and then applying the correct braille equivalent — not the print one.

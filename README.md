@@ -10,13 +10,14 @@ A hands-on curriculum for learning **BrailleBlaster**, the free, open-source bra
 
 ## What is in the book
 
-- **24 lessons** in three units: Universal (1 to 13), Advanced (14 to 19), and Transcriber-Focused (20 to 24)
+- **32 lessons** in four units: Universal (1 to 13), Advanced (14 to 19), Transcriber-Focused (20 to 24), and Specialized Content (25 to 32)
+- **9 labs** that use real sample files, and a **drill bank** with answer keys
 - Every lesson has objectives, a concept section, step-by-step menu paths, a worked demonstration, a practice document, and an answer key, with citations to *Braille Formats 2016*
 - A **capstone** transcription project with a scoring rubric
 - An **Instructor Guide** with pacing plans, teaching notes, and assessment guidance
 - **Reference** pages: shortcuts, glossary, troubleshooting, and resources
 
-About 55 hours of material including the capstone. Pacing plans for a twelve-week course, a five-day intensive, a one-day workshop, and self-paced study are on the Syllabus page.
+About 69 hours of material including Unit 4 and the capstone. Pacing plans for a twelve-week course, a five-day intensive, a one-day workshop, and self-paced study are on the Syllabus page.
 
 ## Repository layout
 
@@ -32,14 +33,20 @@ About 55 hours of material including the capstone. Pacing plans for a twelve-wee
 │   │   ├── README.md           Book introduction
 │   │   ├── start/              How to use, setup, syllabus
 │   │   ├── units/              Unit overviews and checkpoints
-│   │   ├── lessons/            Lessons 1 to 24
+│   │   ├── lessons/            Lessons 1 to 32
+│   │   ├── labs/               Nine integrated labs
+│   │   ├── samples/            Practice files (generated)
 │   │   ├── capstone/
-│   │   ├── instructor/
-│   │   ├── reference/
+│   │   ├── instructor/         Teaching notes, session plans, assessment
+│   │   ├── reference/          Shortcuts, drills, job aids, glossary, and more
 │   │   └── about/
 │   └── theme/                  Custom mdBook theme
+├── tools/                      build_samples.py, check_book.py, instructor_expansion.py
 ├── AddlFiles/                  Earlier source drafts (see AddlFiles/README.md)
-└── CURRICULUM_REVIEW.md        Editorial notes for maintainers
+├── CURRICULUM_REVIEW.md        Editorial notes for maintainers
+├── VERIFICATION.md             What has and has not been checked
+├── PROFESSIONALIZATION_ROADMAP.md  What the curriculum needs next
+├── CONTRIBUTING.md, CHANGELOG.md, CITATION.cff
 ```
 
 `my-book/docs` is generated output and is not committed.
@@ -68,6 +75,15 @@ mdbook serve       # live preview at http://localhost:3000
 ```
 
 GitHub Actions builds and deploys the site to GitHub Pages on every push to `main` (`.github/workflows/deploy.yml`) and attaches the Markdown output to tagged releases.
+
+## Quality checks
+
+```bash
+python3 tools/check_book.py     # links, anchors, headings, lesson structure, sample files
+python3 tools/build_samples.py  # regenerate the practice files
+```
+
+GitHub Actions runs the checks on every pull request (`.github/workflows/quality.yml`).
 
 ## Editing guidance
 

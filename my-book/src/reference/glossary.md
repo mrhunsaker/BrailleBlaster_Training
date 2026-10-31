@@ -4,7 +4,9 @@
 
 **BANA** is the Braille Authority of North America, publisher of *Braille Formats 2016*, the standard that BrailleBlaster's styles follow.
 
-**BBZ** is BrailleBlaster's default save format. It is a zipped file set that keeps images and other resources alongside the document.
+**BBX** is BrailleBlaster's default save format, a BrailleBlaster XML file.
+
+**BBZ** is a zipped NIMAS file set. Saving a NIMAS ZIP produces a BBZ, which keeps the images with the document.
 
 **Body Text** is the default style: an indented paragraph with 3-1 margins. Pasted text arrives as Body Text.
 

@@ -86,3 +86,97 @@ I could not run BrailleBlaster, so these items come from documentation and your 
 3. Add an answer-key walkthrough for the capstone for instructors.
 4. Consider adding screenshots with alt text for the menu-heavy lessons (1, 4, 13, 21, 24), or short descriptions of each dialog.
 5. Re-check every menu path when a new BrailleBlaster release ships.
+
+
+---
+
+# Second pass (version 2.1.0): using the AddlFiles and checking against the official guide
+
+## What the four AddlFiles contributed
+
+| File | Used for | Not used, and why |
+| ---- | -------- | ----------------- |
+| **Demonstration Materials** | The *content* of the demos became real files: four Word documents, an ODT, an EPUB, LaTeX, Markdown, HTML, a NIMAS-style set, and plain-text sources (see `tools/build_samples.py`). Their scenarios became Labs 1 to 9 | The trainer scripts. Several contain menu paths and numbers that are wrong (below) |
+| **Hands-On Practice Guide** | The 29 snippets became the **Drill Bank** with answer keys. Its four-session flow became Sessions 1 to 4 | The snippets had no answers, and two (a Shakespeare block quote, and a list that was really a sentence) needed redesign. I replaced the quotation with original text |
+| **Comprehensive Training Guide** | Per-topic teaching strategy, pitfalls, advanced points, three-tier practice design, and assessment ideas, vetted and rewritten into the Instructor Guide. The Three-Pass Method, the "Print is for eyes, Emboss is for fingers" line, profile naming and maintenance, and the relaxation-plan passes | Its UI claims and its eBraille section |
+| **Training Manual** | Already used in version 2.0 | |
+
+## New errors found in the drafts
+
+The official User Guide (brailleblaster.org/docs/manual/manual.php) was read in full and used as the arbiter.
+
+| Draft statement | What the official guide says |
+| --------------- | ---------------------------- |
+| Demonstration Materials: BrailleBlaster "cannot open `.tex` files" and needs Pandoc first | `.tex` is a supported file type. LaTeX is converted to ASCII Math on open. The fallback is converting to HTML with another tool, and renaming `.xht` to `.xhtml` |
+| Demonstration Materials: a "sample NIMAS XML" made of an OPF file and XHTML | That is EPUB-style. NIMAS is DTBook XML with an OPF package file. The new `sample-dtbook.xml` follows DTBook |
+| Demonstration Materials: a 1.25 inch margin is "approximately 10 cells" | A braille cell is about a quarter of an inch, so that margin is about five cells. The new test page makes no such claim |
+| Demonstration Materials and Comprehensive Guide: different running heads for different chapters or page types | The Running Head tool sets **one** title for the document, shown on every braille page except t1 and braille page 1 |
+| Comprehensive Guide: Find and Replace regular expressions, `^p` and `^t` | Not in the official guide |
+| Comprehensive Guide: Spatial Number Lines as "Line Template, Arrow Tools, Labeling" | The guide describes the Number Line Editor with settings such as Reduce Fraction, Beveled Fraction, Add Arrows to Line, Stretch Across Page, Remove Leading Zeros, Math Entry versus User Text, and Points versus Interval. The Instructor Guide now teaches those |
+| Comprehensive Guide: "increase style levels from 5 to 8 for deep lists" | The default is five and the maximum is eight, so a four-level list needs no change |
+| Comprehensive Guide: BrailleBlaster is "proprietary" | It is GPL-licensed open source |
+
+## Errors in version 2.0 of *this* book, now corrected
+
+1. **Default save format.** Lesson 1, the Glossary, and the Capstone said BBZ. The official guide says **BBX** is the default, and BBZ is a zipped NIMAS file set. (The error came from the Training Manual's glossary, so it should be fixed there as well.)
+2. **BRF/PEF save path.** The official guide says **File > Save BRF/PEF**, while the lessons said **File > Export > Save BRF/PEF**. The book now gives both, with a note that releases differ. Verify in your version (see the roadmap, item A1).
+3. **Volumes.** Lesson 23 treated "End of Volume markers" as typed text. The real mechanism is **Tools > Volume Manager**, which also feeds the TOC Builder and T-Page Generator. The lesson now explains it and keeps the plain-text markers as stand-ins.
+4. **T-Page Generator.** Lesson 24 lacked two cautions from the official guide: generate T-pages last, and edit them only inside the generator, because edits made in the Print View are lost when the generator reopens.
+5. **Braille Preview.** Lesson 1 mentioned two navigation modes. There are three (print, braille, and ordinal page).
+6. **Navigate menu.** Lesson 1's menu map left out the Navigate menu (Home, End, Go To Page, Previous Element, Next Element).
+7. **A formatting defect.** Lesson 13 still had an unconverted `File →` arrow. The new checker found it.
+
+## Structural problems the checker now prevents
+
+Orphan pages that are not in `SUMMARY.md`, missing or duplicate top-level headings, broken links and anchors, lessons without a glance block or objectives, missing sample files, and known-bad statements from the older drafts.
+
+## Things still to verify in the application
+
+Everything in the roadmap's item A1, plus:
+
+- How the four Word files import. Do the Word character styles *Emphasis* and *Strong* behave differently from direct bold and italic in the flat file?
+- Whether `sample-dtbook.xml` opens, how the `sidebar`, `prodnote`, and MathML elements arrive, and whether the missing image reference causes a warning.
+- What Lab 3's Pandoc-generated HTML does with the raw `equation*` block.
+- Whether a `File > Open` of the zip files works as the labs assume.
+
+Please send any differences back as issues, using the content-error template.
+
+
+---
+
+# Third pass (version 2.2.0): the rest of the lessons, and the source code
+
+## What was done
+
+The remaining lessons from the roadmap were written as **Unit 4: Specialized Content** (Lessons 25 to 32). To do this reliably, the BrailleBlaster 3.x **program source** and the **3.x User Guide source** were read directly, instead of relying on the older web manual or on the earlier drafts. That turned up errors in this book that earlier passes had missed. `VERIFICATION.md` records what was checked.
+
+## Errors found in this book by reading the source
+
+| What I had written | What the source shows | Where fixed |
+| ------------------ | --------------------- | ----------- |
+| The Contraction Relaxer works on a selection and uses `Ctrl+Shift+T` | It is a document-level dialog. You pick a teaching unit, and contractions up to and including that unit are allowed. It has no shortcut. `Ctrl+Shift+T` belongs to Change Translation | Lesson 11, Lab 7, Drill F, Job Aid 5, instructor notes, shortcuts |
+| The TOC Builder, Volume Manager, and T-Page Generator are on the Tools menu | In the 3.x source they are in the hidden Debug menu, and the guide does not document them | Lessons 23 and 24, capstone, Unit 3 page, shortcuts, Lesson 1 |
+| "Use Help > Search" and "the Style Appendix under Help" | Neither exists. The Help menu has Check For Updates, View log, Website, User Guide (`F1`), About, Privacy, and Reset BB | Eight places |
+| Loadouts use `Alt+1` to `Alt+9` | `Ctrl+Shift` plus a letter chooses a loadout, then `Alt+1` to `Alt+8` | Shortcuts, Lesson 4 |
+| `File > Save BRF/PEF` (changed in version 2.1) | The source has `File > Export > Save BRF/PEF`. The original wording was right | Lessons 1 and 13, shortcuts |
+| Lesson 19 had no click path | `File > Export > Export to eBraille` exists in debug mode, and a command line route exists | Lesson 19 |
+
+Note that **three of these were caused by me trusting the older 2.x web manual** over the lessons the author had written. The lessons were often closer to the truth.
+
+## New material
+
+- Lessons 25 to 32, a Unit 4 page with a placement table, Unit 4 teaching notes, and a Proofreading Error Log.
+- A manual fallback for T-pages and TOCs, in case the Debug tools are unavailable.
+- A shortcuts page rebuilt from Appendix B of the 3.x guide.
+- A quality checker that now rejects the mistakes above.
+
+## Decisions you may want to reverse
+
+- **Lessons 23 and 24 were kept**, with prominent notices, and not removed. The concepts are essential to professional braille production, and the 2.x guide documents the tools as normal. If APH confirms the Debug tools are not meant for general use, rewrite these two lessons around the manual method.
+- **Unit 4 uses numbers 25 to 32** so existing lesson numbers and links did not change. If you would rather fold the lessons into the earlier units, the placement table on the Unit 4 page shows where each belongs, but every lesson number after the insertion point would change.
+- **Lesson 29 stays at the level of settings and tools.** It does not teach UEB Technical or Nemeth rules, which belong to their own manuals.
+- **No lesson on multi-transcriber workflows.** The 3.x guide does not document dividing a NIMAS file, so there was nothing reliable to teach.
+
+## Still to verify in the application
+
+See the list in `VERIFICATION.md`. The most important item is that **no lesson has been run in BrailleBlaster**. The source tells us a feature exists and what it is called. Only running it tells us what it does.

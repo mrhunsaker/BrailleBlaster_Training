@@ -7,19 +7,15 @@ docs/
 *.backup
 *.tmp
 *.swp
-*.txt
 
 # Exclude scripts folder
 scripts/
 
-# Exclude all Python files
-*.py
 *.bak
 
 my-book/docs/
 *.aux
 *.log
-*.tex
 *.toc
 
 textbooks/
@@ -34,3 +30,7 @@ PS_Complete_Curriculum.md
 CMD_Complete_Curriculum.md
 GitBash_Complete_Curriculum.md
 old/
+
+# Python caches
+__pycache__/
+*.pyc

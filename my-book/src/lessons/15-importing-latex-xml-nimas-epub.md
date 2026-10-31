@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Treat EPUB as its own packaged-publication workflow.
 - Write a post-import checklist for each format.
 
+> [!TIP]
+> **More practice:** [Lab 2](../labs/lab-2-import-comparison.md), [Lab 3: When LaTeX Misbehaves](../labs/lab-3-when-latex-misbehaves.md), and a NIMAS-style set in the [sample files](../samples/index.md).
+
 ---
 
 ## How to use this lesson

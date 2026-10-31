@@ -186,3 +186,10 @@ The documentation notes that decimal values can require attention to translation
 - Set the descriptive options (Reduce Fraction, Beveled Fraction, Number Line View, and so on) before entering the numeric values, since they affect how those values are interpreted.
 - BrailleBlaster calculates the full sequence of labeled points automatically from Count By, Line Start, and Line End — you don't type each label individually.
 - Match Start/End Interval Type to the print original's open vs. filled circles to preserve the mathematical meaning of the interval, not just its visual appearance.
+
+---
+
+## Source Citations
+
+- BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Making Spatial Math," "Settings Specific to Number Lines," and "Create a Number Line" (Math Entry and User Text, Interval and Points, start and end interval types, Reduce Fraction, Beveled Fraction, arrows, Stretch Across Page, Remove Leading Zeros).
+- The Nemeth Code and *The Rules of Unified English Braille* for the braille representation of number lines and fractions.

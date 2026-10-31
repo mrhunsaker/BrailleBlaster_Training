@@ -15,6 +15,9 @@ By the end of this lesson you will be able to:
 - Apply TN indicators as emphasis and use the Transcriber's Note style for whole paragraphs.
 - Separate a print caption from a transcriber-generated description.
 
+> [!TIP]
+> **More practice:** the Transcriber's Note step in [Lab 7](../labs/lab-7-relaxation-plan.md).
+
 ---
 
 ## How to use this lesson

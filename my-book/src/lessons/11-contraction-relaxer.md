@@ -12,9 +12,13 @@
 By the end of this lesson you will be able to:
 
 - Explain why contracted braille is not an all-or-nothing instructional decision.
-- Relax or uncontract selected text with **Tools > Contraction Relaxer** and `Ctrl+Shift+T`.
-- Use Direct translation (`Ctrl+D`) and the No Translate text attribute where they fit.
-- Apply a teacher decision rule and document why a contraction was relaxed.
+- Use **Tools > Contraction Relaxer** to set how far through a contraction sequence a document goes, by choosing a unit.
+- Tell the Relaxer (a document-level, instructional tool) apart from **Tools > Change Translation** (a selection-level tool): Uncontracted with `Ctrl+Shift+T`, and Direct with `Ctrl+D`.
+- Use Direct translation and the No Translate text attribute where they fit.
+- Apply a teacher decision rule and document which unit you chose and why.
+
+> [!TIP]
+> **More practice:** [Lab 7: Choosing the Right Translation Control](../labs/lab-7-relaxation-plan.md) and the [Translation Control Plan job aid](../reference/job-aids.md).
 
 ## Why this matters
 
@@ -24,7 +28,7 @@ Standard literary braille (Unified English Braille, Grade 2) uses contractions e
 
 ## How to use this lesson
 
-The first half explains the concept from a teacher's perspective. The second half is a practice document — copy the "Practice Story" block into BrailleBlaster, translate it in contracted UEB, and use the **Contraction Relaxer** to selectively suppress contractions that may not yet be appropriate for a particular learner. The point is not to produce a universally "better" braille file: it is to practice making a deliberate instructional choice about which contractions a student should encounter. The story supplied for this exercise is intentionally rich in contraction opportunities.
+The first half explains the concept from a teacher's perspective. The second half is a practice document: copy the "Practice Story" block into BrailleBlaster and produce several instructional versions of it by choosing different units in the **Contraction Relaxer**. The point is not to produce a universally "better" braille file. It is to practice matching a text to what a particular learner has been taught.
 
 ---
 
@@ -34,7 +38,7 @@ The first half explains the concept from a teacher's perspective. The second hal
 
 The NFB's 2015 *Instruction Manual for Braille Transcribing, UEB Edition* teaches contractions as a systematic part of UEB rather than as arbitrary shortcuts. For teachers for students with visual impairments (TVI) or a school-based braille transcriber, however, the practical question is often different from the transcriber's question: **Which contractions should this particular student be reading right now?**
 
-BrailleBlaster's Contraction Relaxer provides a way to make that instructional adjustment without converting the entire document to uncontracted UEB. BrailleBlaster's current documentation explicitly describes the tool as a way to suppress selected contractions while retaining more control than changing the entire document to an uncontracted translation profile.
+BrailleBlaster's **Contraction Relaxer** provides a way to make that instructional adjustment without hand-editing the braille. You choose a *unit* of a contraction-teaching sequence, and BrailleBlaster translates the document with the contractions taught up to and including that unit, and no others. The choices run from **Fully Uncontracted (Grade 1 UEB)** at one end to **Fully Contracted (Grade 2 UEB)** at the other.
 
 This tool is similar to the "Learning Tables" function in Duxbury DBT. For no, the developers of BrailleBlaster have made the explicit decision to focus on a single source for the sequence of learning braille contractions. 
 
@@ -52,16 +56,28 @@ The contraction relaxer therefore belongs in the teacher's toolkit as an **acces
 
 ### What "relaxing" means
 
-Relaxing a contraction means telling the translation process not to use a selected contraction in places where that contraction would otherwise be valid. The print word does not change. The student's reading task changes because the braille spells out more of the word instead of representing part of it with a contraction.
+In BrailleBlaster, a document starts fully contracted. *Relaxing* means choosing a lower unit so that contractions the learner has not yet been taught are written out letter by letter instead. The print word does not change. The learner's reading task changes, because the braille spells out more of each word.
 
-For example, a teacher may want a passage to remain fully UEB while temporarily reducing the number of contraction types a beginning reader must decode. The exact set should be based on the student's instructional sequence.
+The dialog says it plainly: "Select a unit to toggle specific translation rules. This will allow you to specify words and contractions up to and including the selected unit." So the unit you choose is the **last unit your learner has been taught**, and every earlier unit is included too. The tool is **cumulative**, which is why you do not pick the units to switch off. You pick the unit to stop at.
+
+### Relaxer, Change Translation, and Translation Settings
+
+Three controls look alike but work at different levels. Mixing them up is the most common mistake with this lesson.
+
+| Control | Works on | How you use it | Shortcut |
+| ------- | -------- | -------------- | -------- |
+| **Settings > Translation Settings** | The whole document's code and grade | Choose a braille code such as UEB, or UEB Uncontracted | None |
+| **Tools > Contraction Relaxer** | The whole document, by teaching unit | Choose a unit from the drop-down and click OK | None |
+| **Tools > Change Translation** | The text you have selected | Choose **Uncontracted** or **Direct** | `Ctrl+Shift+T` (Uncontracted), `Ctrl+D` (Direct) |
+
+Use the Relaxer when a *learner's contraction sequence* decides the answer. Use Change Translation when a *passage* needs special handling, such as computer code or a string that must appear exactly as typed. [Lab 7](../labs/lab-7-relaxation-plan.md) practices both.
 
 ### A note about the 2015 NFB materials and current BrailleBlaster
 
 The NFB 2015 manual is a UEB training resource; the Contraction Relaxer is a later BrailleBlaster feature. This exercise therefore combines two layers deliberately:
 
 1. **UEB knowledge from the 2015 training:** recognize what contractions are doing in the words.
-2. **Current BrailleBlaster workflow:** use the Contraction Relaxer to suppress selected contraction categories for an instructional purpose.
+2. **Current BrailleBlaster workflow:** use the Contraction Relaxer to choose how much of the contraction sequence a document uses, for an instructional purpose.
 
 Do not treat the current tool's interface as if it were part of the 2015 manual.
 
@@ -74,7 +90,7 @@ For this example, I am going to manually apply the contraction for "day" into th
 Today is the greatest day I've ever known.
 ```
 
-For the sake of simplicity and argument, I am going to go into the **Tools > Contraction Relaxer** Menu and selecting "Uncontracted (Grade 1)".
+For the sake of simplicity and argument, I am going to go into the **Tools > Contraction Relaxer** Menu and selecting "Fully Uncontracted (Grade 1 UEB)".
 
 To manually swap out the letter d, a, and y with a dot 5 followed by the letter "d", I do the following. 
 - Press `CTRL+F` or go to **Edit > Find and Replace** to open the find and replace dialog. 
@@ -91,7 +107,7 @@ This is a laborious process, but it is the way a lot of us have had to relax con
 
 ### CHALLENGE
 
-Paste the following into the print view. Then go to **Tools > Change Translation > Uncontracted**, select the entire text and press `CTRL+SHIFT+T`, or go to **Tools > Contraction Relaxer > Uncontracted (Grade 1)**. 
+Paste the following into the print view. Then go to **Tools > Change Translation > Uncontracted**, select the entire text and press `CTRL+SHIFT+T`, or go to **Tools > Contraction Relaxer** and choose **Fully Uncontracted (Grade 1 UEB)**. 
 ```
 today forever forefather here knows landlord motherlode namely honest party questions bright wholesome primetime underground workout younger therefore characteristic throughout whereafter bought
 ```
@@ -99,34 +115,62 @@ Practice using the find and replace menu to translate the dot 5 initial letter c
 
 ## Step by step
 
-1. Go to **Tools > Contraction Relaxer**.
-2. Review the available contractions and select which ones should be suppressed (relaxed) for this document, based on the specific need driving the request — a reader's current contraction curriculum, a term whose contracted form is causing confusion, or a similar targeted reason.
-3. Apply the changes and review the affected text in the Braille View to confirm the intended contractions are now suppressed while the rest of the document's contracted braille is unaffected.
+### Using the Contraction Relaxer
 
-> **Note:** Because the Contraction Relaxer changes translation behavior at a fairly fundamental level, treat any relaxer configuration as a deliberate, documented decision for a specific document or reader — not a setting to reach for casually. If your agency serves multiple readers with different contraction-learning stages, a documented, per-reader relaxer profile (what's relaxed, and why) is worth maintaining alongside the file itself, so a future transcriber picking up the same reader's material later understands the reasoning rather than just inheriting an unexplained configuration.
+1. Go to **Tools > Contraction Relaxer**. A dialog opens.
+2. Read the instruction at the top: it lets you specify words and contractions *up to and including* the unit you select.
+3. Open the drop-down list. It offers, in order:
+   - **Fully Uncontracted (Grade 1 UEB)**
+   - **Unit 2:** Alphabetic wordsigns
+   - **Unit 3:** Strong contractions *and, for, of, the, with*
+   - **Unit 5:** Shortform words *ab, ac, af, ag, al, bl, ei, fr, ll*
+   - **Unit 6:** Strong groupsigns, wordsigns, and shortforms *ch, sh, th, wh, ou, st*
+   - **Unit 7:** Strong groupsigns and shortforms *ar, ed, er, gh, ow, ing*
+   - **Unit 9:** Dot 5 initial-letter contractions
+   - **Unit 11:** Two-cell punctuation and shortform words
+   - **Unit 12:** Initial-letter contractions for dots 4-5 and 4-5-6
+   - **Unit 14:** Lower wordsigns *his, was, were, be, in, enough*
+   - **Unit 15:** Lower groupsigns *be, con, dis, ea, bb, cc, ff, gg, in, en*
+   - **Unit 17:** Final-letter groupsigns
+   - **Fully Contracted (Grade 2 UEB)**
+4. Choose the **last unit your learner has been taught**.
+5. Click **View Contractions** if you want to see the list of contractions the choice allows.
+6. Click **OK** to apply it, or **Cancel** to leave without changing anything.
+7. BrailleBlaster records your choice in the document's translation-corrections file, sets the translation to UEB Uncontracted (or to UEB Grade 2 if you chose Fully Contracted), and refreshes the document. Check the Braille View.
+
+The Relaxer has no keyboard shortcut. It remembers your last choice, so the drop-down opens on the unit you used before.
+
+> [!NOTE]
+> The dialog's unit numbers follow a published contraction-teaching sequence. Units 4, 8, 10, 13, and 16 are not offered. Units that deal with math signs, modes, and typeform indicators are handled differently from text contractions. Match your learner's actual program to the units listed and record which unit you chose.
+
+### Using Change Translation for a selection
+
+1. Select the text.
+2. Go to **Tools > Change Translation**, use the Change Translation toolbar button, or right-click and choose **Change Translation**.
+3. Choose **Uncontracted** (`Ctrl+Shift+T`) for grade 1 braille without contractions. The selection is highlighted in green in the Braille View.
+4. Or choose **Direct** (`Ctrl+D`) for the literal ASCII translation. The selection is highlighted in purple in the Print View. Use Direct when you must force a particular result that BrailleBlaster would not otherwise allow.
+
+> [!IMPORTANT]
+> Because the Relaxer changes the document's translation setting and writes to its translation-corrections file, treat every Relaxer choice as a deliberate, documented decision for a specific document or reader. Keep a record of the unit and the reason beside the file, so a later transcriber understands why the braille looks the way it does.
 
 ---
 
 ## Worked Demonstration using Contraction Relaxer (small, fully correct)
 
-```
+```text
 The teacher will help the child read the book before the class begins.
 ```
 
-Suppose the student's current instructional target includes ordinary alphabetic words but not the contraction patterns represented by every possible UEB contraction.
+Suppose a learner has been taught through Unit 3 (the strong contractions *and, for, of, the, with*) but has not yet met the later units.
 
-A teacher-facing workflow is:
+1. Paste the sentence and translate it fully contracted. Read the Braille View as the baseline.
+2. Open **Tools > Contraction Relaxer** and choose **Unit 3: Strong contractions and, for, of, the, with**. Click **OK**.
+3. Read the Braille View again. Contractions from Units 2 and 3 should still appear, so *the* is still written as a single contraction. Contractions from later units, which the learner has not met, should now be written out letter by letter.
+4. Choose **Fully Uncontracted (Grade 1 UEB)** and compare. Even *the* is now spelled out.
+5. Choose **Fully Contracted (Grade 2 UEB)** to restore the baseline, and check that the braille matches step 1.
+6. Record the unit, the date, and the reason.
 
-- Translate the passage in contracted UEB.
-- Open **Tools > Contraction Relaxer**.
-- Review the available contraction choices rather than guessing which contractions occur.
-- Select only the contraction unit(s) the student has not yet been taught.
-- Apply the change.
-- Inspect the Braille View and read the passage as the student will encounter it.
-- If the passage still contains a contraction that is outside the student's taught set, return to the relaxer and adjust the selected unit(s).
-- Save the differentiated instructional version separately from the master document when the materials need to be reused at different instructional levels.
-
-The important distinction is between **"uncontracted"** and **"selectively relaxed."** The latter preserves more of the normal UEB reading environment while reducing the specific contraction burden.
+The important distinction is between **"uncontracted"** and **"partly contracted to a unit."** The second keeps more of the normal UEB reading environment while limiting the contraction burden to what the learner has been taught.
 
 ---
 
@@ -138,10 +182,11 @@ Copy the passage below into BrailleBlaster.
 
 For each round, use the Contraction Relaxer to create a different instructional version:
 
-- **Round 1 — Full contracted UEB:** make no contraction-relaxation changes.
-- **Round 2 — Beginning-reader differentiation:** relax the contraction units that your student has not yet been taught. Record the units you selected.
-- **Round 3 — Targeted review:** choose one contraction unit that appears repeatedly in the passage and relax it so the student can read the surrounding vocabulary without that contraction.
-- **Round 4 — Restore and compare:** restore the original contracted translation and compare the Braille View with Round 3.
+- **Round 1: Fully Contracted.** Choose **Fully Contracted (Grade 2 UEB)** and make no other change. This is your baseline.
+- **Round 2: Fully Uncontracted.** Choose **Fully Uncontracted (Grade 1 UEB)**. This is the no-contraction extreme.
+- **Round 3: A beginning-reader version.** Choose a unit for a learner who has been taught only the earliest contractions (for example Unit 3). Record the unit you chose and why.
+- **Round 4: A later-stage version.** Choose a unit for a learner who has been taught more (for example Unit 9). Compare it with Round 3 and note which words changed.
+- **Round 5: Restore and compare.** Choose **Fully Contracted** again and confirm the Braille View matches Round 1.
 
 Do not manually retype words to remove contractions. The exercise is specifically about using the translation control.
 
@@ -185,28 +230,28 @@ The end.
 
 ### Round 1
 
-**Full contracted UEB** — no contraction units are deliberately relaxed. The purpose is to establish the baseline against which the instructional versions can be compared.
+**Fully Contracted (Grade 2 UEB).** No contraction units are held back. The purpose is to establish the baseline against which the instructional versions can be compared.
 
 ### Round 2
 
-**Fully uncontracted UEB** — all contraction units are deliberately relaxed. The purpose is to establish the no-contraction baseline against which the instructional versions can be compared.
+**Fully Uncontracted (Grade 1 UEB).** Every contraction is written out. The purpose is to establish the no-contraction extreme.
 
 ### Round 3
 
-There is no single correct list of relaxed units without knowing the student's instructional history. A defensible teacher record should identify:
+There is no single correct unit without knowing the learner's instructional history. A defensible record identifies:
 
-- the contraction unit(s) selected;
-- why those units are outside the student's current taught set;
-- whether the choice applies to the whole passage or only to a lesson;
-- whether the resulting text was checked in Braille View.
+- the unit chosen (remember that earlier units are included automatically);
+- why the learner's program has reached that unit and no further;
+- whether the choice applies to the whole passage or only to this lesson;
+- whether the result was checked in the Braille View.
 
 ### Round 4
 
-Choose a contraction unit that is visibly frequent in the passage. A strong practice choice is one whose relaxation changes many words, because the teacher can then compare the instructional effect quickly. The answer is correct when the selected contraction unit is the only intended variable and the surrounding text remains unchanged.
+A higher unit should allow more contractions than the unit in Round 3, so more words should look like ordinary contracted UEB. The comparison is correct when the *unit* is the only variable and the surrounding text is unchanged.
 
 ### Round 5
 
-Restoring contracted UEB should return the document to the baseline translation. If it does not, inspect the Contraction Relaxer selections and confirm that the document's translation profile has not also been changed.
+Choosing Fully Contracted again should return the document to the baseline. If it does not, open **Settings > Translation Settings** and confirm that the document's translation has not been changed some other way, for example by an earlier Uncontracted setting.
 
 ### Teacher decision rule
 
@@ -216,10 +261,11 @@ The best answer is not "use fewer contractions." The best answer is **"use the c
 
 ## Key takeaways
 
-- The Contraction Relaxer (**Tools > Contraction Relaxer**) allows selective suppression of individual contractions, distinct from both a document-wide uncontracted translation profile and a selection-level Uncontracted Translation toggle.
-- It exists for targeted situations — a reader's current contraction-learning stage, or a specific term where contraction is causing confusion — not as a general-purpose formatting choice.
-- Relaxing contractions increases the braille length of the affected text; that trade-off should be a conscious decision, not an incidental side effect.
-- Document why a relaxer configuration was used, especially in agencies serving readers at different contraction-learning stages, so the reasoning survives being handed off to another transcriber later.
+- The Contraction Relaxer (**Tools > Contraction Relaxer**) is a **document-level instructional tool**. You choose a teaching unit, and the document uses the contractions taught up to and including that unit.
+- It is **cumulative**. Choose the *last unit the learner has been taught*, not the units to switch off. It has no keyboard shortcut.
+- **Tools > Change Translation** is the selection-level tool: Uncontracted (`Ctrl+Shift+T`, green in the Braille View) and Direct (`Ctrl+D`, purple in the Print View).
+- Relaxing contractions makes the affected text longer in braille. Make that trade-off on purpose.
+- Document the unit and the reason, so the reasoning survives a hand-off to another transcriber.
 
 ---
 

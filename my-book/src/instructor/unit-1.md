@@ -6,6 +6,26 @@ These notes support Lessons 1 to 13. Teach with BrailleBlaster open and a real, 
 
 **Read the lesson:** [Navigating the BrailleBlaster Interface](../lessons/01-navigating-the-interface.md). **Suggested time:** 60 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Let learners explore a sandbox document before you explain anything. Ask them to change something in the Print View and predict what changes in the other two views.
+
+**Common pitfalls and fixes**
+
+- Expecting to type in the Braille View → remind them the Print View is where text is edited.
+- Hiding every view → at least one view must always stay displayed.
+- Forgetting Breadcrumbs → turn them on at the start and leave them on.
+
+**Going further.** Customize the layout (rearrange views, icon size, toolbar groups) and compare setups with a partner.
+
+**Practice tiers**
+
+- *Beginner:* Open a document and name the three views.
+- *Intermediate:* Rearrange the views and preview by print, braille, and ordinal page.
+- *Advanced:* Find five tools from the course in the menus without a map.
+
+**Companion practice:** [Drill D](../reference/drill-bank.md); [Lab 1](../labs/lab-1-rescue-word-document.md).
+
 ### Check for understanding
 
 - Can name the three views and say where text is edited.
@@ -17,6 +37,26 @@ These notes support Lessons 1 to 13. Teach with BrailleBlaster open and a real, 
 ## Lesson 2: Opening and Converting Word Documents
 
 **Read the lesson:** [Opening and Converting Word Documents](../lessons/02-opening-word-documents.md). **Suggested time:** 180 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Show the Word styles pane next to BrailleBlaster's Style View for the same file. The gap between what *looks* structured and what *is* structured is the lesson.
+
+**Common pitfalls and fixes**
+
+- Assuming a document that looks right is built right → compare Sample files 01 and 02.
+- Fixing problems one by one as they scroll past → insist on the Three-Pass Method (Lab 1).
+- Fixing emphasis before structure → structure first, emphasis last.
+
+**Going further.** Triage: when a document is too far gone, copy the raw text into a new document and style it from scratch. Build a style map and write a note to the author.
+
+**Practice tiers**
+
+- *Beginner:* Open a well-structured file and verify the styles.
+- *Intermediate:* Diagnose a flat file and write a style map.
+- *Advanced:* Triage an inconsistent file and decide between repair and rebuild.
+
+**Companion practice:** [Lab 1](../labs/lab-1-rescue-word-document.md).
 
 ### Demonstration idea
 
@@ -46,6 +86,26 @@ Ask learners to take any short Word document they have on hand (or provide one d
 ## Lesson 3: Typeface Emphasis
 
 **Read the lesson:** [Typeface Emphasis](../lessons/03-typeface-emphasis.md). **Suggested time:** 120 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Start from meaning, not appearance: ask what the emphasis tells the *reader*. Then teach the mechanics, which are always select first and apply second.
+
+**Common pitfalls and fixes**
+
+- Applying emphasis to everything that is bold in print → ask whether it carries meaning (Drill A7).
+- Pressing the shortcut with nothing selected and expecting existing text to change → select first.
+- Leaving print-only emphasis on headings → the heading style already says it.
+
+**Going further.** Combined typeforms, transcriber-defined typeforms (and their documentation on the Special Symbols page), and removing emphasis from a section.
+
+**Practice tiers**
+
+- *Beginner:* Apply bold and italic to selected text.
+- *Intermediate:* Choose between symbol, word, and passage level.
+- *Advanced:* Decide about highlighting and document it.
+
+**Companion practice:** [Drill A](../reference/drill-bank.md).
 
 ### Demonstration idea
 
@@ -82,6 +142,26 @@ Hand learners a one-page excerpt from any print textbook containing at least: on
 
 **Read the lesson:** [Applying Layout Styles](../lessons/04-layout-styles.md). **Suggested time:** 150 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Teach the idea first: you choose what the text *is*, and BrailleBlaster chooses the margins. Then spend most of the time with Breadcrumbs visible.
+
+**Common pitfalls and fixes**
+
+- Typing spaces to indent → apply a style.
+- Not reading Breadcrumbs → they show containers that the Print View hides.
+- Unwrap Element greyed out → the selection is not a container style; apply another style directly.
+
+**Going further.** Style levels (default five, up to eight), style loadouts with the Alt-number shortcuts, and the style specification tables in the User Guide.
+
+**Practice tiers**
+
+- *Beginner:* Apply a heading, a list, and a box.
+- *Intermediate:* Read and explain a Breadcrumbs trail.
+- *Advanced:* Reformat a document using Repeat Last Style and Unwrap Element.
+
+**Companion practice:** [Drill B](../reference/drill-bank.md).
+
 ### Demonstration idea
 
 Take a short print excerpt with a heading, two paragraphs of body text, and a three-item bulleted list:
@@ -116,6 +196,26 @@ Give learners a one-page excerpt containing at least two heading levels, a short
 
 **Read the lesson:** [Applying Heading Levels](../lessons/05-heading-levels.md). **Suggested time:** 90 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Give learners a heading map worksheet. The skill is a *consistent* mapping from print levels to braille headings, with a reason.
+
+**Common pitfalls and fixes**
+
+- Changing the mapping partway through a document → fix the map first, then apply it.
+- Using more braille levels than the print has → compress per the section cited in the lesson.
+- Faking a heading with spaces or blank lines → use the heading style.
+
+**Going further.** Paragraph headings, and the point at which a Transcriber's Note should explain a compressed hierarchy.
+
+**Practice tiers**
+
+- *Beginner:* Apply three heading levels.
+- *Intermediate:* Compress a four-level hierarchy.
+- *Advanced:* Defend a mapping in writing.
+
+**Companion practice:** [Drill B](../reference/drill-bank.md); [Lab 9](../labs/lab-9-special-structures.md).
+
 ### Check for understanding
 
 - Compresses a six-level hierarchy into centered, cell-5, cell-7, and paragraph headings.
@@ -128,6 +228,26 @@ Give learners a one-page excerpt containing at least two heading levels, a short
 
 **Read the lesson:** [Applying List Formatting](../lessons/06-list-formatting.md). **Suggested time:** 90 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Start with the structural test: is this a real list? Then do nested lists and the margin formula.
+
+**Common pitfalls and fixes**
+
+- Treating a sentence broken across bulleted lines as a list → Drill B3.
+- Wrong runover → check the Braille View, not only the Print View.
+- Running out of levels → Styles > Configure > Style Levels.
+
+**Going further.** Eight-level lists, and lists inside other containers.
+
+**Practice tiers**
+
+- *Beginner:* Format a simple list.
+- *Intermediate:* Format a three-level list.
+- *Advanced:* Format the eight-level challenge list and explain the runover.
+
+**Companion practice:** [Drill B](../reference/drill-bank.md); [Lab 9](../labs/lab-9-special-structures.md).
+
 ### Check for understanding
 
 - Applies the correct list level to each item.
@@ -139,6 +259,26 @@ Give learners a one-page excerpt containing at least two heading levels, a short
 ## Lesson 7: The Math Translation Toggle
 
 **Read the lesson:** [The Math Translation Toggle](../lessons/07-math-translation-toggle.md). **Suggested time:** 150 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Begin with the problem: braille uses the same symbols for letters and for math. Then let learners discover what goes wrong without the toggle.
+
+**Common pitfalls and fixes**
+
+- Flagging every hyphen, number, or letter x → apply the sentence test and the context test.
+- Flagging nothing → read the Braille View for obvious math in prose.
+- Forgetting to check the pink highlight → math is highlighted bright pink in the Print View.
+
+**Going further.** UEB technical material and numeric passages, and Nemeth within UEB contexts. Agency conventions differ, so document the rule you follow.
+
+**Practice tiers**
+
+- *Beginner:* Flag a simple equation.
+- *Intermediate:* Separate math from prose in a mixed paragraph.
+- *Advanced:* Choose Block versus Inline and justify it.
+
+**Companion practice:** [Drill C](../reference/drill-bank.md); [Lab 7](../labs/lab-7-relaxation-plan.md).
 
 ### Demonstration idea
 
@@ -173,6 +313,26 @@ Give learners a short worksheet passage containing three inline variable referen
 ## Lesson 8: Complex Equations and the ASCII Math Hub
 
 **Read the lesson:** [Complex Equations and the ASCII Math Hub](../lessons/08-ascii-math-hub.md). **Suggested time:** 180 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Teach it as a tool for the unfamiliar. Learners who can already type an expression do not need the Hub. Learners who cannot, do.
+
+**Common pitfalls and fixes**
+
+- Forgetting to click Insert → build, preview, insert, verify.
+- Not checking that the result is flagged as math → look for the pink highlight.
+- Reaching for the Hub for something trivial → know when typing is faster.
+
+**Going further.** Replace Current Math, Previous and Next Math for review, the Examples and Search tabs, and full-screen mode.
+
+**Practice tiers**
+
+- *Beginner:* Insert a fraction.
+- *Intermediate:* Build a complex fraction and a nested exponent.
+- *Advanced:* Build a system, a matrix, and a piecewise function.
+
+**Companion practice:** [Drill C](../reference/drill-bank.md); [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
 
 ### Demonstration idea
 
@@ -210,6 +370,26 @@ Give learners three print expressions of increasing complexity: a simple fractio
 
 **Read the lesson:** [The Spatial Math Editor](../lessons/09-spatial-math-editor.md). **Suggested time:** 180 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Ask first whether position carries meaning. If it does, the answer is a spatial container, not spaces.
+
+**Common pitfalls and fixes**
+
+- Faking alignment with spaces → use the Spatial Math Editor.
+- Choosing the wrong container type → Matrix, Math Templates, Number Line Editor, or Regular Text.
+- Trying to edit spatial math in the Print View → you cannot. Place the cursor in it and reopen the Spatial Math Editor.
+
+**Going further.** Matrix settings (grouping device, ellipsis in blank cells, wide-overflow style), math template types (simple, fraction, division), and grid alignment.
+
+**Practice tiers**
+
+- *Beginner:* Build a small matrix.
+- *Intermediate:* Build aligned equations with a template.
+- *Advanced:* Build a long-division layout and a wide matrix.
+
+**Companion practice:** [Lab 9](../labs/lab-9-special-structures.md).
+
 ### Demonstration idea
 
 Long division is a natural first Spatial Math Editor exercise because it's instantly recognizable and makes the value of a spatial layout tool obvious even to learners skeptical that "regular" ASCII Math wouldn't be enough:
@@ -241,6 +421,26 @@ Provide learners with a printed page containing a 3×3 matrix and a two-operand 
 ## Lesson 10: Spatial Number Lines
 
 **Read the lesson:** [Spatial Number Lines](../lessons/10-spatial-number-lines.md). **Suggested time:** 150 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Start with a number line the learner has to *describe* to a partner, then build it. The settings are the lesson.
+
+**Common pitfalls and fixes**
+
+- Overcrowding labels → a common rule of thumb is that a reader should be able to read the line within a comfortable span of one or two fingers; confirm your agency's guidance.
+- Forgetting a text description or instruction to go with the line.
+- Mixing up open and closed endpoints → empty circle versus full circle.
+
+**Going further.** Reduce Fraction, Beveled Fraction, Add Arrows, Stretch Across Page, Remove Leading Zeros, Math Entry versus User Text (with up to 10 markers), and Points versus Interval.
+
+**Practice tiers**
+
+- *Beginner:* Build a basic number line.
+- *Intermediate:* Show an interval with mixed endpoints.
+- *Advanced:* Build a fraction number line with custom settings.
+
+**Companion practice:** [Drill C](../reference/drill-bank.md).
 
 ### Demonstration idea
 
@@ -275,31 +475,73 @@ Give learners two print number lines to reproduce: one showing a deliberately un
 
 **Read the lesson:** [Using the Contraction Relaxer](../lessons/11-contraction-relaxer.md). **Suggested time:** 120 minutes.
 
+### Teaching strategy and practice design
+
+**Strategy.** Frame it as a *teaching sequence*. The Relaxer takes a unit number, and every earlier unit comes along with it, so the learner's program decides the choice. Keep it apart from Change Translation, which acts on one selection.
+
+**Common pitfalls and fixes**
+
+- Picking the units to *switch off* → the Relaxer is cumulative: choose the **last unit taught**.
+- Using the Relaxer for a single passage such as code → use Change Translation (`Ctrl+Shift+T` or `Ctrl+D`).
+- Looking for a Relaxer shortcut → there is none. `Ctrl+Shift+T` belongs to Change Translation.
+- Not documenting the unit → record the unit and reason beside the file.
+
+**Going further.** Work in passes: transcribe, identify, apply, verify, document. Compare with Direct translation and No Translate, and check **Settings > Translation Settings** after a Relaxer change.
+
+**Practice tiers**
+
+- *Beginner:* Choose a unit for a beginning reader.
+- *Intermediate:* Combine a unit with Uncontracted code and flagged math.
+- *Advanced:* Write and defend a translation control plan.
+
+**Companion practice:** [Drill F](../reference/drill-bank.md); [Lab 7](../labs/lab-7-relaxation-plan.md).
+
 ### Demonstration idea
 
-A useful, low-stakes way to introduce this tool: take a short passage of standard contracted braille and deliberately relax a single, common contraction (one used often enough in the passage that its effect is obvious). Compare the Braille View before and after, and count how many individual cells the passage now uses compared to fully-contracted output — this makes the trade-off tangible: relaxing even one contraction has a real, measurable cost in braille length, which is worth weighing consciously against the specific benefit for the specific reader.
+Take one short sentence and walk it through three settings while the class watches the Braille View: **Fully Contracted**, **Unit 3**, and **Fully Uncontracted**. Ask the class to predict which words will change before each step. Then show **Tools > Change Translation** on a single word to make the contrast: the Relaxer changes the *whole document* by teaching unit, and Change Translation changes only the *selection*.
 
 ### Tips and pitfalls
 
-**Tip:** This is a good moment to connect back to [Lesson 3](../lessons/03-typeface-emphasis.md)'s closing point about judgment: the Contraction Relaxer is a tool for making a considered accommodation, not a way to sidestep learning standard contracted braille conventions. Frame it explicitly in terms of *who* the relaxed contractions are serving and *why*, every time it's used.
+**Tip:** Connect back to [Lesson 3](../lessons/03-typeface-emphasis.md)'s closing point about judgment. The Relaxer is a tool for a considered instructional accommodation. It is not a way to avoid learning standard contracted braille.
 
-A common misunderstanding is treating the Contraction Relaxer as equivalent to switching a document to an uncontracted translation profile. They produce different results and serve different purposes — reach for a full uncontracted profile when the entire document should be Grade 1 throughout, and reach for the Contraction Relaxer when only specific contractions, for a specific reason, need to be suppressed while the rest of the document remains fully contracted.
+A common misunderstanding is to treat the Relaxer like a switch for individual contractions. It is not. The learner's program decides the unit, and every earlier unit comes with it. Another is to confuse it with **Settings > Translation Settings**, which changes the document's code and grade directly.
 
 ### Check for understanding
 
-- Explains the instructional reason for relaxing a contraction.
-- Uses the Relaxer, Ctrl+Shift+T, and Direct translation appropriately.
-- Writes a short, reusable record of what was relaxed and why.
+- Explains why the Relaxer takes the *last unit taught* and not a list of units to switch off.
+- Uses the Relaxer for the document and Change Translation (`Ctrl+Shift+T`, `Ctrl+D`) for a selection, and can say why.
+- Writes a short, reusable record of the unit chosen and the reason.
 
 ### Extension activity
 
-Give learners a paragraph of standard contracted braille output and ask them to identify, in the Braille View, every instance of one specific common contraction. Have them relax that single contraction using the Contraction Relaxer, compare the before-and-after cell counts, and write one sentence describing a realistic scenario where that specific trade-off would be worth making.
+Give learners the same paragraph and two imaginary learners: one taught through Unit 3, one taught through Unit 12. Have each learner-version produced, then compare which words differ and write one sentence explaining how the braille supports each learner.
 
 ---
 
 ## Lesson 12: Global Find and Replace with Formatting
 
 **Read the lesson:** [Global Find and Replace with Formatting](../lessons/12-find-and-replace.md). **Suggested time:** 150 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Start with the danger, not the power. Show a Replace All that wrecks a document and recover from it.
+
+**Common pitfalls and fixes**
+
+- Searching for a common word with no options → Whole Word and Match Case.
+- Replace All without testing → Find first, then Replace one at a time for the first few.
+- Ignoring scope → check whether the search covers the selection or the whole document.
+- Assuming a search reveals what a line *is* → Lab 8, Task 3.
+
+**Going further.** Finding and replacing by formatting, style, or attribute through the Formatting window, resetting a search, and repeating the last search.
+
+**Practice tiers**
+
+- *Beginner:* Replace a word safely.
+- *Intermediate:* Find and replace by formatting.
+- *Advanced:* Plan a multi-step cleanup and test each step.
+
+**Companion practice:** [Lab 8](../labs/lab-8-find-and-replace-cleanup.md).
 
 ### Demonstration idea
 
@@ -331,6 +573,28 @@ Give learners a document with a spelling inconsistency repeated at least five ti
 ## Lesson 13: Paper Size and Connecting an Embosser
 
 **Read the lesson:** [Paper Size and Connecting an Embosser](../lessons/13-paper-size-and-embossers.md). **Suggested time:** 180 minutes.
+
+### Teaching strategy and practice design
+
+**Strategy.** Bring real braille paper. Teach "Print is for eyes. Emboss is for fingers." Make a test emboss non-negotiable.
+
+**Common pitfalls and fixes**
+
+- Changing page properties after transcribing → set them first.
+- Clicking Make Default too soon → use OK until the values are confirmed.
+- Sending a job with Print instead of Emboss.
+- Unclear profile names → use a naming pattern.
+- Ignoring interpoint → it uses both sides of the sheet.
+
+**Going further.** Generic profiles (Text only, Text with margins, Graphics), multi-embosser management, profile maintenance, and a test-page protocol.
+
+**Practice tiers**
+
+- *Beginner:* Set page properties and preview.
+- *Intermediate:* Create and test an embosser profile.
+- *Advanced:* Build a profile set for several devices and paper types.
+
+**Companion practice:** [Drill E](../reference/drill-bank.md); [Lab 5](../labs/lab-5-test-page-and-embosser.md).
 
 ### Demonstration idea
 

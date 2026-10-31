@@ -7,7 +7,7 @@ Work from the symptom to the most likely cause, and always confirm in the Braill
 | Symptom | Likely cause | What to do | Lesson |
 | ------- | ------------ | ---------- | ------ |
 | Pasted text has no formatting | Pasted text always arrives as Body Text | Apply styles and emphasis deliberately | [1](../lessons/01-navigating-the-interface.md), [4](../lessons/04-layout-styles.md) |
-| A style gives odd margins | Wrong style or level applied | Check Breadcrumbs, then the Style Appendix under **Help**. Do not type spaces | [4](../lessons/04-layout-styles.md) |
+| A style gives odd margins | Wrong style or level applied | Check Breadcrumbs, then the style specification tables in Appendix A of the User Guide. Do not type spaces | [4](../lessons/04-layout-styles.md) |
 | A list or box covers too little or too much | Container did not wrap the full extent | Select the container in Breadcrumbs, or **Tools > Unwrap Element** and reapply | [4](../lessons/04-layout-styles.md) |
 | **Unwrap Element** is greyed out | The selection is not a container style | Apply a different style directly | [4](../lessons/04-layout-styles.md) |
 | Deeply nested list runs out of levels | Style levels set to the default five | **Styles > Configure > Style Levels** | [6](../lessons/06-list-formatting.md) |
