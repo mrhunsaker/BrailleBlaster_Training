@@ -37,4 +37,18 @@ heading-split-level = 3
 enable = true
 level = 1
 
-[output.markdown]
+[output.pandoc]
+number-internal-headings = false 
+list-internal-headings = false 
+
+[output.pandoc.code]
+show-hidden-lines = true
+
+[output.pandoc.profile.pdf]
+output-file = "BrailleBlaterTraining.pdf"
+to = "latex"
+pdf-engine = "xelatex"
+file-scope = true 
+number-sections = true 
+standalone = true 
+table-of-contents = true 
