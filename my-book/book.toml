@@ -37,7 +37,10 @@ heading-split-level = 3
 enable = true
 level = 1
 
+[output.markdown]
+
 [output.pandoc]
+optional = true
 number-internal-headings = false 
 list-internal-headings = false 
 
