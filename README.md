@@ -1,8 +1,4 @@
-{
-	"settings": {
-		"workbench.iconTheme": "none"
-	}
-}# BrailleBlaster v3 Training
+# BrailleBlaster v3 Training
 
 A hands-on curriculum for learning **BrailleBlaster**, the free, open-source braille transcription program from the American Printing House for the Blind (APH). It is written for teachers of students with visual impairments, paraeducators, braille transcribers, and the trainers who teach them.
 
