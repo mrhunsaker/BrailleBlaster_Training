@@ -26,7 +26,7 @@ The generator automates structure; it does not remove the need for proofreading.
 
 ---
 
-# 3a. Title Page
+## 3a. Title Page
 
 ## The Concept
 
@@ -80,7 +80,7 @@ Use the Title Page generator. Apply the appropriate title-page styles and verify
 
 ---
 
-# 3b. Special Symbols Page Generator
+## 3b. Special Symbols Page Generator
 
 ## The Concept
 
@@ -136,7 +136,7 @@ H₂O
 
 ---
 
-# 3c. Transcriber's Notes Page
+## 3c. Transcriber's Notes Page
 
 ## The Concept
 
@@ -227,7 +227,7 @@ Use the Transcriber's Notes Page rather than repeating the same explanation thro
 
 ---
 
-# Complete T-Page Workflow
+## Complete T-Page Workflow
 
 Use this sequence:
 
