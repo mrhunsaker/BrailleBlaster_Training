@@ -5,7 +5,7 @@ This library extends existing lessons with independent student practice and inst
 ## Student resources
 - [Assignment workbook](student-assignments/README.md)
 - [Source-file practice pack](source-files/README.md)
-- [Seeded-error exercises](seeded-errors/README.md)
+- [Seeded-error exercises](seeded-errors/README.md), including a [downloadable DOCX packet](seeded-errors/seeded-error-practice-pack.docx)
 - [Math and technical practice](math-practice/README.md)
 - [Graphics and image-description practice](graphics-practice/README.md)
 - [Production workflow challenges](production-challenges/README.md)
