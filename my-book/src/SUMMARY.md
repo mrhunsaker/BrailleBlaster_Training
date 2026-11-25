@@ -70,7 +70,7 @@
   - [Lab 9: Special Structures Studio](labs/lab-9-special-structures.md)
 - [Sample Files](samples/index.md)
   - [Extra Practice Drills](reference/extra-practice-drills.md)
-  - [Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.md)
+  - [Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.md)\n  - [Printable DOCX: Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.docx)\n- [Converting LaTeX to HTML](reference/latex-to-html-conversion.md)
 
 # Capstone
 
