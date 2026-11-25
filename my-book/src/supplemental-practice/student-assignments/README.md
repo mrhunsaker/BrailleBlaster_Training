@@ -39,7 +39,7 @@ Use the mixed-math passage. Mark mathematical expressions and context boundaries
 Construct the number line described in the math practice pack. Submit the project, layout plan, and proofing notes. Verify tick order, spacing, labels, endpoints, direction, and a nonvisual explanation.
 
 ### A06 — Import-format comparison
-Compare the Markdown, LaTeX, HTML, and XML specimens using the course workflows. Record semantic preservation, formatting changes, conversion losses, and manual remediation. Submit import logs and one corrected project.
+Complete the [Energy in Our Community multi-format source-pack lab](../source-files/multi-format-source-pack-lab.md). Compare Markdown, HTML, XML/NIMAS, LaTeX, CSV, and EPUB specimens using the course workflows. Record semantic preservation, formatting changes, conversion losses, and manual remediation. Submit import logs and one corrected project.
 
 ### A07 — Repair a semantic XML source
 Inspect the XML specimen, propose a consistent element mapping, repair a working copy, and document each change before importing. Submit the corrected XML, change log, and resulting project. Confirm well-formedness and meaningful structure.
