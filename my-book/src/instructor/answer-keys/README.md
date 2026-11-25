@@ -9,3 +9,4 @@ These are decision guides, not universal braille answer keys. Exact output depen
 - [Math and technical evaluation notes](math-practice.md)
 - [Graphics evaluation notes](graphics-practice.md)
 - [Production challenge evaluation notes](production-challenges.md)
+- [Multi-format source-pack key](multi-format-source-pack.md)
