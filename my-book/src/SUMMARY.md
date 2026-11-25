@@ -71,6 +71,13 @@
 - [Sample Files](samples/index.md)
   - [Extra Practice Drills](reference/extra-practice-drills.md)
   - [Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.md)\n  - [Printable DOCX: Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.docx)\n- [Converting LaTeX to HTML](reference/latex-to-html-conversion.md)
+- [Expanded Supplemental Practice Library](supplemental-practice/README.md)
+  - [Student Assignment Workbook](supplemental-practice/student-assignments/README.md)
+  - [Source-File Practice Pack](supplemental-practice/source-files/README.md)
+  - [Seeded-Error Exercises](supplemental-practice/seeded-errors/README.md)
+  - [Math and Technical Practice](supplemental-practice/math-practice/README.md)
+  - [Graphics and Image-Description Practice](supplemental-practice/graphics-practice/README.md)
+  - [Production Workflow Challenges](supplemental-practice/production-challenges/README.md)
 
 # Capstone
 
@@ -85,6 +92,13 @@
   - [Teaching Notes: Unit 4](instructor/unit-4.md)
   - [Session Plans](instructor/session-plans.md)
   - [Assessment and Grading](instructor/assessment.md)
+  - [Lesson-to-Resource Map](instructor/lesson-resource-map.md)
+  - [Assessment Bank](instructor/assessment-bank.md)
+  - [Capstone Assessment Rubric](instructor/capstone-rubric.md)
+  - [Instructor Answer Keys](instructor/answer-keys/README.md)
+  - [Assessment Rubrics](instructor/assessment-rubrics/README.md)
+  - [Demonstration Guides](instructor/demonstration-guides/README.md)
+  - [Troubleshooting Casebook](instructor/troubleshooting/README.md)
 
 # Reference
 
