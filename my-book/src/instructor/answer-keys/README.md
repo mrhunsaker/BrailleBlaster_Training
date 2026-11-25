@@ -10,3 +10,5 @@ These are decision guides, not universal braille answer keys. Exact output depen
 - [Graphics evaluation notes](graphics-practice.md)
 - [Production challenge evaluation notes](production-challenges.md)
 - [Multi-format source-pack key](multi-format-source-pack.md)
+
+- [Word and OpenDocument import comparison key](word-opendocument-import.md)
