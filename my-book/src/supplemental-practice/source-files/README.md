@@ -37,3 +37,13 @@ The Energy Field Guide set uses one fictional Grade 7 science chapter to support
 See the [multi-format source-pack lab](multi-format-source-pack-lab.md) for the file manifest, learner tasks, known defects, and verification criteria.
 
 **Format cautions:** The generic XML file uses a teaching vocabulary and has no supplied schema. The NIMAS/DTBook file is a simplified instructional specimen, not a certified NIMAS delivery package; validate real production files against the applicable current specification and required metadata. The EPUB is a compact teaching example, not a complete publication with a full accessibility conformance report. The flawed HTML and NIMAS examples are intentionally imperfect. Preserve originals and repair copies only.
+
+
+## Word and OpenDocument comparison set: Energy in Our Community
+
+- [Structured Word source](energy-field-guide.docx) — OOXML teaching file with styled headings, equation, device table, figure description/caption, and numbered tasks.
+- [Structured OpenDocument source](energy-field-guide.odt) — ODT teaching file with outline headings, equation, native table, figure description/caption text, and numbered tasks.
+- [Intentionally flawed Word source](energy-field-guide-flawed.docx) — diagnostic specimen with visual-only heading cues, flattened equation/data, missing figure asset, and run-together prompts.
+- [Word/OpenDocument import comparison lab](word-opendocument-import-lab.md)
+
+The office-document files are synthetic teaching specimens, not exhaustive format implementations or accessibility-conformance reports. Compare actual import behavior in the installed application versions; do not infer semantic fidelity from appearance alone.
