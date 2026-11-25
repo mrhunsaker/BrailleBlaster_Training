@@ -71,6 +71,12 @@ Use the seeded-error blueprint. Record each defect's location, source evidence, 
 ### A16 — End-to-end production simulation
 Complete the production capstone brief from intake through handoff. Submit the source assessment, project, table/figure decisions, pagination plan, error log, QA sign-off, and handoff note. Disclose unresolved questions and assumptions.
 
+## Capstone workflow tools
+
+- [Capstone production intake packet](capstone-intake-packet.md): source inventory, clarification register, risk assessment, and go/hold checkpoint.
+- [Production handoff template](production-handoff-template.md): deliverables manifest, QC evidence, change history, and recipient sign-off.
+- [Capstone peer-review protocol](peer-review-protocol.md): severity-based review, findings register, author response, and closure evidence.
+
 ## General submission checklist
 - [ ] Original source retained unchanged.
 - [ ] Working copy and project named clearly.
