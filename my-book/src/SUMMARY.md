@@ -113,10 +113,6 @@
 - [Troubleshooting](reference/troubleshooting.md)
 - [Resources](reference/resources.md)
 
----
-
-[About the Author](about/author.md)
-
 # Supplemental Practice Details
   - [Description Rubric](supplemental-practice/graphics-practice/description-rubric.md)
   - [Figure Decision Cases](supplemental-practice/graphics-practice/figure-decision-cases.md)
@@ -192,3 +188,7 @@
 - [Universal Lessons](BrailleBlaster/Universal_Lessons.md)
 - [Contributors](Contributors.md)
 - [Indexing](indexing.md)
+
+---
+
+[About the Author](about/author.md)
