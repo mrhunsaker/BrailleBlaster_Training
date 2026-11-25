@@ -152,6 +152,7 @@
   - [Word Source Sample](supplemental-practice/source-files/word-source-sample.md)
   - [Energy Field Guide Master Source](supplemental-practice/source-files/energy-field-guide.md)
   - [Multi-Format Source-Pack Lab](supplemental-practice/source-files/multi-format-source-pack-lab.md)
+  - [Word/OpenDocument Import Comparison Lab](supplemental-practice/source-files/word-opendocument-import-lab.md)
 
 # Instructor Resource Details
   - [Assignment Answer Guide](instructor/answer-keys/assignment-answer-guide.md)
@@ -160,6 +161,7 @@
   - [Production Challenges](instructor/answer-keys/production-challenges.md)
   - [Seeded Error Set](instructor/answer-keys/seeded-error-set.md)
   - [Multi-Format Source-Pack Key](instructor/answer-keys/multi-format-source-pack.md)
+  - [Word/OpenDocument Import Key](instructor/answer-keys/word-opendocument-import.md)
   - [Conversion Rubric](instructor/assessment-rubrics/conversion-rubric.md)
   - [Practice Assignment Rubric](instructor/assessment-rubrics/practice-assignment-rubric.md)
   - [Proofreading Qa Rubric](instructor/assessment-rubrics/proofreading-qa-rubric.md)
