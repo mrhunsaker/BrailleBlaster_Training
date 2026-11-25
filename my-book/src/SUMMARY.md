@@ -113,6 +113,9 @@
 - [Resources](reference/resources.md)
 
 # Supplemental Practice Details
+  - [Capstone Intake Packet](supplemental-practice/student-assignments/capstone-intake-packet.md)
+  - [Production Handoff Template](supplemental-practice/student-assignments/production-handoff-template.md)
+  - [Capstone Peer-Review Protocol](supplemental-practice/student-assignments/peer-review-protocol.md)
   - [Description Rubric](supplemental-practice/graphics-practice/description-rubric.md)
   - [Figure Decision Cases](supplemental-practice/graphics-practice/figure-decision-cases.md)
   - [Tactile Graphic Brief](supplemental-practice/graphics-practice/tactile-graphic-brief.md)
