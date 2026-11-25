@@ -1,6 +1,6 @@
 # Seeded-Error Exercises
 
-Twelve individual defect scenarios are provided as student-facing practice files. They can be assigned separately or combined into a proofreading assessment. The repository also includes a [defect blueprint](seeded-error-set.md) and [student error log template](error-log-template.md).
+Twelve individual defect scenarios are provided as student-facing practice files. A [downloadable DOCX packet](seeded-error-practice-pack.docx) presents all 12 in a structured Word document. They can be assigned separately or combined into a proofreading assessment. The repository also includes a [defect blueprint](seeded-error-set.md) and [student error log template](error-log-template.md).
 
 - [E01 — Heading hierarchy](E01-heading-hierarchy.md)
 - [E02 — Nested list level](E02-nested-list.md)
