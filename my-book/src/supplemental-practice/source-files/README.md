@@ -12,6 +12,8 @@ Synthetic text specimens for import, cleanup, and structure exercises. Preserve 
 - [Repairable XML](repairable-content.xml)
 - [LaTeX specimen](math-source.tex)
 - [Semantic HTML specimen](semantic-source.html)
+- [Simplified NIMAS/package XML teaching specimen](nimas-sample.xml)
+- [EPUB package metadata specimen](epub-package-specimen.opf)
 - [eBraille review checklist](ebraille-review-checklist.md)
 
-These samples do not prescribe a single braille rendering. Apply current code guidance and the production specification, then document decisions.
+The NIMAS and EPUB files are deliberately limited teaching specimens, not complete standards-conformant packages or EPUB archives. Use the corresponding lessons and current specifications for actual production. These samples do not prescribe a single braille rendering.
