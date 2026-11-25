@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+  <title>Seedling Science</title>
+  <chapter>
+    <h1>Starting Seeds</h1>
+    <paragraph>Seeds need suitable conditions to germinate.</paragraph>
+    <list>
+      <item>Moisture</item>
+      <item>Warmth</item>
+      <item>Air</item>
+    </list>
+    <note type="important">Do not let the growing medium dry out.</note>
+  </chapter>
+  <chapter>
+    <h1>Observing Growth</h1>
+    <paragraph>Record the date that each seedling emerges.</paragraph>
+    <paragraph>Compare growth under different light conditions.</paragraph>
+  </chapter>
+</book>
+
+<!-- Exercise: h1 and paragraph are not consistently semantic for this
+     fictional schema. Propose and document a consistent mapping before
+     importing. Also check whether the list should carry an explicit type. -->
