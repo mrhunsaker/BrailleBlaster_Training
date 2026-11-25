@@ -37,6 +37,10 @@ Use the rubric on the capstone page. Suggested weights for a graded course:
 
 Adjust to suit your program. For a certificate of completion, a capstone total of at least 28 out of 40, with no criterion below 2, is a reasonable threshold.
 
+## Supplemental assessment resources
+
+The [expanded supplemental practice library](../supplemental-practice/README.md) includes 16 applied assignments, 12 seeded-error scenarios, math and technical practice, graphics decision exercises, production challenges, and instructor materials. Use the [practice rubric](assessment-rubrics/practice-assignment-rubric.md), [QA rubric](assessment-rubrics/proofreading-qa-rubric.md), and [capstone rubric](capstone-rubric.md) for consistent evaluation. Instructor answer keys should be distributed separately if students can access the repository.
+
 ## Common error patterns to look for
 
 - Typing spaces or blank lines to fake indentation or spacing.
