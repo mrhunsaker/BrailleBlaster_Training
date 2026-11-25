@@ -76,6 +76,7 @@
 - [Expanded Supplemental Practice Library](supplemental-practice/README.md)
   - [Student Assignment Workbook](supplemental-practice/student-assignments/README.md)
   - [Source-File Practice Pack](supplemental-practice/source-files/README.md)
+    - [Structured Word Source Specimen (DOCX)](supplemental-practice/source-files/structured-field-guide.docx)
   - [Seeded-Error Exercises](supplemental-practice/seeded-errors/README.md)
   - [Math and Technical Practice](supplemental-practice/math-practice/README.md)
   - [Graphics and Image-Description Practice](supplemental-practice/graphics-practice/README.md)
