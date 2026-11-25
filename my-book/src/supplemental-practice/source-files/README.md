@@ -1,5 +1,7 @@
 # Source-File Practice Pack
 
+- [Download the complete source-file practice bundle](brailleblaster-source-practice-bundle.zip) — ZIP containing clean HTML/XML/LaTeX/CSV examples, intentionally flawed HTML/NIMAS teaching specimens, a wetland-zone SVG, and guided math/graphics tasks.
+
 Synthetic text specimens for import, cleanup, and structure exercises. Preserve an untouched original and work from a copy.
 
 - [Structured Word source specimen](structured-field-guide.docx) — a real DOCX with Heading 1/2 styles, emphasis, and a data table.
