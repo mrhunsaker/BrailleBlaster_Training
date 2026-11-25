@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textbook xmlns="urn:nvls:science-textbook" xml:lang="en" edition="practice-1">
+  <chapter number="3" id="energy-community">
+    <title>Energy in Our Community</title>
+    <p>Energy makes change possible. A moving bicycle has <term>kinetic energy</term>. A book resting on a high shelf has <term>gravitational potential energy</term> because of its position.</p>
+    <section id="electricity">
+      <title>Where does electricity come from?</title>
+      <p>Electricity can be generated in several ways. Solar panels convert light into electrical energy. Wind turbines transfer energy from moving air to a generator. Hydroelectric stations use moving water. Each method has benefits and limits.</p>
+    </section>
+    <section id="investigation">
+      <title>Investigate a school building</title>
+      <p>Choose three devices in a classroom. Record the device, its power rating in watts, and the estimated hours of use each day.</p>
+      <equation notation="E = P × t" display="block"/>
+      <definition symbol="E">energy in watt-hours</definition>
+      <definition symbol="P">power in watts</definition>
+      <definition symbol="t">time in hours</definition>
+    </section>
+    <section id="comparison">
+      <title>Compare the data</title>
+      <table id="table-3-1">
+        <caption>Table 3.1. Example classroom devices</caption>
+        <header><cell>Device</cell><cell>Power (W)</cell><cell>Hours per day</cell></header>
+        <row><cell>LED lamp</cell><cell>8</cell><cell>5</cell></row>
+        <row><cell>Laptop</cell><cell>45</cell><cell>4</cell></row>
+        <row><cell>Projector</cell><cell>220</cell><cell>2</cell></row>
+      </table>
+      <p>Calculate the daily energy estimate for each device. Explain why the highest-power device does not always use the most energy.</p>
+      <figure id="figure-3-1" src="energy-flow.svg">
+        <caption>Figure 3.1. Sunlight reaches a solar panel; electrical energy flows from the panel to a classroom lamp.</caption>
+      </figure>
+      <list type="ordered">
+        <item>Identify the energy source.</item>
+        <item>Describe one transfer or conversion.</item>
+        <item>State one limitation of the system.</item>
+      </list>
+    </section>
+  </chapter>
+</textbook>
