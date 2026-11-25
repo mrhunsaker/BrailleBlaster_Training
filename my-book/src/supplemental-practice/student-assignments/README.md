@@ -86,3 +86,6 @@ Complete the production capstone brief from intake through handoff. Submit the s
 - [ ] Tables, figures, and special structures reviewed.
 - [ ] Final proofread completed against the source.
 - [ ] Known limitations and unresolved issues recorded.
+
+
+These templates are designed to be completed with the course's fictional practice materials; replace assumptions only when an actual job specification supplies authoritative requirements.
