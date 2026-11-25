@@ -69,6 +69,8 @@
   - [Lab 8: A Safe Find-and-Replace Cleanup](labs/lab-8-find-and-replace-cleanup.md)
   - [Lab 9: Special Structures Studio](labs/lab-9-special-structures.md)
 - [Sample Files](samples/index.md)
+  - [Extra Practice Drills](reference/extra-practice-drills.md)
+  - [Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.md)
 
 # Capstone
 
