@@ -2,6 +2,7 @@
 
 Synthetic text specimens for import, cleanup, and structure exercises. Preserve an untouched original and work from a copy.
 
+- [Structured Word source specimen](structured-field-guide.docx) — a real DOCX with Heading 1/2 styles, emphasis, and a data table.
 - [Word-source stand-in](word-source-sample.md)
 - [Structured content](structured-content.md)
 - [Emphasis audit](emphasis-audit.md)
