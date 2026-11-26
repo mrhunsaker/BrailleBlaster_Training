@@ -57,6 +57,13 @@ The content has two chapters, level-2 sections, a nested list, print page number
 
 The play and the poem were written for this course, so you can reuse them freely.
 
+## Supplemental practice materials
+
+These are optional extension resources and are not required course assignments:
+
+- [Extra Practice Drills](../reference/extra-practice-drills.md) — 20 additional prompts for each of the 32 lessons.
+- [Student Job Aids and Logbooks](../reference/student-job-aids-and-logbooks.md) — intake, import verification, page/embosser setup, production passes, and reusable logs.
+
 ## Rebuilding the files
 
 Everything on this page is produced by one script, so you can change the content and regenerate it:

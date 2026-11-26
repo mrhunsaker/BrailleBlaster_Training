@@ -186,3 +186,10 @@ For [Lesson 32](../lessons/32-proofreading-and-quality-assurance.md) and every j
 **Passes:** 1 accuracy, 2 structure, 3 emphasis and notes, 4 math, 5 page and volume, 6 the braille itself.
 
 **After the job:** count errors by type. The largest count is where you should look hardest next time.
+
+
+---
+
+## Supplemental printable worksheets
+
+For expanded student-facing intake, import verification, embosser, production, and logbook templates, see [Student Job Aids and Logbooks](student-job-aids-and-logbooks.md).
