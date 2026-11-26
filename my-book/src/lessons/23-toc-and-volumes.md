@@ -253,3 +253,116 @@ Check the volume markers, page numbering, and whether the TOC was generated befo
 - BrailleBlaster documentation — volume-aware navigation and volume breaks. 
 - BrailleBlaster official site — volume splitting functionality. 
 - **Training-set planning estimate:** 35–50 braille paper sheets per volume, as specified for this exercise; not presented as a universal Braille Formats requirement.
+
+---
+
+## Integrated practice: TOC Tool and Volume Distribution
+
+### Practice Document
+
+#### Scenario 1 — 120 sheets
+
+```text
+Candidate boundaries:
+Chapter 4
+Chapter 8
+Chapter 12
+```
+
+Use the 35–50-sheet estimate to identify likely volume boundaries, then favor logical chapter endings.
+
+#### Scenario 2 — 190 sheets
+
+```text
+Candidate boundaries:
+Chapter 2
+Chapter 5
+Chapter 8
+Chapter 11
+Chapter 14
+```
+
+Choose reasonable boundaries without assuming every volume must contain exactly the same number of sheets.
+
+#### Scenario 3 — TOC first
+
+```text
+The TOC has already been generated.
+No End of Volume markers have been inserted.
+The transcriber now wants to disperse the TOC among volumes.
+```
+
+What should happen first?
+
+#### Scenario 4 — chapter crosses the estimate
+
+```text
+Estimated break: sheet 42
+Chapter 7 ends: sheet 48
+Chapter 8 begins: sheet 49
+```
+
+Should Chapter 7 automatically be split at sheet 42?
+
+#### Scenario 5 — incorrect TOC location
+
+```text
+TOC:
+Chapter 9 .......... Volume 1, page 37
+
+Actual Chapter 9:
+Volume 2, page 2
+```
+
+What should be checked?
+
+---
+
+### Answer Key
+
+#### 1. 120 sheets
+
+Begin with roughly three volumes of about 40 sheets each, then adjust to chapter boundaries and production requirements.
+
+#### 2. 190 sheets
+
+Use the 35–50-sheet range as a planning aid. Natural boundaries are preferable to arbitrary page counts.
+
+#### 3. TOC first
+
+**Insert the End of Volume markers first.** Then build/update and disperse the TOC.
+
+#### 4. Chapter crosses the estimate
+
+No. The estimate is not an automatic cutting rule. A chapter ending at sheet 48 may be a better volume boundary than breaking it at 42.
+
+#### 5. Incorrect TOC location
+
+Check the volume markers, page numbering, and whether the TOC was generated before the final volume structure was established. Rebuild/update and redistribute after corrections.
+
+---
+
+### Production Checklist
+
+- [ ] Candidate volume boundaries identified.
+- [ ] End of Volume markers inserted in the body text.
+- [ ] Volume sizes reviewed against the 35–50-sheet training estimate.
+- [ ] Logical structural boundaries considered.
+- [ ] TOC built/updated after volume boundaries were established.
+- [ ] TOC dispersed to volumes.
+- [ ] Volume numbers verified.
+- [ ] Braille page numbers verified.
+- [ ] TOC proofread in Braille View.
+
+### Core Principle
+
+**Put the volume boundaries in the text first. Then let the TOC reflect those boundaries.**
+
+---
+
+### Source Citations
+
+- BrailleBlaster User Guide — Building the Table of Contents, Formatting a TOC Entry, and Disperse to Volumes. 
+- BrailleBlaster documentation — volume-aware navigation and volume breaks. 
+- BrailleBlaster official site — volume splitting functionality. 
+- **Training-set planning estimate:** 35–50 braille paper sheets per volume, as specified for this exercise; not presented as a universal Braille Formats requirement.
