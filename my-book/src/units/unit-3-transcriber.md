@@ -59,6 +59,9 @@ This checkpoint is a small version of the [Capstone](../capstone/capstone.md). I
 
 ## Additional practice sheets
 
+The earlier [Transcriber-Focused Lessons overview](../BrailleBlaster/Transcriber_Focused_Lessons.md) is retained for old bookmarks and redirects to this maintained unit page.
+
+
 These retained practice sheets provide optional practice for the production sequence. Use them after the corresponding current lesson and verify the workflow against the installed version.
 
 - [Running heads and page numbering](../BrailleBlaster/UEB_Practice_14_Running_Heads_Page_Numbering.md) — Lesson 21.
