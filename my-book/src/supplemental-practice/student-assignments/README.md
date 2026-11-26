@@ -71,6 +71,10 @@ Use the seeded-error blueprint. Record each defect's location, source evidence, 
 ### A16 — End-to-end production simulation
 Complete the production capstone brief from intake through handoff. Submit the source assessment, project, table/figure decisions, pagination plan, error log, QA sign-off, and handoff note. Disclose unresolved questions and assumptions.
 
+## Instructor-led practical assessment
+
+Complete the [Instructor-Led Practical Assessment](instructor-led-practical-assessment.md) candidate packet. It provides five timed stations covering intake, import and semantic repair, specialized content, production control, and handoff.
+
 ## Applied assessment
 
 Complete the [Applied Import and Conversion Assessment Pack](applied-import-assessment-pack.md) for six source-format scenarios covering Word, OpenDocument, HTML, LaTeX, XML/NIMAS-style content, and EPUB/CSV reconciliation. The assessment includes required evidence and a final production decision.
