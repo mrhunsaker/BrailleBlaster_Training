@@ -59,6 +59,9 @@ Complete this task before moving on. It should take 60 to 90 minutes.
  
 ## Additional practice sheets
 
+The earlier [Universal Lessons overview](../BrailleBlaster/Universal_Lessons.md) is retained for old bookmarks and redirects to this maintained unit page.
+
+
 The following legacy practice sheets provide extra repetitions for the matching lessons. Use them after the main lesson and its current practice document; the current lesson remains the authoritative instruction.
 
 - [GUI orientation practice](../BrailleBlaster/UEB_Practice_00_BrailleBlasterGUI.md) — Lesson 1.
