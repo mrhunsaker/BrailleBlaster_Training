@@ -82,7 +82,7 @@
   - [Lesson 52: Decision Trees](lessons/52-decision-trees.md)
   - [Lesson 53: Error Gallery](lessons/53-error-gallery.md)
   - [Lesson 54: A Model Job: Capstone Walkthrough](lessons/54-a-model-job-capstone-walkthrough.md)
-  - 
+
 # Labs and Samples
 
 - [Labs Overview](labs/index.md)
