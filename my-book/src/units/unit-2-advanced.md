@@ -106,9 +106,4 @@ Complete this task before moving on. It should take 90 to 120 minutes.
 The earlier [Advanced Lessons overview](../BrailleBlaster/Advanced_Lessons.md) is retained for old bookmarks and redirects to this maintained unit page.
 
 
-Use these retained practice sheets as optional reinforcement after the corresponding current lesson. The main lesson and its version notes take precedence if a menu path differs.
-
-- [NIMAS XML practice](../BrailleBlaster/UEB_Practice_12_NIMAS_XML.md) — Lessons 15 and 20.
-- [Importing Markdown, OpenOffice, LaTeX, and XML](../BrailleBlaster/UEB_Practice_13_Importing_Markdown_OpenOffice_LaTeX_XML.md) — Lessons 14–17.
-- [Advanced formatting](../BrailleBlaster/UEB_Practice_15_Advanced_Formatting.md) — Lesson 18.
-- [What Pandoc does for BrailleBlaster](../BrailleBlaster/UEB_Practice_16_What_Pandoc_Does_for_BrailleBlaster.md) — Lesson 17.
+The former standalone practice sheets have been consolidated into the corresponding lessons' **Integrated practice** sections. Use those lessons as the single maintained source.
