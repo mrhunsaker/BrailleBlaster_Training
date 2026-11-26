@@ -170,3 +170,56 @@ For each sentence, decide: which typeform, which tier (symbol / word / passage),
 - Braille Authority of North America, *Braille Formats: Principles of Print-to-Braille Transcription, 2016*, available at [brailleauthority.org/formats/formats2016.html](https://www.brailleauthority.org/formats/formats2016.html).
 
 *Section numbers and subsection text verified directly against the BANA online edition at brailleauthority.org.*
+
+---
+
+## Integrated practice: Typeface Emphasis
+
+### Practice Sentences
+
+For each sentence, decide: which typeform, which tier (symbol / word / passage), and whether it should actually be applied per §5.3 — some of these are deliberate "ignore" cases.
+
+1. The abbreviation *CD* should not be misread as the contraction "could" — mark it accordingly.
+2. Her license plate read *8X4 22Q* on the report.
+3. The term **mitosis** appears on page 42.
+4. The book ++Charlotte's Web++ is assigned reading this month, and the ++class discussion++ ++will cover chapters one through three++.
+5. In the word **misSpelled**, notice the ++Sp++ that breaks the usual pattern.
+6. All twelve words on this week's spelling list — *cat*, *dog*, *run*, *sun*, *fun*, *bun*, *hat*, *bat*, *mat*, *sat*, *rat*, *pat* — are shown in italics in the workbook.
+7. On the answer key, correct responses are shown in [COLOR:green]green text[/COLOR] and incorrect responses in [COLOR:red]red text[/COLOR], and the teacher's guide instructs teachers to reference these colors aloud when reviewing with students.
+8. The chapter title on its own line reads: *The Age of Exploration*
+9. Later in the same chapter, the text mentions that *The Age of Exploration* began in the fifteenth century.
+10. A single word, [HIGHLIGHT:yellow]important[/HIGHLIGHT], is highlighted in the middle of an otherwise plain paragraph, and the teacher's edition confirms students should circle this word during the lesson.
+11. The entire third paragraph of the essay is shown in [HIGHLIGHT:pink]highlighted pink text[/HIGHLIGHT] in the student's copy, apparently just to make it stand out on the page, with no explanation given anywhere in the material.
+12. The prefix ~~dis~~- and suffix -~~ible~~ are shown in a strikethrough font in this word-building exercise, indicating letters that were removed.
+13. "I can't believe it," she said, the word *can't* italicized in the original for emphasis.
+14. The dedication page reads, in italics: *For my grandmother, who taught me to read.*
+
+---
+
+### Answer Key
+
+1. **Grade 1 territory, not a typeform question** — *(included as a contrast case)* `CD` isn't print-emphasized here at all; it's flagged with a **UEB grade 1 symbol indicator**, not a typeform indicator, because the risk is misreading the *braille contraction*, not representing print italics/bold. Good instinct-check: not every "mark this so it reads correctly" situation is a typeform.
+2. Bold/italic not shown, but if it *were* italicized: `8X4 22Q` is a **symbols-sequence**, not a dictionary word — still takes the **word indicator** (once for the whole sequence, since it's bounded by spaces like any word), not letter-by-letter symbol indicators.
+3. **Bold, word indicator** — one word.
+4. Three separate spans: `Charlotte's Web` (2 words) → **underline word indicator before each of the two words**; `class discussion` (2 words) → same, **word indicator twice**; `will cover chapters one through three` (6 words) → **underline passage indicator** with terminator. This sentence is designed to show the 2-vs-3+ threshold happening twice in one sentence.
+5. Only "Sp" is underlined within the word "misSpelled" — that's underline applied to **more than one symbol within a word**, so per §5.7.1c it takes the **underline word indicator**, with a **terminator** immediately after "Sp" since regular type resumes before the end of the word.
+6. **Disregard the emphasis entirely** — an entire spelling list uniformly italicized carries no distinguishing information (§5.3.7).
+7. **Retain both colors as transcriber-defined typeforms** (e.g., TDT 1 for green, TDT 2 for red) — the teacher explicitly references the colors aloud, so this is meaningful, not decorative (§5.4.1).
+8. **Disregard** — italics on a title that is a complete heading (its own line, functioning as a chapter heading) is covered by §5.3.5; the heading format alone is the reader's cue.
+9. **Retain** — same title, but now mentioned within running text rather than standing as its own heading; §5.3.5's note explicitly restores the emphasis here. Since it's three words, this is an **italic passage indicator**.
+10. **Retain as a transcriber-defined typeform (highlight)**, word indicator — the teacher's edition confirms it's functionally meaningful (students act on it), not decorative.
+11. **Disregard** — a full paragraph highlighted with no stated purpose is the textbook case of decorative-only emphasis (§5.3.1, §5.3.6); there's nothing here for a braille reader to act on differently.
+12. **Retain as a transcriber-defined typeform (strikethrough)** — this is a word-building exercise where the struck-through letters are pedagogically the entire point (contrast with #6, where the emphasis added nothing); use symbol or word indicators as appropriate to "dis" and "ible" individually.
+13. **Retain — italic word indicator.** A single emphasized word inside quotation marks, and the emphasis is doing something the quotation marks alone don't (marking the specific word under discussion), so §5.3.10's general "quoted matter" exception doesn't apply here — this isn't a case of the quotation marks already doing the job on their own.
+14. **Disregard** — italics used purely as a stylistic/decorative treatment for a dedication line, per §5.3.6's own example ("italics used for a dedication").
+
+---
+
+### Source Citations
+
+- *Braille Formats 2016*, §5 Typeforms — §5.1 (Fundamentals, especially §5.1.4–§5.1.6), §5.2 (Distinctive Typefaces and Font Attributes), §5.3 (When Print Font Attributes May Be Ignored, §5.3.1–§5.3.11), §5.4 (Retaining Font Attributes), §5.5 (Color, Highlighting, and Other Print Fonts, §5.5.1–§5.5.3), §5.6 (Font Emphasis for One or More Paragraphs), §5.7 (Emphasized Letters within a Word, §5.7.1).
+- *The Rules of Unified English Braille*, Section 9: Typeforms — §9.1 (Deciding When to Use Typeform Indicators), §9.2 (Typeform Symbol Indicators), §9.3 (Typeform Word Indicators), §9.4 (Typeform Passage Indicators and Terminators), §9.5 (Transcriber-Defined Typeform Indicators).
+- National Federation of the Blind, *Braille Certification Training Manual*, Lesson 15: Typeform Indicators, Small Capital Letters — practical training reference for the two-word-versus-three-word word/passage threshold and the "symbols-sequence" terminology. Available via nfb.org. This is a secondary training resource, not a primary BANA/ICEB publication — confirm against the UEB Rulebook itself for production work.
+- Braille Authority of North America, *Braille Formats: Principles of Print-to-Braille Transcription, 2016*, available at [brailleauthority.org/formats/formats2016.html](https://www.brailleauthority.org/formats/formats2016.html).
+
+*Section numbers and subsection text verified directly against the BANA online edition at brailleauthority.org.*
