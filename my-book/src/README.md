@@ -17,19 +17,20 @@ By the end of the course you will be able to take a print source, in almost any 
 
 ## How the course is organized
 
-The course has three units, a capstone, an instructor guide, and a reference section.
+The course has five units, integrated labs and sample files, a capstone, an instructor guide, and a reference desk.
 
 | Part | What it contains |
 | ---- | ---------------- |
 | [Start Here](start/how-to-use.md) | How lessons work, setup, and a syllabus with pacing plans |
-| [Unit 1: Universal Lessons](units/unit-1-universal.md) | Lessons 1 to 13. Core skills every BrailleBlaster user needs |
-| [Unit 2: Advanced Lessons](units/unit-2-advanced.md) | Lessons 14 to 19. Source formats, Pandoc, special structures, eBraille |
-| [Unit 3: Transcriber-Focused Lessons](units/unit-3-transcriber.md) | Lessons 20 to 24. Production workflow for complete books |
-| [Labs](labs/index.md) and [Sample Files](samples/index.md) | Nine integrated labs that use real Word, Markdown, LaTeX, EPUB, and NIMAS-style files |
-| [Unit 4: Specialized Content](units/unit-4-specialized.md) | Lessons 25 to 32. Tables, page control, images, translation corrections, other codes, line numbers, glossaries, and proofreading |
+| [Unit 1: Universal Lessons](units/unit-1-universal.md) | Lessons 1–13. Core skills every BrailleBlaster user needs |
+| [Unit 2: Advanced Lessons](units/unit-2-advanced.md) | Lessons 14–19. Source formats, Pandoc, special structures, and eBraille |
+| [Unit 3: Transcriber-Focused Lessons](units/unit-3-transcriber.md) | Lessons 20–24. Production workflow for complete books |
+| [Unit 4: Specialized Content](units/unit-4-specialized.md) | Lessons 25–32. Tables, page control, images, translation corrections, other codes, line numbers, glossaries, and proofreading |
+| [Unit 5: Handbook](units/unit-5-handbook.md) | Supplemental lessons 33–54 on source quality, file formats, standards, production, accessibility, and learning aids |
+| [Labs](labs/index.md), [Sample Files](samples/index.md), and [Supplemental Practice](supplemental-practice/README.md) | Integrated labs, source specimens, assignments, math and graphics practice, and production challenges |
 | [Capstone](capstone/capstone.md) | A full transcription project with a rubric |
-| [Instructor Guide](instructor/index.md) | Teaching notes, pacing, and assessment |
-| [Reference](reference/shortcuts.md) | Shortcuts, drill bank, job aids, Pandoc cookbook, policy background, glossary, troubleshooting, and resources |
+| [Instructor Guide](instructor/index.md) | Teaching notes, pacing, cohort administration, and assessment |
+| [Reference Desk](reference/resources.md) | Course aids, technical references, standards, and troubleshooting |
 
 ## How every lesson works
 
@@ -56,9 +57,9 @@ Every lesson follows the same pattern, so you always know what to expect:
 > BrailleBlaster changes between releases. This course follows the 3.x documentation. When a menu item has moved in your version, the concept and workflow still apply. Use the **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`) to find the renamed item.
 
 ## About the author
+
+This course was written by Michael Ryan Hunsaker, M.Ed., Ph.D. See [About the Author](about/author.md).
+
 ## Additional course material
 
 The [Backmatter](Backmatter/backmatter.md) collects completion, production, standards, and attribution guidance. [Contributors](Contributors.md) records acknowledgements and source contributions. The unit pages link to retained practice sheets from earlier course drafts where they provide useful reinforcement.
-
-
-This course was written by Michael Ryan Hunsaker, M.Ed., Ph.D. See [About the Author](about/author.md).
