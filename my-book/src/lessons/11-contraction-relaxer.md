@@ -272,3 +272,149 @@ The best answer is not "use fewer contractions." The best answer is **"use the c
 ## Source Citations
 
 - National Federation of the Blind, *Instruction Manual for Braille Transcribing — UEB Edition, 2015*, available from the NFB Braille Transcribing resources page.
+
+---
+
+## Integrated practice: Contraction Relaxer
+
+### The Old, Hard Manual way
+
+For this example, I am going to manually apply the contraction for "day" into the following block of text. 
+
+``` 
+Today is the greatest day I've ever known.
+```
+
+For the sake of simplicity and argument, I am going to go into the **Tools > Contraction Relaxer** Menu and selecting "Uncontracted (Grade 1)".
+
+To manually swap out the letter d, a, and y with a dot 5 followed by the letter "d", I do the following. 
+- Press `CTRL+F` or go to **Edit > Find and Replace** to open the find and replace dialog. 
+- In **Find** I will type "day" without the quotation marks. 
+- In **Replace With** I will type ASCII braille for dot5 followed by the letter "d". This is `"d`
+- I will then click the **Formatting** button next to **Replace With**
+- In the **Replace Formatting** menu that pops up, I will click the dropdown menu next to **Text Attributes** and select **No Translate**
+- Press the **Add** button next to the dropdown Menu 
+- When I press **Replace All**, every incidence of "day" is replaced with the initial letter contraction for day. 
+
+In essence, this manual process does the same thing as selecting every incidence of "day" in the print view and hitting `CTRL+D` or **Tools > Change Translation > Direct**, which returns the now highlighted text as ASCII braille equivalent rather than the UEB Translation.
+
+This is a laborious process, but it is the way a lot of us have had to relax contractions in the past. The Contraction Relaxer dialog provides us a more user friendly tool to accomplish this. But it is important to know the old way, as it gives the finest level of granularity for any students learning contractions in a nonstandard order. 
+
+#### CHALLENGE
+
+Paste the following into the print view. Then go to **Tools > Change Translation > Uncontracted**, select the entire text and press `CTRL+SHIFT+T`, or go to **Tools > Contraction Relaxer > Uncontracted (Grade 1)**. 
+```
+today forever forefather here knows landlord motherlode namely honest party questions bright wholesome primetime underground workout younger therefore characteristic throughout whereafter bought
+```
+Practice using the find and replace menu to translate the dot 5 initial letter contractions embedded in the pasted words. It feels odd at first, but with practice the process comes to feel more natural. 
+
+### Worked Demonstration using Contraction Relaxer (small, fully correct)
+
+```
+The teacher will help the child read the book before the class begins.
+```
+
+Suppose the student's current instructional target includes ordinary alphabetic words but not the contraction patterns represented by every possible UEB contraction.
+
+A teacher-facing workflow is:
+
+- Translate the passage in contracted UEB.
+- Open **Tools > Contraction Relaxer**.
+- Review the available contraction choices rather than guessing which contractions occur.
+- Select only the contraction unit(s) the student has not yet been taught.
+- Apply the change.
+- Inspect the Braille View and read the passage as the student will encounter it.
+- If the passage still contains a contraction that is outside the student's taught set, return to the relaxer and adjust the selected unit(s).
+- Save the differentiated instructional version separately from the master document when the materials need to be reused at different instructional levels.
+
+The important distinction is between **"uncontracted"** and **"selectively relaxed."** The latter preserves more of the normal UEB reading environment while reducing the specific contraction burden.
+
+---
+
+### Practice Document: "Herbert and the Magic Eggs"
+
+#### Practice instructions
+
+Copy the passage below into BrailleBlaster.
+
+For each round, use the Contraction Relaxer to create a different instructional version:
+
+- **Round 1 — Full contracted UEB:** make no contraction-relaxation changes.
+- **Round 2 — Beginning-reader differentiation:** relax the contraction units that your student has not yet been taught. Record the units you selected.
+- **Round 3 — Targeted review:** choose one contraction unit that appears repeatedly in the passage and relax it so the student can read the surrounding vocabulary without that contraction.
+- **Round 4 — Restore and compare:** restore the original contracted translation and compare the Braille View with Round 3.
+
+Do not manually retype words to remove contractions. The exercise is specifically about using the translation control.
+
+#### Practice Story
+
+```text
+Herbert and the Magic Eggs
+a UEB braille story by Erin Jepsen
+Moscow, Idaho
+
+Once upon a time, there was a young mouse whose name was Herbert. One day, Herbert, who always thought about wanting to go off by himself for the afternoon, declared that today would be different. According to Herbert, he needed to be quick to get across the road to his favorite hiding spot. Rather than risking all the people driving along the highway, he had a brilliant idea. He decided to tunnel beneath the road in order to reach the place where his friend would meet him. She called herself Spirit Stella, and she was Herbert’s best friend.
+
+When they played together, as children do, they imagined all sorts of strange sounds, deceiving themselves into believing that beyond the distant mountains, a voice said, “Lord Herbert, you are just a little bit behind your part in receiving quite enough questions. Your knowledge is not already so great that you cannot arrive between the hills to the magic castle!”
+
+Herbert immediately sat down beside Stella, but before he could begin to cry, she said, “You know, Herbert, you are still a child. Your mother will work with you every day so you receive everything you need to reach the castle: science, either geography or geometry; also, although they should teach beyond the letters that seem useless, they do know as much as myself about so many other things! Don’t deceive yourself, Herbert, you’re already almost through those subjects that you need for your quest.”
+
+Herbert (against his conscience) replied to Stella, “It’s useless. My father was even declaring, ‘my son can do no good unless he reaches the castle, collects the magic eggs, and does the rejoicing dance tomorrow.’ So, I will have to go out tonight into the world. This is the only right way that the magic will renew itself. Perhaps you would come with me?”
+
+“I’d like that, Herbert,” said Stella, after some thought. We should do whatever is necessary, and afterward, we’ll come altogether again from the wonderful castle to your house, although by the time we arrive under the cover of darkness, neither of us will be able to see; we’ll be so blind we must find our way by braille!
+
+“Shall we depart, then?” asked Herbert, and Stella nodded. This is the way their path led: first, below the forest, under tall trees, then above these crazy large boulders such as did not even have a name. Stella herself, because she had more words than Herbert, could conceive of a compliment to be paid to the boulders, but Herbert, was only perceiving the rumble in his tummy.
+
+“We need a ration given to us,” he complained. “One which we ourselves can affect to eat as we walk. That would at least accomplish its purpose here.”
+
+Stella replied to him, “It’s a pity your character is so weak that you’re thinking more about your stomach than conceiving a name for these rocks! One should tell oneself, or maybe thyself that it’s no illusion we were here—wait!”
+
+“What?” asked a bewildered Herbert.
+
+“I perceive that these enormous rocks, which you would have passed, are really our castle! We have arrived!”
+
+“Oh, let’s rejoice!” bubbled Herbert. “You get the magic eggs, and I’ll get some eggs for eating.”
+
+So they did and ran joyfully back home to Herbert’s dad with the magic eggs.
+
+The end.
+```
+
+---
+
+### Answer Key
+
+#### Round 1
+
+**Full contracted UEB** — no contraction units are deliberately relaxed. The purpose is to establish the baseline against which the instructional versions can be compared.
+
+#### Round 2
+
+**Fully uncontracted UEB** — all contraction units are deliberately relaxed. The purpose is to establish the no-conraction baseline against which the instructional versions can be compared.
+
+#### Round 3
+
+There is no single correct list of relaxed units without knowing the student's instructional history. A defensible teacher record should identify:
+
+- the contraction unit(s) selected;
+- why those units are outside the student's current taught set;
+- whether the choice applies to the whole passage or only to a lesson;
+- whether the resulting text was checked in Braille View.
+
+#### Round 4
+
+Choose a contraction unit that is visibly frequent in the passage. A strong practice choice is one whose relaxation changes many words, because the teacher can then compare the instructional effect quickly. The answer is correct when the selected contraction unit is the only intended variable and the surrounding text remains unchanged.
+
+#### Round 5
+
+Restoring contracted UEB should return the document to the baseline translation. If it does not, inspect the Contraction Relaxer selections and confirm that the document's translation profile has not also been changed.
+
+#### Teacher decision rule
+
+The best answer is not "use fewer contractions." The best answer is **"use the contractions that match the learner's current instructional target."** The NFB training materials establish the UEB contraction system; the current BrailleBlaster feature provides a practical way to differentiate a text without abandoning contracted UEB altogether.
+
+---
+
+### Source Citations
+
+- National Federation of the Blind, *Instruction Manual for Braille Transcribing — UEB Edition, 2015*, available from the NFB Braille Transcribing resources page.
