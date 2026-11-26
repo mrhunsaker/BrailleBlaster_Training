@@ -59,3 +59,8 @@ Use the [delivery guide](practical-assessment-delivery-guide.md) to prepare and 
 ## Academic integrity
 
 Because many answers are defensible, copying is easy to spot: look for identical rationales and identical mistakes. Ask learners to explain two decisions aloud as a short oral check if you suspect shared work.
+
+
+## Competency portfolios
+
+Use the learner [portfolio guide](../supplemental-practice/student-assignments/competency-portfolio-guide.md) and its evidence log, skills sign-off sheet, project review record, and course-completion checklist to connect formative work with summative assessment. Apply the instructor [portfolio review guide](portfolio-review-guide.md); verify representative artifacts and do not let a complete portfolio or aggregate score override an unresolved critical defect.
