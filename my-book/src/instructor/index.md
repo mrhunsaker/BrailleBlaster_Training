@@ -8,6 +8,7 @@ This guide is for anyone teaching the course to a group, whether you are a unive
 - **Teaching notes** for [Unit 1](unit-1.md), [Unit 2](unit-2.md), [Unit 3](unit-3.md), and [Unit 4](unit-4.md): a demonstration idea, tips and pitfalls, a check for understanding, and an extension for each lesson.
 - **[Session Plans](session-plans.md):** fifteen ready-to-run sessions that use the drills and labs.
 - **[Assessment and Grading](assessment.md):** how to use answer keys, unit checkpoints, and the capstone rubric.
+- **[Practical Assessment Delivery Guide](practical-assessment-delivery-guide.md), [Standardized Evaluator Prompts](practical-assessment-standardized-prompts.md), and [Expected Evidence Reference](practical-assessment-expected-evidence.md):** consistent administration and scoring of the instructor-led practical.
 - **[Lesson-to-Resource Map](lesson-resource-map.md):** where supplemental assignments extend each lesson.
 - **[Assessment Bank](assessment-bank.md)** and [Capstone Rubric](capstone-rubric.md).
 - [Instructor Answer Keys](answer-keys/README.md), [Assessment Rubrics](assessment-rubrics/README.md), [Demonstration Guides](demonstration-guides/README.md), and [Troubleshooting Casebook](troubleshooting/README.md).
