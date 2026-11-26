@@ -201,3 +201,83 @@ Use the Book Tree and other navigation tools rather than scrolling linearly. A s
 
 - BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Opening Files," "Using a NIMAS XML File," and "Operations Specific To NIMAS Files" (Image Describer, Publisher's Production Notes, Navigating a NIMAS File, Dividing a NIMAS File into Multiple Files, Book Tree, Alphabetic Reference).
 - 20 U.S.C. §1412(a)(23) and 34 CFR §300.172, summarized in [Policy and Standards Background](../reference/policy-background.md).
+
+---
+
+## Integrated practice: NIMAS XML
+
+### Practice Document
+
+#### Scenario 1 — clean NIMAS structure
+
+```xml
+<section>
+  <h1>Plants</h1>
+  <h2>Roots</h2>
+  <p>Roots anchor a plant and absorb water.</p>
+</section>
+```
+
+#### Scenario 2 — missing heading tag
+
+```xml
+<p>Chapter 6: Weather</p>
+<p>Weather describes short-term atmospheric conditions.</p>
+```
+
+#### Scenario 3 — production note
+
+```text
+Publisher production note:
+"Place the color plate after page 42 in the final print edition."
+```
+
+#### Scenario 4 — nested list
+
+```xml
+<ol>
+  <li>Mammals
+    <ol>
+      <li>Dogs</li>
+      <li>Cats</li>
+    </ol>
+  </li>
+</ol>
+```
+
+#### Scenario 5 — long textbook
+
+```text
+A 700-page NIMAS file has imported successfully.
+The Book Tree contains hundreds of sections.
+```
+
+---
+
+### Answer Key
+
+#### Scenario 1
+
+The heading hierarchy and paragraph should be recognized from the XML structure. Verify the imported styles and resulting braille.
+
+#### Scenario 2
+
+The text may look like a heading in Print View, but the XML structure does not identify it as one. Human review is required.
+
+#### Scenario 3
+
+Treat it as a production note, not as ordinary body text. Decide whether it should be kept, hidden, or removed based on its usefulness to the production workflow.
+
+#### Scenario 4
+
+The nested list structure is meaningful and should be preserved as a nested list in BrailleBlaster.
+
+#### Scenario 5
+
+Use the Book Tree and other navigation tools rather than scrolling linearly. A successful import still requires systematic inspection of headings, lists, tables, page numbers, and production notes.
+
+#### Core principle
+
+**NIMAS gives BrailleBlaster structure to work with; it does not give the transcriber permission to stop checking the work.**
+
+---
