@@ -56,3 +56,12 @@ This checkpoint is a small version of the [Capstone](../capstone/capstone.md). I
 5. A one-paragraph production log explaining where you departed from the default.
 
 **You are ready for the capstone** when your TOC and volume numbers agree and you have checked each generated page.
+
+## Additional practice sheets
+
+These retained practice sheets provide optional practice for the production sequence. Use them after the corresponding current lesson and verify the workflow against the installed version.
+
+- [Running heads and page numbering](../BrailleBlaster/UEB_Practice_14_Running_Heads_Page_Numbering.md) — Lesson 21.
+- [Transcriber's Notes usage](../BrailleBlaster/UEB_Practice_17_Transcribers_Notes_Usage.md) — Lesson 22.
+- [TOC tool and volume distribution](../BrailleBlaster/UEB_Practice_18_TOC_Tool_and_Volume_Distribution.md) — Lesson 23.
+- [T-Page Generator, title, and special symbols](../BrailleBlaster/UEB_Practice_19_TPage_Generator_Title_Special_Symbols_TN.md) — Lesson 24.
