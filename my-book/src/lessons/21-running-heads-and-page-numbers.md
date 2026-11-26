@@ -229,3 +229,82 @@ Use the Page Number Dialog to edit the continuation letter rather than manually 
 - BrailleBlaster current documentation — Setting a Running Head.
 - BrailleBlaster current documentation — Setting, adding, editing, and changing page numbers.
 - *Braille Formats 2016*, especially the provisions governing running heads and print/braille page numbering.
+
+---
+
+## Integrated practice: Running Heads Page Numbering
+
+### Practice Document
+
+#### Scenario 1 — running head
+
+```text
+Running head requested:
+"INTRODUCTION TO BIOLOGY"
+
+The document is 120 braille pages long.
+```
+
+#### Scenario 2 — print page break
+
+```text
+The source changes from print page 57 to print page 58
+in the middle of a braille page.
+```
+
+#### Scenario 3 — preliminary pages
+
+```text
+A preliminary section should use P-page numbering.
+The main body should later return to ordinary braille page numbering.
+```
+
+#### Scenario 4 — transcriber-generated pages
+
+```text
+A transcriber-created section is inserted before the main text.
+The agency requires T-page numbering.
+```
+
+#### Scenario 5 — page number correction
+
+```text
+The current print page number is 84b,
+but it should be 84c because an additional continuation page was inserted.
+```
+
+---
+
+### Answer Key
+
+#### Scenario 1
+
+Use **Insert > Running Head** and verify its length and interaction with page-number lines.
+
+#### Scenario 2
+
+Insert or verify the print-page indicator at the correct source boundary. Do not manually type a page number into ordinary body text and assume it will behave as a page indicator.
+
+#### Scenario 3
+
+Use the Page Number Dialog to select **P-page** behavior for the preliminary section and return to the normal type when the main text begins.
+
+#### Scenario 4
+
+Use **T-page** numbering for the transcriber-generated material when required by the production specification.
+
+#### Scenario 5
+
+Use the Page Number Dialog to edit the continuation letter rather than manually changing the visible text. Verify that following continuation pages update appropriately.
+
+#### Core principle
+
+**Running heads identify; print-page indicators locate the source; braille page numbers locate the braille volume.**
+
+---
+
+### Source Citations
+
+- BrailleBlaster current documentation — Setting a Running Head.
+- BrailleBlaster current documentation — Setting, adding, editing, and changing page numbers.
+- *Braille Formats 2016*, especially the provisions governing running heads and print/braille page numbering.
