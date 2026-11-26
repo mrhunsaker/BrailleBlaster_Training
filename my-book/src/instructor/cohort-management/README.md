@@ -2,6 +2,10 @@
 
 This toolkit supports consistent delivery and review across a class, workshop, or training cohort. It complements the [session plans](../session-plans.md), [assessment and grading guidance](../assessment.md), and [portfolio review guide](../portfolio-review-guide.md).
 
+## Quick start
+
+- [Consolidated course delivery toolkit](../course-delivery-toolkit.md) — combined operating guidance, status definitions, cohort setup, calculation rules, privacy safeguards, and a copy-ready end-of-course report.
+
 ## Templates
 
 - [Cohort delivery and pacing tracker](delivery-pacing-tracker.md) — plan sessions, record actual delivery, and track follow-up actions.
