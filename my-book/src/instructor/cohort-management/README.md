@@ -8,6 +8,9 @@ This toolkit supports consistent delivery and review across a class, workshop, o
 
 ## Templates
 
+The compact cohort-level forms are also available here: [cohort pacing and delivery tracker](../cohort-pacing-tracker.md) and [learner progress register](../learner-progress-register.md). Use the detailed templates below when session-by-session planning or more extensive evidence tracking is required.
+
+
 - [Cohort delivery and pacing tracker](delivery-pacing-tracker.md) — plan sessions, record actual delivery, and track follow-up actions.
 - [Learner progress register](learner-progress-register.md) — maintain a pseudonymous, instructor-only overview of progress and review status.
 - [Attendance and session record](../cohort-session-record.md) — record attendance and concise session-level notes.
