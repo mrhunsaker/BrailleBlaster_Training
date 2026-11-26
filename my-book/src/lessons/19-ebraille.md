@@ -160,3 +160,7 @@ If you can obtain a sample `.ebrl` file (see the DAISY eBraille page in the sour
 - The DAISY Consortium, *eBraille 1.0* specification, at [daisy.github.io/ebraille/published/1.0/](https://daisy.github.io/ebraille/published/1.0/). It is the source for the EPUB 3 compatibility, the `.ebrl` extension, and the packaging rules.
 - The DAISY Consortium, [eBraille standard overview](https://daisy.org/activities/standards/ebraille/). It is the source for release timing and the reflow description.
 - American Printing House for the Blind, [Meet eBraille](https://www.aph.org/meet-ebraille/). It is the source for the development partnership.
+
+## Additional course reference
+
+The [legacy eBraille export note](../BrailleBlaster/Ebraille_Export.md) is retained as a navigation aid; this lesson and the current DAISY eBraille specification are the maintained references.
