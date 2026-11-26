@@ -17,7 +17,7 @@ for command in mdbook perl lualatex; do
 done
 
 [[ -f "$BOOK_DIR/book.toml" ]] || die "Cannot find mdBook config: $BOOK_DIR/book.toml"
-[[ -x "$CLEANUP_SCRIPT" ]] || die "Missing or non-executable cleanup script: $CLEANUP_SCRIPT"
+[[ -f "$CLEANUP_SCRIPT" ]] || die "Missing cleanup script: $CLEANUP_SCRIPT"
 
 log "Building mdBook and Pandoc LaTeX output"
 mdbook build "$BOOK_DIR"
@@ -25,7 +25,7 @@ mdbook build "$BOOK_DIR"
 [[ -f "$TEX_FILE" ]] || die "Pandoc LaTeX output not found. Expected: $TEX_FILE"
 
 log "Normalizing admonition environments in $TEX_FILE"
-"$CLEANUP_SCRIPT" "$TEX_FILE"
+bash "$CLEANUP_SCRIPT" "$TEX_FILE"
 
 TEX_DIR="$(cd -- "$(dirname -- "$TEX_FILE")" && pwd)"
 TEX_BASENAME="$(basename -- "$TEX_FILE")"
