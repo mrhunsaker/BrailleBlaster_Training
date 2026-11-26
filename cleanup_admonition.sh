@@ -5,7 +5,7 @@
 set -euo pipefail
 
 dry_run=0
-if [[ "\${1-}" == "--dry-run" ]]; then
+if [[ "${1-}" == "--dry-run" ]]; then
     dry_run=1
     shift
 fi
@@ -28,7 +28,7 @@ for file in "$@"; do
         continue
     fi
 
-    tmp=$(mktemp "\${TMPDIR:-/tmp}/cleanup-admonition.XXXXXX")
+    tmp=$(mktemp "${TMPDIR:-/tmp}/cleanup-admonition.XXXXXX")
     trap 'rm -f "$tmp"' EXIT
 
     perl -0777 -pe '
@@ -60,7 +60,7 @@ for file in "$@"; do
         continue
     fi
 
-    backup="\${file}.bak"
+    backup="${file}.bak"
     if [[ -e "$backup" ]]; then
         echo "Error: backup already exists; refusing to overwrite: $backup" >&2
         rm -f "$tmp"
