@@ -209,3 +209,85 @@ This is unsafe. Without Whole Word, `the` can occur inside longer words. Replace
 ## Source Citations
 
 - BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Finding and Replacing Text and Styles" (Finding Text, Replacing Text, Finding Formatted Text, Replacing Formatted Text, Resetting Find and Replace, Repeating the Last Search).
+
+---
+
+## Integrated practice: Global Find Replace Formatting
+
+### Practice Document
+
+#### Scenario 1 — whole-word text replacement
+
+```text
+Find: "cat"
+Replace: "dog"
+
+Text:
+The cat slept.
+The catalog was on the desk.
+A cat climbed the tree.
+```
+
+#### Scenario 2 — capitalization correction
+
+```text
+Find: "ueB"
+Replace: "UEB"
+
+Text:
+UEB is used here.
+ueB appears here.
+UEB appears again.
+```
+
+#### Scenario 3 — repeated style error
+
+```text
+Ten ordinary paragraphs have accidentally been assigned Heading 3.
+One legitimate Heading 3 also exists.
+```
+
+#### Scenario 4 — emphasis error
+
+```text
+Every occurrence of the word "important" has bold emphasis,
+but only the instances in the vocabulary section should be bold.
+```
+
+#### Scenario 5 — dangerous Replace All
+
+```text
+Find: "the"
+Replace: "a"
+Whole Word: unchecked
+```
+
+---
+
+### Answer Key
+
+#### Scenario 1
+
+Check **Whole Word**. Otherwise `cat` can match inside `catalog`.
+
+#### Scenario 2
+
+Use **Match Case** when the intent is to target the specific capitalization pattern rather than every case variation.
+
+#### Scenario 3
+
+Do not globally replace Heading 3 unless the legitimate Heading 3 can be excluded. Use contextual selection or a more specific workflow. Formatting-aware Find and Replace is powerful, but it does not understand semantic exceptions automatically.
+
+#### Scenario 4
+
+If the formatting pattern itself is reliable, use Formatting. If only a specific section should retain bold, scope the selection rather than replacing every occurrence globally.
+
+#### Scenario 5
+
+This is unsafe. Without Whole Word, `the` can occur inside longer words. Replace All should not be used until the match scope has been verified.
+
+#### Core principle
+
+**Search broadly; replace narrowly.** Formatting-aware search is most valuable when it eliminates repetitive manual correction without erasing intentional exceptions.
+
+---
