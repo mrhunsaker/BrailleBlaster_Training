@@ -107,13 +107,6 @@ for f in files:
         if re.search(pat, visible): errors.append(f'{f}: unfinished/stub content /{pat}/')
     if re.search(r'(?m)^\s*#{2,6}\s*$', visible):
         errors.append(f'{f}: blank section heading')
-for w in warnings: print('WARNING:', w)
-for e in errors: print('ERROR:  ', e)
-print(f'{len(errors)} error(s), {len(warnings)} warning(s).')
-sys.exit(1 if errors else 0)
-, visible):
-        errors.append(f'{f}: blank section heading')
-
 print(f'Checked {len(files)} Markdown files.')
 for w in warnings: print('WARNING:', w)
 for e in errors: print('ERROR:  ', e)
