@@ -165,3 +165,7 @@ fish, 30
 
 - BrailleBlaster User Guide (the 3.x documentation), at [aphtech.github.io/brailleblaster-docs](https://aphtech.github.io/brailleblaster-docs/) and the source repository [github.com/aphtech/brailleblaster-docs](https://github.com/aphtech/brailleblaster-docs): "Glossary Styles," "Index Styles," and "Removing All Emphasis from Alphabetic Reference Entry Words."
 - Braille Authority of North America, *Braille Formats: Principles of Print-to-Braille Transcription, 2016*, at [brailleauthority.org/formats/formats2016.html](https://www.brailleauthority.org/formats/formats2016.html).
+
+## Additional workflow reference
+
+For a production-oriented sequence and quality-control checklist, see the [Indexing Workflow Reference](../indexing.md). Use it alongside this lesson and the applicable current Braille Formats requirements.
