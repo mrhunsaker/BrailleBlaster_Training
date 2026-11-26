@@ -62,11 +62,12 @@ for file in "$@"; do
 
     backup="${file}.bak"
     if [[ -e "$backup" ]]; then
-        echo "Error: backup already exists; refusing to overwrite: $backup" >&2
-        rm -f "$tmp"
-        trap - EXIT
-        status=1
-        continue
+        backup="${file}.$(date '+%Y%m%d-%H%M%S').bak"
+        suffix=1
+        while [[ -e "$backup" ]]; do
+            backup="${file}.$(date '+%Y%m%d-%H%M%S').${suffix}.bak"
+            suffix=$((suffix + 1))
+        done
     fi
 
     cp -p -- "$file" "$backup"
