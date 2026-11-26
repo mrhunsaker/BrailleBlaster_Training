@@ -88,8 +88,8 @@ if os.path.exists(os.path.join(SRC, 'samples', 'index.md')):
 # landing pages are acceptable only when they contain a substantive explanation
 # and a link to their maintained replacement; blank/heading-only files are not.
 STUB_PATTERNS = [
-    r'(?im)^\\s*TODO(?:[:\\s]|$)',
-    r'(?im)^\\s*TBD(?:[:\\s]|$)',
+    r'(?im)^\s*TODO(?:[:\s]|$)',
+    r'(?im)^\s*TBD(?:[:\s]|$)',
     r'(?i)content to be added',
     r'(?i)coming soon',
     r'(?i)this (?:page|file) is a placeholder',
@@ -105,7 +105,8 @@ for f in files:
         errors.append(f'{f}: empty or heading-only manuscript page')
     for pat in STUB_PATTERNS:
         if re.search(pat, visible): errors.append(f'{f}: unfinished/stub content /{pat}/')
-    if re.search(r'(?m)^\\s*#{2,6}\\s*
+    if re.search(r'(?m)^\s*#{2,6}\s*$', visible):
+        errors.append(f'{f}: blank section heading')
 for w in warnings: print('WARNING:', w)
 for e in errors: print('ERROR:  ', e)
 print(f'{len(errors)} error(s), {len(warnings)} warning(s).')
