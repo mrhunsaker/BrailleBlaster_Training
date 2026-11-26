@@ -71,6 +71,10 @@ Use the seeded-error blueprint. Record each defect's location, source evidence, 
 ### A16 — End-to-end production simulation
 Complete the production capstone brief from intake through handoff. Submit the source assessment, project, table/figure decisions, pagination plan, error log, QA sign-off, and handoff note. Disclose unresolved questions and assumptions.
 
+## Applied assessment
+
+Complete the [Applied Import and Conversion Assessment Pack](applied-import-assessment-pack.md) for six source-format scenarios covering Word, OpenDocument, HTML, LaTeX, XML/NIMAS-style content, and EPUB/CSV reconciliation. The assessment includes required evidence and a final production decision.
+
 ## Capstone workflow tools
 
 - [Capstone production intake packet](capstone-intake-packet.md): source inventory, clarification register, risk assessment, and go/hold checkpoint.
