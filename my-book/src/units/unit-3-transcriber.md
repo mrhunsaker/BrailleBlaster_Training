@@ -126,9 +126,4 @@ This checkpoint is a small version of the [Capstone](../capstone/capstone.md). I
 The earlier [Transcriber-Focused Lessons overview](../BrailleBlaster/Transcriber_Focused_Lessons.md) is retained for old bookmarks and redirects to this maintained unit page.
 
 
-These retained practice sheets provide optional practice for the production sequence. Use them after the corresponding current lesson and verify the workflow against the installed version.
-
-- [Running heads and page numbering](../BrailleBlaster/UEB_Practice_14_Running_Heads_Page_Numbering.md) — Lesson 21.
-- [Transcriber's Notes usage](../BrailleBlaster/UEB_Practice_17_Transcribers_Notes_Usage.md) — Lesson 22.
-- [TOC tool and volume distribution](../BrailleBlaster/UEB_Practice_18_TOC_Tool_and_Volume_Distribution.md) — Lesson 23.
-- [T-Page Generator, title, and special symbols](../BrailleBlaster/UEB_Practice_19_TPage_Generator_Title_Special_Symbols_TN.md) — Lesson 24.
+The former standalone practice sheets have been consolidated into the corresponding lessons' **Integrated practice** sections. Use those lessons as the single maintained source.
