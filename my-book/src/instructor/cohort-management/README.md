@@ -10,9 +10,9 @@ This toolkit supports consistent delivery and review across a class, workshop, o
 
 - [Cohort delivery and pacing tracker](delivery-pacing-tracker.md) — plan sessions, record actual delivery, and track follow-up actions.
 - [Learner progress register](learner-progress-register.md) — maintain a pseudonymous, instructor-only overview of progress and review status.
-- [Attendance and session record](attendance-session-record.md) — record attendance and concise session-level notes.
-- [Cohort competency dashboard](cohort-competency-dashboard.md) — summarize competency attainment and identify teaching priorities without exposing individual learner results.
-- [End-of-course cohort report](end-of-course-report.md) — document completion, outcomes, delivery findings, and improvements.
+- [Attendance and session record](../cohort-session-record.md) — record attendance and concise session-level notes.
+- [Cohort competency dashboard](../cohort-skills-dashboard.md) — summarize competency attainment and identify teaching priorities without exposing individual learner results.
+- [End-of-course cohort report](../end-of-course-cohort-report.md) — document completion, outcomes, delivery findings, and improvements.
 
 ## Data handling requirements
 
