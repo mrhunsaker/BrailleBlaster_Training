@@ -256,3 +256,75 @@ When embossed output doesn't match expectations, work through the problem in thi
 
 - BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Setting up Your Document" (Translation Settings, Page Numbers, Page Properties), "Printing and Embossing," and "Setting up an Embosser" (profile fields and the Generic Text only, Text with margins, and Graphics Embosser choices).
 - Braille Authority of North America, *Braille Formats 2016*, for page-layout principles.
+
+---
+
+## Integrated practice: Paper Size Embosser Setup
+
+### Practice Document
+
+#### Scenario 1 — paper mismatch
+
+```text
+BrailleBlaster:
+Page Size = 11.5 x 11 inches
+Cells Per Line = 40
+Lines Per Page = 25
+
+Loaded paper:
+8.5 x 11 inches
+```
+
+#### Scenario 2 — correct paper, wrong interpoint assumption
+
+```text
+Document:
+Interpoint = Yes
+
+Embosser:
+Configured for single-sided production
+```
+
+#### Scenario 3 — unknown embosser
+
+```text
+Embosser:
+Manufacturer = not listed
+Model = not listed
+
+BrailleBlaster:
+Generic manufacturer is available.
+```
+
+#### Scenario 4 — production job
+
+```text
+A 180-page textbook is ready to emboss.
+The document has never been physically test-embossed.
+```
+
+---
+
+### Answer Key
+
+#### Scenario 1
+
+The page geometry is incompatible with the loaded paper. Change the document page settings or load the correct paper before embossing. Do not solve a physical paper problem by reducing text arbitrarily.
+
+#### Scenario 2
+
+The document and embosser assumptions disagree. Confirm the desired production mode and configure the document and embosser consistently before starting the job.
+
+#### Scenario 3
+
+Use the Generic manufacturer configuration when appropriate, with the available text-only or text-with-margins options. Test the output because a generic configuration is a compatibility fallback, not proof that every embosser-specific feature is supported.
+
+#### Scenario 4
+
+Do not immediately emboss all 180 pages. Produce a short test, inspect the physical braille, verify page geometry, and then proceed.
+
+#### Production rule
+
+**Paper → Page Properties → Embosser → Test → Full production.**
+
+---
