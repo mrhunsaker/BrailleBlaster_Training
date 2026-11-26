@@ -22,8 +22,7 @@ jobs:
       - name: Build the book
         run: mdbook build my-book
 
-      - name: Check that the sample files regenerate
+      - name: Regenerate the sample files
         run: |
           pip install python-docx pypandoc_binary
           python3 tools/build_samples.py
-          git diff --stat -- my-book/src/samples || true

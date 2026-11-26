@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd">
+<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-3" xml:lang="en">
+  <head><meta name="dc:Title" content="Energy in Our Community: A Field Guide"/><meta name="dc:Language" content="en"/></head>
+  <book>
+    <frontmatter><doctitle>Energy in Our Community: A Field Guide</doctitle></frontmatter>
+    <bodymatter>
+      <level1 id="ch3">
+        <h1>Chapter 3: Energy in Our Community</h1>
+        <p>Energy makes change possible. A moving bicycle has <em>kinetic energy</em>. A book resting on a high shelf has gravitational potential energy because of its position.</p>
+        <level2><h2>Where does electricity come from?</h2>
+          <p>Electricity can be generated in several ways. Solar panels convert light into electrical energy. Wind turbines transfer energy from moving air to a generator. Hydroelectric stations use moving water. Each method has benefits and limits.</p>
+        </level2>
+        <level2><h2>Investigate a school building</h2>
+          <p>Choose three devices in a classroom. Record the device, its power rating in watts, and the estimated hours of use each day.</p>
+          <p>Energy use can be estimated with the equation E = P × t. Here, E is energy in watt-hours, P is power in watts, and t is time in hours.</p>
+        </level2>
+        <level2><h2>Compare the data</h2>
+          <p>Table 3.1. Example classroom devices</p>
+          <table>
+            <tr><th>Device</th><th>Power (W)</th><th>Hours per day</th></tr>
+            <tr><td>LED lamp</td><td>8</td><td>5</td></tr>
+            <tr><td>Laptop</td><td>45</td><td>4</td></tr>
+            <tr><td>Projector</td><td>220</td><td>2</td></tr>
+          </table>
+          <p>Calculate the daily energy estimate for each device. Explain why the highest-power device does not always use the most energy.</p>
+          <p>Figure 3.1. Sunlight reaches a solar panel; electrical energy flows from the panel to a classroom lamp.</p>
+          <list type="ol"><li>Identify the energy source.</li><li>Describe one transfer or conversion.</li><li>State one limitation of the system.</li></list>
+        </level2>
+      </level1>
+    </bodymatter>
+  </book>
+</dtbook>

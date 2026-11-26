@@ -1,0 +1,4 @@
+device,power_watts,hours_per_day
+LED lamp,8,5
+Laptop,45,4
+Projector,220,2

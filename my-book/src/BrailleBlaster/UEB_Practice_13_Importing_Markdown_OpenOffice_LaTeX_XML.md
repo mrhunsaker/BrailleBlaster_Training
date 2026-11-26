@@ -17,7 +17,7 @@ This document intentionally treats **general XML separately from NIMAS XML**. An
 
 ---
 
-# The Concept
+## The Concept
 
 ## Different source formats carry different kinds of structure
 
@@ -40,14 +40,14 @@ Opening a source file is only the beginning of the transcription process. After 
 
 ---
 
-# Part 1 — Importing Markdown
+## Part 1 — Importing Markdown
 
 ## What Markdown is
 
 Markdown is a lightweight markup language. A Markdown source may use symbols such as:
 
 ```markdown
-# Heading 1
+## Heading 1
 
 ## Heading 2
 
@@ -110,7 +110,7 @@ It does **not** mean that the final braille margins should be accepted without r
 Source:
 
 ```markdown
-# Weather
+## Weather
 
 ## Temperature
 
@@ -133,7 +133,7 @@ Temperature tells us how hot or cold something is.
 
 ---
 
-# Part 2 — Importing OpenOffice / OpenDocument Text
+## Part 2 — Importing OpenOffice / OpenDocument Text
 
 ## What format is meant here?
 
@@ -242,7 +242,7 @@ At minimum:
 
 ---
 
-# Part 3 — Importing LaTeX
+## Part 3 — Importing LaTeX
 
 ## What LaTeX is
 
@@ -335,7 +335,7 @@ Check:
 
 ---
 
-# Part 4 — Importing General XML
+## Part 4 — Importing General XML
 
 ## XML is not automatically NIMAS
 
@@ -450,7 +450,7 @@ Determine:
 
 ---
 
-# Part 5 — Importing NIMAS XML
+## Part 5 — Importing NIMAS XML
 
 ## NIMAS is a specific XML workflow
 
@@ -519,7 +519,7 @@ After opening a NIMAS file:
 
 ---
 
-# Part 6 — Importing EPUB Specifically
+## Part 6 — Importing EPUB Specifically
 
 ## EPUB is its own import workflow
 
@@ -602,12 +602,12 @@ Does the imported document need print-page information or other production forma
 
 ---
 
-# Worked Demonstration — Comparing All Five Source Types
+## Worked Demonstration — Comparing All Five Source Types
 
 ## Markdown
 
 ```markdown
-# Weather
+## Weather
 
 ## Temperature
 
@@ -700,7 +700,7 @@ An EPUB might contain:
 
 ---
 
-# Practice Document
+## Practice Document
 
 ## Scenario 1 — Markdown
 
@@ -708,7 +708,7 @@ An EPUB might contain:
 Filename: lesson.md
 
 Contents:
-# Fractions
+## Fractions
 ## Equivalent Fractions
 - 1/2
 - 2/4
@@ -824,7 +824,7 @@ Contents:
 
 ---
 
-# Answer Key
+## Answer Key
 
 ## Scenario 1 — Markdown
 
@@ -929,7 +929,7 @@ The EPUB's packaged structure must be correctly reconstructed in BrailleBlaster 
 
 ---
 
-# Comparison Exercise
+## Comparison Exercise
 
 | Source                | Extension        | What the source primarily provides                       | Main concern after import                             |
 | --------------------- | ---------------- | -------------------------------------------------------- | ----------------------------------------------------- |
@@ -942,14 +942,14 @@ The EPUB's packaged structure must be correctly reconstructed in BrailleBlaster 
 
 ---
 
-# Final Practice — Identify the Import Workflow
+## Final Practice — Identify the Import Workflow
 
 For each source, identify the format and state the **first three things** you would inspect after opening it.
 
 ### A. Markdown
 
 ```text
-# Chapter 1
+## Chapter 1
 ## Animals
 - Dogs
 - Cats
@@ -1012,7 +1012,7 @@ A three-chapter EPUB containing:
 
 ---
 
-# Final Answer Key
+## Final Answer Key
 
 ### A. Markdown
 
@@ -1052,7 +1052,7 @@ A three-chapter EPUB containing:
 
 ---
 
-# Production Checklist
+## Production Checklist
 
 Before beginning detailed transcription work after any import:
 
@@ -1076,7 +1076,7 @@ Before beginning detailed transcription work after any import:
 
 ---
 
-# Core Principles
+## Core Principles
 
 ### 1. Import first; validate second.
 
@@ -1106,7 +1106,7 @@ Whether the source is Markdown, ODT, LaTeX, XML, NIMAS, or EPUB, the transcriber
 
 ---
 
-# Source Citations
+## Source Citations
 
 * **BrailleBlaster current documentation** — supported opening formats and file-import behavior, including Markdown, OpenDocument, LaTeX, XML, EPUB, and other supported formats.
 * **BrailleBlaster FAQ** — supported Markdown, ODT, DOCX, HTML, EPUB3, XML, and TXT files.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0">
+  <metadata>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Water Systems: Sample Chapter</dc:title>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">urn:uuid:sample-water-systems</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="chapter1" href="chapter1.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="chapter1"/>
+  </spine>
+</package>
+
+<!-- Teaching specimen only: this is a simplified package-like XML example,
+     not a complete or standards-conformant NIMAS delivery. Use the NIMAS
+     lesson and current specification for actual package requirements. -->

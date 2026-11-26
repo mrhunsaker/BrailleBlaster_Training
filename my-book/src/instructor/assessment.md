@@ -37,6 +37,14 @@ Use the rubric on the capstone page. Suggested weights for a graded course:
 
 Adjust to suit your program. For a certificate of completion, a capstone total of at least 28 out of 40, with no criterion below 2, is a reasonable threshold.
 
+## Supplemental assessment resources
+
+The [expanded supplemental practice library](../supplemental-practice/README.md) includes 16 applied assignments, 12 seeded-error scenarios, math and technical practice, graphics decision exercises, production challenges, and instructor materials. Use the [practice rubric](assessment-rubrics/practice-assignment-rubric.md), [QA rubric](assessment-rubrics/proofreading-qa-rubric.md), and [capstone rubric](capstone-rubric.md) for consistent evaluation. Instructor answer keys should be distributed separately if students can access the repository.
+
+## Instructor-led practical assessment
+
+Use the [delivery guide](practical-assessment-delivery-guide.md) to prepare and administer the five-station assessment. Keep the [standardized evaluator prompts](practical-assessment-standardized-prompts.md) and [expected evidence reference](practical-assessment-expected-evidence.md) instructor-only. Give candidates the [results record](../supplemental-practice/student-assignments/practical-assessment-results-record.md) after scoring. Use the observation checklist, score sheet, and remediation/retest form in the [assessment rubric index](assessment-rubrics/README.md).
+
 ## Common error patterns to look for
 
 - Typing spaces or blank lines to fake indentation or spacing.
@@ -51,3 +59,12 @@ Adjust to suit your program. For a certificate of completion, a capstone total o
 ## Academic integrity
 
 Because many answers are defensible, copying is easy to spot: look for identical rationales and identical mistakes. Ask learners to explain two decisions aloud as a short oral check if you suspect shared work.
+
+
+## Competency portfolios
+
+Use the learner [portfolio guide](../supplemental-practice/student-assignments/competency-portfolio-guide.md) and its evidence log, skills sign-off sheet, project review record, and course-completion checklist to connect formative work with summative assessment. Apply the instructor [portfolio review guide](portfolio-review-guide.md); verify representative artifacts and do not let a complete portfolio or aggregate score override an unresolved critical defect.
+
+## Cohort administration and reporting
+
+Use the [Cohort Management Toolkit](cohort-management/README.md) templates as the working records and the [Consolidated Course Delivery Toolkit](course-delivery-toolkit.md) for shared status definitions, calculation rules, administration cadence, privacy safeguards, and the copy-ready end-of-course report. It includes a session-by-session pacing tracker, learner milestone register, attendance and session record templates, a skills-domain matrix with denominator rules, and a standardized end-of-course report. Keep completed records and identifiable learner evidence in access-controlled storage; do not commit cohort records to the public repository.
