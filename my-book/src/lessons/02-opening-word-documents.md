@@ -210,3 +210,69 @@ Requires the most checking. Headings and lists should be verified as structural 
 
 - BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Opening Files" and "Pasting Text" (supported file types; pasted text arrives as Body Text), and "Formatting Styles."
 - Braille Authority of North America, *Braille Formats: Principles of Print-to-Braille Transcription, 2016*, at [brailleauthority.org/formats/formats2016.html](https://www.brailleauthority.org/formats/formats2016.html).
+
+---
+
+## Integrated practice: Opening and Converting Word Documents
+
+### Practice Document
+
+#### Scenario 1 — straightforward DOCX
+
+```text
+The Word file contains:
+- Title: "Weather and Climate"
+- Heading 1: "Weather"
+- Heading 2: "Temperature"
+- A three-item bulleted list
+- One paragraph in italics for emphasis
+- No tables or equations
+```
+
+#### Scenario 2 — visually formatted but structurally weak DOCX
+
+```text
+The Word file contains:
+- A 24-point bold line used as the title
+- A 16-point bold line used as a section heading
+- Five spaces before every list item (tab button is never pressed so the default list formatting in word is never triggered)
+- Blank paragraphs inserted between every paragraph
+- A footer containing the page number
+- A two-column table
+```
+
+#### Scenario 3 — mixed instructional content
+
+```text
+The Word file contains:
+- Three heading levels
+- A nested list
+- A fraction written as a Word equation object
+- A photograph with a caption
+- A running header
+- Print page numbers in the footer
+```
+
+For each scenario, decide which parts should be accepted provisionally and which parts require deliberate checking after import.
+
+---
+
+### Answer Key
+
+#### Scenario 1
+
+Mostly straightforward. Verify the heading styles, list style, and italic emphasis in BrailleBlaster. The absence of complex structures does not eliminate the need to check Braille View.
+
+#### Scenario 2
+
+Requires substantial cleanup. Font size and bold can help identify headings, but they are not themselves the braille heading styles. Spaces and blank paragraphs should not be treated as the final braille formatting. The table and footer require separate verification.
+
+#### Scenario 3
+
+Requires the most checking. Headings and lists should be verified as structural elements. The equation should be checked as math rather than assumed correct because it arrived from Word. The photograph needs appropriate image handling, and the running header/page-number information must be distinguished from ordinary body text.
+
+#### Core principle
+
+**Open first; inspect second; format third.** Do not use the apparent success of the import as proof that the braille structure is correct.
+
+---
