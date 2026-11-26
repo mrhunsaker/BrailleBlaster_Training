@@ -187,7 +187,7 @@
 
 # Additional and Archived Course Materials
 - [Backmatter](Backmatter/backmatter.md)
-- [Contributors](about/author.md)
+- [Contributors](Contributors.md)
 - [Indexing](indexing.md)
 
 ---
