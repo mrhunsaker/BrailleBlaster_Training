@@ -17,6 +17,9 @@ By the end of this lesson you will be able to:
 - Fix errors at the source and not in the output file.
 - Use the Help menu to check your version, view the log, and report an error to APH.
 
+> [!NOTE]
+> **Handbook:** [Lesson 53](53-error-gallery.md) is a gallery of common errors by symptom, [Lesson 51](51-accessible-workflow.md) covers proofreading by sight, speech, and touch, and [Lesson 54](54-a-model-job-capstone-walkthrough.md) shows a completed error log.
+
 > [!TIP]
 > **More practice:** the **Proofreading Error Log** in the [Job Aids](../reference/job-aids.md), and the [Production Checklist](../reference/job-aids.md).
 

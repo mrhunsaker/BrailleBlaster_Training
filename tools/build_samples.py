@@ -99,6 +99,33 @@ def inconsistent():
         d.add_paragraph(('\t' * (lvl + 1)) + '\u2022 ' + t)  # different bullet character and tabs
     d.save(os.path.join(OUT, 'word-04-inconsistent-formatting.docx'))
 
+
+def braille_aware():
+    """A Word file that uses the paragraph style NAMES BrailleBlaster recognizes."""
+    from docx.enum.style import WD_STYLE_TYPE
+    d = docx.Document()
+    for name in ['3-1', '1-3', '5-7', '7-5', 'BB Empty Paragraph', 'List Paragraph']:
+        try: d.styles[name]
+        except KeyError: d.styles.add_style(name, WD_STYLE_TYPE.PARAGRAPH)
+    d.add_paragraph('Chapter 4: The Water Cycle', style='Heading 1')
+    d.add_paragraph('Evaporation', style='Heading 2')
+    d.add_paragraph('Heat from the sun turns liquid water into vapor.')
+    d.add_paragraph('This paragraph uses the style named 3-1: the first line starts in cell 3 and runover lines start in cell 1.', style='3-1')
+    d.add_paragraph('This paragraph uses the style named 1-3: the first line starts in cell 1 and runover lines start in cell 3.', style='1-3')
+    d.add_paragraph('', style='BB Empty Paragraph')
+    d.add_paragraph('Three results of evaporation:')
+    for item in ['Water vapor rises', 'The air becomes more humid', 'Clouds can form']:
+        d.add_paragraph(item, style='List Paragraph')
+    d.add_paragraph('Condensation', style='Heading 2')
+    d.add_paragraph('A Heading 3 under Condensation', style='Heading 3')
+    d.add_paragraph('The Word Title style is not a heading to BrailleBlaster:', style='Normal')
+    d.add_paragraph('A Title-style paragraph', style='Title')
+    # a real hard page break (Ctrl+Enter in Word)
+    from docx.enum.text import WD_BREAK
+    d.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
+    d.add_paragraph('This text follows a Word page break.')
+    d.save(os.path.join(OUT, 'word-05-braille-aware-styles.docx'))
+
 # ------------------------------------------------------------------ Markdown / LaTeX / ODT / EPUB / HTML
 MD_SAMPLE = r'''# Sample Markdown Document
 
@@ -136,6 +163,126 @@ def hello_world():
     print("Hello, World!")
 ```
 '''
+MD_TOUR = r'''---
+title: Markdown Syntax Tour
+author: Test Author
+---
+
+# Heading level 1
+
+## Heading level 2
+
+### Heading level 3
+
+#### Heading level 4
+
+Setext heading level 1
+======================
+
+Setext heading level 2
+----------------------
+
+A paragraph of text. A second line in the same paragraph.
+
+A new paragraph after a blank line.  
+This line follows a hard line break (two spaces at the end of the line above).
+
+## Emphasis
+
+*Italic with asterisks* and _italic with underscores_.
+
+**Bold with asterisks** and __bold with underscores__.
+
+***Bold and italic together***.
+
+~~Strikethrough~~, H~2~O (subscript), x^2^ (superscript), and [small caps]{.smallcaps}.
+
+[Underlined text]{.underline}
+
+## Lists
+
+- Bullet one
+- Bullet two
+    - Nested bullet (indented four spaces)
+    - Another nested bullet
+- Bullet three
+
+1. First numbered item
+2. Second numbered item
+    1. Nested numbered item
+3. Third numbered item
+
+(a) Lettered item
+(b) Another lettered item
+
+Term one
+:   Definition of term one.
+
+Term two
+:   Definition of term two.
+
+## Quotes, rules, and code
+
+> A block quotation.
+> It can span several lines.
+
+---
+
+Inline `code` sits inside a sentence.
+
+```python
+def greet(name):
+    return "Hello, " + name
+```
+
+## Poetry with hard line breaks
+
+The water slips away at noon\
+and leaves the shore a quiet floor,\
+a scatter of shells and a bent spoon
+
+## Links, images, and notes
+
+A [link to a site](https://example.org "Optional title").
+
+![A bar chart of rainfall by month](chart.png "Rainfall")
+
+A sentence with a footnote.[^1]
+
+[^1]: This is the text of the footnote.
+
+## A table
+
+| Month    | Rainfall (mm) | Sunny days |
+|:---------|--------------:|-----------:|
+| January  |            78 |         11 |
+| February |            64 |         13 |
+
+## Mathematics
+
+Inline math: $E = mc^2$.
+
+Displayed math:
+
+$$\frac{a + b}{c - d}$$
+
+## Raw HTML and escapes
+
+A literal asterisk: \*not italic\*.
+
+<div class="note">Raw HTML is passed through.</div>
+'''
+
+MD_LINEBLOCK = r'''# Line block test
+
+WARNING: this file is a test case. In the tested conversion filter, the line block
+below (lines that start with a vertical bar) makes the import fail.
+
+| The water slips away at noon
+| and leaves the shore a quiet floor,
+| a scatter of shells and a bent spoon
+'''
+
 MD_MATH = r'''# Pandoc Math Test
 
 ## Inline Math
@@ -519,14 +666,68 @@ def text_files():
 
 def zips():
     with zipfile.ZipFile(os.path.join(OUT, 'markdown-samples.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
-        z.writestr('sample.md', MD_SAMPLE); z.writestr('math-demo.md', MD_MATH)
+        z.writestr('sample.md', MD_SAMPLE); z.writestr('math-demo.md', MD_MATH); z.writestr('markdown-syntax-tour.md', MD_TOUR); z.writestr('line-block-test.md', MD_LINEBLOCK)
     with zipfile.ZipFile(os.path.join(OUT, 'nimas-style-sample.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr('sample-dtbook.xml', DTBOOK); z.writestr('sample-package.opf', OPF)
 
+
+# ------------------------------------------------------------------ Upstream test cases (reproducible import problems)
+def _tiny_png(path, w=40, h=30):
+    import struct, zlib
+    raw = b''.join(b'\x00' + b'\x80\x80\xff' * w for _ in range(h))
+    def ch(tag, data):
+        c = struct.pack('>I', len(data)) + tag + data
+        return c + struct.pack('>I', zlib.crc32(tag + data) & 0xffffffff)
+    open(path, 'wb').write(b'\x89PNG\r\n\x1a\n' + ch(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 2, 0, 0, 0))
+                           + ch(b'IDAT', zlib.compress(raw)) + ch(b'IEND', b''))
+
+
+def upstream_cases():
+    """Small files that reproduce import problems found in BrailleBlaster's conversion script."""
+    import tempfile
+    tmp = tempfile.mkdtemp()
+    png = os.path.join(tmp, 'pic.png')
+    _tiny_png(png)
+    d = docx.Document()
+    d.add_paragraph('Before the picture.')
+    d.add_paragraph().add_run().add_picture(png, width=docx.shared.Inches(1))
+    d.add_paragraph('Figure 1 A caption paragraph.', style='Caption')
+    d.add_paragraph('After the picture.')
+    docx_path = os.path.join(tmp, 'case3-word-image-alone.docx')
+    d.save(docx_path)
+    cases = {
+        'case1-markdown-line-block.md': (
+            '# Line block\n\n'
+            '| The water slips away at noon\n'
+            '| and leaves the shore a quiet floor\n'),
+        'case2-markdown-image-alone.md': (
+            '# Image alone\n\nBefore.\n\n'
+            '![A bar chart of rainfall](chart.png "Rainfall")\n\nAfter.\n'),
+        'case4-latex-figure.tex': (
+            '\\documentclass{article}\\usepackage{graphicx}\\begin{document}\n'
+            'Text before.\n'
+            '\\begin{figure}\\includegraphics{chart.png}\\caption{Rainfall by month}\\end{figure}\n'
+            'Text after.\n\\end{document}\n'),
+        'case5-html-figure.html': (
+            '<p>Text before.</p><figure><img src="chart.png" alt="chart">'
+            '<figcaption>Rainfall by month</figcaption></figure><p>Text after.</p>\n'),
+        'case6-latex-title-block.tex': (
+            '\\documentclass{article}\\title{My Title}\\author{An Author}\\begin{document}\\maketitle\n'
+            'Body text.\n\\end{document}\n'),
+        'README.txt': (
+            "Reproducible test cases for import problems in BrailleBlaster's conversion script.\n"
+            'See UPSTREAM_ISSUES.md in the repository for what each case does and what was expected.\n'),
+    }
+    with zipfile.ZipFile(os.path.join(OUT, 'upstream-test-cases.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
+        for name, text in cases.items():
+            z.writestr(name, text)
+        z.write(docx_path, 'case3-word-image-alone.docx')
+
+
 def main():
-    well_structured(); flat(); geometry(); inconsistent()
+    well_structured(); flat(); geometry(); inconsistent(); braille_aware()
     W('sample.tex', TEX_SAMPLE); W('math-foundations.tex', TEX_MATH)
-    pandoc_outputs(); text_files(); zips()
+    pandoc_outputs(); text_files(); zips(); upstream_cases()
     # a copy of the bare XML so it can be opened directly as well
     open(os.path.join(OUT, 'sample-dtbook.xml'), 'w', encoding='utf-8').write(DTBOOK)
     open(os.path.join(OUT, 'sample-package.opf'), 'w', encoding='utf-8').write(OPF)
@@ -535,7 +736,7 @@ def main():
         for f in sorted(os.listdir(OUT)):
             if f != 'all-samples.zip' and not f.endswith('.md'):
                 z.write(os.path.join(OUT, f), f)
-        z.writestr('sample.md', MD_SAMPLE); z.writestr('math-demo.md', MD_MATH)
+        z.writestr('sample.md', MD_SAMPLE); z.writestr('math-demo.md', MD_MATH); z.writestr('markdown-syntax-tour.md', MD_TOUR); z.writestr('line-block-test.md', MD_LINEBLOCK)
     print('wrote', sorted(os.listdir(OUT)))
 
 if __name__ == '__main__':

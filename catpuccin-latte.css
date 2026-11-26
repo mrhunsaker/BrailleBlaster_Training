@@ -1,0 +1,874 @@
+/* ===================================================================
+   Catppuccin Latte CSS Theme
+   
+   A light, warm color scheme for markdown visualization, highlighting,
+   and callouts. Compatible with:
+   - Markdown viewers that support custom CSS
+   - Pandoc HTML output (use with --css flag)
+   - Static site generators
+   
+   Usage with Pandoc
+    With Markdown Viewers:
+        <link rel="stylesheet" href="catppuccin-latte.css">
+    With Pandoc:
+        pandoc input.md -o output.html --css catppuccin-latte.css
+
+
+   Color Palette: Catppuccin Latte (Light Theme)
+   Base: #eff1f5 | Mantle: #e6e9ef | Crust: #dce0e8
+   Text: #4c4f69 | Subtext: #5c5f77 - #9ca0b0
+   Accents: Rosewater #dc8a78, Green #40a02b, Blue #1e66f5, etc.
+   
+   Created: August 2026
+   =================================================================== */
+
+/* ===================================================================
+   BASE STYLES & TYPOGRAPHY
+   =================================================================== */
+
+:root {
+    /* Catppuccin Latte Colors */
+    --base: #eff1f5;
+    --mantle: #e6e9ef;
+    --crust: #dce0e8;
+    
+    --text: #4c4f69;
+    --subtext1: #5c5f77;
+    --subtext0: #6c6f85;
+    --overlay2: #7c7f93;
+    --overlay1: #8c8fa1;
+    --overlay0: #9ca0b0;
+    --surface2: #acb0be;
+    --surface1: #bcc0cc;
+    --surface0: #ccd0da;
+    
+    /* Accent Colors */
+    --rosewater: #dc8a78;
+    --flamingo: #dd7878;
+    --pink: #ea76cb;
+    --mauve: #8839ef;
+    --red: #d20f39;
+    --maroon: #e64553;
+    --peach: #fe640b;
+    --yellow: #df8e1d;
+    --green: #40a02b;
+    --teal: #179299;
+    --sky: #04a5e5;
+    --sapphire: #209fb5;
+    --blue: #1e66f5;
+    --lavender: #7287fd;
+    
+    /* Semantic Colors */
+    --bg-primary: var(--base);
+    --bg-secondary: var(--mantle);
+    --bg-tertiary: var(--crust);
+    --text-primary: var(--text);
+    --text-secondary: var(--subtext1);
+    --text-tertiary: var(--subtext0);
+    --border: var(--surface2);
+    --code-bg: var(--surface0);
+    --code-text: var(--text);
+    
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    
+    /* Border Radius */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    
+    /* Font */
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    --font-mono: 'Fira Code', 'JetBrains Mono', 'Source Code Pro', monospace;
+    --font-size-base: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height);
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-xl);
+}
+
+/* ===================================================================
+   TYPOGRAPHY & TEXT ELEMENTS
+   =================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: var(--text-primary);
+}
+
+h1 {
+    font-size: 2.25rem;
+    border-bottom: 2px solid var(--surface2);
+    padding-bottom: var(--space-sm);
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: var(--blue);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--green);
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: var(--mauve);
+}
+
+h5, h6 {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+}
+
+p {
+    margin: var(--space-md) 0;
+    color: var(--text-primary);
+}
+
+p + p {
+    margin-top: 0;
+}
+
+strong, b {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+em, i {
+    color: var(--mauve);
+    font-style: italic;
+}
+
+u {
+    color: var(--peach);
+    text-decoration: underline;
+    text-decoration-color: var(--peach);
+    text-underline-offset: 2px;
+}
+
+s, del {
+    color: var(--overlay1);
+    text-decoration: line-through;
+}
+
+small {
+    font-size: var(--font-size-sm);
+    color: var(--text-tertiary);
+}
+
+/* Horizontal Rules */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--surface2), transparent);
+    margin: var(--space-xl) 0;
+}
+
+/* Links */
+a {
+    color: var(--blue);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--lavender);
+    text-decoration: underline;
+}
+
+/* ===================================================================
+   CODE BLOCKS & INLINE CODE (Highlighting)
+   =================================================================== */
+
+/* Inline Code */
+code, tt {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+    background-color: var(--code-bg);
+    color: var(--rosewater);
+    padding: 0.125rem 0.375rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--surface2);
+}
+
+/* Code Blocks */
+pre {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+    background-color: var(--code-bg);
+    color: var(--text-primary);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--surface2);
+    overflow-x: auto;
+    margin: var(--space-md) 0;
+    box-shadow: var(--shadow-sm);
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* Syntax Highlighting Classes for Pandoc */
+/* Use with pandoc --highlight-style=kate or similar */
+.hl-keyword {
+    color: var(--mauve);
+    font-weight: 600;
+}
+
+.hl-string {
+    color: var(--green);
+}
+
+.hl-comment {
+    color: var(--overlay1);
+    font-style: italic;
+}
+
+.hl-number {
+    color: var(--peach);
+}
+
+.hl-function {
+    color: var(--blue);
+}
+
+.hl-variable {
+    color: var(--text-primary);
+}
+
+.hl-operator {
+    color: var(--red);
+}
+
+.hl-type {
+    color: var(--lavender);
+}
+
+/* ===================================================================
+   CALLOUTS / ALERTS / ADMONITIONS
+   =================================================================== */
+
+/* Base Callout Styles */
+.callout {
+    padding: var(--space-md) var(--space-lg);
+    border-radius: var(--radius-md);
+    margin: var(--space-lg) 0;
+    border-left: 4px solid;
+    box-shadow: var(--shadow-sm);
+}
+
+.callout p:first-child {
+    margin-top: 0;
+}
+
+.callout p:last-child {
+    margin-bottom: 0;
+}
+
+.callout-title {
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.callout-title::before {
+    font-size: 1.25rem;
+}
+
+/* Note Callout - Blue Theme */
+.callout-note {
+    background-color: rgba(30, 102, 245, 0.05);
+    border-left-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.callout-note .callout-title {
+    color: var(--blue);
+}
+
+.callout-note .callout-title::before {
+    content: "ℹ️";
+}
+
+/* Tip Callout - Green Theme */
+.callout-tip {
+    background-color: rgba(64, 160, 43, 0.05);
+    border-left-color: var(--green);
+    border-color: var(--green);
+}
+
+.callout-tip .callout-title {
+    color: var(--green);
+}
+
+.callout-tip .callout-title::before {
+    content: "💡";
+}
+
+/* Important Callout - Yellow/Orange Theme */
+.callout-important {
+    background-color: rgba(223, 142, 29, 0.05);
+    border-left-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.callout-important .callout-title {
+    color: var(--yellow);
+}
+
+.callout-important .callout-title::before {
+    content: "⚠️";
+}
+
+/* Warning Callout - Red Theme */
+.callout-warning {
+    background-color: rgba(210, 15, 57, 0.05);
+    border-left-color: var(--red);
+    border-color: var(--red);
+}
+
+.callout-warning .callout-title {
+    color: var(--red);
+}
+
+.callout-warning .callout-title::before {
+    content: "🔥";
+}
+
+/* Error Callout - Maroon Theme */
+.callout-error {
+    background-color: rgba(230, 69, 83, 0.05);
+    border-left-color: var(--maroon);
+    border-color: var(--maroon);
+}
+
+.callout-error .callout-title {
+    color: var(--maroon);
+}
+
+.callout-error .callout-title::before {
+    content: "❌";
+}
+
+/* Success Callout - Teal Theme */
+.callout-success {
+    background-color: rgba(23, 146, 153, 0.05);
+    border-left-color: var(--teal);
+    border-color: var(--teal);
+}
+
+.callout-success .callout-title {
+    color: var(--teal);
+}
+
+.callout-success .callout-title::before {
+    content: "✅";
+}
+
+/* Trainer Tip Callout - Special for BrailleBlaster Training */
+.callout-trainer {
+    background-color: rgba(114, 135, 253, 0.05);
+    border-left-color: var(--lavender);
+    border-color: var(--lavender);
+}
+
+.callout-trainer .callout-title {
+    color: var(--lavender);
+}
+
+.callout-trainer .callout-title::before {
+    content: "👩‍🏫";
+}
+
+/* ===================================================================
+   BLOCKQUOTES
+   =================================================================== */
+
+blockquote {
+    font-style: italic;
+    color: var(--text-secondary);
+    border-left: 3px solid var(--surface2);
+    padding-left: var(--space-md);
+    margin-left: 0;
+    margin: var(--space-md) 0;
+}
+
+blockquote p:first-child {
+    margin-top: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote cite {
+    font-style: normal;
+    color: var(--overlay1);
+    font-size: var(--font-size-sm);
+    display: block;
+    margin-top: var(--space-sm);
+}
+
+blockquote cite::before {
+    content: "— ";
+}
+
+/* ===================================================================
+   LISTS
+   =================================================================== */
+
+ul, ol {
+    margin: var(--space-md) 0;
+    padding-left: var(--space-lg);
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}
+
+ol ol ol {
+    list-style-type: lower-roman;
+}
+
+li {
+    margin: var(--space-xs) 0;
+}
+
+li p {
+    margin: 0;
+}
+
+/* Task Lists */
+.task-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.task-list input[type="checkbox"] {
+    margin-right: var(--space-sm);
+}
+
+/* ===================================================================
+   TABLES
+   =================================================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-lg) 0;
+    font-size: var(--font-size-sm);
+}
+
+thead {
+    background-color: var(--surface0);
+}
+
+thead th {
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--surface2);
+}
+
+tbody td {
+    padding: var(--space-sm) var(--space-md);
+    border-bottom: 1px solid var(--surface2);
+    color: var(--text-primary);
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--mantle);
+}
+
+tbody tr:hover {
+    background-color: var(--crust);
+}
+
+/* ===================================================================
+   IMAGES & FIGURES
+   =================================================================== */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.figure {
+    margin: var(--space-lg) 0;
+    text-align: center;
+}
+
+.figure img {
+    display: block;
+    margin: 0 auto var(--space-md);
+}
+
+.figcaption {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    text-align: center;
+}
+
+/* ===================================================================
+   MARKDOWN-SPECIFIC ELEMENTS
+   =================================================================== */
+
+/* Definition Lists */
+dl {
+    margin: var(--space-md) 0;
+}
+
+dt {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: var(--space-md);
+}
+
+dd {
+    margin-left: var(--space-lg);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-md);
+}
+
+/* Footnotes */
+.footnote-ref {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: var(--blue);
+}
+
+.footnotes {
+    margin-top: var(--space-xl);
+    border-top: 1px solid var(--surface2);
+    padding-top: var(--space-md);
+    font-size: var(--font-size-sm);
+}
+
+.footnotes ol {
+    padding-left: var(--space-md);
+}
+
+.footnotes li {
+    margin-bottom: var(--space-xs);
+}
+
+.footnotes li p {
+    margin: 0;
+    display: inline;
+}
+
+/* Abbreviations */
+abbr {
+    border-bottom: 1px dotted var(--overlay1);
+    cursor: help;
+}
+
+/* ===================================================================
+   PANDOC-SPECIFIC ELEMENTS
+   =================================================================== */
+
+/* Metadata */
+.metadata {
+    font-size: var(--font-size-sm);
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-xl);
+    padding: var(--space-md);
+    background-color: var(--mantle);
+    border-radius: var(--radius-md);
+}
+
+/* Table of Contents */
+.toc {
+    background-color: var(--mantle);
+    padding: var(--space-md) var(--space-lg);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.toc-title {
+    font-weight: 600;
+    color: var(--blue);
+    margin-bottom: var(--space-md);
+}
+
+.toc-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.toc-list li {
+    margin: var(--space-xs) 0;
+}
+
+.toc-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.toc-list a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+/* ===================================================================
+   UTILITY CLASSES
+   =================================================================== */
+
+/* Text Alignment */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/* Text Colors */
+.text-rosewater { color: var(--rosewater); }
+.text-flamingo { color: var(--flamingo); }
+.text-pink { color: var(--pink); }
+.text-mauve { color: var(--mauve); }
+.text-red { color: var(--red); }
+.text-maroon { color: var(--maroon); }
+.text-peach { color: var(--peach); }
+.text-yellow { color: var(--yellow); }
+.text-green { color: var(--green); }
+.text-teal { color: var(--teal); }
+.text-sky { color: var(--sky); }
+.text-sapphire { color: var(--sapphire); }
+.text-blue { color: var(--blue); }
+.text-lavender { color: var(--lavender); }
+
+/* Background Colors */
+.bg-rosewater { background-color: var(--rosewater); }
+.bg-flamingo { background-color: var(--flamingo); }
+.bg-pink { background-color: var(--pink); }
+.bg-mauve { background-color: var(--mauve); }
+.bg-red { background-color: var(--red); }
+.bg-maroon { background-color: var(--maroon); }
+.bg-peach { background-color: var(--peach); }
+.bg-yellow { background-color: var(--yellow); }
+.bg-green { background-color: var(--green); }
+.bg-teal { background-color: var(--teal); }
+.bg-sky { background-color: var(--sky); }
+.bg-sapphire { background-color: var(--sapphire); }
+.bg-blue { background-color: var(--blue); }
+.bg-lavender { background-color: var(--lavender); }
+
+/* Text Sizes */
+.text-xs { font-size: var(--font-size-sm); }
+.text-sm { font-size: var(--font-size-sm); }
+.text-base { font-size: var(--font-size-base); }
+.text-lg { font-size: var(--font-size-lg); }
+.text-xl { font-size: var(--font-size-xl); }
+
+/* Spacing Utilities */
+.mt-xs { margin-top: var(--space-xs); }
+.mt-sm { margin-top: var(--space-sm); }
+.mt-md { margin-top: var(--space-md); }
+.mt-lg { margin-top: var(--space-lg); }
+.mt-xl { margin-top: var(--space-xl); }
+
+.mb-xs { margin-bottom: var(--space-xs); }
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+.mb-xl { margin-bottom: var(--space-xl); }
+
+.p-xs { padding: var(--space-xs); }
+.p-sm { padding: var(--space-sm); }
+.p-md { padding: var(--space-md); }
+.p-lg { padding: var(--space-lg); }
+.p-xl { padding: var(--space-xl); }
+
+/* Border Radius */
+.rounded-sm { border-radius: var(--radius-sm); }
+.rounded-md { border-radius: var(--radius-md); }
+.rounded-lg { border-radius: var(--radius-lg); }
+
+/* Borders */
+.border { border: 1px solid var(--border); }
+.border-rosewater { border-color: var(--rosewater); }
+.border-green { border-color: var(--green); }
+.border-blue { border-color: var(--blue); }
+
+/* ===================================================================
+   BRAILLEBLASTER-SPECIFIC STYLES
+   =================================================================== */
+
+/* BrailleBlaster Emphasis Mapping */
+.bb-bold { font-weight: 600; color: var(--text-primary); }
+.bb-italic { font-style: italic; color: var(--mauve); }
+.bb-underline { text-decoration: underline; color: var(--peach); }
+.bb-script { font-family: 'Brush Script MT', cursive; color: var(--lavender); }
+
+/* BrailleBlaster Style Mapping */
+.bb-heading-1 { font-size: 2.25rem; color: var(--text-primary); border-bottom: 2px solid var(--surface2); }
+.bb-heading-2 { font-size: 1.75rem; color: var(--blue); }
+.bb-heading-3 { font-size: 1.5rem; color: var(--green); }
+.bb-body { font-size: var(--font-size-base); color: var(--text-primary); }
+.bb-list { list-style-type: disc; padding-left: var(--space-lg); }
+.bb-block { background-color: var(--surface0); padding: var(--space-md); border-radius: var(--radius-md); border-left: 3px solid var(--blue); }
+
+/* BrailleBlaster Math */
+.bb-math { background-color: var(--surface0); padding: 0.125rem 0.375rem; border-radius: var(--radius-sm); color: var(--rosewater); font-family: var(--font-mono); }
+.bb-math-block { display: block; background-color: var(--code-bg); padding: var(--space-md); border-radius: var(--radius-md); margin: var(--space-md) 0; }
+
+/* ===================================================================
+   PRINT STYLES
+   =================================================================== */
+
+@media print {
+    body {
+        max-width: none;
+        padding: 0;
+        background-color: white;
+        color: black;
+    }
+    
+    .callout {
+        page-break-inside: avoid;
+    }
+    
+    pre {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+    }
+    
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        color: #666;
+    }
+}
+
+/* ===================================================================
+   DARK MODE SUPPORT (Optional)
+   
+   Uncomment this section if you want dark mode support.
+   Use with a dark mode toggle or media query.
+   =================================================================== */
+
+/*
+@media (prefers-color-scheme: dark) {
+    :root {
+        --base: #1e1e2e;
+        --mantle: #181825;
+        --crust: #11111b;
+        
+        --text: #cdd6f4;
+        --subtext1: #bac2de;
+        --subtext0: #a6adc8;
+        --overlay2: #9399b2;
+        --overlay1: #7f849c;
+        --overlay0: #6c7086;
+        --surface2: #585b70;
+        --surface1: #45475a;
+        --surface0: #313244;
+        
+        --code-bg: #313244;
+        --code-text: #cdd6f4;
+        
+        --bg-primary: var(--base);
+        --bg-secondary: var(--mantle);
+        --text-primary: var(--text);
+        --text-secondary: var(--subtext1);
+        --border: var(--surface2);
+    }
+    
+    pre {
+        background-color: var(--code-bg);
+        border-color: var(--surface2);
+    }
+    
+    code, tt {
+        background-color: var(--surface0);
+        border-color: var(--surface2);
+    }
+}
+*/
+
+/* ===================================================================
+   PANDOC HIGHIGHTING STYLE
+   
+   For use with pandoc's --highlight-style option.
+   Save this as a separate file and reference it.
+   =================================================================== */
+
+/*
+To use with pandoc:
+1. Save this CSS as catppuccin-latte-highlight.css
+2. Use: pandoc input.md -o output.html --highlight-style=catppuccin-latte-highlight.css
+
+Note: Pandoc's --highlight-style expects a specific format. 
+The above code block and inline code styles should work directly.
+*/

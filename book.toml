@@ -1,0 +1,57 @@
+[book]
+title = "BrailleBlaster v3 Training"
+authors = ["Michael Ryan Hunsaker, M.Ed., Ph.D."]
+language = "en"
+description = "A hands-on curriculum for learning BrailleBlaster braille transcription software, with an instructor guide and capstone project."
+src = "src"
+text-direction = "ltr"
+
+[build]
+build-dir = "docs"
+create-missing = false
+use-default-preprocessors = true
+
+[output.html]
+default-theme = "Rust"
+preferred-dark-theme = "Navy"
+site-url = "/BrailleBlaster_Training/"
+git-repository-url = "https://github.com/mrhunsaker/BrailleBlaster_Training"
+no-section-label = false
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.markdown]
+
+[output.pandoc]
+optional = true
+number-internal-headings = false 
+list-internal-headings = false 
+
+[output.pandoc.code]
+show-hidden-lines = true
+
+[output.pandoc.profile.pdf]
+output-file = "BrailleBlaterTraining.pdf"
+to = "latex"
+pdf-engine = "xelatex"
+file-scope = true 
+number-sections = true 
+standalone = true 
+table-of-contents = true 

@@ -18,6 +18,7 @@ The lessons give you practice text to copy and paste. Several topics also need *
 | [word-02-flat-structure.docx](word-02-flat-structure.docx) | The same chapter formatted by hand | Every paragraph is Normal. Headings are bold text in larger sizes, and the bullets are a typed bullet character and a tab. The italic and bold are direct formatting |
 | [word-03-geometry-three-pass.docx](word-03-geometry-three-pass.docx) | A geometry chapter for the Three-Pass Method | All Normal. Bold headings at three sizes, six tab-and-asterisk list lines, and an italic lead-in |
 | [word-04-inconsistent-formatting.docx](word-04-inconsistent-formatting.docx) | A document that formats similar things differently | Three different fake-heading patterns plus one real Heading 2, two list styles, and three different treatments of defined terms |
+| [word-05-braille-aware-styles.docx](word-05-braille-aware-styles.docx) | A document that uses the style **names** BrailleBlaster recognizes | Heading 1 to 3; paragraph styles named `3-1` and `1-3`; a `BB Empty Paragraph`; three `List Paragraph` items; a `Title` paragraph; and a real page break. Used in [Lesson 35](../lessons/35-word-structure-with-styles.md) |
 
 Open files 01 and 02 side by side. They hold the same words and look nearly identical in Word, yet they carry very different structure. That contrast is the point of [Lesson 2](../lessons/02-opening-word-documents.md).
 
@@ -25,7 +26,7 @@ Open files 01 and 02 side by side. They hold the same words and look nearly iden
 
 | File | Format | Notes |
 | ---- | ------ | ----- |
-| [markdown-samples.zip](markdown-samples.zip) | Markdown | Contains `sample.md` (headings, nested list, bold and italic, inline and displayed math, a code block) and `math-demo.md`. They are zipped because they must keep the `.md` extension |
+| [markdown-samples.zip](markdown-samples.zip) | Markdown | Contains `sample.md`, `math-demo.md`, **`markdown-syntax-tour.md`** (every construct in [Lesson 34](../lessons/34-markdown-syntax-guide.md)), and **`line-block-test.md`**, a test case that fails to import. They are zipped because they must keep the `.md` extension |
 | [sample.odt](sample.odt) | OpenDocument | A title, Heading 1 and 2, a three-item list, bold and italic |
 | [sample.epub](sample.epub) | EPUB 3 | Two short chapters, with a list in each |
 | [sample.tex](sample.tex) | LaTeX | Sections, two equations, and a nested list |
@@ -43,6 +44,14 @@ The content has two chapters, level-2 sections, a nested list, print page number
 
 > [!NOTE]
 > This is a **NIMAS-style** teaching file. It has not been validated as a NIMAC file set. Real NIMAS files come to your agency through the NIMAC or your state. When you have access to one, repeat Lab 4 with it. See [Policy and Standards Background](../reference/policy-background.md).
+
+## Test cases for import problems (Handbook, Lessons 33 to 40)
+
+| File | What it holds |
+| ---- | ------------- |
+| [upstream-test-cases.zip](upstream-test-cases.zip) | Six small files that reproduce import problems found in BrailleBlaster's conversion script: a Markdown line block, an image alone in a paragraph (in Markdown and in Word), a LaTeX figure, an HTML figure, and a LaTeX title block |
+
+Use them to **see the problems for yourself** and to report them. [`UPSTREAM_ISSUES.md`](https://github.com/mrhunsaker/BrailleBlaster_Training/blob/main/UPSTREAM_ISSUES.md) in the repository says what each case does, what was expected, and a tested fix.
 
 ## Plain-text practice sources (Labs 5 to 9)
 

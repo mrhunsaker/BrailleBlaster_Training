@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Treat EPUB as its own packaged-publication workflow.
 - Write a post-import checklist for each format.
 
+> [!NOTE]
+> **Handbook:** [Lesson 40](40-latex-for-transcribers.md) teaches how to read LaTeX, and [Lessons 37](37-reading-xml.md) to [39](39-inside-the-packages.md) teach how to read XML and package files. In testing, the LaTeX **document class** changes the heading levels, and `\maketitle`, TikZ pictures, and `figure` environments are **dropped**.
+
 > [!TIP]
 > **More practice:** [Lab 2](../labs/lab-2-import-comparison.md), [Lab 3: When LaTeX Misbehaves](../labs/lab-3-when-latex-misbehaves.md), and a NIMAS-style set in the [sample files](../samples/index.md).
 

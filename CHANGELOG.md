@@ -2,6 +2,27 @@
 
 All notable changes to this curriculum are recorded here. The format follows [Keep a Changelog](https://keepachangelog.com/), and versions follow [Semantic Versioning](https://semver.org/) with this meaning: **major** for a change in structure or lesson numbering, **minor** for new lessons, labs, or reference pages, and **patch** for corrections.
 
+## [2.3.0]
+
+### Added
+- **Unit 5: Handbook (supplemental)**, with 22 lessons (33 to 54): what makes a good source; Markdown, Word, LibreOffice and Google Docs; XML, DTBook, NIMAS, and MathML; the inside of DOCX, ODT, EPUB, eBraille, and BBX packages; LaTeX; text encoding and braille characters; PDFs, scans, and OCR; a Braille Formats crosswalk; quick-reference cards; page geometry and volume sizing; image description; a subject-area guide; job intake and the agency style sheet; file management and student privacy; embosser care; an accessible workflow; decision trees; an error gallery; and a model capstone job.
+- A Unit 5 page with a placement table, and Unit 5 teaching notes.
+- **`UPSTREAM_ISSUES.md`**, eight findings to report to the BrailleBlaster project, with a reproducible test set (`upstream-test-cases.zip`) and tested fixes for the two most serious.
+- New sample files: `markdown-syntax-tour.md`, `line-block-test.md`, `word-05-braille-aware-styles.docx`, and `upstream-test-cases.zip`.
+- Job Aids 10 to 13: the intake ticket, the agency style sheet, the embosser maintenance log, and the accessibility test log.
+- Glossary terms, resources, and a section in the Pandoc Cookbook on previewing BrailleBlaster's own conversion.
+- A "Handbook" note at the top of the lessons it supports.
+
+### Changed
+- `VERIFICATION.md` now separates what was run, read, computed, and cited, and lists what is not yet verified.
+- The quality checker ignores Markdown examples inside code blocks when it checks links.
+- **Capstone:** corrected "four print levels" to three, removed a duplicated heading, and linked the model walkthrough.
+- **Lessons 1 and 4:** noted that a screen reader announces every Breadcrumbs change, and how to turn them off.
+- The Pandoc Cookbook now uses `--math-method=mathml` and says that BrailleBlaster bundles its own Pandoc.
+
+### Removed
+- Orphaned files from the earlier structure (`BrailleBlaster/`, `Backmatter/`, `Contributors.md`, `indexing.md`), which had returned.
+
 ## [2.2.0]
 
 ### Added

@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Plan volume breaks at natural boundaries and not at an arbitrary sheet count.
 - Verify volume and page numbers before proofreading.
 
+> [!NOTE]
+> **Handbook:** [Lesson 45](45-page-geometry-and-volume-sizing.md) shows how to estimate sheets and volumes from a measured sample.
+
 > [!TIP]
 > **More practice:** the [Volume Plan job aid](../reference/job-aids.md).
 

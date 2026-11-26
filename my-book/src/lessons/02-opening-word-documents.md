@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Inspect an imported document in the Print View and Style View and correct styles instead of adding spaces.
 - Decide when converting a file outside BrailleBlaster is worth the extra layer of interpretation.
 
+> [!NOTE]
+> **Handbook:** [Lesson 33](33-what-makes-a-good-source.md) ranks sources and lists the ten import-safety rules, and [Lesson 35](35-word-structure-with-styles.md) shows how to inspect and build a Word file. **Two things in Word files are lost silently on import:** a picture alone in its paragraph (with its caption), and the document title if it uses the *Title* style. Check both.
+
 > [!TIP]
 > **More practice:** four real Word files in the [sample files](../samples/index.md), and [Lab 1: Rescue a Poorly Formatted Word Document](../labs/lab-1-rescue-word-document.md), which teaches the Three-Pass Method.
 

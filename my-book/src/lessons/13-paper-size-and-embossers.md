@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Create and select an embosser profile, and tell **File > Print** from **File > Emboss**.
 - Troubleshoot a bad emboss in a sensible order.
 
+> [!NOTE]
+> **Handbook:** [Lesson 45](45-page-geometry-and-volume-sizing.md) covers the arithmetic of page geometry and volume sizing, and [Lesson 50](50-embosser-operation-and-maintenance.md) covers operating and maintaining an embosser.
+
 > [!TIP]
 > **More practice:** [Lab 5: Page Properties and the Test Emboss](../labs/lab-5-test-page-and-embosser.md) and the [Embosser Profile Log](../reference/job-aids.md).
 

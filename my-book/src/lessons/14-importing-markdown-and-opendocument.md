@@ -15,6 +15,9 @@ By the end of this lesson you will be able to:
 - Open each format and know what to verify afterward.
 - Spot the Markdown list problem that needs checking after import.
 
+> [!NOTE]
+> **Handbook:** Before you import, read [Lesson 34](34-markdown-syntax-guide.md) and [Lesson 36](36-libreoffice-openoffice-and-google-docs.md). In testing, a Markdown **line block** (lines starting with `|`) makes the import **fail**, an **image alone on a line** is dropped with its caption, and the **YAML title** is ignored. An `.odt` file loses style names that a `.docx` keeps.
+
 > [!TIP]
 > **More practice:** real files in the [sample files](../samples/index.md) and [Lab 2: Import Comparison](../labs/lab-2-import-comparison.md).
 

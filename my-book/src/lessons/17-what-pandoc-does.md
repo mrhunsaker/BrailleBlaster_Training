@@ -15,6 +15,9 @@ By the end of this lesson you will be able to:
 - Predict what is likely to survive a conversion and what must be checked.
 - Use "convert to HTML first" as a deliberate troubleshooting step.
 
+> [!NOTE]
+> **Handbook:** BrailleBlaster **bundles its own copy of Pandoc** (version 3.12.1 in the source examined) and runs the result through its own conversion script, `bbx.lua`. What survives a conversion is decided by that script, not by Pandoc alone. See [Lessons 33](33-what-makes-a-good-source.md) and [34](34-markdown-syntax-guide.md), and the [Pandoc Cookbook](../reference/pandoc-cookbook.md).
+
 > [!TIP]
 > **More practice:** the [Pandoc Cookbook](../reference/pandoc-cookbook.md) and [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
 
