@@ -105,6 +105,8 @@
   - [Practical Assessment Standardized Evaluator Prompts](instructor/practical-assessment-standardized-prompts.md)
   - [Practical Assessment Expected Evidence Reference](instructor/practical-assessment-expected-evidence.md)
   - [Portfolio Review Guide](instructor/portfolio-review-guide.md)
+  - [Cohort Management Toolkit](instructor/cohort-management/README.md)
+  - [Consolidated Course Delivery Toolkit](instructor/course-delivery-toolkit.md)
   - [Lesson-to-Resource Map](instructor/lesson-resource-map.md)
   - [Assessment Bank](instructor/assessment-bank.md)
   - [Capstone Assessment Rubric](instructor/capstone-rubric.md)
