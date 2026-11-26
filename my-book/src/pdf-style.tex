@@ -1,7 +1,7 @@
 
 % ============================================================
 % Custom Pandoc PDF Styling
-% No Eisvogel dependency
+% 
 % ============================================================
 
 % ------------------------------------------------------------
@@ -23,13 +23,17 @@
 % ------------------------------------------------------------
 % Colors
 % ------------------------------------------------------------
-
+\PassOptionsToPackage{table}{xcolor}
 \usepackage{xcolor}
-
+\usepackage{colortbl}
 \definecolor{codebackground}{HTML}{F0F0F0}
 \definecolor{quotebackground}{HTML}{F5F5F5}
 \definecolor{quoteborder}{HTML}{B8B8B8}
+\definecolor{rowalt}{HTML}{F5F5F5}
 
+% Alternate rows: first data row white, next row light grey
+% \rowcolors{<start-row>}{<odd-row-color>}{<even-row-color>}
+\rowcolors{2}{white}{rowalt}
 % ------------------------------------------------------------
 % Code block formatting
 % ------------------------------------------------------------
@@ -69,6 +73,71 @@
         skipbelow=10pt
     ]}
     {\end{mdframed}}
+
+% ------------------------------------------------------------
+% Admonitions (Note, Tip, Important, Warning, Caution)
+% ------------------------------------------------------------
+
+\definecolor{admonNoteBg}{HTML}{F0F6FC}
+\definecolor{admonNoteBorder}{HTML}{1F6FEB}
+
+\definecolor{admonTipBg}{HTML}{EEFBF3}
+\definecolor{admonTipBorder}{HTML}{1A7F37}
+
+\definecolor{admonImportantBg}{HTML}{F5F0FF}
+\definecolor{admonImportantBorder}{HTML}{8250DF}
+
+\definecolor{admonWarningBg}{HTML}{FFF8E6}
+\definecolor{admonWarningBorder}{HTML}{BF8700}
+
+\definecolor{admonCautionBg}{HTML}{FFF0F0}
+\definecolor{admonCautionBorder}{HTML}{CF222E}
+
+\newenvironment{admonition}[3]{%
+    % #1 = background color, #2 = border color, #3 = title label
+    \begin{mdframed}[
+        backgroundcolor=#1,
+        linecolor=#2,
+        linewidth=3pt,
+        topline=false,
+        bottomline=false,
+        rightline=false,
+        leftline=true,
+        innerleftmargin=12pt,
+        innerrightmargin=10pt,
+        innertopmargin=8pt,
+        innerbottommargin=8pt,
+        skipabove=10pt,
+        skipbelow=10pt
+    ]%
+    {\bfseries\color{#2}#3}\par\smallskip
+}{%
+    \end{mdframed}%
+}
+
+\newenvironment{adm-note}{\begin{admonition}{admonNoteBg}{admonNoteBorder}{Note}}{\end{admonition}}
+\newenvironment{adm-tip}{\begin{admonition}{admonTipBg}{admonTipBorder}{Tip}}{\end{admonition}}
+\newenvironment{adm-important}{\begin{admonition}{admonImportantBg}{admonImportantBorder}{Important}}{\end{admonition}}
+\newenvironment{adm-warning}{\begin{admonition}{admonWarningBg}{admonWarningBorder}{Warning}}{\end{admonition}}
+\newenvironment{adm-caution}{\begin{admonition}{admonCautionBg}{admonCautionBorder}{Caution}}{\end{admonition}}
+
+% ------------------------------------------------------------
+% Monospace Braille Fallback
+% ------------------------------------------------------------
+
+\usepackage{fontspec}
+
+\directlua{
+  luaotfload.add_fallback("braillefallback", {
+    "DejaVu Sans:mode=harf;"
+  })
+}
+
+\AtBeginDocument{
+\setmonofont{DejaVu Sans Mono}[
+  RawFeature={fallback=braillefallback}
+]
+}
 
 % ------------------------------------------------------------
 % Typography

@@ -40,7 +40,12 @@ level = 1
 
 [output.markdown]
 
+[preprocessor.admonitions]
+command = "python3 scripts/admonitions_pre.py"
+renderers = ["pandoc"]
+
 [output.pandoc]
+path = "scripts/pandoc-admonitions.sh"
 optional = true
 number-internal-headings = false 
 list-internal-headings = false 
@@ -48,10 +53,25 @@ list-internal-headings = false
 [output.pandoc.code]
 show-hidden-lines = true
 
-[output.pandoc.profile.pdf]
-output-file = "BrailleBlaster_Training.pdf"
+#[output.pandoc.profile.pdf]
+#output-file = "BrailleBlaster_Training.pdf"
+#to = "latex"
+#pdf-engine = "lualatex"
+#file-scope = true
+#number-sections = true
+#standalone = true
+#table-of-contents = true
+#list-tables = true
+#include-in-header = ["src/pdf-style.tex"]
+
+#[output.pandoc.profile.pdf.variables]
+#mainfont = "DejaVu Sans"
+#monofont = "DejaVu Sans Mono"
+#top-level-division = "chapter"
+
+[output.pandoc.profile.tex]
+output-file = "BrailleBlaster_Training.tex"
 to = "latex"
-pdf-engine = "xelatex"
 file-scope = true
 number-sections = true
 standalone = true
@@ -59,7 +79,7 @@ table-of-contents = true
 list-tables = true
 include-in-header = ["src/pdf-style.tex"]
 
-[output.pandoc.profile.pdf.variables]
+[output.pandoc.profile.tex.variables]
 mainfont = "DejaVu Sans"
 monofont = "DejaVu Sans Mono"
 top-level-division = "chapter"
