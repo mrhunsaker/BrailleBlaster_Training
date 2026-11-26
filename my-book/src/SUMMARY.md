@@ -54,14 +54,6 @@
 
 # Unit 5: Handbook (Supplemental)
 - [Unit 5 Handbook: reference lessons, placement guidance, and checkpoint](units/unit-5-handbook.md)
-
-# Labs, Samples, and Supplemental Practice
-- [Integrated Labs](labs/index.md)
-- [Sample Files and Source Specimens](samples/index.md)
-- [Expanded Supplemental Practice Library](supplemental-practice/README.md)
-# Unit 5: Handbooks (Supplemental)
-
-- [Unit overview and checkpoint](units/unit-5-handbook.md)
   - [Lesson 33: What Makes a Good Source](lessons/33-what-makes-a-good-source.md)
   - [Lesson 34: Markdown Syntax Guide](lessons/34-markdown-syntax-guide.md)
   - [Lesson 35: Word: Building Structure with Styles](lessons/35-word-structure-with-styles.md)
@@ -85,9 +77,9 @@
   - [Lesson 53: Error Gallery](lessons/53-error-gallery.md)
   - [Lesson 54: A Model Job: Capstone Walkthrough](lessons/54-a-model-job-capstone-walkthrough.md)
 
-# Labs and Samples
+# Labs, Samples, and Supplemental Practice
 
-- [Labs Overview](labs/index.md)
+- [Integrated Labs](labs/index.md)
   - [Lab 1: Rescue a Poorly Formatted Word Document](labs/lab-1-rescue-word-document.md)
   - [Lab 2: Import Comparison](labs/lab-2-import-comparison.md)
   - [Lab 3: When LaTeX Misbehaves](labs/lab-3-when-latex-misbehaves.md)
@@ -97,7 +89,7 @@
   - [Lab 7: Choosing the Right Translation Control](labs/lab-7-relaxation-plan.md)
   - [Lab 8: A Safe Find-and-Replace Cleanup](labs/lab-8-find-and-replace-cleanup.md)
   - [Lab 9: Special Structures Studio](labs/lab-9-special-structures.md)
-- [Sample Files](samples/index.md)
+- [Sample Files and Source Specimens](samples/index.md)
   - [Extra Practice Drills](reference/extra-practice-drills.md)
   - [Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.md)
 - [Converting LaTeX to HTML](reference/latex-to-html-conversion.md)
@@ -118,15 +110,19 @@
   - [Production Workflow Challenges](supplemental-practice/production-challenges/README.md)
 
 # Capstone
+
 - [Capstone: Transcribe a Textbook Chapter](capstone/capstone.md)
 
 # Instructor Guide
+
 - [Instructor Guide and Instructor Resource Index](instructor/index.md)
 
 # Reference
+
 - [Reference Desk: External Standards, Course Aids, and Technical Resources](reference/resources.md)
 
 # Supplemental Practice Details
+
   - [Capstone Intake Packet](supplemental-practice/student-assignments/capstone-intake-packet.md)
   - [Production Handoff Template](supplemental-practice/student-assignments/production-handoff-template.md)
   - [Capstone Peer-Review Protocol](supplemental-practice/student-assignments/peer-review-protocol.md)
@@ -191,11 +187,7 @@
 
 # Additional and Archived Course Materials
 - [Backmatter](Backmatter/backmatter.md)
-- [Advanced Lessons](BrailleBlaster/Advanced_Lessons.md)
-- [Ebraille Export](BrailleBlaster/Ebraille_Export.md)
-- [Transcriber Focused Lessons](BrailleBlaster/Transcriber_Focused_Lessons.md)
-- [Universal Lessons](BrailleBlaster/Universal_Lessons.md)
-- [Contributors](Contributors.md)
+- [Contributors](about/author.md)
 - [Indexing](indexing.md)
 
 ---
