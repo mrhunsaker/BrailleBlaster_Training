@@ -64,3 +64,7 @@ Because many answers are defensible, copying is easy to spot: look for identical
 ## Competency portfolios
 
 Use the learner [portfolio guide](../supplemental-practice/student-assignments/competency-portfolio-guide.md) and its evidence log, skills sign-off sheet, project review record, and course-completion checklist to connect formative work with summative assessment. Apply the instructor [portfolio review guide](portfolio-review-guide.md); verify representative artifacts and do not let a complete portfolio or aggregate score override an unresolved critical defect.
+
+## Cohort administration and reporting
+
+Use the [Course Delivery and Cohort Management Toolkit](course-delivery-toolkit.md) to maintain one consistent record set per cohort. It includes a session-by-session pacing tracker, learner milestone register, attendance and session record templates, a skills-domain matrix with denominator rules, and a standardized end-of-course report. Keep completed records and identifiable learner evidence in access-controlled storage; do not commit cohort records to the public repository.
