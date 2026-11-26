@@ -49,6 +49,9 @@ Complete this task before moving on. It should take 90 to 120 minutes.
 
 ## Additional practice sheets
 
+The earlier [Advanced Lessons overview](../BrailleBlaster/Advanced_Lessons.md) is retained for old bookmarks and redirects to this maintained unit page.
+
+
 Use these retained practice sheets as optional reinforcement after the corresponding current lesson. The main lesson and its version notes take precedence if a menu path differs.
 
 - [NIMAS XML practice](../BrailleBlaster/UEB_Practice_12_NIMAS_XML.md) — Lessons 15 and 20.
