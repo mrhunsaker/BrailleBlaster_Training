@@ -75,6 +75,10 @@ Complete the production capstone brief from intake through handoff. Submit the s
 
 Complete the [Instructor-Led Practical Assessment](instructor-led-practical-assessment.md) candidate packet. It provides five timed stations covering intake, import and semantic repair, specialized content, production control, and handoff.
 
+## Practical assessment results
+
+After completing the [Instructor-Led Practical Assessment](instructor-led-practical-assessment.md), use the [Candidate Results Record](practical-assessment-results-record.md) with the evaluator. It records competency scores, critical-defect status, submitted evidence, work restrictions, and remediation or retest requirements.
+
 ## Applied assessment
 
 Complete the [Applied Import and Conversion Assessment Pack](applied-import-assessment-pack.md) for six source-format scenarios covering Word, OpenDocument, HTML, LaTeX, XML/NIMAS-style content, and EPUB/CSV reconciliation. The assessment includes required evidence and a final production decision.
