@@ -192,3 +192,91 @@ No. It is author-supplied text. It is not a TN merely because it begins with “
 ## Source Citations
 
 - *Braille Formats 2016* — Transcriber's Notes and special material.
+
+---
+
+## Integrated practice: Transcribers Notes Usage
+
+### Practice Document
+
+#### Scenario 1 — inline
+
+```text
+The print source uses red text to identify vocabulary.
+```
+
+The color carries instructional meaning. Decide where the reader needs the explanation.
+
+#### Scenario 2 — separate paragraph
+
+```text
+The next three pages use shaded boxes to identify key ideas.
+```
+
+Decide whether one TN before the section is better than repeated inline notes.
+
+#### Scenario 3 — print caption
+
+```text
+Figure 3.1. Parts of a flower
+```
+
+Is this automatically a TN?
+
+#### Scenario 4 — transcriber description
+
+A photograph has no descriptive text in print. A transcriber creates a description for the braille reader. What kind of material is this?
+
+#### Scenario 5 — listed table
+
+A five-column print table is reformatted as a listed table. Does the reader need an explanation of the changed structure?
+
+#### Scenario 6 — unnecessary TN
+
+The author writes:
+
+```text
+Note: Remember that plants need water.
+```
+
+Should the transcriber automatically put TN indicators around it?
+
+---
+
+### Answer Key
+
+#### 1. Inline
+
+If the color distinction matters at a particular point, explain it locally with an inline TN. Avoid repeating the same explanation unnecessarily.
+
+#### 2. Separate paragraph
+
+A separate TN is preferable when one explanation applies to an entire section.
+
+#### 3. Print caption
+
+No. It is source text. Use the Caption style when appropriate; do not add TN indicators merely because the text identifies a figure. 
+
+#### 4. Transcriber description
+
+It is transcriber-generated information and should be treated as a description/TN.
+
+#### 5. Listed table
+
+Yes, when the structural change is significant enough that the reader needs an explanation. BrailleBlaster provides a TN-heading function for listed tables. 
+
+#### 6. Unnecessary TN
+
+No. It is author-supplied text. It is not a TN merely because it begins with “Note.”
+
+---
+
+### Core Principle
+
+**Ask who is communicating the information and where the reader needs it.** Use an inline TN for a local issue, a separate TN for a larger explanation, and distinguish print captions from transcriber-generated descriptions.
+
+---
+
+### Source Citations
+
+- *Braille Formats 2016* — Transcriber's Notes and special material.
