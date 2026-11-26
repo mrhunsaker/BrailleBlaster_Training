@@ -41,6 +41,10 @@ Adjust to suit your program. For a certificate of completion, a capstone total o
 
 The [expanded supplemental practice library](../supplemental-practice/README.md) includes 16 applied assignments, 12 seeded-error scenarios, math and technical practice, graphics decision exercises, production challenges, and instructor materials. Use the [practice rubric](assessment-rubrics/practice-assignment-rubric.md), [QA rubric](assessment-rubrics/proofreading-qa-rubric.md), and [capstone rubric](capstone-rubric.md) for consistent evaluation. Instructor answer keys should be distributed separately if students can access the repository.
 
+## Instructor-led practical assessment
+
+Use the [delivery guide](practical-assessment-delivery-guide.md) to prepare and administer the five-station assessment. Keep the [standardized evaluator prompts](practical-assessment-standardized-prompts.md) and [expected evidence reference](practical-assessment-expected-evidence.md) instructor-only. Give candidates the [results record](../supplemental-practice/student-assignments/practical-assessment-results-record.md) after scoring. Use the observation checklist, score sheet, and remediation/retest form in the [assessment rubric index](assessment-rubrics/README.md).
+
 ## Common error patterns to look for
 
 - Typing spaces or blank lines to fake indentation or spacing.
