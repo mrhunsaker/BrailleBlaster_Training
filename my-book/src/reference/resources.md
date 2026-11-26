@@ -61,3 +61,18 @@
 - The program source: [github.com/aphtech/brailleblaster](https://github.com/aphtech/brailleblaster)
 - The user guide source: [github.com/aphtech/brailleblaster-docs](https://github.com/aphtech/brailleblaster-docs)
 - [`UPSTREAM_ISSUES.md`](https://github.com/mrhunsaker/BrailleBlaster_Training/blob/main/UPSTREAM_ISSUES.md), findings from this course that should be reported to the project
+
+## Course reference desk
+
+Use these course aids from the lesson or workflow that calls for them:
+
+- [Keyboard shortcuts and menu paths](shortcuts.md) — quick lookup while following a lesson.
+- [Practice drill bank](drill-bank.md) and [extra practice drills](extra-practice-drills.md) — short reinforcement after the relevant unit or lesson.
+- [Job aids](job-aids.md) and [student job aids and logbooks](student-job-aids-and-logbooks.md) — intake, production planning, verification, and recordkeeping.
+- [Pandoc cookbook](pandoc-cookbook.md) and [LaTeX-to-HTML conversion guide](latex-to-html-conversion.md) — import and conversion workflows.
+- [Policy and standards background](policy-background.md) — authority, privacy, and production context.
+- [Glossary](glossary.md) — course terminology.
+- [Troubleshooting guide](troubleshooting.md) — diagnosis and recovery.
+- [Indexing workflow reference](../indexing.md) — glossary/index production and quality control.
+
+For hands-on assignments, use the [labs](../labs/index.md), [sample files](../samples/index.md), and [supplemental practice library](../supplemental-practice/README.md). Instructor-only answer keys and rubrics are indexed from the [Instructor Guide](../instructor/index.md).
