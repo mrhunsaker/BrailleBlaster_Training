@@ -12,12 +12,18 @@ TEX_FILE="$BOOK_DIR/docs/pandoc/tex/BrailleBlaster_Training.tex"
 log() { printf '\n==> %s\n' "$*"; }
 die() { printf 'Error: %s\n' "$*" >&2; exit 1; }
 
-for command in mdbook perl lualatex; do
+for command in mdbook mdbook-pandoc pandoc python3 perl lualatex; do
     command -v "$command" >/dev/null 2>&1 || die "Required command not found: $command"
 done
 
 [[ -f "$BOOK_DIR/book.toml" ]] || die "Cannot find mdBook config: $BOOK_DIR/book.toml"
 [[ -f "$CLEANUP_SCRIPT" ]] || die "Missing cleanup script: $CLEANUP_SCRIPT"
+
+# These preprocessors are referenced by my-book/book.toml. They are ignored by
+# the repository's current .gitignore, so verify that they exist in this checkout.
+for required_file in "$BOOK_DIR/scripts/admonitions_pre.py" "$BOOK_DIR/scripts/pandoc-admonitions.sh"; do
+    [[ -f "$required_file" ]] || die "Required mdBook helper is missing: $required_file"
+done
 
 log "Building mdBook and Pandoc LaTeX output"
 mdbook build "$BOOK_DIR"
