@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Build the mdBook, normalize LaTeX admonitions, and compile the PDF source.
-# Run from any directory: ./build_script.sh
+# Run from the repository root: bash build_script.sh
 
 set -Eeuo pipefail
 
