@@ -57,6 +57,32 @@
   - [Lesson 31: Glossaries and Indexes](lessons/31-glossaries-and-indexes.md)
   - [Lesson 32: Proofreading and Quality Assurance](lessons/32-proofreading-and-quality-assurance.md)
 
+# Unit 5: Handbooks (Supplemental)
+
+- [Unit overview and checkpoint](units/unit-5-handbook.md)
+  - [Lesson 33: What Makes a Good Source](lessons/33-what-makes-a-good-source.md)
+  - [Lesson 34: Markdown Syntax Guide](lessons/34-markdown-syntax-guide.md)
+  - [Lesson 35: Word: Building Structure with Styles](lessons/35-word-structure-with-styles.md)
+  - [Lesson 36: LibreOffice, OpenOffice, and Google Docs](lessons/36-libreoffice-openoffice-and-google-docs.md)
+  - [Lesson 37: Reading and Working with XML](lessons/37-reading-xml.md)
+  - [Lesson 38: DTBook, NIMAS, and MathML](lessons/38-dtbook-nimas-and-mathml.md)
+  - [Lesson 39: Inside the Packages](lessons/39-inside-the-packages.md)
+  - [Lesson 40: LaTeX for Transcribers](lessons/40-latex-for-transcribers.md)
+  - [Lesson 41: Text Encoding and Braille Characters](lessons/41-text-encoding-and-braille-characters.md)
+  - [Lesson 42: PDFs, Scans, and OCR](lessons/42-pdfs-scans-and-ocr.md)
+  - [Lesson 43: Braille Formats Crosswalk](lessons/43-braille-formats-crosswalk.md)
+  - [Lesson 44: Quick-Reference Cards](lessons/44-quick-reference-cards.md)
+  - [Lesson 45: Page Geometry and Sizing Volumes](lessons/45-page-geometry-and-volume-sizing.md)
+  - [Lesson 46: Image Description and Tactile Graphics Resources](lessons/46-image-description-and-tactile-graphics-resources.md)
+  - [Lesson 47: Subject-Area Decision Guide](lessons/47-subject-area-decision-guide.md)
+  - [Lesson 48: Job Intake and the Agency Style Sheet](lessons/48-job-intake-and-the-agency-style-sheet.md)
+  - [Lesson 49: File Management and Student Privacy](lessons/49-file-management-and-student-privacy.md)
+  - [Lesson 50: Embosser Operation and Maintenance](lessons/50-embosser-operation-and-maintenance.md)
+  - [Lesson 51: An Accessible Workflow](lessons/51-accessible-workflow.md)
+  - [Lesson 52: Decision Trees](lessons/52-decision-trees.md)
+  - [Lesson 53: Error Gallery](lessons/53-error-gallery.md)
+  - [Lesson 54: A Model Job: Capstone Walkthrough](lessons/54-a-model-job-capstone-walkthrough.md)
+  - 
 # Labs and Samples
 
 - [Labs Overview](labs/index.md)
