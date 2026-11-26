@@ -84,6 +84,35 @@ if os.path.exists(os.path.join(SRC, 'samples', 'index.md')):
         if not os.path.exists(os.path.join(SRC, 'samples', m.group(1))):
             errors.append(f'samples/index.md: missing file {m.group(1)}')
 
+# Reject unfinished manuscript pages and explicit stub language. Intentional archive
+# landing pages are acceptable only when they contain a substantive explanation
+# and a link to their maintained replacement; blank/heading-only files are not.
+STUB_PATTERNS = [
+    r'(?im)^\\s*TODO(?:[:\\s]|$)',
+    r'(?im)^\\s*TBD(?:[:\\s]|$)',
+    r'(?i)content to be added',
+    r'(?i)coming soon',
+    r'(?i)this (?:page|file) is a placeholder',
+    r'(?i)placeholder is retained',
+    r'(?i)not yet implemented',
+    r'(?i)to be completed later',
+]
+for f in files:
+    t = read(os.path.join(SRC, f))
+    visible = re.sub(r'(?s)<!--.*?-->', '', t).strip()
+    hs = headings(visible)
+    if f != 'SUMMARY.md' and (not visible or (len(hs) == 1 and len(visible.splitlines()) <= 2)):
+        errors.append(f'{f}: empty or heading-only manuscript page')
+    for pat in STUB_PATTERNS:
+        if re.search(pat, visible): errors.append(f'{f}: unfinished/stub content /{pat}/')
+    if re.search(r'(?m)^\\s*#{2,6}\\s*
+for w in warnings: print('WARNING:', w)
+for e in errors: print('ERROR:  ', e)
+print(f'{len(errors)} error(s), {len(warnings)} warning(s).')
+sys.exit(1 if errors else 0)
+, visible):
+        errors.append(f'{f}: blank section heading')
+
 print(f'Checked {len(files)} Markdown files.')
 for w in warnings: print('WARNING:', w)
 for e in errors: print('ERROR:  ', e)
