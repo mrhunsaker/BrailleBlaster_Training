@@ -9,7 +9,7 @@ docs/
 *.swp
 
 # Exclude scripts folder
-scripts/
+
 
 *.bak
 
