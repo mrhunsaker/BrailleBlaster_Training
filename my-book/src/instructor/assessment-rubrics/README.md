@@ -8,3 +8,6 @@ Use criterion-level feedback. A technically correct output with no defensible wo
 
 - [Applied import and conversion assessment rubric](applied-import-assessment-rubric.md)
 - [Applied import assessment instructor guide](applied-import-instructor-guide.md)
+- [Practical assessment observation checklist](observation-checklist.md)
+- [Practical assessment evaluator score sheet](evaluator-score-sheet.md)
+- [Practical assessment remediation and retest form](remediation-retest-form.md)
