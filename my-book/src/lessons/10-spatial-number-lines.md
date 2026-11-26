@@ -193,3 +193,82 @@ The documentation notes that decimal values can require attention to translation
 
 - BrailleBlaster User Guide, at [brailleblaster.org/docs/manual/manual.php](https://brailleblaster.org/docs/manual/manual.php): "Making Spatial Math," "Settings Specific to Number Lines," and "Create a Number Line" (Math Entry and User Text, Interval and Points, start and end interval types, Reduce Fraction, Beveled Fraction, arrows, Stretch Across Page, Remove Leading Zeros).
 - The Nemeth Code and *The Rules of Unified English Braille* for the braille representation of number lines and fractions.
+
+---
+
+## Integrated practice: Spatial Number Lines
+
+### Practice Document
+
+#### 1. Single point
+
+```text
+0  1  2  3  4  5
+      ●
+```
+
+#### 2. Open interval
+
+```text
+0  1  2  3  4  5
+      ○────────○
+```
+
+Interpret the endpoints as open.
+
+#### 3. Closed interval
+
+```text
+0  1  2  3  4  5
+      ●────────●
+```
+
+Interpret the endpoints as closed.
+
+#### 4. Mixed endpoints
+
+```text
+0  1  2  3  4  5
+      ○────────●
+```
+
+#### 5. User-text labels
+
+```text
+cold       comfortable       hot
+ |-------------|--------------|
+```
+
+Use labels that are not merely numerical math expressions. (Note, this one has an error and I leave it to your discretion to fix it)
+
+---
+
+### Answer Key
+
+#### 1. Single point
+
+Use **Points** and place one point at the designated value.
+
+#### 2. Open interval
+
+Use **Interval**, with **Empty Circle** at both ends.
+
+#### 3. Closed interval
+
+Use **Interval**, with **Full Circle** at both ends.
+
+#### 4. Mixed endpoints
+
+Use **Interval**, with an Empty Circle at the open endpoint and Full Circle at the closed endpoint.
+
+#### 5. User-text labels
+
+Use **User Text** because the labels are words rather than mathematical values. The Line Marker option may be used when multiple labeled locations are needed. 
+
+The trick here was using the word comfortable makes the numberline too long. I personally replaced it with "comfy" and it worked great. 
+
+#### Translation check
+
+The documentation notes that decimal values can require attention to translation. For example, `0.5` appears as `.5` in braille. Always verify number-line labels in Braille View rather than assuming the Print View gives the final code.
+
+---
