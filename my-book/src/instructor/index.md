@@ -7,7 +7,8 @@ This guide is for anyone teaching the course to a group, whether you are a unive
 - **This page:** how to run a session, materials, and accommodations.
 - **Teaching notes** for [Unit 1](unit-1.md), [Unit 2](unit-2.md), [Unit 3](unit-3.md), and [Unit 4](unit-4.md): a demonstration idea, tips and pitfalls, a check for understanding, and an extension for each lesson.
 - **[Session Plans](session-plans.md):** fifteen ready-to-run sessions that use the drills and labs.
-- **[Course Delivery and Cohort Management Toolkit](course-delivery-toolkit.md):** reusable instructor pacing tracker, learner progress register, attendance and session records, cohort skills dashboard, and end-of-course reporting template.
+- **[Cohort Management Toolkit](cohort-management/README.md):** separate reusable templates for pacing, learner progress, attendance, competency review, and end-of-course reporting.
+- **[Consolidated Course Delivery Toolkit](course-delivery-toolkit.md):** combined operating guidance, shared status definitions, calculation rules, privacy safeguards, and copy-ready cohort report.
 - **[Assessment and Grading](assessment.md):** how to use answer keys, unit checkpoints, and the capstone rubric.
 - **[Practical Assessment Delivery Guide](practical-assessment-delivery-guide.md), [Standardized Evaluator Prompts](practical-assessment-standardized-prompts.md), and [Expected Evidence Reference](practical-assessment-expected-evidence.md):** consistent administration and scoring of the instructor-led practical.
 - **[Lesson-to-Resource Map](lesson-resource-map.md):** where supplemental assignments extend each lesson.
