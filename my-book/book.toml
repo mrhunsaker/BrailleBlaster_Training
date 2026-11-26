@@ -49,7 +49,7 @@ list-internal-headings = false
 show-hidden-lines = true
 
 [output.pandoc.profile.pdf]
-output-file = "BrailleBlaterTraining.pdf"
+output-file = "BrailleBlaster_Training.pdf"
 to = "latex"
 pdf-engine = "xelatex"
 file-scope = true
@@ -58,3 +58,8 @@ standalone = true
 table-of-contents = true
 list-tables = true
 include-in-header = ["src/pdf-style.tex"]
+
+[output.pandoc.profile.pdf.variables]
+mainfont = "DejaVu Sans"
+monofont = "DejaVu Sans Mono"
+top-level-division = "chapter"
