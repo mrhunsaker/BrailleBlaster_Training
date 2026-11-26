@@ -101,3 +101,8 @@ Complete the [Applied Import and Conversion Assessment Pack](applied-import-asse
 
 
 These templates are designed to be completed with the course's fictional practice materials; replace assumptions only when an actual job specification supplies authoritative requirements.
+
+
+## Competency portfolio system
+
+Build a cumulative record with the [Competency Portfolio Guide](competency-portfolio-guide.md). Use the [Competency Evidence Log](competency-evidence-log.md) for substantial tasks, the [Skills Sign-Off Sheet](competency-skills-signoff.md) for observed performance, the [Project Review Record](project-review-record.md) for major work, and the [Course Completion Checklist](course-completion-checklist.md) before final review.
