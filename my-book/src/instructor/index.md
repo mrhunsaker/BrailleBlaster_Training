@@ -59,3 +59,6 @@ Every lesson stands alone, so you can reorder or split sessions to match your le
 ## About the source drafts
 
 This book consolidates several earlier drafts, which are kept in the `AddlFiles` folder of the repository for reference. Where an earlier draft and the lessons disagreed about a menu path or shortcut, the lessons and the BrailleBlaster 3.x documentation are authoritative.
+
+
+- **[Portfolio Review Guide](portfolio-review-guide.md):** evaluate evidence quality, verify skills sign-offs, sample learner work, and record completion decisions.
