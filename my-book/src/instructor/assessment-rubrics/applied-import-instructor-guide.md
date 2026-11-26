@@ -66,7 +66,7 @@ Expected inspection includes package metadata, navigation document, spine/readin
 
 ## Scoring and remediation
 
-Use the companion [100-point scoring rubric](assessment-rubric.md). Apply the critical-defect override even if the numeric score is passing. Give the learner a precise defect location, expected evidence, and a retest condition. Re-score only the affected criteria unless the correction changes other parts of the workflow.
+Use the companion [100-point scoring rubric](applied-import-assessment-rubric.md). Apply the critical-defect override even if the numeric score is passing. Give the learner a precise defect location, expected evidence, and a retest condition. Re-score only the affected criteria unless the correction changes other parts of the workflow.
 
 ## Records to retain
 
