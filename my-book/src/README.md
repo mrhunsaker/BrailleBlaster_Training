@@ -63,3 +63,5 @@ This course was written by Michael Ryan Hunsaker, M.Ed., Ph.D. See [About the Au
 ## Additional course material
 
 The [Backmatter](Backmatter/backmatter.md) collects completion, production, standards, and attribution guidance. [Contributors](Contributors.md) records acknowledgements and source contributions. The unit pages link to retained practice sheets from earlier course drafts where they provide useful reinforcement.
+
+The [older Universal Lessons](BrailleBlaster/Universal_Lessons.md), [Advanced Lessons](BrailleBlaster/Advanced_Lessons.md), and [Transcriber-Focused Lessons](BrailleBlaster/Transcriber_Focused_Lessons.md) pages are retained as redirects for legacy bookmarks; the maintained course sequence is in the Unit pages.
