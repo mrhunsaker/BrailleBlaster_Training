@@ -187,9 +187,110 @@ For [Lesson 32](../lessons/32-proofreading-and-quality-assurance.md) and every j
 
 **After the job:** count errors by type. The largest count is where you should look hardest next time.
 
+---
+
+## 10. Job Intake Ticket
+
+For [Lesson 48](../lessons/48-job-intake-and-the-agency-style-sheet.md). Use **initials or an ID** for the student, never a full name.
+
+| Field | Entry |
+| ----- | ----- |
+| Ticket number and date received | |
+| Requester and contact | |
+| Date due | |
+| Student (initials or ID) and grade | |
+| Source file names and formats | |
+| Source quality (rank on the ladder, Lesson 33) | |
+| Permission to transcribe, and limits on copies | |
+| Braille code and grade | |
+| Math code | |
+| Paper size, interpoint or single-sided, embosser | |
+| Subject, and features (math, tables, images, code, poetry) | |
+| Special requests | |
+| Sample: print pages, braille pages, ratio | |
+| Sample: time taken | |
+| Estimate: braille pages, sheets, volumes | |
+| Estimate: hours, as a range | |
+| Risks | |
+| Transcriber, proofreader, approver | |
+| Date delivered, and where the files are stored | |
 
 ---
 
-## Supplemental printable worksheets
+## 11. Agency Style Sheet
 
-For expanded student-facing intake, import verification, embosser, production, and logbook templates, see [Student Job Aids and Logbooks](student-job-aids-and-logbooks.md).
+For [Lesson 48](../lessons/48-job-intake-and-the-agency-style-sheet.md). Record **decisions**, and note who decided and when.
+
+| Area | Decision | Decided by and date |
+| ---- | -------- | ------------------- |
+| Codes (text, math, contracted or not) | | |
+| Page setup (paper, margins, cells and lines, interpoint) | | |
+| Heading map (print levels to braille headings) | | |
+| Lists and outlines | | |
+| Emphasis: what to keep and what to ignore | | |
+| Highlighting and color | | |
+| Transcriber's Notes: standard wording | | |
+| Images and descriptions | | |
+| Tables: preferred formats | | |
+| Math: borderline cases | | |
+| Page numbers and running heads | | |
+| Volumes: sheets per volume and break points | | |
+| File naming and folders | | |
+| Proofreading: passes and who | | |
+| Version, date, and owner of this sheet | | |
+
+**Exceptions log:** date, job, question, decision, reason.
+
+---
+
+## 12. Embosser Maintenance Log and Pre-Flight Checklist
+
+For [Lesson 50](../lessons/50-embosser-operation-and-maintenance.md). The manufacturer's manual is the authority.
+
+**Pre-flight checklist**
+
+- [ ] The right paper is loaded, the right way up, and square.
+- [ ] The right profile is selected in BrailleBlaster.
+- [ ] The interpoint setting matches on the embosser and in the document.
+- [ ] Page Properties match the paper.
+- [ ] I emboss the **first page** first and check its margins and first line.
+- [ ] Then the full job.
+
+**Maintenance log**
+
+| Date | Embosser | Done by | What happened or what was done (service, jam, paper change, update) | Test page passed? |
+| ---- | -------- | ------- | ------------------------------------------------------------------ | ----------------- |
+|      |          |         |                                                                    | [ ]               |
+|      |          |         |                                                                    | [ ]               |
+|      |          |         |                                                                    | [ ]               |
+
+---
+
+## 13. Accessibility Test Log
+
+For [Lesson 51](../lessons/51-accessible-workflow.md).
+
+| Item | Entry |
+| ---- | ----- |
+| Operating system and version | |
+| Screen reader or braille display, and version | |
+| BrailleBlaster version | |
+| Date and tester | |
+
+| # | Task | Method used | Worked? | Workaround or note |
+| - | ---- | ----------- | ------- | ------------------ |
+| 1 | Open the File menu by keyboard | | [ ] | |
+| 2 | Open a document | | [ ] | |
+| 3 | Move between views and read the Print View | | [ ] | |
+| 4 | Move element by element (Ctrl+Down) | | [ ] | |
+| 5 | Apply a heading style | | [ ] | |
+| 6 | Turn Breadcrumbs on and off | | [ ] | |
+| 7 | Apply bold with Ctrl+B | | [ ] | |
+| 8 | Open the Braille Preview and read the status line | | [ ] | |
+| 9 | Go to a page (Ctrl+G) | | [ ] | |
+| 10 | Find and Replace (Ctrl+F) | | [ ] | |
+| 11 | Insert a table and use the Table Editor | | [ ] | |
+| 12 | Build a fraction in the ASCII Math Hub | | [ ] | |
+| 13 | Read Page Properties | | [ ] | |
+| 14 | Save a BRF and read it | | [ ] | |
+| 15 | Emboss a test page (Ctrl+E) | | [ ] | |

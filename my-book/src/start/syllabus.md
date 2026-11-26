@@ -13,6 +13,7 @@ By the end of the course, a learner can:
 7. Produce a multi-volume transcription with running heads, page numbers, Transcriber's Notes, a table of contents, and T-pages.
 8. Explain transcription decisions in writing.
 9. Build tables, control page breaks, handle images, correct a translation, set up an alternative math code, number lines, format glossaries and indexes, and proofread in passes (Unit 4).
+10. Prepare, inspect, and repair sources in many formats, run a job from intake to delivery, and work accessibly (Unit 5, supplemental).
 
 ## Lesson plan and suggested time
 
@@ -72,6 +73,35 @@ Times are planning estimates for an instructor-led session including practice. S
 
 These lessons are independent. The [Unit 4 page](../units/unit-4-specialized.md) suggests where to fit each among the earlier lessons.
 
+### Unit 5: Handbook, supplemental (about 41 hours)
+
+| #  | Lesson | Minutes |
+| -- | ------ | ------- |
+| 33 | [What Makes a Good Source](../lessons/33-what-makes-a-good-source.md) | 90 |
+| 34 | [Markdown Syntax Guide](../lessons/34-markdown-syntax-guide.md) | 150 |
+| 35 | [Word: Building Structure with Styles](../lessons/35-word-structure-with-styles.md) | 150 |
+| 36 | [LibreOffice, OpenOffice, and Google Docs](../lessons/36-libreoffice-openoffice-and-google-docs.md) | 120 |
+| 37 | [Reading and Working with XML](../lessons/37-reading-xml.md) | 150 |
+| 38 | [DTBook, NIMAS, and MathML](../lessons/38-dtbook-nimas-and-mathml.md) | 150 |
+| 39 | [Inside the Packages](../lessons/39-inside-the-packages.md) | 150 |
+| 40 | [LaTeX for Transcribers](../lessons/40-latex-for-transcribers.md) | 150 |
+| 41 | [Text Encoding and Braille Characters](../lessons/41-text-encoding-and-braille-characters.md) | 150 |
+| 42 | [PDFs, Scans, and OCR](../lessons/42-pdfs-scans-and-ocr.md) | 120 |
+| 43 | [Braille Formats Crosswalk](../lessons/43-braille-formats-crosswalk.md) | 90 |
+| 44 | [Quick-Reference Cards](../lessons/44-quick-reference-cards.md) | 90 |
+| 45 | [Page Geometry and Sizing Volumes](../lessons/45-page-geometry-and-volume-sizing.md) | 90 |
+| 46 | [Image Description and Tactile Graphics Resources](../lessons/46-image-description-and-tactile-graphics-resources.md) | 120 |
+| 47 | [Subject-Area Decision Guide](../lessons/47-subject-area-decision-guide.md) | 120 |
+| 48 | [Job Intake and the Agency Style Sheet](../lessons/48-job-intake-and-the-agency-style-sheet.md) | 120 |
+| 49 | [File Management and Student Privacy](../lessons/49-file-management-and-student-privacy.md) | 120 |
+| 50 | [Embosser Operation and Maintenance](../lessons/50-embosser-operation-and-maintenance.md) | 90 |
+| 51 | [An Accessible Workflow](../lessons/51-accessible-workflow.md) | 120 |
+| 52 | [Decision Trees](../lessons/52-decision-trees.md) | 90 |
+| 53 | [Error Gallery](../lessons/53-error-gallery.md) | 120 |
+| 54 | [A Model Job: Capstone Walkthrough](../lessons/54-a-model-job-capstone-walkthrough.md) | 150 |
+
+These lessons are supplemental and independent. The [Unit 5 page](../units/unit-5-handbook.md) shows where each fits among the earlier lessons.
+
 ### Labs (about 10 hours)
 
 Nine integrated [labs](../labs/index.md) use the [sample files](../samples/index.md). Do each lab after the lessons it lists. Labs are recommended for instructor-led courses and optional for self-paced study.
@@ -80,7 +110,7 @@ Nine integrated [labs](../labs/index.md) use the [sample files](../samples/index
 
 [Capstone: Transcribe a Textbook Chapter](../capstone/capstone.md)
 
-**Total:** about 55 hours for Units 1 to 3 and the capstone, about 69 hours with Unit 4, and about 79 hours with the labs.
+**Total:** about 55 hours for Units 1 to 3 and the capstone, about 69 hours with Unit 4, about 79 hours with the labs, and about 120 hours with the Handbook.
 
 ## Pacing plans
 

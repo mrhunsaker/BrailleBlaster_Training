@@ -56,7 +56,7 @@ You choose which views are visible and in what order.
 3. A view that you hide and then show again comes back on the **right-hand side** of the window. At least one view must always stay displayed.
 4. To put the views in the order you prefer, go to **View > Toggle Views > Rearrange Views** and use **Move Up** and **Move Down**. The views appear from left to right in the order of the list.
 
-The same **Toggle Views** menu also turns on the **Breadcrumbs** bar, which you will use heavily in [Lesson 4](04-layout-styles.md). Breadcrumbs show every style that wraps the text at the cursor.
+The same **Toggle Views** menu also turns on the **Breadcrumbs** bar, which you will use heavily in [Lesson 4](04-layout-styles.md). Breadcrumbs show every style that wraps the text at the cursor. (If you use a screen reader, the guide says that every change to the Breadcrumbs is announced. You can turn them off here if that is disruptive. See [Lesson 51](51-accessible-workflow.md).)
 
 ### Simulated braille or ASCII
 

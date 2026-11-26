@@ -28,3 +28,36 @@
 
 > [!NOTE]
 > Links were checked when this book was prepared. Websites move, so if one fails, start from the BrailleBlaster documentation hub.
+
+## Handbook references
+
+### Source formats and tools
+
+- [Pandoc User's Guide](https://pandoc.org/MANUAL.html), the reference for Pandoc's Markdown, the LaTeX reader, and the options used in the [Pandoc Cookbook](pandoc-cookbook.md)
+- [CommonMark](https://commonmark.org/), a standard definition of core Markdown
+- [Extensible Markup Language (XML) 1.0](https://www.w3.org/TR/xml/) and [XPath](https://www.w3.org/TR/xpath/)
+- [MathML 3](https://www.w3.org/TR/MathML3/)
+- [Office Open XML (ECMA-376)](https://ecma-international.org/publications-and-standards/standards/ecma-376/), the format inside `.docx`
+- [EPUB 3](https://www.w3.org/TR/epub-33/)
+- [Poppler](https://poppler.freedesktop.org/) (`pdftotext` and related tools), [Tesseract OCR](https://github.com/tesseract-ocr/tesseract), and [OCRmyPDF](https://ocrmypdf.readthedocs.io/)
+- [The Unicode *Braille Patterns* chart](https://www.unicode.org/charts/PDF/U2800.pdf)
+- [LibreOffice documentation](https://documentation.libreoffice.org/), [Microsoft Word support](https://support.microsoft.com/), and [Google Docs help](https://support.google.com/docs/)
+
+### Braille references
+
+- [Braille Authority of North America](https://www.brailleauthority.org/), including *Braille Formats 2016* and the tactile graphics guidelines
+- [Guidelines and Standards for Tactile Graphics](https://www.brailleauthority.org/tg/) (2010, with a 2022 revision available from BANA)
+- [Path to Literacy: tactile graphics](https://www.pathstoliteracy.org/tactile-graphics)
+- [DIAGRAM Center image description guidelines](http://diagramcenter.org/standards-and-practices.html) and [NCAM / WGBH image description guidelines](https://www.wgbh.org/ncam-resources/2026-08-19/image-description-guidelines)
+- [NIMAC](https://www.nimac.us/)
+
+### Privacy and policy
+
+- [Student Privacy (FERPA), U.S. Department of Education](https://studentprivacy.ed.gov/)
+- [Policy and Standards Background](policy-background.md)
+
+### BrailleBlaster project
+
+- The program source: [github.com/aphtech/brailleblaster](https://github.com/aphtech/brailleblaster)
+- The user guide source: [github.com/aphtech/brailleblaster-docs](https://github.com/aphtech/brailleblaster-docs)
+- [`UPSTREAM_ISSUES.md`](https://github.com/mrhunsaker/BrailleBlaster_Training/blob/main/UPSTREAM_ISSUES.md), findings from this course that should be reported to the project

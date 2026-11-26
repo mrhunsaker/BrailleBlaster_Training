@@ -5,7 +5,7 @@ This guide is for anyone teaching the course to a group, whether you are a unive
 ## What is in this guide
 
 - **This page:** how to run a session, materials, and accommodations.
-- **Teaching notes** for [Unit 1](unit-1.md), [Unit 2](unit-2.md), [Unit 3](unit-3.md), and [Unit 4](unit-4.md): a demonstration idea, tips and pitfalls, a check for understanding, and an extension for each lesson.
+- **Teaching notes** for [Unit 1](unit-1.md), [Unit 2](unit-2.md), [Unit 3](unit-3.md), [Unit 4](unit-4.md), and [Unit 5](unit-5.md): a demonstration idea, tips and pitfalls, a check for understanding, and an extension for each lesson.
 - **[Session Plans](session-plans.md):** fifteen ready-to-run sessions that use the drills and labs.
 - **[Cohort Management Toolkit](cohort-management/README.md):** separate reusable templates for pacing, learner progress, attendance, competency review, and end-of-course reporting.
 - **[Consolidated Course Delivery Toolkit](course-delivery-toolkit.md):** combined operating guidance, shared status definitions, calculation rules, privacy safeguards, and copy-ready cohort report.

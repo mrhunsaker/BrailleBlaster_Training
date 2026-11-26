@@ -1,0 +1,51 @@
+/* =========================================================
+   A. SIDEBAR CHAPTER NUMBERS (Left Navigation)
+   ========================================================= */
+
+/* Option 1: Completely hide default 1., 1.1. sidebar numbers */
+/* (Useful if you write custom numbers directly in SUMMARY.md) */
+.chapter li.chapter-item strong {
+    display: none;
+}
+
+/* Option 2: Style the default sidebar numbers instead of hiding them
+.chapter li.chapter-item strong {
+   color: #888;
+    font-weight: normal;
+    margin-right: 0.4em;
+}
+*/
+
+/* =========================================================
+   B. IN-PAGE HEADING NUMBERS (Pure CSS Alternative)
+   Use this ONLY if you disable [preprocessor.numbering.heading]
+   ========================================================= */
+
+/*
+main {
+    counter-reset: h1-counter;
+}
+
+main h1 {
+    counter-reset: h2-counter;
+}
+
+main h2 {
+    counter-reset: h3-counter;
+}
+
+main h1::before {
+    counter-increment: h1-counter;
+    content: counter(h1-counter, upper-roman) ". ";
+}
+
+main h2::before {
+    counter-increment: h2-counter;
+    content: counter(h2-counter, upper-alpha) ". ";
+}
+
+main h3::before {
+    counter-increment: h3-counter;
+    content: counter(h3-counter) ". ";
+}
+*/

@@ -64,7 +64,7 @@ Containers are invisible in the Print View. They only show up in the **Breadcrum
 
 ## Step by step
 
-**Turn on Breadcrumbs.** Go to **View > Toggle Views > Breadcrumbs**. Leave them on for the whole lesson.
+**Turn on Breadcrumbs.** Go to **View > Toggle Views > Breadcrumbs**. Leave them on for the whole lesson. If you use a screen reader and the announcements are disruptive, turn them off and use the Style View and `Ctrl+Up` and `Ctrl+Down` instead ([Lesson 51](51-accessible-workflow.md)).
 
 **Apply a style:**
 

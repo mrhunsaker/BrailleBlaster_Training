@@ -180,3 +180,54 @@ Note that **three of these were caused by me trusting the older 2.x web manual**
 ## Still to verify in the application
 
 See the list in `VERIFICATION.md`. The most important item is that **no lesson has been run in BrailleBlaster**. The source tells us a feature exists and what it is called. Only running it tells us what it does.
+
+---
+
+# Fourth pass (version 2.3.0): the Handbook, and testing the import pipeline
+
+## What was done
+
+A new supplemental unit, **Unit 5: Handbook** (Lessons 33 to 54), was written to cover what happens *before* a file reaches BrailleBlaster and *around* a job: source formats, braille references, running a job, accessibility, and learning aids. To make the source-format lessons reliable, BrailleBlaster's **own conversion script was run** with the **same Pandoc version the program bundles (3.12.1)** on test files, instead of describing the formats from general knowledge. `VERIFICATION.md` separates what was run, read, computed, and cited.
+
+## What the testing found
+
+Several behaviors that no document describes, and that lose content silently:
+
+| Finding | Effect |
+| ------- | ------ |
+| A Markdown **line block** makes the conversion fail | The file cannot be opened |
+| An **image alone in its paragraph**, a LaTeX `figure`, and an HTML `<figure>` are dropped **with their captions** | A diagram can vanish with no warning |
+| Title, author, and date from LaTeX and Markdown are dropped | The title page must be built by hand |
+| LaTeX TikZ pictures are dropped without a warning | Content can be missing |
+| The Word **Title** style is not a heading | A title arrives as body text |
+| `.odt` loses the style names that `.docx` keeps | Margin styles work only in Word files |
+| Heading levels 3 to 6 all become Cell 7 | Four-level hierarchies collapse |
+
+Two of these (the line block and the figure) were **fixed in a copy of the script**, and the fixes were tested on every failing case. **`UPSTREAM_ISSUES.md`** records all of them, with a reproducible test set, for reporting to APH.
+
+## Useful discoveries
+
+- BrailleBlaster recognizes **special Word style names**: styles named like `3-1` set braille margins, `BB Empty Paragraph` makes a blank line, and the `List Paragraph` family makes lists. The same names work in Markdown through `custom-style` blocks. This is taught in Lessons 34 and 35.
+- BrailleBlaster has a **command-line mode** (`brailleblaster export brf|pef|ebraille`), described in Lesson 19.
+- The DTBook importer has its own element map, including extra `bai-` elements for plays, verse, and transcriber-defined typeforms (Lesson 38).
+
+## Errors found in this book
+
+| What I had written | What was wrong | Fixed in |
+| ------------------ | -------------- | -------- |
+| Capstone: "four print levels" | The legend shows three | Capstone |
+| Capstone: a duplicated "Required tasks" heading | An editing slip | Capstone |
+| Orphaned old files in `src/` | They returned when the zip was unpacked over the repo | Removed again |
+| The link checker flagged Markdown examples in code blocks | A checker bug | `tools/check_book.py` |
+| Lessons 1 and 4: "keep Breadcrumbs on" | A screen reader announces every Breadcrumbs change | Lessons 1, 4, and 51 |
+
+## Decisions you may want to reverse
+
+- **The Handbook is numbered 33 to 54**, after Unit 4, so no earlier lesson number changed. It is marked supplemental. If you would rather publish it as a separate book, its lessons are self-contained.
+- **Lessons 51 and 44 would benefit most from expert review.** Lesson 51 makes almost no claim about specific assistive technology, and says so. Lesson 44 gives dot numbers for indicators that **have not been checked against the code books**.
+- **Lesson 43 deliberately cites few section numbers**, because the course had only verified a few. Adding the rest from your copy of the standard is a small, valuable task.
+- **The Handbook contains scripts** (a character report, an unwrapping script, a volume estimator) that were tested but are short and basic. Replace them with your agency's tools if you have them.
+
+## Still to verify
+
+See `VERIFICATION.md`. The most important item is unchanged: **nothing has been run in the BrailleBlaster application.**

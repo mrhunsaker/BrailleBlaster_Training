@@ -1,101 +1,61 @@
 # BrailleBlaster v3 Training
 
-A hands-on curriculum for learning **BrailleBlaster**, the free, open-source braille transcription program from the American Printing House for the Blind (APH). It is written for teachers of students with visual impairments, paraeducators, braille transcribers, and the trainers who teach them.
+A hands-on curriculum for learning **BrailleBlaster**, the free, open-source braille transcription program from the American Printing House for the Blind (APH).
 
-**Read the book online:** <https://mrhunsaker.github.io/BrailleBlaster_Training>
+## Who this course is for
 
-## What is in the book
+- **Teachers of students with visual impairments (TVIs)** who prepare braille for their own students.
+- **Paraeducators and braille production staff** who produce classroom materials.
+- **Braille transcribers** moving to BrailleBlaster or sharpening professional skills.
+- **Trainers** who teach any of these groups and want a ready-made course.
 
-- **32 lessons** in four units: Universal (1 to 13), Advanced (14 to 19), Transcriber-Focused (20 to 24), and Specialized Content (25 to 32)
-- **9 labs** that use real sample files, and a **drill bank** with answer keys
-- Every lesson has objectives, a concept section, step-by-step menu paths, a worked demonstration, a practice document, and an answer key, with citations to *Braille Formats 2016*
-- A **capstone** transcription project with a scoring rubric
-- An **Instructor Guide** with pacing plans, teaching notes, and assessment guidance
-- **Reference** pages: shortcuts, glossary, troubleshooting, and resources
+No prior BrailleBlaster experience is assumed. You should already read and write literary braille (UEB) at a working level. Math lessons are easier if you have met Nemeth Code, but each one explains what it needs.
 
-About 69 hours of material including Unit 4 and the capstone. Pacing plans for a twelve-week course, a five-day intensive, a one-day workshop, and self-paced study are on the Syllabus page.
+## What you will be able to do
 
-## Repository layout
+By the end of the course you will be able to take a print source, in almost any common format, and turn it into correctly formatted braille. You will apply emphasis, headings, lists, math, and special structures to *Braille Formats 2016* standards. You will import and proofread source files, set up pages and embossers, and produce a finished, volume-ready transcription with transcriber-generated pages.
 
-```text
-.
-├── README.md
-├── mdbook_generate.sh / .ps1   Build helpers
-├── version.json                Book version
-├── my-book/
-│   ├── book.toml               mdBook configuration
-│   ├── src/                    The editable manuscript
-│   │   ├── SUMMARY.md          Table of contents
-│   │   ├── README.md           Book introduction
-│   │   ├── start/              How to use, setup, syllabus
-│   │   ├── units/              Unit overviews and checkpoints
-│   │   ├── lessons/            Lessons 1 to 32
-│   │   ├── labs/               Nine integrated labs
-│   │   ├── samples/            Practice files (generated)
-│   │   ├── capstone/
-│   │   ├── instructor/         Teaching notes, session plans, assessment
-│   │   ├── reference/          Shortcuts, drills, job aids, glossary, and more
-│   │   └── about/
-│   └── theme/                  Custom mdBook theme
-├── tools/                      build_samples.py, check_book.py, instructor_expansion.py
-├── AddlFiles/                  Earlier source drafts (see AddlFiles/README.md)
-├── CURRICULUM_REVIEW.md        Editorial notes for maintainers
-├── VERIFICATION.md             What has and has not been checked
-├── PROFESSIONALIZATION_ROADMAP.md  What the curriculum needs next
-├── CONTRIBUTING.md, CHANGELOG.md, CITATION.cff
-```
+## How the course is organized
 
-`my-book/docs` is generated output and is not committed.
+The course has three units, a capstone, an instructor guide, and a reference section.
 
-## Building the book
+| Part | What it contains |
+| ---- | ---------------- |
+| [Start Here](start/how-to-use.md) | How lessons work, setup, and a syllabus with pacing plans |
+| [Unit 1: Universal Lessons](units/unit-1-universal.md) | Lessons 1 to 13. Core skills every BrailleBlaster user needs |
+| [Unit 2: Advanced Lessons](units/unit-2-advanced.md) | Lessons 14 to 19. Source formats, Pandoc, special structures, eBraille |
+| [Unit 3: Transcriber-Focused Lessons](units/unit-3-transcriber.md) | Lessons 20 to 24. Production workflow for complete books |
+| [Labs](labs/index.md) and [Sample Files](samples/index.md) | Nine integrated labs that use real Word, Markdown, LaTeX, EPUB, and NIMAS-style files |
+| [Unit 4: Specialized Content](units/unit-4-specialized.md) | Lessons 25 to 32. Tables, page control, images, translation corrections, other codes, line numbers, glossaries, and proofreading |
+| [Unit 5: Handbook](units/unit-5-handbook.md) | Lessons 33 to 54, supplemental. Source formats (Markdown, Word, XML, LaTeX, PDF), braille references, running a job, accessibility, decision trees, and a model job |
+| [Capstone](capstone/capstone.md) | A full transcription project with a rubric |
+| [Instructor Guide](instructor/index.md) | Teaching notes, pacing, and assessment |
+| [Reference](reference/shortcuts.md) | Shortcuts, drill bank, job aids, Pandoc cookbook, policy background, glossary, troubleshooting, and resources |
 
-Install mdBook (version 0.5 or later is recommended, because the custom theme uses features from recent releases):
+## How every lesson works
 
-```bash
-cargo install mdbook --locked
-```
+Every lesson follows the same pattern, so you always know what to expect:
 
-Then build from the repository root:
+1. **Lesson at a glance** and **Learning objectives**
+2. **Why this matters**
+3. **The Concept**
+4. **Step by step** (the menu paths and shortcuts)
+5. A **Worked Demonstration**
+6. A **Practice Document** you copy into BrailleBlaster
+7. An **Answer Key**
+8. **Key takeaways** and **Source Citations**
 
-```bash
-bash mdbook_generate.sh        # Linux or macOS
-.\mdbook_generate.ps1          # Windows PowerShell
-```
+## Choosing your path
 
-or directly:
+- **New to BrailleBlaster?** Do Unit 1 in order, then the capstone's core tasks.
+- **A classroom TVI?** Unit 1, then Lesson 17 and Lesson 19 for context, and skip Unit 3 until you need it.
+- **A production transcriber?** Skim Unit 1, then work carefully through Units 2 and 3 and finish with the capstone.
+- **Working with textbooks?** Add [Unit 4](units/unit-4-specialized.md) for tables, images, glossaries, line numbers, and proofreading.
+- **Teaching a group?** Start with the [Instructor Guide](instructor/index.md).
 
-```bash
-cd my-book
-mdbook build       # writes my-book/docs/html and my-book/docs/markdown
-mdbook serve       # live preview at http://localhost:3000
-```
+> [!IMPORTANT]
+> BrailleBlaster changes between releases. This course follows the 3.x documentation. When a menu item has moved in your version, the concept and workflow still apply. Use the **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`) to find the renamed item.
 
-GitHub Actions builds and deploys the site to GitHub Pages on every push to `main` (`.github/workflows/deploy.yml`) and attaches the Markdown output to tagged releases.
+## About the author
 
-## Quality checks
-
-```bash
-python3 tools/check_book.py     # links, anchors, headings, lesson structure, sample files
-python3 tools/build_samples.py  # regenerate the practice files
-```
-
-GitHub Actions runs the checks on every pull request (`.github/workflows/quality.yml`).
-
-## Editing guidance
-
-- Edit files in `my-book/src`. Never edit `my-book/docs`.
-- Follow the lesson pattern: Lesson at a glance, Learning objectives, Why this matters, How to use this lesson, The Concept, Step by step, Worked Demonstration, Practice Document, Answer Key, Key takeaways, Source Citations.
-- Use **bold** menu paths with `>` (for example **File > Open**) and code style for shortcuts.
-- Each Markdown file has exactly one `#` heading.
-- Cite *Braille Formats 2016* sections where a rule is stated, and verify menu paths against the current BrailleBlaster documentation.
-- When you add or rename a lesson, update `my-book/src/SUMMARY.md`, the unit page, the Syllabus table, and the shortcuts "Where tools live" table.
-
-## Versioning
-
-Version information is in `version.json`.
-
-## Credits and license
-
-Written by Michael Ryan Hunsaker, M.Ed., Ph.D. Released under the Apache License 2.0. See `LICENSE`.
-
-BrailleBlaster is developed by the American Printing House for the Blind and released under the GNU Public License v3. This is an independent training resource and is not an official APH publication.
+This course was written by Michael Ryan Hunsaker, M.Ed., Ph.D. See [About the Author](about/author.md).

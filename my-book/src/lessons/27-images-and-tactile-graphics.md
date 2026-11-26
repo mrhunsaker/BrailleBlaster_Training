@@ -17,6 +17,9 @@ By the end of this lesson you will be able to:
 - Decide which images need a description, a tactile graphic, or neither.
 - Plan the facing-page and blank-page needs of a tactile graphic in an interpoint volume.
 
+> [!NOTE]
+> **Handbook:** [Lesson 46](46-image-description-and-tactile-graphics-resources.md) teaches how to *write* a good description and where the tactile graphics guidelines are.
+
 ## Why this matters
 
 Almost every textbook has images, and braille readers are entitled to the information they carry. An image can become a **description** (words), a **tactile graphic** (raised lines and shapes), or both. BrailleBlaster does not decide this for you. What it does is leave the right amount of space, tie an image file to that space, and apply the styles that keep the print caption separate from your description.

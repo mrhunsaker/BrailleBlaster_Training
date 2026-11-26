@@ -12,6 +12,7 @@ create-missing = false
 use-default-preprocessors = true
 
 [output.html]
+additional-css = ["custom.css"]
 default-theme = "Rust"
 preferred-dark-theme = "Navy"
 site-url = "/BrailleBlaster_Training/"
@@ -51,7 +52,9 @@ show-hidden-lines = true
 output-file = "BrailleBlaterTraining.pdf"
 to = "latex"
 pdf-engine = "xelatex"
-file-scope = true 
-number-sections = true 
-standalone = true 
-table-of-contents = true 
+file-scope = true
+number-sections = true
+standalone = true
+table-of-contents = true
+list-tables = true
+include-in-header = ["src/pdf-style.tex"]

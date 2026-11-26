@@ -1,6 +1,7 @@
 # Summary
 
-[BrailleBlaster v3 Training](README.md)
+# Introduction
+-[BrailleBlaster v3 Training](README.md)
 
 # Start Here
 
@@ -10,7 +11,7 @@
 
 # Unit 1: Universal Lessons
 
-- [Unit overview and checkpoint](units/unit-1-universal.md)
+- [Unit 1 overview and checkpoint](units/unit-1-universal.md)
   - [Lesson 1: Navigating the BrailleBlaster Interface](lessons/01-navigating-the-interface.md)
   - [Lesson 2: Opening and Converting Word Documents](lessons/02-opening-word-documents.md)
   - [Lesson 3: Typeface Emphasis](lessons/03-typeface-emphasis.md)
@@ -27,7 +28,7 @@
 
 # Unit 2: Advanced Lessons
 
-- [Unit overview and checkpoint](units/unit-2-advanced.md)
+- [Unit 2 overview and checkpoint](units/unit-2-advanced.md)
   - [Lesson 14: Importing Source Formats I: Markdown and OpenDocument](lessons/14-importing-markdown-and-opendocument.md)
   - [Lesson 15: Importing Source Formats II: LaTeX, XML, NIMAS, and EPUB](lessons/15-importing-latex-xml-nimas-epub.md)
   - [Lesson 16: Choosing an Import Workflow](lessons/16-choosing-an-import-workflow.md)
@@ -37,7 +38,7 @@
 
 # Unit 3: Transcriber-Focused Lessons
 
-- [Unit overview and checkpoint](units/unit-3-transcriber.md)
+- [Unit 3 overview and checkpoint](units/unit-3-transcriber.md)
   - [Lesson 20: Importing and Working with NIMAS Files](lessons/20-nimas-production-files.md)
   - [Lesson 21: Running Heads and Page Numbering](lessons/21-running-heads-and-page-numbers.md)
   - [Lesson 22: Transcriber's Notes in the Text](lessons/22-transcribers-notes.md)
@@ -46,7 +47,7 @@
 
 # Unit 4: Specialized Content
 
-- [Unit overview and checkpoint](units/unit-4-specialized.md)
+- [Unit 4 overview and checkpoint](units/unit-4-specialized.md)
   - [Lesson 25: Tables](lessons/25-tables.md)
   - [Lesson 26: Controlling the Page](lessons/26-controlling-the-page.md)
   - [Lesson 27: Images and Tactile Graphics](lessons/27-images-and-tactile-graphics.md)

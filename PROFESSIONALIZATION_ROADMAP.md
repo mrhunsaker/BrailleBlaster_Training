@@ -2,6 +2,26 @@
 
 What this curriculum needs, beyond its current content, to be used confidently by agencies, districts, and training programs. Items are grouped by priority and sized small (S, about a day), medium (M, about a week), or large (L, a month or more of part-time work).
 
+
+> **Status (version 2.3.0).** The earlier roadmap's Priority B, much of Priority D, and Priority E1 have been addressed: Units 4 and 5 now cover the missing lessons, and Unit 5 adds a source-preparation handbook, quick-reference cards, an agency style sheet and intake ticket, decision trees, an error gallery, and a model job. The items below that remain open are the ones that need **people and the application**: verification, expert review, learner testing, accessibility testing, and licensing.
+
+### Open items added by the Handbook
+
+| # | Item | Priority | Size |
+| - | ---- | -------- | ---- |
+| H1 | **Expert review of Lesson 44** (the indicator cards), by a certified literary and Nemeth transcriber | Must | S |
+| H2 | **Verify the import behaviors in the application**, using `upstream-test-cases.zip` and the sample files, and record them in `VERIFICATION.md` | Must | M |
+| H3 | **Report the findings in `UPSTREAM_ISSUES.md`** to APH, and track the answers | High | S |
+| H4 | **Verify the Word, LibreOffice, and Google Docs shortcuts** in current versions (Lessons 35, 36, 44) | Medium | S |
+| H5 | **Blind-user testing of Lesson 51's protocol**, and incorporate the results | Must | M |
+| H6 | **Add the remaining Braille Formats section numbers** to Lesson 43 from your copy of the standard | Medium | S |
+| H7 | **Screenshots or short captioned recordings** for the Handbook's most visual lessons (35, 36, 37, 39) | Medium | M |
+| H8 | **Legal review** of Lesson 49 and the policy page | Medium | S |
+| H9 | Turn Lessons 52 and 53 into **printable one-page references** | Low | S |
+| H10 | A **real exemplar job** (BBX and BRF) to accompany Lesson 54, produced in the application | High | M |
+| H11 | **PDF build font.** Lessons 41 and 44 contain Unicode braille cells. In a test, a font without the *Braille Patterns* block (Carlito) gave 106 missing-glyph warnings, and DejaVu Sans gave none. If you publish the PDF, set a braille-capable main font in the Pandoc profile | Low | S |
+
+
 ## Where the curriculum stands
 
 **Strong now:**

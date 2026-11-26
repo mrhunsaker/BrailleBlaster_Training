@@ -99,6 +99,9 @@ The well-known "zig-zag" test track is 2 miles long, and the test cars rated x-r
 ```
 
 > [!NOTE]
+> A [model walkthrough](../lessons/54-a-model-job-capstone-walkthrough.md) of this job is in the Handbook. Try the job first, then compare.
+
+> [!NOTE]
 > The last sentence is a trap on purpose. Look back at [Lesson 7](../lessons/07-math-translation-toggle.md) before you decide what is math.
 
 ## Required tasks
@@ -106,7 +109,7 @@ The well-known "zig-zag" test track is 2 miles long, and the test cars rated x-r
 Work in roughly this order. The lessons that apply to each task are listed.
 
 1. **Set up** the page for 40 cells by 25 lines, single-sided or interpoint as you choose, and record the choice. (Lesson 13)
-2. **Structure.** Map the print headings to braille headings. There are four print levels. (Lessons 4 and 5)
+2. **Structure.** Map the print headings to braille headings. There are three print levels: the chapter title, the sections, and the subsections. (Lessons 4 and 5)
 3. **Lists.** Format the nested list correctly. (Lesson 6)
 4. **Emphasis.** Decide what to keep. Treat the highlighting as meaningful, because the teacher refers to it aloud. (Lesson 3)
 5. **Math.** Flag the real math and build the displayed expressions. Leave prose hyphens and the letter x alone. (Lessons 7 and 8)

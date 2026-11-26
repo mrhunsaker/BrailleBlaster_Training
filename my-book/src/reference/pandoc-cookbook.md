@@ -7,6 +7,12 @@ You will only need Pandoc yourself when you want a **fallback**: a file BrailleB
 > [!NOTE]
 > Pandoc converts *document structure* between formats. It does not apply braille formatting rules, and it does not convert anything *to* BrailleBlaster. You always finish in BrailleBlaster.
 
+## BrailleBlaster bundles its own Pandoc
+
+BrailleBlaster ships with **its own copy of Pandoc** (version 3.12.1 in the source examined), so you do **not** need to install Pandoc for BrailleBlaster to open `.md`, `.tex`, `.docx`, `.odt`, `.epub`, or `.html` files. The copy on your computer is only for the fallback recipes below, and for previewing.
+
+It calls Pandoc with these readers: `docx+styles+empty_paragraphs` (with two extra Word filters), `markdown`, `latex`, `odt`, `epub`, and `html+empty_paragraphs`. The output is written by BrailleBlaster's own **Lua writer**, `bbx.lua`, which decides what each element becomes. What it does not recognize is dropped. See [Lesson 33](../lessons/33-what-makes-a-good-source.md).
+
 ## When to reach for Pandoc
 
 Use a conversion only after the direct route has not worked:
@@ -74,8 +80,10 @@ pandoc input.tex -s --toc -o output.html
 **Write math as MathML** (an experiment: verify how BrailleBlaster handles it before relying on it):
 
 ```bash
-pandoc input.tex -s --mathml -o output.html
+pandoc input.tex -s --math-method=mathml -o output.html
 ```
+
+The older spelling `--mathml` still works in Pandoc 3.12.1 but is reported as **deprecated**.
 
 You can try the first recipes on the [sample files](../samples/index.md). `sample.tex` and `math-foundations.tex` are good practice sources.
 
@@ -96,3 +104,21 @@ The official guide names **TeX4HT** as an example of a LaTeX-to-HTML converter t
 ## After any conversion
 
 Treat the converted file as a **new import**. Complete an Import Log ([Job Aids](job-aids.md)), check headings, lists, emphasis, and every equation in the Braille View, and keep the original source untouched.
+
+## Advanced: preview what BrailleBlaster will receive
+
+You can run BrailleBlaster's own conversion script yourself, to see what it does with a file **without opening the program**. This is read-only and safe. It needs a copy of the script `bbx.lua`, which is in the BrailleBlaster source repository under `brailleblaster-core/src/main/dist/programData/pandoc/lua/`.
+
+```bash
+PANDOCCMD=pandoc pandoc --from=markdown --to=/path/to/bbx.lua file.md -o file.bbx
+```
+
+The result, `file.bbx`, is BrailleBlaster's own XML ([Lesson 39](../lessons/39-inside-the-packages.md)). For a Word file, add the two filters and the same reader options BrailleBlaster uses:
+
+```bash
+PANDOCCMD=pandoc pandoc --from=docx+styles+empty_paragraphs \
+  --lua-filter=docx-empty-paragraph.lua --lua-filter=docx-page-break.lua \
+  --to=/path/to/bbx.lua file.docx -o file.bbx
+```
+
+Use the **same Pandoc version** as BrailleBlaster for a faithful result. This is how the behaviors in the Handbook were tested. It is **not** a substitute for opening the file in the program, because BrailleBlaster runs further steps after this one.

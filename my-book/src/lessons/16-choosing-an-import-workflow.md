@@ -15,6 +15,9 @@ By the end of this lesson you will be able to:
 - Compare all six source types side by side.
 - Apply the six core principles of importing and a production checklist.
 
+> [!NOTE]
+> **Handbook:** [Lesson 33](33-what-makes-a-good-source.md) gives the **source ladder** and the ten safety rules, [Lesson 42](42-pdfs-scans-and-ocr.md) covers PDFs and scans, and [Lesson 52](52-decision-trees.md) has an import decision tree.
+
 > [!TIP]
 > **More practice:** the [Import Log job aid](../reference/job-aids.md) and [Lab 2](../labs/lab-2-import-comparison.md).
 

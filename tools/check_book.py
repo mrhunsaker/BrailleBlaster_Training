@@ -59,8 +59,10 @@ for f in files:
     t = read(os.path.join(SRC, f))
     for pat in BAD:
         if re.search(pat, t): errors.append(f'{f}: contains known-bad text /{pat}/')
-    # links
-    for m in re.finditer(r'\]\(([^)\s]*)\)', t):
+    # links (ignore fenced code blocks and inline code, which often hold Markdown examples)
+    scan = re.sub(r'(?ms)^(\s*)(`{3,}|~{3,}).*?^\1\2[ \t]*$', '', t)
+    scan = re.sub(r'`[^`\n]*`', '', scan)
+    for m in re.finditer(r'\]\(([^)\s]*)\)', scan):
         target = m.group(1)
         if not target or re.match(r'^[a-z]+:', target): continue
         path, _, anchor = target.partition('#')
