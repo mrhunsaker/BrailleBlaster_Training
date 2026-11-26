@@ -4,7 +4,7 @@
 
 set -Eeuo pipefail
 
-ROOT_DIR="$(cd -- "$(dirname -- "\${BASH_SOURCE[0]}")" && pwd)"
+ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 BOOK_DIR="$ROOT_DIR/my-book"
 CLEANUP_SCRIPT="$ROOT_DIR/cleanup_admonition.sh"
 TEX_FILE="$BOOK_DIR/docs/pandoc/tex/BrailleBlaster_Training.tex"
@@ -29,7 +29,7 @@ log "Normalizing admonition environments in $TEX_FILE"
 
 TEX_DIR="$(cd -- "$(dirname -- "$TEX_FILE")" && pwd)"
 TEX_BASENAME="$(basename -- "$TEX_FILE")"
-TEX_JOB="\${TEX_BASENAME%.tex}"
+TEX_JOB="${TEX_BASENAME%.tex}"
 
 cd "$TEX_DIR"
 
