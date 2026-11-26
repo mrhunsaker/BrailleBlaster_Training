@@ -46,3 +46,12 @@ Complete this task before moving on. It should take 90 to 120 minutes.
 5. Write a short paragraph explaining to a colleague when "convert to HTML first" is the right fallback (Lesson 17).
 
 **You are ready for Unit 3** when you can explain, for each format, what you verified and how you fixed what was wrong.
+
+## Additional practice sheets
+
+Use these retained practice sheets as optional reinforcement after the corresponding current lesson. The main lesson and its version notes take precedence if a menu path differs.
+
+- [NIMAS XML practice](../BrailleBlaster/UEB_Practice_12_NIMAS_XML.md) — Lessons 15 and 20.
+- [Importing Markdown, OpenOffice, LaTeX, and XML](../BrailleBlaster/UEB_Practice_13_Importing_Markdown_OpenOffice_LaTeX_XML.md) — Lessons 14–17.
+- [Advanced formatting](../BrailleBlaster/UEB_Practice_15_Advanced_Formatting.md) — Lesson 18.
+- [What Pandoc does for BrailleBlaster](../BrailleBlaster/UEB_Practice_16_What_Pandoc_Does_for_BrailleBlaster.md) — Lesson 17.
