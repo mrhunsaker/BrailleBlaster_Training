@@ -56,5 +56,9 @@ Every lesson follows the same pattern, so you always know what to expect:
 > BrailleBlaster changes between releases. This course follows the 3.x documentation. When a menu item has moved in your version, the concept and workflow still apply. Use the **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`) to find the renamed item.
 
 ## About the author
+## Additional course material
+
+The [Backmatter](Backmatter/backmatter.md) collects completion, production, standards, and attribution guidance. [Contributors](Contributors.md) records acknowledgements and source contributions. The unit pages link to retained practice sheets from earlier course drafts where they provide useful reinforcement.
+
 
 This course was written by Michael Ryan Hunsaker, M.Ed., Ph.D. See [About the Author](about/author.md).
