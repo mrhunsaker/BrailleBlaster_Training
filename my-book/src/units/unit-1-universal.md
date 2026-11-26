@@ -56,3 +56,17 @@ Complete this task before moving on. It should take 60 to 90 minutes.
 7. Write three sentences: one decision you were unsure about, what you chose, and why.
 
 **You are ready for Unit 2** when your Braille View matches your intentions for every element, and your written note shows that you can justify at least one non-obvious choice.
+ 
+## Additional practice sheets
+
+The earlier [Universal Lessons overview](../BrailleBlaster/Universal_Lessons.md) is retained for old bookmarks and redirects to this maintained unit page.
+
+
+The following legacy practice sheets provide extra repetitions for the matching lessons. Use them after the main lesson and its current practice document; the current lesson remains the authoritative instruction.
+
+- [GUI orientation practice](../BrailleBlaster/UEB_Practice_00_BrailleBlasterGUI.md) — Lesson 1.
+- [Heading levels](../BrailleBlaster/UEB_Practice_01_Heading_Levels.md), [list formatting](../BrailleBlaster/UEB_Practice_02_List_Formatting.md), and [typeface emphasis](../BrailleBlaster/UEB_Practice_03_Typeface_Emphasis.md) — Lessons 3–6.
+- [Why toggle math](../BrailleBlaster/UEB_Practice_04_Why_Toggle_Math.md), [complex math equations](../BrailleBlaster/UEB_Practice_05_Complex_Math_Equations.md), [contraction relaxer](../BrailleBlaster/UEB_Practice_06_Contraction_Relaxer.md), [spatial math editor](../BrailleBlaster/UEB_Practice_09_Spatial_Math_Editor.md), and [spatial number lines](../BrailleBlaster/UEB_Practice_10_Spatial_Number_Lines.md) — Lessons 7–11.
+- [Opening and converting Word documents](../BrailleBlaster/UEB_Practice_07_Opening_and_Converting_Word_Documents.md), [paper size and embosser setup](../BrailleBlaster/UEB_Practice_08_Paper_Size_Embosser_Setup.md), and [global find and replace](../BrailleBlaster/UEB_Practice_11_Global_Find_Replace_Formatting.md) — Lessons 2, 12, and 13.
+
+These sheets are retained for continuity with earlier course drafts. Confirm menu paths against the installed BrailleBlaster release.
