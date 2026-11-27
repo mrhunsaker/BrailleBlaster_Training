@@ -2,6 +2,9 @@
 
 These notes support Lessons 1 to 13. Teach with BrailleBlaster open and a real, realistically messy source on screen whenever you can.
 
+> [!TIP]
+> When modeling a style or emphasis decision, narrate the source evidence that led to it before showing the control. This prevents learners from memorizing clicks without learning how to identify the structure that the control should represent.
+
 ## Lesson 1: Navigating the BrailleBlaster Interface
 
 **Read the lesson:** [Navigating the BrailleBlaster Interface](../lessons/01-navigating-the-interface.md). **Suggested time:** 60 minutes.
