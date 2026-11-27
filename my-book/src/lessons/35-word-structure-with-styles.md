@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice files:** `word-01-well-structured.docx`, `word-02-flat-structure.docx`, and `word-05-braille-aware-styles.docx` in the [sample files](../samples/index.md).
 
+> [!CAUTION]
+> Do not make text look like a heading by changing its font size or boldness alone. Apply the actual semantic heading style; visual formatting is not reliable structure for navigation, conversion, or braille heading assignment.
+
 ## Why this matters
 
 Word is the most common source BrailleBlaster sees, and the one with the widest gap between *looking* right and *being* right. Two Word files can print identically while one carries real structure and the other carries none. The keyboard commands and checks in this lesson let you build structure in one pass, and see through a file that only pretends to have it. They are also what you would teach a teacher or author who sends you files.
