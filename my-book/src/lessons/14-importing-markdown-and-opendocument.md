@@ -21,6 +21,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** real files in the [sample files](../samples/index.md) and [Lab 2: Import Comparison](../labs/lab-2-import-comparison.md).
 
+> [!WARNING]
+> Do not assume that Markdown and ODT preserve the same structures as DOCX. After import, explicitly compare headings, lists, images and captions, tables, title information, and any line-oriented or custom formatting with the original file.
+
 ## Why this matters
 
 [Lesson 2](02-opening-word-documents.md) covered Word and OpenDocument files, and [Lesson 20](20-nimas-production-files.md) covered NIMAS XML — but BrailleBlaster's list of supported open formats is longer than either chapter suggests on its own: Markdown (.md), LaTeX (.tex), plain XHTML, EPUB, plain text, and BRF/BRL round out the list. Each of these arrives in a transcriber's inbox for a different reason, and each brings its own trade-offs worth understanding up front, rather than learning by surprise the first time a file behaves unexpectedly.
