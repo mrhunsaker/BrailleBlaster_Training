@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!NOTE]
 > **Handbook:** [Lesson 46](46-image-description-and-tactile-graphics-resources.md) teaches how to *write* a good description and where the tactile graphics guidelines are.
 
+> [!IMPORTANT]
+> A print caption and a transcriber-written description are not interchangeable. Preserve the caption as source content and add a separate, objective description only when it gives the reader information needed to understand the image.
+
 ## Why this matters
 
 Almost every textbook has images, and braille readers are entitled to the information they carry. An image can become a **description** (words), a **tactile graphic** (raised lines and shapes), or both. BrailleBlaster does not decide this for you. What it does is leave the right amount of space, tie an image file to that space, and apply the styles that keep the print caption separate from your description.
