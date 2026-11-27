@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Use version control for text sources, and know where it must not be used.
 - Protect student information in file names, titles, logs, error reports, and shared files.
 
+> [!WARNING]
+> Do not put student names, disability details, school identifiers, or other protected information in filenames, public repositories, issue reports, screenshots, or unapproved cloud services. Use the organization's approved storage and sharing procedures.
+
 ## Why this matters
 
 Braille production produces a lot of files for one job: the source, a working copy, the BBX, one or more BRFs, notes, and images. Within a month, nobody can tell which is current. A crash takes the afternoon's work. Worse, a file name carries a student's full name into an email, or a log is sent to a support service with a school's folder paths in it.
