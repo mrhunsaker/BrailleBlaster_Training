@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Decode and encode a few indicators from their dot numbers.
 - Use the cards correctly: as reminders, and not as a replacement for the code books.
 
+> [!NOTE]
+> Use these cards to recall a rule you have already learned, not to settle an unfamiliar or disputed case. When a decision affects meaning or format, consult the full code or standards source and record the rule used.
+
 ## Why this matters
 
 A transcriber looks up the same dozen things over and over: which indicator comes before a bold word, what the cell for a fraction line is, which shortcut makes a Heading 1. The answer is usually in a big book or a long lesson. A one-page card puts the answer where you need it.
