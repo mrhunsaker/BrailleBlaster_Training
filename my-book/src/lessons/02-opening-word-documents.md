@@ -22,6 +22,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** four real Word files in the [sample files](../samples/index.md), and [Lab 1: Rescue a Poorly Formatted Word Document](../labs/lab-1-rescue-word-document.md), which teaches the Three-Pass Method.
 
+> [!WARNING]
+> Do not treat a successful import as proof of a complete transcription. Compare the imported document with the source, especially pictures and captions, title metadata, tables, equations, footnotes, and page breaks; missing content may not produce an error message.
+
 ## Why this matters
 
 In production transcription work, print material rarely arrives as a NIMAS file — it just as often arrives as a Word document (.docx) or, less commonly today, an OpenDocument Text file (.odt) from a publisher, a teacher, or a parent. BrailleBlaster can open both directly, using the structure already present in the file — headings, lists, bold and italic runs, tables — to jump-start the transcription instead of starting from a blank page. How well that jump-start works, though, depends entirely on how well-structured the source file is, which makes this lesson as much about *diagnosing* a Word document as it is about opening one.
