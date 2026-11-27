@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Templates:** the blank **Job Intake Ticket** and **Agency Style Sheet** are in the [Job Aids](../reference/job-aids.md), as Aids 10 and 11.
 
+> [!IMPORTANT]
+> Do not begin production on an ambiguous request by silently choosing defaults. Resolve the intended code, audience, source authority, deliverables, deadlines, and approval path; record unresolved items as questions or assumptions in the intake ticket.
+
 ## Why this matters
 
 Most braille problems that reach a student began at the front door. The file was a PDF and nobody asked for the original. The math code was never confirmed. The deadline was before the term, but the volume count was never mentioned. A **job intake ticket** asks the right questions once, in writing, before the work starts.
