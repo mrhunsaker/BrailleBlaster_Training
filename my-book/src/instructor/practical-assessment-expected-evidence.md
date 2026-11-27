@@ -2,6 +2,9 @@
 
 This is an instructor-only companion to the candidate packet. It describes evidence that should normally appear in a competent submission. It is not a rigid answer key: source formats, BrailleBlaster versions, and valid production decisions may differ. Score the quality of the candidate's reasoning, source fidelity, and verification.
 
+> [!NOTE]
+> Treat the evidence examples as indicators of competent reasoning, not a rigid answer key. Accept an alternative result when the candidate demonstrates source fidelity, applicable standards, reader-centered judgment, and independent verification.
+
 ## Station 1 — Intake and source assessment
 
 A competent candidate should normally:
