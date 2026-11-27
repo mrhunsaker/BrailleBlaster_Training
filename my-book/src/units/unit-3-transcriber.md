@@ -33,6 +33,9 @@ The lessons follow the order you will actually work in:
 > [!IMPORTANT]
 > A generator or an automatic import saves time but never removes the need to proofread. Every lesson in this unit ends with verification.
 
+> [!CAUTION]
+> Do not let learners build front matter, distribute a TOC, or finalize volumes while pagination is still changing. Stabilize structure and volume boundaries first, then generate and verify the supporting pages and references.
+
 ## Unit outcomes
 
 When you finish this unit you can:
