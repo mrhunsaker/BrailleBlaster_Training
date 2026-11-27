@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Apply the ten import-safety rules that protect a document from silent loss.
 - Write a clear source request that a teacher, author, or publisher can act on.
 
+> [!IMPORTANT]
+> The source ladder is a triage aid, not a guarantee that a higher-ranked format is accurate or complete. Even a well-structured DOCX or NIMAS package can contain wrong content, missing images, inaccessible math, or stale revisions; compare it with the authoritative source.
+
 ## Why this matters
 
 The quality of a braille transcription is limited by the quality of its source. A well-built source gives BrailleBlaster real headings, real lists, real math, and real page numbers, and the transcriber spends the time on judgment. A flat or damaged source gives BrailleBlaster only text, and the transcriber spends the time rebuilding structure by hand, with every chance to introduce an error.
