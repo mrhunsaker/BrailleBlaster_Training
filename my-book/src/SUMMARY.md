@@ -190,10 +190,6 @@
 - [Contributors](Contributors.md)
 - [Indexing](indexing.md)
 
----
-
-[About the Author](about/author.md)
-
 # Appendix: Additional Curriculum Pages
 
 The pages below are part of the maintained curriculum. They are listed here so that every Markdown manuscript page is reachable from the book navigation; instructor-only materials remain grouped separately from learner-facing lessons.
@@ -261,3 +257,6 @@ These short pages preserve older internal references and route readers to the ma
 - [Legacy Advanced Lessons](BrailleBlaster/Advanced_Lessons.md)
 - [Legacy Transcriber-Focused Lessons](BrailleBlaster/Transcriber_Focused_Lessons.md)
 - [Legacy eBraille Export Reference](BrailleBlaster/Ebraille_Export.md)
+---
+
+[About the Author](about/author.md)
