@@ -23,6 +23,9 @@ By the end of this lesson you will be able to:
 
 ---
 
+> [!IMPORTANT]
+> Choose the source by inspecting its actual structure and quality, not by assuming one format is always best. If a better source exists, request it; if not, document what is missing and plan a post-import comparison.
+
 ## How to use this lesson
 
 This lesson is review and practice. You have now met six source formats in [Lesson 14](14-importing-markdown-and-opendocument.md) and [Lesson 15](15-importing-latex-xml-nimas-epub.md). Here you compare them side by side, work through scenarios that mix them, and finish with the production checklist and core principles you should apply after any import.
