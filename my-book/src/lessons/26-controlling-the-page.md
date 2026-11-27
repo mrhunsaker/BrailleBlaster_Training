@@ -21,6 +21,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** use `reflow-paragraph.txt` from the [sample files](../samples/index.md) to fill several braille pages, so that page-break options have something to act on.
 
+> [!CAUTION]
+> Use page-control options only after the underlying styles and content order are correct. A Keep With Next or Don't Split setting can create unexpected blank space or push content forward; inspect the resulting page flow rather than assuming the option worked as intended.
+
 ## Why this matters
 
 A style gives an element the right margins and spacing for *its kind*. But real documents contain oddities that no preset style anticipates: a line that must start in a particular cell, a heading that must not be stranded at the bottom of a page, a table that must sit on facing pages in an interpoint volume, or a blank page that has to stay blank. **Style Options** are the tools for those cases.
