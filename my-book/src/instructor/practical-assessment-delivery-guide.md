@@ -1,5 +1,8 @@
 # Practical Assessment Delivery Guide
 
+> [!WARNING]
+> Use the same candidate instructions, source files, time limits, permitted resources, and clarification policy for every candidate. Any approved accommodation should preserve the competency being assessed while removing an irrelevant access barrier.
+
 ## Purpose
 
 This guide standardizes delivery of the five-station [Instructor-Led Practical Assessment](../supplemental-practice/student-assignments/instructor-led-practical-assessment.md). It aligns the practical with the course's four instructional units and gives evaluators a repeatable sequence for setup, observation, scoring, and feedback.
