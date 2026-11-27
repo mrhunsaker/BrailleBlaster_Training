@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Template:** the **Embosser Maintenance Log** and **Pre-Flight Checklist** are in the [Job Aids](../reference/job-aids.md) as Aid 12.
 
+> [!CAUTION]
+> Never reach into a powered embosser, bypass an interlock, or attempt an internal repair while the machine is energized. Follow the manufacturer's safety and maintenance instructions, and stop work when a fault requires a qualified technician.
+
 ## Why this matters
 
 All the careful work in the earlier lessons ends at the embosser. A tired machine, damp paper, or a profile that does not match the paper produces braille that cannot be read, after hours of good formatting. The student's books are only as good as the last step.
