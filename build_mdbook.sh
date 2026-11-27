@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Build the mdBook, normalize LaTeX admonitions, and compile the PDF source.
-# Run from the repository root: bash build_script.sh
+# Run from the repository root: bash build_mdbook.sh
 
 set -Eeuo pipefail
 
@@ -35,15 +35,8 @@ bash "$CLEANUP_SCRIPT" "$TEX_FILE"
 
 TEX_DIR="$(cd -- "$(dirname -- "$TEX_FILE")" && pwd)"
 TEX_BASENAME="$(basename -- "$TEX_FILE")"
-TEX_JOB="${TEX_BASENAME%.tex}"
 
 cd "$TEX_DIR"
-
-run_lualatex() {
-    local pass="$1"
-    log "LuaLaTeX pass $pass of 3"
-    lualatex -interaction=nonstopmode -halt-on-error "$TEX_BASENAME"
-}
 
 # First LaTeX pass: generate auxiliary files, including the Biber control file.
 lualatex -interaction=nonstopmode -halt-on-error "$TEX_FILE"
@@ -83,9 +76,10 @@ if [[ -s "$IDX_FILE" ]]; then
     lualatex -interaction=nonstopmode -halt-on-error "$TEX_FILE"
 fi
 
-# Copy the final PDF to the repository root with the build date appended.
+# BUILD_DATE can be supplied by a release tag; ordinary builds use today's date.
 PDF_FILE="${TEX_FILE%.tex}.pdf"
-BUILD_DATE=$(date +%Y%m%d)
+BUILD_DATE="${BUILD_DATE:-$(date +%Y%m%d)}"
+[[ "$BUILD_DATE" =~ ^[0-9]{8}$ ]] || die "BUILD_DATE must be YYYYMMDD; received: $BUILD_DATE"
 ROOT_PDF="$ROOT_DIR/BrailleBlaster_Training_${BUILD_DATE}.pdf"
 
 if [[ ! -f "$PDF_FILE" ]]; then
@@ -94,5 +88,4 @@ if [[ ! -f "$PDF_FILE" ]]; then
 fi
 
 cp "$PDF_FILE" "$ROOT_PDF"
-
 echo "Dated PDF copied to: $ROOT_PDF"
