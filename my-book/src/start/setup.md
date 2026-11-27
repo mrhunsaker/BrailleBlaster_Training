@@ -1,5 +1,8 @@
 # Setup and Prerequisites
 
+> [!WARNING]
+> Do not assume that a menu item, shortcut, or experimental tool is present in every BrailleBlaster 3.x build. Confirm the installed version and use the documented manual workflow when a tool is hidden or unavailable.
+
 ## What you need
 
 - A computer that can run BrailleBlaster. At the time of writing, APH lists Windows, macOS, and Linux support. Check the [system requirements](https://brailleblaster.org/docs/systemRequirements.php) for current details.
