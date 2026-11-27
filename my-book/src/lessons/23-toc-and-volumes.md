@@ -24,6 +24,9 @@ By the end of this lesson you will be able to:
 
 ---
 
+> [!WARNING]
+> Do not build or distribute the final table of contents before the volume boundaries and pagination are stable. Any later change to page breaks, front matter, or volume assignment can make TOC entries and volume references wrong.
+
 ## How to use this lesson
 
 This document teaches a multi-volume workflow. **Insert the End of Volume markers in the body text first.** Then build/update the TOC and use its volume-distribution function. For this training set, use **approximately 35–50 braille paper sheets per volume as an initial planning estimate**. This is an exercise estimate, not a universal production requirement; agency specifications and the actual page density of the book take precedence.
