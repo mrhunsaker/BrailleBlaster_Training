@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** [Lab 6: Running Heads and Page Numbers](../labs/lab-6-running-heads-and-page-numbers.md) and the [Page Numbering and Running Head Plan](../reference/job-aids.md).
 
+> [!CAUTION]
+> Print page numbers, braille page numbers, and ordinal page positions serve different purposes. Never copy one numbering system into another without checking the book's front matter, preliminary pages, and volume plan.
+
 ## Why this matters
 
 Every finished braille volume needs to tell its reader where they are — which print page this braille page corresponds to, which braille page they're on, and, for a multi-volume or sectioned work, enough context to navigate confidently without sight. Page numbering is not a cosmetic finishing touch; it's core to how a braille reader locates material, matches a braille page back to a print page a sighted teacher or parent is looking at, and cites specific pages in discussion or homework. Because print and braille pagination essentially never line up one-to-one (braille takes more physical space per unit of text), BrailleBlaster tracks print and braille page numbers as two related but independent systems, and this lesson is about managing both correctly — along with the running head that helps orient a reader at the top of every page.
