@@ -1,5 +1,8 @@
 # Syllabus and Pacing
 
+> [!IMPORTANT]
+> The suggested pacing is a planning estimate, not a competency standard. Do not advance a learner solely because the scheduled time has elapsed; use the lesson practice and checkpoints to confirm that the skill can be performed and explained independently.
+
 ## Learning outcomes
 
 By the end of the course, a learner can:
