@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice files:** `word-01-well-structured.docx`, `word-02-flat-structure.docx`, `word-05-braille-aware-styles.docx`, `sample.odt`, `sample.epub`, and `nimas-style-sample.zip` in the [sample files](../samples/index.md).
 
+> [!IMPORTANT]
+> Inspect packages without modifying the original archive. Work on a copy, preserve the internal directory structure when repackaging, and do not assume that changing one XML file leaves the manifest, references, or signatures consistent.
+
 ## Why this matters
 
 When an import goes wrong, the menu will not tell you why. But the file will. A `.docx` that "has headings" but imports flat is usually a file whose headings are not headings. An EPUB that loses its chapters often has them in the wrong order in its package. A figure that vanished may be a floating picture. Each of these questions can be answered in a minute by looking *inside* the file.
