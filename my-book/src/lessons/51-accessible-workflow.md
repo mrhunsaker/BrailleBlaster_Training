@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Template:** the **Accessibility Test Log** is in the [Job Aids](../reference/job-aids.md) as Aid 13.
 
+> [!IMPORTANT]
+> Do not assume that one person's assistive-technology setup represents every learner's setup. Test the actual operating system, screen reader, braille display, and BrailleBlaster release together, and provide an equivalent route when a control is inaccessible.
+
 ## Why this matters
 
 Braille transcription is work that blind and sighted people do side by side, and many of the best braille transcribers read braille themselves. A tool for making braille should be one that blind transcribers can use. How well a given screen reader and braille display work with a given release of BrailleBlaster, on a given operating system, varies, and it changes with each version.
