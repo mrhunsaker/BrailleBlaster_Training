@@ -17,6 +17,9 @@ By the end of this lesson you will be able to:
 - Apply **Numeric Series** to insert dot 5 spaces in a series of numbers.
 - Use **Math Help** to look up a tool or button.
 
+> [!IMPORTANT]
+> Do not switch between Nemeth within UEB and UEB Technical Material within a single job based on convenience. Confirm the student's required code and the applicable agency or school specification before setting translation options.
+
 ## Why this matters
 
 [Lesson 7](07-math-translation-toggle.md) and [Lesson 8](08-ascii-math-hub.md) used Nemeth indicators for math. That is one of **two** ways BrailleBlaster supports math inside a UEB document. The other is **UEB Technical Material**, which writes math with UEB symbols and its own indicators. Which one a student uses is a decision for their team, their teacher, and their curriculum, not for the transcriber. A transcriber's job is to know that both exist, to set up the document for the one required, and to use the right tools for it.
