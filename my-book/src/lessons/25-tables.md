@@ -21,6 +21,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** the Print Source Legend and tasks below use only plain text, so you can paste them straight into the Table Editor.
 
+> [!IMPORTANT]
+> A print table's visual grid is not automatically the best braille presentation. Choose the table type by the relationships a reader must compare and by whether the content fits the available width; if the format changes, explain the change in a Transcriber's Note.
+
 ## Why this matters
 
 Tables are everywhere in textbooks, and they are among the hardest things to transcribe. A print table uses the whole width of a page and the reader's eye to compare across rows and down columns. A braille page is usually about 40 cells wide, and a refreshable display shows even less. Some print tables fit. Many do not.
