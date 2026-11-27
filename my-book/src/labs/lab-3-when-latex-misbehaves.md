@@ -2,6 +2,9 @@
 
 **Time:** about 60 minutes. **Needs:** [Lessons 7](../lessons/07-math-translation-toggle.md), [8](../lessons/08-ascii-math-hub.md), [15](../lessons/15-importing-latex-xml-nimas-epub.md), and [17](../lessons/17-what-pandoc-does.md). **Files:** `math-foundations.tex` and `math-foundations-from-tex.html` from the [sample files](../samples/index.md). **Reference:** the [Pandoc Cookbook](../reference/pandoc-cookbook.md).
 
+> [!CAUTION]
+> Do not repair a LaTeX import by deleting unfamiliar commands until you understand what they do. Custom macros and environments can carry mathematical or structural meaning; isolate the failing construct and preserve a copy of the original.
+
 ## Scenario
 
 A professor sends a LaTeX file of a math handout. BrailleBlaster opens `.tex` files directly and converts the LaTeX to ASCII Math, so most files just work. Sooner or later one does not, because it uses a package or a notation BrailleBlaster does not support.
