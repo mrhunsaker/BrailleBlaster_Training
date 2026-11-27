@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice file:** make your own test with the script in this lesson, or use any text you have copied from a PDF or a web page.
 
+> [!WARNING]
+> Do not change a file's encoding or normalize characters in place without keeping an untouched copy. A conversion can silently replace characters or alter byte interpretation; inspect the result and confirm that braille cells, punctuation, and non-English text remain intact.
+
 ## Why this matters
 
 Text looks simple, but a copied paragraph can carry dozens of invisible differences: a curly quote where the code expects a straight one, a non-breaking space that no search finds, a soft hyphen in the middle of a word, a ligature that is one character and not two. Each can change what a translator does, and none is visible on screen. The Braille View may be the first place you notice.
