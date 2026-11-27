@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** [Lab 8: A Safe Find-and-Replace Cleanup](../labs/lab-8-find-and-replace-cleanup.md), which includes a deliberate trap.
 
+> [!CAUTION]
+> Before using Replace All, inspect the exact match scope and test the replacement on a small, reversible sample. A global replacement can alter proper names, code, URLs, or text inside structures that were not part of the intended correction.
+
 ## Why this matters
 
 A single-page worksheet can be corrected by eye. A three-hundred-page textbook cannot. Production transcription depends on being able to find — and, when appropriate, fix — every instance of a pattern across an entire document reliably, whether that pattern is a misspelled term, a formatting inconsistency inherited from a poorly-structured source file ([Lesson 2](02-opening-word-documents.md)), or a style that needs to change document-wide for consistency. BrailleBlaster's Find and Replace tool does this for both plain text *and* formatting, which is what makes it a genuinely global tool rather than a simple word-search box.
