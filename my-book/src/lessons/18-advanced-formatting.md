@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** [Lab 9: Special Structures Studio](../labs/lab-9-special-structures.md), with an original play, poem, and outline.
 
+> [!CAUTION]
+> Do not choose a style because it looks most like the print page. First identify the function of the material—box, speaker label, stage direction, poetic line, or nested list—then select the structure that communicates that function to the braille reader.
+
 ## Why this matters
 
 Most transcription work lives comfortably in body text, headings, and simple lists — the styles covered in [Lesson 4](04-layout-styles.md). But sooner or later, every transcriber meets print material that doesn't fit those shapes: a sidebar set off in a box, a script with character names and stage directions, a poem where line breaks are meaningful, or an outline nested more deeply than a simple bulleted list. BrailleBlaster has dedicated styles for exactly these cases, each following its own section of *Braille Formats 2016*, and this lesson is a tour of the ones a transcriber meets often enough to need working familiarity with, beyond the basics.
