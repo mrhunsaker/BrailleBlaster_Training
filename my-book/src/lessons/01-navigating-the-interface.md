@@ -18,6 +18,9 @@ By the end of this lesson you will be able to:
 - Move through a document by structure with Previous Element and Next Element, and by page with Go to Page.
 - Find the menu where each major tool in this course lives.
 
+> [!NOTE]
+> The three views are different representations of one document, not three independent copies. A change made in one view can affect the others; after editing, check the Print and Braille views rather than assuming the visible pane tells the whole story.
+
 ## Why this matters
 
 Every other lesson in this course assumes you can find your way around the BrailleBlaster window. When you apply a style, check a translation, or preview a page, you are moving between the same few views and menus again and again. Ten minutes spent learning how those views work saves hours of confusion later.
