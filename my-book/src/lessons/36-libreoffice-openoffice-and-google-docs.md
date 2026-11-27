@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice file:** `sample.odt` in the [sample files](../samples/index.md), and any document you have in these programs.
 
+> [!NOTE]
+> Exporting the same document from different office suites can change styles, equations, lists, and page breaks. Treat each export as a new source file: inspect its structure and test a copy in BrailleBlaster rather than relying on the author's view of the original.
+
 ## Why this matters
 
 Many schools and agencies use free office software, and many teachers write in Google Docs. All of these can produce well-structured files, and all of them can produce flat ones. The commands differ from Word, but the principle from [Lesson 35](35-word-structure-with-styles.md) is the same: **apply a style, and never fake one**.
