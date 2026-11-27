@@ -34,3 +34,6 @@ old/
 # Python caches
 __pycache__/
 *.pyc
+
+# Generated dated curriculum PDFs
+BrailleBlaster_Training_????????.pdf
