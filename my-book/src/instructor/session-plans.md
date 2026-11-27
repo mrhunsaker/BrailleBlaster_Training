@@ -7,6 +7,9 @@ Every plan follows the same rhythm from the [Instructor Guide](index.md): demons
 > [!TIP]
 > Keep a spare, finished copy of every practice document on a shared drive so a learner who falls behind can catch up without missing the debrief.
 
+> [!TIP]
+> Before each session, test the demonstration on the same BrailleBlaster version learners will use and prepare a known-good backup file. If a feature is hidden or behaves differently, teach the documented fallback rather than improvising an unverified workflow.
+
 ## Core sessions
 
 ### Session 1: Text formatting fundamentals (90 minutes)
