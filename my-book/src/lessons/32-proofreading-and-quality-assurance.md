@@ -23,6 +23,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** the **Proofreading Error Log** in the [Job Aids](../reference/job-aids.md), and the [Production Checklist](../reference/job-aids.md).
 
+> [!WARNING]
+> A clean-looking Print View or a successful export does not establish that the braille is correct. Proofread the source, structure, translation, page layout, and final BRF in separate passes; a single pass tends to miss errors outside its immediate focus.
+
 ## Why this matters
 
 A transcription that is 99 percent right is not 99 percent usable. A braille reader cannot skim past a wrong page number, a missing sentence, or a heading at the wrong level, and a student cannot ask whether "6,560" is a typo. Every error you leave in is paid for by the reader.
