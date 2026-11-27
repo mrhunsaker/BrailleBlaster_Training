@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** the style items in the [Drill Bank](../reference/drill-bank.md#b-styles-headings-and-lists-lessons-4-to-6) and the [Style Map job aid](../reference/job-aids.md).
 
+> [!CAUTION]
+> Do not create layout by typing spaces, tabs, or repeated blank lines. These are fragile visual imitations, not structural styles, and they can fail when text wraps, page geometry changes, or the document is translated.
+
 ## Why this matters
 
 [Lesson 3](03-typeface-emphasis.md) was about how individual words look. **Styles** are about how whole blocks of text are laid out on the braille page: their margins, their spacing, whether they start a new line, and how they behave when they cross a page break. If emphasis is the "font" of braille, styles are the "paragraph formatting," and they matter more, because braille margins are a reader's main navigation cue. A misapplied style does not just look wrong. It can make a document genuinely hard to read by finger.
