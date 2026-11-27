@@ -17,6 +17,9 @@ By the end of this lesson you will be able to:
 - Choose between saving a correction **locally** and **globally**, and explain the privacy difference.
 - View, edit, and delete earlier corrections.
 
+> [!WARNING]
+> A global translation correction can affect unrelated documents or future work. Prefer a local correction unless the rule is genuinely general, approved for shared use, and safe for every context; never place student or confidential content in a shared correction.
+
 ## Why this matters
 
 BrailleBlaster relies on the open-source translator **Liblouis** to turn print into braille, and Liblouis is very good, but it cannot know every proper noun, foreign word, or unusual symbol. Sooner or later it gets one wrong, or meets a character it has no braille for. A professional transcriber needs a safe, repeatable way to fix those cases, and to know *which* tool to reach for.
