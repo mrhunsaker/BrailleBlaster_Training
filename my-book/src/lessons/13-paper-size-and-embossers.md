@@ -22,6 +22,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** [Lab 5: Page Properties and the Test Emboss](../labs/lab-5-test-page-and-embosser.md) and the [Embosser Profile Log](../reference/job-aids.md).
 
+> [!WARNING]
+> Do not emboss a production job until the document's page geometry, paper stock, interpoint setting, and selected embosser profile agree. A profile that merely connects successfully can still produce unusable pages.
+
 ## Why this matters
 
 Every other skill in this course produces a file on screen. This lesson is about turning that file into physical braille — or at least setting up the document so that it *can* be, correctly, the first time it reaches a real embosser. Getting page setup right before transcription begins saves enormous rework later, because page size, margins, and lines-per-page directly determine where BrailleBlaster places every page break in the finished document.
