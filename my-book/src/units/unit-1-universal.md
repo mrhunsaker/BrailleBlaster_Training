@@ -30,6 +30,9 @@ Suggested total time: about 30 hours.
 
 You may reorder lessons within a group. Do not skip ahead across groups, because later lessons rely on the habits in earlier ones.
 
+> [!IMPORTANT]
+> Teach students to distinguish document meaning from visual appearance before they begin applying styles. A heading, list, emphasis span, or math expression must be identified from the source context; the screen's appearance alone is not a reliable guide.
+
 ## Unit outcomes
 
 When you finish this unit you can:
