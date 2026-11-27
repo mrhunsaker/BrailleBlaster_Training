@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Decide whether to flag text as math, keep or ignore emphasis, use a list or box, and write a Transcriber's Note.
 - Recognize when a tree does not answer the question and a human decision, written down, is needed.
 
+> [!NOTE]
+> A decision tree is a consistency aid, not an authority or substitute for professional judgment. If the facts do not fit a branch, stop, consult the relevant standard or student's team, and document the exception instead of forcing the case into the nearest answer.
+
 ## Why this matters
 
 A transcriber makes the same dozen decisions on every job: Is this math? Does this table fit? Should this image be described? Written as prose, the answers are scattered through the lessons. As a **tree**, each is a short sequence of questions that ends in an action, and the same inputs always give the same result. That is what consistency means, and it is what an agency style sheet ([Lesson 48](48-job-intake-and-the-agency-style-sheet.md)) tries to protect.
