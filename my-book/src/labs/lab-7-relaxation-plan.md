@@ -2,6 +2,9 @@
 
 **Time:** about 60 minutes. **Needs:** [Lessons 7](../lessons/07-math-translation-toggle.md), [11](../lessons/11-contraction-relaxer.md), and [22](../lessons/22-transcribers-notes.md). **File:** `relaxer-code-and-math.txt` from the [sample files](../samples/index.md). **Job aid:** the Translation Control Plan in [Job Aids](../reference/job-aids.md).
 
+> [!IMPORTANT]
+> Do not choose a contraction level from the student's age or from a generic rule of thumb. Base the plan on the student's current instruction, reading performance, and team decision, and record the agreed setting.
+
 ## Scenario
 
 A computer science teacher gives you a handout with short code samples and some algorithm math inside ordinary sentences. It is for a learner who has been taught contractions only through the early units. You have three different problems, and BrailleBlaster has three different controls:
