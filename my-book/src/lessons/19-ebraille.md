@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!NOTE]
 > **Background:** see [Policy and Standards Background](../reference/policy-background.md) for where eBraille and NIMAS fit in the wider standards picture.
 
+> [!IMPORTANT]
+> Do not describe eBraille as a digital replacement for every braille format or as a guarantee of accessibility. It is a structured, reflowable braille publication format; the receiving reader, software, and delivery requirements still determine whether it is suitable.
+
 ## Why this matters
 
 For decades the end product of braille transcription has been the **BRF** (Braille Ready File). A BRF is built around a fixed page: a set number of cells per line and lines per page, hard-coded for one paper size. That is exactly right for embossing a physical book. It is a poor fit for a refreshable braille display, especially the newer multiline displays, where the "page" is whatever the device can show, and that changes from device to device.
