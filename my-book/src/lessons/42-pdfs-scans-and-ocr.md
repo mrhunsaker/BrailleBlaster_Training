@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Run OCR on a scan, and proofread the result for the errors OCR makes.
 - Decide when a PDF is not good enough, and ask for a better source.
 
+> [!CAUTION]
+> OCR output is a hypothesis, not an authoritative transcription. Always compare it visually with the scan, especially minus signs, decimal points, superscripts, subscripts, columns, table cells, and similar-looking characters in math.
+
 ## Why this matters
 
 A PDF is a picture of a page that happens to contain some text. It was built to *look* the same everywhere, not to say what its contents *are*. There is no heading, no list, and often no reading order inside a typical PDF. That makes it one of the poorest sources for braille, and also one of the most common, because teachers and publishers send what they have.
