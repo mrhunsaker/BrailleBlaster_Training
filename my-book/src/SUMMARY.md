@@ -193,3 +193,63 @@
 ---
 
 [About the Author](about/author.md)
+
+# Appendix: Additional Curriculum Pages
+
+The pages below are part of the maintained curriculum. They are listed here so that every Markdown manuscript page is reachable from the book navigation; instructor-only materials remain grouped separately from learner-facing lessons.
+
+## instructor
+
+- [Assessment Bank](instructor/assessment-bank.md)
+- [Assessment](instructor/assessment.md)
+- [Capstone Rubric](instructor/capstone-rubric.md)
+- [Cohort Pacing Tracker](instructor/cohort-pacing-tracker.md)
+- [Cohort Session Record](instructor/cohort-session-record.md)
+- [Cohort Skills Dashboard](instructor/cohort-skills-dashboard.md)
+- [Course Delivery Toolkit](instructor/course-delivery-toolkit.md)
+- [End Of Course Cohort Report](instructor/end-of-course-cohort-report.md)
+- [Learner Progress Register](instructor/learner-progress-register.md)
+- [Lesson Resource Map](instructor/lesson-resource-map.md)
+- [Portfolio Review Guide](instructor/portfolio-review-guide.md)
+- [Practical Assessment Delivery Guide](instructor/practical-assessment-delivery-guide.md)
+- [Practical Assessment Expected Evidence](instructor/practical-assessment-expected-evidence.md)
+- [Practical Assessment Standardized Prompts](instructor/practical-assessment-standardized-prompts.md)
+- [Session Plans](instructor/session-plans.md)
+- [Unit 1](instructor/unit-1.md)
+- [Unit 2](instructor/unit-2.md)
+- [Unit 3](instructor/unit-3.md)
+- [Unit 4](instructor/unit-4.md)
+- [Unit 5](instructor/unit-5.md)
+
+## instructor / answer-keys
+
+- [README](instructor/answer-keys/README.md)
+
+## instructor / assessment-rubrics
+
+- [README](instructor/assessment-rubrics/README.md)
+
+## instructor / cohort-management
+
+- [README](instructor/cohort-management/README.md)
+- [Delivery Pacing Tracker](instructor/cohort-management/delivery-pacing-tracker.md)
+- [Learner Progress Register](instructor/cohort-management/learner-progress-register.md)
+
+## instructor / demonstration-guides
+
+- [README](instructor/demonstration-guides/README.md)
+
+## instructor / troubleshooting
+
+- [README](instructor/troubleshooting/README.md)
+
+## reference
+
+- [Drill Bank](reference/drill-bank.md)
+- [Glossary](reference/glossary.md)
+- [Job Aids](reference/job-aids.md)
+- [Pandoc Cookbook](reference/pandoc-cookbook.md)
+- [Policy Background](reference/policy-background.md)
+- [Shortcuts](reference/shortcuts.md)
+- [Troubleshooting](reference/troubleshooting.md)
+
