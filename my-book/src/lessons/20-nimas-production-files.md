@@ -22,6 +22,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** [Lab 4: A NIMAS-Style File](../labs/lab-4-nimas-style-file.md), and the legal context in [Policy and Standards Background](../reference/policy-background.md).
 
+> [!WARNING]
+> A valid NIMAS file set is a source package, not a finished braille book. Check that the OPF manifest and spine point to the intended files, and inspect the imported content for missing structure, images, math, page markers, and production notes.
+
 ## Why this matters
 
 **NIMAS** (the National Instructional Materials Accessibility Standard) is, for many production transcribers, the single most common source format they'll open — it's the XML-based format publishers submit to the National Instructional Materials Access Center (NIMAC) so that accessible formats, including braille, can be produced for K-12 students with qualifying print disabilities under IDEA 2004. BrailleBlaster was built from the start around taking advantage of NIMAS's rich markup, which is why NIMAS files typically arrive in BrailleBlaster far more pre-formatted than an average Word document ([Lesson 2](02-opening-word-documents.md)) — but "more pre-formatted" is not the same as "finished," and this lesson covers both the shortcuts NIMAS gives you and the manual review it still requires.
