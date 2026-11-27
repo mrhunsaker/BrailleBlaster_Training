@@ -47,13 +47,16 @@ jobs:
           cargo install mdbook --locked
           cargo install mdbook-pandoc --locked
 
+      - name: Remove stale dated PDFs
+        run: rm -f BrailleBlaster_Training_????????.pdf
+
       - name: Build mdBook and compile PDF
         run: bash build_mdbook.sh
 
       - name: Verify PDF output
         run: |
           shopt -s nullglob
-          pdfs=(BrailleBlaster_Training_*.pdf)
+          pdfs=(BrailleBlaster_Training_????????.pdf)
           if [ "${#pdfs[@]}" -ne 1 ]; then
             echo "Expected exactly one dated curriculum PDF; found ${#pdfs[@]}." >&2
             printf '%s\n' "${pdfs[@]}"
@@ -66,6 +69,6 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: BrailleBlaster-Training-PDF
-          path: BrailleBlaster_Training_*.pdf
+          path: BrailleBlaster_Training_????????.pdf
           if-no-files-found: error
           retention-days: 30
