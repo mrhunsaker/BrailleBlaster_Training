@@ -2,6 +2,9 @@
 
 **Time:** about 45 minutes. **Needs:** [Lesson 12](../lessons/12-find-and-replace.md). **File:** `find-replace-cleanup.txt` from the [sample files](../samples/index.md).
 
+> [!WARNING]
+> Before any Replace All operation, inspect matches and test a small sample. A replacement that fixes one repeated error can also damage valid words, names, punctuation, or text in unrelated contexts.
+
 ## Scenario
 
 Find and Replace is one of the fastest ways to clean a document and one of the fastest ways to damage one. Your job is to make four changes to a short story handout without breaking anything, and to prove it.
