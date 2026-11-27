@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Build a number line with the Number Line Editor.
 - Check the translation of the finished number line.
 
+> [!IMPORTANT]
+> An open endpoint and a closed endpoint are not interchangeable: they communicate whether the boundary value is excluded or included. Confirm each endpoint, arrow, interval, and label against the source before accepting the number line.
+
 ## Why this matters
 
 Number lines look simple and are anything but, once you start transcribing them. A print number line encodes information in position (where a point sits between labeled marks), in symbol (open vs. filled circles, arrows), and often in fraction form that print textbooks show in a "nice," pre-reduced way for pedagogical reasons. All of that has to survive translation into a linear braille format that a reader explores with their fingertip rather than their eye, moving left to right one cell at a time. This lesson builds directly on [Lesson 9](09-spatial-math-editor.md) — the Number Line Editor is one of the four container types inside the Spatial Math Editor — and deserves its own dedicated lesson because number lines show up constantly in early-grades math materials and have enough of their own settings to warrant close attention.
