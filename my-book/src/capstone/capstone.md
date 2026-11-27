@@ -5,6 +5,9 @@ The capstone brings the whole course together. You will transcribe a short chapt
 **Suggested time:** about 4 hours, over one or two sittings.
 **Prerequisites:** Units 1 and 3. Unit 2 is helpful but optional.
 
+> [!CAUTION]
+> The practice source deliberately includes traps and simplified production assumptions. Do not carry its settings into a real textbook job without checking the actual reader's code, agency specifications, paper and embosser, and source authority.
+
 ## The job
 
 A middle school science teacher has asked for a braille copy of "Chapter 3: Energy and Motion" for a student who reads UEB with Nemeth Code for math. The student uses embossed braille and needs the material in more than one volume.
