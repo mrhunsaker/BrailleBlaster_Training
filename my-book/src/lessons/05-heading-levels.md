@@ -18,6 +18,9 @@ By the end of this lesson you will be able to:
 
 ---
 
+> [!IMPORTANT]
+> Do not assume that a print heading level maps one-to-one to a braille heading format. Apply the prescribed hierarchy consistently, and record how deeper print levels were represented rather than inventing extra block-heading levels.
+
 ## How to use this lesson
 
 The first half explains the concept. The second half is a practice document — copy the fenced "Practice Document" block into a new BrailleBlaster file and apply the correct heading style to every heading line. Nothing in the practice block uses Markdown `#` syntax to mark headings, and heading lines look exactly like body text once pasted in — that's deliberate. In real transcription work, plain text carries no heading information either; you identify a heading from context (or, as here, from a legend showing the source document's structure) and apply the style yourself. Everything in the practice block *other than* heading assignment is already correct — you are only fixing heading levels.
