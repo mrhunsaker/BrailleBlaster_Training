@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice file:** `markdown-syntax-tour.md`, inside [markdown-samples.zip](../samples/index.md). It uses every construct in this lesson.
 
+> [!WARNING]
+> Do not assume that valid Markdown is necessarily safe to import into BrailleBlaster. This lesson documents observed behavior for a particular conversion pipeline; test the constructs used in your file and check for dropped or flattened content after import.
+
 ## Why this matters
 
 Markdown is the simplest way to write a structured document. It is plain text, so it opens in any editor, works well with screen readers and braille displays, survives copying between systems, and is easy to keep under version control. Many authors and teachers already write in it, and **BrailleBlaster opens `.md` files directly**.
