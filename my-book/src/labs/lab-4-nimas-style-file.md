@@ -2,6 +2,9 @@
 
 **Time:** about 90 minutes. **Needs:** [Lesson 20](../lessons/20-nimas-production-files.md). **Files:** `nimas-style-sample.zip` from the [sample files](../samples/index.md). **Job aids:** the Import Log and the Production Checklist in [Job Aids](../reference/job-aids.md).
 
+> [!WARNING]
+> A well-formed DTBook file is not necessarily a complete or correct NIMAS package. Check the package manifest, referenced resources, and actual textbook content as well as the XML syntax.
+
 ## Scenario
 
 A publisher's NIMAS file has just arrived for a short science reader. NIMAS carries the *structure* of the book: headings, lists, page numbers, sidebars, captions, and math. It does not carry the printed page design. BrailleBlaster reads that structure and applies braille formatting to it, but you remain responsible for checking every decision.
