@@ -2,6 +2,9 @@
 
 **Time:** about 90 minutes. **Needs:** [Lessons 14](../lessons/14-importing-markdown-and-opendocument.md), [15](../lessons/15-importing-latex-xml-nimas-epub.md), and [16](../lessons/16-choosing-an-import-workflow.md). **Files:** `word-01-well-structured.docx`, `sample.odt`, `markdown-samples.zip` (unzip it first), `sample.tex`, and `sample.epub`. **Job aid:** the Import Log in [Job Aids](../reference/job-aids.md).
 
+> [!IMPORTANT]
+> Compare every imported result against the same authoritative source, not just against the other imports. A format that looks cleaner may still have lost a figure, caption, equation, or reading-order relationship.
+
 ## Scenario
 
 The same kind of content, a short document with headings, a list, and a little math or emphasis, arrives in five different formats. Your supervisor asks: *"Which of these is the best source to transcribe from, and what should I check on each?"*
