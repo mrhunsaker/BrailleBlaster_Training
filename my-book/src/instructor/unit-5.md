@@ -2,6 +2,9 @@
 
 These notes support Lessons 33 to 54. The Handbook is **supplemental and independent**, so teach a lesson when its topic arises, using the placement table on the [unit page](../units/unit-5-handbook.md). Much of it works best as a **workshop on real files**: bring a few messy sources of different kinds, and inspect them together.
 
+> [!NOTE]
+> The handbook is a reference as well as a sequence of lessons. Encourage learners to return to the primary standard or source file when a quick-reference card or decision tree does not resolve an edge case.
+
 ## Two teaching habits for the whole unit
 
 1. **Predict, then check.** Before opening a file in BrailleBlaster, have learners write down what they expect to happen to its headings, images, math, and title. The gap between prediction and result is where the learning is.
