@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice files:** `sample.tex` and `math-foundations.tex` in the [sample files](../samples/index.md).
 
+> [!CAUTION]
+> Do not treat a LaTeX command as proof that the visible output is correct or complete. Macros, packages, custom commands, and included files can change meaning; request the compiled source or a complete project when the supplied `.tex` file is incomplete.
+
 ## Why this matters
 
 LaTeX is the standard way mathematicians, scientists, and many teachers write documents with equations. When a professor or a textbook author sends a `.tex` file, you receive the math **as the author typed it**, which is the best case for math. BrailleBlaster opens `.tex` files directly, and the equations become math without anyone retyping them.
