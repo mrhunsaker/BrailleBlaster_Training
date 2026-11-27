@@ -38,6 +38,9 @@ Because the lessons are independent, instructors often **interleave** them with 
 
 Lessons 23 and 24 (in Unit 3) and Lesson 31 mention tools that live in a hidden **Debug** menu in the current 3.x releases. Press `Ctrl+Shift+` ` to show it. Lesson 19 also mentions an experimental eBraille exporter in the same place. This unit's lessons use only the documented 3.x tools, except where they say so.
 
+> [!IMPORTANT]
+> Specialized formatting is governed by the reader's needs and the applicable braille standards, not by visual similarity to print. Require learners to explain the purpose of each structural choice and to verify its effect in the Braille View.
+
 ## Unit outcomes
 
 When you finish this unit you can:
