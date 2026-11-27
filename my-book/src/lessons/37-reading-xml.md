@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice file:** `sample-dtbook.xml` in the [sample files](../samples/index.md).
 
+> [!CAUTION]
+> Well-formed XML is not necessarily valid against its schema or useful for transcription. Check both syntax and the expected vocabulary/namespace; a file can parse successfully while omitting required structure or using elements incorrectly.
+
 ## Why this matters
 
 XML is the language underneath most of the structured formats this course touches. A **NIMAS** file is XML. An **EPUB** and an **eBraille** publication are zip files full of XML and XHTML. A **Word** file is a zip file whose `document.xml` holds the paragraphs. **MathML** is XML. BrailleBlaster's own **BBX** file is XML.
