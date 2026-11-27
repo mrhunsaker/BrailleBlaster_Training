@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Build a matrix, aligned equations, a fractional comparison, and a short worked computation.
 - Verify spatial alignment and translation in both views.
 
+> [!WARNING]
+> Never simulate columns, matrices, or aligned calculations with spaces in ordinary text. Font, wrapping, and page width can destroy the relationships that carry mathematical meaning; use a spatial container and inspect its braille output.
+
 ## Why this matters
 
 Not all mathematics is linear. A long-division problem, a number line, a matrix, or a worked equation template all depend on *position* — numbers stacked, aligned, or arranged in two dimensions — in ways that ASCII Math's left-to-right notation can't represent on its own. Print math and braille math handle this differently, but both still need to preserve the spatial relationships the reader depends on to actually follow the working, not just the final answer. The **Spatial Math Editor** is BrailleBlaster's purpose-built tool for this category of material, and it's significant enough that its underlying approach is the subject of a U.S. patent held by APH (Patent No. US 11,410,575 B2, "Interface and Tools for Accessible Textbook Generation").
