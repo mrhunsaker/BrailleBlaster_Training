@@ -2,6 +2,9 @@
 
 **Time:** about 75 minutes. **Needs:** [Lessons 6](../lessons/06-list-formatting.md) and [18](../lessons/18-advanced-formatting.md). **Files:** `play-excerpt.txt`, `original-poem.txt`, and `deep-list.txt` from the [sample files](../samples/index.md).
 
+> [!NOTE]
+> The task is to preserve the function of each structure, not to imitate its print appearance. Ask what the reader needs to identify—speaker, stanza, hierarchy, boxed information, or runover—before selecting a style.
+
 ## Scenario
 
 Plays, poems, and deep outlines look different in print because their *structure* carries meaning: who is speaking, where a line ends, which item sits under which. In braille the appearance changes, but the structure must not. You will format all three and then explain each choice.
