@@ -2,6 +2,9 @@
 
 These notes support Lessons 25 to 32. The lessons are independent, so teach them in the order your learners need. The [unit page](../units/unit-4-specialized.md) suggests where each one fits among the earlier lessons.
 
+> [!IMPORTANT]
+> Require a rationale for every specialized format choice. A table, tactile graphic, math passage, or translation correction is not correct merely because it looks tidy; it must preserve the information the reader needs and comply with the applicable code.
+
 ## Lesson 25: Tables
 
 **Read the lesson:** [Tables](../lessons/25-tables.md).
