@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Use a before-and-after view of an error to find the same mistake in your own work.
 - Sort an error by category, so that you know which proofreading pass catches it.
 
+> [!WARNING]
+> A symptom can have more than one cause. Diagnose the source, structure, translation settings, and output before changing anything; applying a familiar fix without confirming the cause can introduce a second error.
+
 ## Why this matters
 
 Experienced transcribers do not make fewer mistakes because they are careful. They make fewer because they have **seen each mistake before**. They know what a dropped image looks like when the Braille View looks tidy, and what a Replace All does to a surname. This lesson is a gallery of those mistakes, sorted by category, with the cause and the fix for each.
