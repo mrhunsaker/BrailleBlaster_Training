@@ -2,6 +2,9 @@
 
 These notes support Lessons 20 to 24. Unit 3 is a production workflow, so teach it as one connected sequence and not as five separate tools.
 
+> [!CAUTION]
+> Teach the dependency order explicitly: stabilize structure and volume boundaries before distributing the TOC, then generate and reconcile T-pages. Reordering these steps creates stale pagination and mismatched front matter.
+
 ## Lesson 20: Importing and Working with NIMAS Files
 
 **Read the lesson:** [Importing and Working with NIMAS Files](../lessons/20-nimas-production-files.md). **Suggested time:** 150 minutes.
