@@ -1,0 +1,71 @@
+name: Build mdBook and PDF
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-pdf-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build curriculum and PDF
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes \
+            pandoc \
+            perl \
+            python3 \
+            texlive-luatex \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-bibtex-extra \
+            biber \
+            makeindex \
+            fonts-dejavu
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install mdBook and Pandoc backend
+        run: |
+          cargo install mdbook --locked
+          cargo install mdbook-pandoc --locked
+
+      - name: Build mdBook and compile PDF
+        run: bash build_mdbook.sh
+
+      - name: Verify PDF output
+        run: |
+          shopt -s nullglob
+          pdfs=(BrailleBlaster_Training_*.pdf)
+          if [ "${#pdfs[@]}" -ne 1 ]; then
+            echo "Expected exactly one dated curriculum PDF; found ${#pdfs[@]}." >&2
+            printf '%s\n' "${pdfs[@]}"
+            exit 1
+          fi
+          test -s "${pdfs[0]}"
+          file "${pdfs[0]}"
+
+      - name: Upload generated PDF
+        uses: actions/upload-artifact@v7
+        with:
+          name: BrailleBlaster-Training-PDF
+          path: BrailleBlaster_Training_*.pdf
+          if-no-files-found: error
+          retention-days: 30
