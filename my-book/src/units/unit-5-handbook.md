@@ -78,6 +78,9 @@ You do not have to teach the Handbook in order. This table shows when each lesso
 | [52](../lessons/52-decision-trees.md), [53](../lessons/53-error-gallery.md) (aids) | Throughout | They are for reference |
 | [54](../lessons/54-a-model-job-capstone-walkthrough.md) (model job) | After the Capstone | It is a model to compare with |
 
+> [!NOTE]
+> This handbook includes both established standards and observations about specific software behavior. Treat statements about conversion results as testable expectations, check them against the current release and source file, and report discrepancies rather than generalizing them to every version.
+
 ## Unit outcomes
 
 When you finish this unit you can:
