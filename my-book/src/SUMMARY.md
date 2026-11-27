@@ -253,3 +253,11 @@ The pages below are part of the maintained curriculum. They are listed here so t
 - [Shortcuts](reference/shortcuts.md)
 - [Troubleshooting](reference/troubleshooting.md)
 
+# Appendix: Legacy Compatibility Pages
+
+These short pages preserve older internal references and route readers to the maintained curriculum content.
+
+- [Legacy Universal Lessons](BrailleBlaster/Universal_Lessons.md)
+- [Legacy Advanced Lessons](BrailleBlaster/Advanced_Lessons.md)
+- [Legacy Transcriber-Focused Lessons](BrailleBlaster/Transcriber_Focused_Lessons.md)
+- [Legacy eBraille Export Reference](BrailleBlaster/Ebraille_Export.md)
