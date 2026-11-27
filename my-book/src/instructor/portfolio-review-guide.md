@@ -1,5 +1,8 @@
 # Instructor Portfolio Review Guide
 
+> [!CAUTION]
+> Do not accept screenshots or polished exports as sufficient evidence on their own. Verify that the learner can trace the work to its source, explain consequential decisions, identify limitations, and reproduce the skill on a new task.
+
 ## Purpose and boundaries
 
 Use the learner portfolio to evaluate demonstrated competencies across the course. The portfolio supplements, but does not replace, direct observation, the applied import assessment, the instructor-led practical, or the capstone. A polished artifact without traceable source comparison and verification is insufficient evidence.
