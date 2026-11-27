@@ -1,5 +1,8 @@
 # How to Use This Course
 
+> [!NOTE]
+> The answer keys and model solutions are teaching aids, not substitutes for explaining the decision. When a learner's answer differs, ask them to identify the source evidence, applicable rule, and reader need before deciding whether it is wrong.
+
 ## The practice method
 
 Almost every lesson has a **Practice Document** in a code block. The method is always the same:
