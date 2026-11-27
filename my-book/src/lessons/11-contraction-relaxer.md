@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** [Lab 7: Choosing the Right Translation Control](../labs/lab-7-relaxation-plan.md) and the [Translation Control Plan job aid](../reference/job-aids.md).
 
+> [!IMPORTANT]
+> The correct contraction setting is not determined by the transcriber's preference or by a learner's age. Confirm the student's current instructional level and the team's decision; record the setting and reassess it when the student's reading goals change.
+
 ## Why this matters
 
 Standard literary braille (Unified English Braille, Grade 2) uses contractions extensively — single cells or short cell combinations standing in for common letter groups and whole words, which is what makes contracted braille meaningfully more compact than an uncontracted, letter-for-letter transcription. Most of the time, an agency's translation table setting handles this globally and correctly, with no per-document intervention needed. But contractions can occasionally cause real problems for a specific reader or a specific kind of material — an emerging reader still learning contractions, unfamiliar technical vocabulary where contraction boundaries could be confusing, or specific words where the contracted form happens to be more ambiguous than useful. The **Contraction Relaxer** exists for exactly this situation: finer control than an all-or-nothing switch between contracted and uncontracted braille.
