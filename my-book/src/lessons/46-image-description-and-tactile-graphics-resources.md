@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Describe the main ways a tactile graphic is produced, and where the guidelines are.
 - Find and use the main published guidelines and tools for image description and tactile graphics.
 
+> [!IMPORTANT]
+> Describe what the image communicates, not what you assume the author intended. Distinguish visible facts from interpretation, preserve relevant labels and relationships, and ask the content expert when a description would require subject-matter inference.
+
 ## Why this matters
 
 [Lesson 27](27-images-and-tactile-graphics.md) taught you the **tools** for images in BrailleBlaster: the placeholder, the Caption and Description styles, and the page controls. It did not teach you **how to describe a picture well**, which is the harder skill. A description that is long and unfocused wastes the reader's time. One that is short and wrong misleads. A good one gives the reader what a sighted classmate gets from the picture, no more and no less.
