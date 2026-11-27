@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Map each course lesson to the sections of Braille Formats and the code books it relies on.
 - Read a Braille Formats rule: its number, its sub-rules, and its Braille Reader's Perspective notes.
 
+> [!IMPORTANT]
+> A crosswalk helps locate authority; it does not replace the current code books, applicable Braille Formats edition, agency policy, or the student's documented requirements. Check the edition and jurisdiction before treating a cited rule as controlling.
+
 ## Why this matters
 
 Every lesson in this course says *what BrailleBlaster does*. A transcriber also needs to know **why**, and to be able to defend a choice to a teacher, a reviewer, or a student's team. The reason is almost always in one of a small number of documents. This lesson is the map: which document answers which question, and where in the course each one is used.
