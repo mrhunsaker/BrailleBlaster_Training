@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **More practice:** drills C6 to C12 in the [Drill Bank](../reference/drill-bank.md#c-math-lessons-7-and-8) and [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
 
+> [!IMPORTANT]
+> The Hub helps you enter mathematical structure; it does not decide whether the source expression was transcribed correctly. Compare every numerator, denominator, script, operator, and grouping mark with the source, then verify the translated braille.
+
 ## Why this matters
 
 Once text is flagged as math ([Lesson 7](07-math-translation-toggle.md)), someone still has to *write* the expression in a form BrailleBlaster can translate — and typing raw ASCII Math from memory is a real skill that takes time to build, especially for symbols that don't have an obvious keyboard equivalent (a square root, a Greek letter, a set-union symbol). The **ASCII Math Hub** exists to close that gap: it's a browsable, searchable palette of every common mathematical symbol and structure, each shown as both its ASCII Math code and an image of how it prints, so a transcriber can build an unfamiliar equation without having to already know the syntax by heart.
