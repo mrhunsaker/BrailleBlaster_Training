@@ -1,56 +1,99 @@
-name: Build and Release mdBook with Pandoc and LaTeX
+name: Create Curriculum Release
 
 on:
   push:
     tags:
       - "v*"
-  workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 permissions:
   contents: write
 
+concurrency:
+  group: curriculum-release-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build:
+  release:
+    name: Build and publish tagged curriculum
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     steps:
-      - name: Checkout repository
+      - name: Validate version tag and derive PDF date
+        id: version
+        shell: bash
+        run: |
+          tag="$GITHUB_REF_NAME"
+          if [[ ! "$tag" =~ ^v([0-9]{4})\.([0-9]{2})\.([0-9]{2})$ ]]; then
+            echo "Tag must use the format vYYYY.MM.DD (received: $tag)." >&2
+            exit 1
+          fi
+
+          year="${BASH_REMATCH[1]}"
+          month="${BASH_REMATCH[2]}"
+          day="${BASH_REMATCH[3]}"
+          parsed_date="$(date -d "$year-$month-$day" +%Y%m%d 2>/dev/null)" || {
+            echo "Tag contains an invalid calendar date: $tag" >&2
+            exit 1
+          }
+
+          if [[ "$parsed_date" != "$year$month$day" ]]; then
+            echo "Tag contains an invalid calendar date: $tag" >&2
+            exit 1
+          fi
+
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "build_date=$parsed_date" >> "$GITHUB_OUTPUT"
+
+      - name: Check out tagged source
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes \
+            pandoc \
+            perl \
+            python3 \
+            texlive-luatex \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-bibtex-extra \
+            biber \
+            texlive-binaries \
+            fonts-dejavu
 
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
-      - name: Add cargo bin to PATH
-        run: echo "$HOME/.cargo/bin" >> $GITHUB_PATH
-
-      - name: Install mdBook
+      - name: Install mdBook and Pandoc backend
         run: |
           cargo install mdbook --locked
+          cargo install mdbook-pandoc --locked
 
-      # mdbook build triggers all backends defined in book.toml:
-      #   output.html     → docs/html/
-      #   output.markdown → docs/markdown/
-      - name: Build book (HTML + Markdown)
-        run: |
-          cd my-book
-          mdbook build
+      - name: Remove stale dated PDFs
+        run: rm -f BrailleBlaster_Training_????????.pdf
 
-      - name: Verify release artifacts exist
-        run: |
-          test -d my-book/docs/html
-          test -d my-book/docs/markdown
-
-      - name: Package Markdown output
-        run: |
-          cd my-book/docs
-          zip -r markdown-output.zip markdown/
-
-      - name: Upload release assets
-        uses: softprops/action-gh-release@v3
-        with:
-          files: |
-            my-book/docs/markdown-output.zip
+      - name: Build mdBook and compile tagged PDF
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_DATE: ${{ steps.version.outputs.build_date }}
+        run: bash build_mdbook.sh
+
+      - name: Verify release PDF
+        env:
+          BUILD_DATE: ${{ steps.version.outputs.build_date }}
+        run: |
+          pdf="BrailleBlaster_Training_${BUILD_DATE}.pdf"
+          test -s "$pdf"
+          file "$pdf"
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: BrailleBlaster Training ${{ steps.version.outputs.tag }}
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: BrailleBlaster_Training_${{ steps.version.outputs.build_date }}.pdf
