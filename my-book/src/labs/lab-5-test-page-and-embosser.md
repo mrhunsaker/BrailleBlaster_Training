@@ -2,6 +2,9 @@
 
 **Time:** about 60 minutes. **Needs:** [Lesson 13](../lessons/13-paper-size-and-embossers.md). **Files:** `reflow-paragraph.txt` and `test-page-for-embosser.txt` from the [sample files](../samples/index.md). **Job aids:** the Embosser Profile Log in [Job Aids](../reference/job-aids.md). **Hardware:** an embosser is helpful for Part C, but Parts A and B work without one.
 
+> [!CAUTION]
+> Run the test emboss using the approved machine procedure and a small sample. Keep hands clear of moving parts, do not bypass safety features, and do not send the full job until the test page confirms alignment and readability.
+
 ## Scenario
 
 All your formatting work is wasted if the pages come out wrong. You are setting up a workstation for a new embosser and a new paper size, and your supervisor wants it tested, documented, and repeatable.
