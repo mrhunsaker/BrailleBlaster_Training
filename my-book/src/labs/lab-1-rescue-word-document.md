@@ -2,6 +2,9 @@
 
 **Time:** about 90 minutes. **Needs:** [Lessons 2](../lessons/02-opening-word-documents.md), [4](../lessons/04-layout-styles.md), [5](../lessons/05-heading-levels.md), [6](../lessons/06-list-formatting.md), and [12](../lessons/12-find-and-replace.md). **Files:** `word-02-flat-structure.docx`, `word-03-geometry-three-pass.docx`, and `word-04-inconsistent-formatting.docx` from the [sample files](../samples/index.md). **Job aids:** the Style Map and the Import Log in [Job Aids](../reference/job-aids.md).
 
+> [!WARNING]
+> Keep the original DOCX unchanged and work on a copy. Before repairing styles, record what the source actually contains so that you can distinguish a source defect from a conversion defect.
+
 ## Scenario
 
 Most Word documents you receive will not be built with real heading and list styles. The author made them *look* right. You are the detective: the author left clues about the intended structure, and your job is to read them correctly.
