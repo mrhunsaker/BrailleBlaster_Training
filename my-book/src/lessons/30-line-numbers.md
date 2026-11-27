@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Insert, edit, and remove line numbers with the Line Number Tools.
 - Recognize when BrailleBlaster has already numbered lines in a NIMAS file.
 
+> [!CAUTION]
+> Do not add a second set of line numbers if the imported source already contains valid line numbering. Check the source and the Braille View first, then verify that the numbers track the intended prose or poetic lines after wrapping.
+
 ## Why this matters
 
 Literature textbooks and editions of plays and poems often number their lines, so that a teacher can say "look at line 25" and every student can find it. When the same book is transcribed into braille, those numbers must survive, in a form a braille reader can use. BrailleBlaster's **Line Number Tools** put them in the right place and keep them consistent.
