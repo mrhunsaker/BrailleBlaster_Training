@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 > [!TIP]
 > **Practice file:** `nimas-style-sample.zip` (or `sample-dtbook.xml` and `sample-package.opf`) in the [sample files](../samples/index.md).
 
+> [!WARNING]
+> Do not infer that a MathML expression is correct merely because its XML is valid. Confirm the mathematical meaning—especially scripts, fractions, roots, matrices, and operators—against the source image or authoritative source before transcription.
+
 ## Why this matters
 
 When a textbook arrives as a NIMAS file, you are not looking at a document so much as a *database of a book*: every heading, list, page number, sidebar, image, and equation is labeled by what it is. That is why NIMAS is the best source on the ladder in [Lesson 33](33-what-makes-a-good-source.md). It is also why you must be able to read its labels. A missing `pagenum`, an image without alt text, or an equation stored as a picture will not announce itself.
