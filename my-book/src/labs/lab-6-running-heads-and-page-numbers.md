@@ -2,6 +2,9 @@
 
 **Time:** about 60 minutes. **Needs:** [Lesson 21](../lessons/21-running-heads-and-page-numbers.md). **File:** `running-heads-multichapter.txt` from the [sample files](../samples/index.md). **Job aid:** the Page Numbering and Running Head Plan in [Job Aids](../reference/job-aids.md).
 
+> [!IMPORTANT]
+> Keep print-page references and braille-page numbering separate throughout the exercise. Verify preliminary pages and page changes before judging the running head or page-number sequence.
+
 ## Scenario
 
 In print, running heads and page numbers are usually automatic. In braille, nothing is automatic: you decide what appears, where, and on which pages. You are preparing a short three-chapter guide for a student who will refer to the print edition in class, so the **print page numbers** matter as much as the braille ones.
