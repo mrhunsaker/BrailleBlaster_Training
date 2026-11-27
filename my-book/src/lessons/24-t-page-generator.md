@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 
 ---
 
+> [!CAUTION]
+> Treat generated title, Special Symbols, and Transcriber's Notes pages as drafts until checked against the finished book. The generator cannot know whether every symbol is used, every note is listed, or the title-page details meet the agency's requirements.
+
 ## How to use this lesson
 
 The **T-Page Generator** is an automated BrailleBlaster tool for creating transcriber-generated pages. The User Guide lists functions for creating a Title Page, Secondary Title Page, Transcriber's Notes Page, and Special Symbols Page. 
