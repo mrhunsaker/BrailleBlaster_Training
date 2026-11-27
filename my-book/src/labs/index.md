@@ -2,6 +2,9 @@
 
 The lessons teach one tool at a time. The labs ask you to use several tools together on a realistic job, which is closer to what production work feels like. Each lab uses [sample files](../samples/index.md) and stays inside menu paths and behaviors the lessons already teach.
 
+> [!TIP]
+> Use the labs after the corresponding lesson, and keep an untouched copy of every source specimen. The goal is to diagnose and document a problem, not to overwrite the only copy of the evidence.
+
 ## How labs differ from lessons
 
 - A lesson has an answer key. A lab has **expected observations** and **debrief questions**, because real files rarely behave in exactly one way.
