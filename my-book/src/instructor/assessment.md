@@ -1,5 +1,8 @@
 # Assessment and Grading
 
+> [!IMPORTANT]
+> Score demonstrated competency and the quality of the learner's reasoning, not speed or conformity to the instructor's preferred formatting choice. Where multiple standards-compliant solutions exist, require the learner to cite the governing rule and apply the choice consistently.
+
 ## Three layers of assessment
 
 1. **Formative:** the Practice Document and Answer Key in each lesson.
