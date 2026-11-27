@@ -19,6 +19,9 @@ By the end of this lesson you will be able to:
 > [!IMPORTANT]
 > **Try the [Capstone](../capstone/capstone.md) first.** This walkthrough is a *model*, and not the only right answer. If you read it before you try the job, you will learn much less.
 
+> [!IMPORTANT]
+> The model demonstrates one defensible workflow, not a universal template. Do not copy its page dimensions, code choice, volume assumptions, or formatting decisions into a real job without checking that job's source, reader requirements, agency rules, and equipment.
+
 ## Why this matters
 
 Rubrics tell you what a good job looks like. A model shows you one. This lesson walks through the capstone chapter from the first email to the final log, saying at each step **what was decided, why, which tool did it, and which lesson explains it.** Because the standards leave room for judgment, your answers may differ. What should not differ is that **every decision is made on purpose, applied consistently, and written down**.
