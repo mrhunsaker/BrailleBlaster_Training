@@ -23,6 +23,9 @@ Suggested total time: about 11 hours.
 
 Lessons 14 to 17 build that mindset across seven formats. Lesson 18 applies the same principle to structures that look different in print than they should in braille: you preserve the *function* of boxes, plays, poems, and deep lists, not their appearance. Lesson 19 looks ahead to where braille files are heading.
 
+> [!WARNING]
+> Advanced import demonstrations are version- and pipeline-dependent. Have learners verify each result in the installed BrailleBlaster release and compare it with the original source; do not present a successful import as proof that no content was lost.
+
 ## Unit outcomes
 
 When you finish this unit you can:
