@@ -17,6 +17,9 @@ By the end of this lesson you will be able to:
 - Describe what guide words are and why they must be handled last.
 - Recognize which Alphabetic Reference tools are experimental in 3.x.
 
+> [!IMPORTANT]
+> Do not preserve bold or italic entry words automatically in alphabetic references. Apply the applicable Braille Formats rule, distinguish true semantic emphasis from print navigation styling, and verify the entry and sub-entry hierarchy consistently.
+
 ## Why this matters
 
 Glossaries and indexes are **alphabetic references**: readers look things up in them. A braille reader finds an entry by feel, so the format must be absolutely consistent: where each entry begins, how the definition wraps, how sub-entries sit under their parents. In print, the entry words are often bold or italic, but *Braille Formats 2016* tells transcribers to **ignore such font attributes** in these sections unless they are needed for distinction, such as a foreign word or a book title.
