@@ -4,6 +4,9 @@ A reusable operating pack for delivering the BrailleBlaster v3 Training course a
 
 Use one copy of the registers per cohort. Keep learner records in an access-controlled location; this public curriculum repository is a template library, not a student information system.
 
+> [!WARNING]
+> Keep cohort registers, learner progress records, assessment evidence, and reports in an access-controlled system approved by your organization. Do not store identifiable learner or student records in this public repository or copy completed records into shared teaching templates.
+
 ## 1. Operating model
 
 ### Cohort setup record
