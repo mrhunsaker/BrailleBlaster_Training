@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Estimate braille pages, sheets, and volumes from a measured sample.
 - Plan volume breaks and front matter so that the count is realistic.
 
+> [!WARNING]
+> Do not estimate a production run from a generic pages-per-sheet ratio. Measure a representative sample using the actual page setup, text density, interpoint choice, and embosser; then add front matter, graphics, and binding allowances.
+
 ## Why this matters
 
 A transcription is not finished when the last page is formatted. It has to be **embossed**, **bound or boxed**, and **handed to a student**. A volume that is too thick is hard to handle, a title that needs forty volumes was not planned, and a document whose margins do not match its embosser comes out with broken lines. All of this is arithmetic that you can do before you start.
