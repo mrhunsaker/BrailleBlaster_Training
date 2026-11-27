@@ -20,6 +20,9 @@ By the end of this lesson you will be able to:
 
 ---
 
+> [!IMPORTANT]
+> A Transcriber's Note should resolve a real ambiguity or explain a change the reader needs to understand; it is not a place to narrate routine formatting decisions. Keep the note factual, concise, and consistent with the actual transcription.
+
 ## How to use this lesson
 
 The first half explains Transcriber's Notes (TN) in three common production situations: **inline**, **as their own paragraph**, and **with figures/captions/descriptions**. The second half is practice. For each scenario, decide whether a TN is needed, where it belongs, and whether it should be inline or separate.
