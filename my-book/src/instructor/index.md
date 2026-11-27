@@ -2,6 +2,9 @@
 
 This guide is for anyone teaching the course to a group, whether you are a university instructor, a district braille coordinator, or a colleague running a workshop.
 
+> [!IMPORTANT]
+> Model the verification step, not just the menu sequence. Have learners explain what changed in the source structure and then confirm the result in Braille View; a demonstration that ends when the button is clicked teaches procedure without quality control.
+
 ## What is in this guide
 
 - **This page:** how to run a session, materials, and accommodations.
