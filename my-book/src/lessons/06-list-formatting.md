@@ -21,6 +21,9 @@ By the end of this lesson you will be able to:
 
 ---
 
+> [!WARNING]
+> A list's visual appearance does not establish its nesting. Confirm each item's logical parent and level from the source; do not infer hierarchy from indentation alone or repair a list by inserting spaces.
+
 ## How to use this lesson
 
 The first half explains the concept and gives you the margin formula for nested lists at any depth. The second half is a practice document — six separate lists, each preceded by a line telling you **how many levels deep** it should be, but not which specific lines belong at which level. That's the part you determine from the wording and structure of the content itself, exactly as you would from a Word document where indentation is inconsistent or missing. Nothing in the practice lists uses Markdown bullets, dashes, or indentation — every list item is a plain line of text. Everything else in this document is already correct; you are only fixing list depth and margins.
