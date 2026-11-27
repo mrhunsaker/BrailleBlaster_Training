@@ -16,6 +16,9 @@ By the end of this lesson you will be able to:
 - Recognize what BrailleBlaster does not do, and refer the job on.
 - Handle early-literacy, test, and mixed-subject material with the right questions first.
 
+> [!WARNING]
+> Do not make specialist content decisions from software behavior alone. Math codes, scientific notation, music, maps, language-specific braille, and early-literacy formats may require the student's team, a qualified subject specialist, or a current standards reference.
+
 ## Why this matters
 
 The program does not change from subject to subject, but the **content** does, and with it the decisions. A chemistry chapter is full of formulas and units. A history chapter is full of maps and timelines. A Spanish worksheet is in two languages. A computer science lesson is full of code. Each raises questions that no menu answers, and a transcriber who asks them early saves the teacher and the student a revision.
