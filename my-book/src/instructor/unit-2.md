@@ -2,6 +2,9 @@
 
 These notes support Lessons 14 to 19. Unit 2 relies on learners seeing what survives each import. Bring real files, including a messy one.
 
+> [!WARNING]
+> Do not describe import behavior as universal when it depends on the bundled converter, conversion script, or application release. Distinguish tested observations from expected behavior, and have learners verify the actual imported file.
+
 ## Lesson 14: Importing Source Formats I: Markdown and OpenDocument
 
 **Read the lesson:** [Importing Source Formats I: Markdown and OpenDocument](../lessons/14-importing-markdown-and-opendocument.md). **Suggested time:** 120 minutes.
