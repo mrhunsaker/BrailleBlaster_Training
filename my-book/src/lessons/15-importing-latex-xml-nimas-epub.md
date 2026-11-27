@@ -24,6 +24,9 @@ By the end of this lesson you will be able to:
 
 ---
 
+> [!IMPORTANT]
+> General XML is not automatically NIMAS, and an EPUB is not simply a DOCX in a ZIP file. Identify the actual format and its package/markup conventions before choosing an import path; a familiar file extension alone is not evidence that the content is structurally valid.
+
 ## How to use this lesson
 
 This lesson continues from [Lesson 14](14-importing-markdown-and-opendocument.md) with the four formats that need the most care: **LaTeX**, **general XML**, **NIMAS XML**, and **EPUB**. Keep the key rule from Lesson 14 in mind throughout: the file extension tells you how the source is encoded, and the source structure tells you what BrailleBlaster can preserve.
