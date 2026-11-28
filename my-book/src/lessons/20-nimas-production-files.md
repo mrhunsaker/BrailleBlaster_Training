@@ -1,11 +1,11 @@
 # Lesson 20: Importing and Working with NIMAS Files
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 3: Transcriber-Focused Lessons
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 15](15-importing-latex-xml-nimas-epub.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 3: Transcriber-Focused Lessons
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 15](15-importing-latex-xml-nimas-epub.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,10 +17,10 @@ By the end of this lesson you will be able to:
 - Proofread an imported NIMAS file for missing headings and nested lists.
 
 > [!NOTE]
-> **Handbook:** [Lessons 37](37-reading-xml.md), [38](38-dtbook-nimas-and-mathml.md), and [39](39-inside-the-packages.md) teach how to read XML, the DTBook element map, and the inside of the package files.
+> \*\*Handbook:\*\* [Lessons 37](37-reading-xml.md), [38](38-dtbook-nimas-and-mathml.md), and [39](39-inside-the-packages.md) teach how to read XML, the DTBook element map, and the inside of the package files.
 
 > [!TIP]
-> **More practice:** [Lab 4: A NIMAS-Style File](../labs/lab-4-nimas-style-file.md), and the legal context in [Policy and Standards Background](../reference/policy-background.md).
+> \*\*More practice:\*\* [Lab 4: A NIMAS-Style File](../labs/lab-4-nimas-style-file.md), and the legal context in [Policy and Standards Background](../reference/policy-background.md).
 
 > [!WARNING]
 > A valid NIMAS file set is a source package, not a finished braille book. Check that the OPF manifest and spine point to the intended files, and inspect the imported content for missing structure, images, math, page markers, and production notes.
