@@ -1,11 +1,11 @@
 # Lesson 8: Complex Equations and the ASCII Math Hub
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 3 hours
-> - **Prerequisites:** [Lesson 7](07-math-translation-toggle.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 3 hours
+> - \*\*Prerequisites:\*\* [Lesson 7](07-math-translation-toggle.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Insert or replace math, and verify the result in the Print View and the Braille View.
 
 > [!TIP]
-> **More practice:** drills C6 to C12 in the [Drill Bank](../reference/drill-bank.md#c-math-lessons-7-and-8) and [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
+> \*\*More practice:\*\* drills C6 to C12 in the [Drill Bank](../reference/drill-bank.md#c-math-lessons-7-and-8) and [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
 
 > [!IMPORTANT]
 > The Hub helps you enter mathematical structure; it does not decide whether the source expression was transcribed correctly. Compare every numerator, denominator, script, operator, and grouping mark with the source, then verify the translated braille.
