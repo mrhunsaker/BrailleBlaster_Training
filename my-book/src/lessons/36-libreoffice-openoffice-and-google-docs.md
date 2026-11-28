@@ -1,11 +1,11 @@
 # Lesson 36: LibreOffice, OpenOffice, and Google Docs
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md), [Lesson 35](35-word-structure-with-styles.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md), [Lesson 35](35-word-structure-with-styles.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Export each program's file in the form BrailleBlaster reads best.
 
 > [!TIP]
-> **Practice file:** `sample.odt` in the [sample files](../samples/index.md), and any document you have in these programs.
+> \*\*Practice file:\*\* `sample.odt` in the [sample files](../samples/index.md), and any document you have in these programs.
 
 > [!NOTE]
 > Exporting the same document from different office suites can change styles, equations, lists, and page breaks. Treat each export as a new source file: inspect its structure and test a copy in BrailleBlaster rather than relying on the author's view of the original.
