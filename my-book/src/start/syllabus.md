@@ -1,6 +1,6 @@
 # Syllabus and Pacing
 
-The maintained curriculum contains **54 numbered lessons in five units**. Units 1–4 contain Lessons 1–32 and form the main instructional sequence; Unit 5 contains Lessons 33–54 and is a supplemental handbook for just-in-time use. The [book summary](SUMMARY.md) is the authoritative reading order. The tables below list every numbered lesson in that order.
+The maintained curriculum contains **54 numbered lessons in five units**. Units 1–4 contain Lessons 1–32 and form the main instructional sequence; Unit 5 contains Lessons 33–54 and is a supplemental handbook for just-in-time use. The [book summary](../SUMMARY.md) is the authoritative reading order. The tables below list every numbered lesson in that order.
 
 > [!IMPORTANT]
 > The suggested pacing is a planning estimate, not a competency standard. Do not advance a learner solely because the scheduled time has elapsed; use the lesson practice and checkpoints to confirm that the skill can be performed and explained independently.
@@ -135,7 +135,7 @@ This plan covers the complete sequential core: Lessons 1–32 across Units 1–4
 
 ### Plan B: Five-day intensive orientation (selected lessons, not the complete course)
 
-Five days cannot cover all 54 lessons or the full 69–70-hour core sequence. Use this plan as a high-level introduction for experienced participants; assign the remaining lessons, practice, and capstone afterward.
+Five days cannot cover all 54 lessons or the full 69–70-hour core sequence. Use this plan as a high-level introduction for experienced participants; the lesson ranges below indicate where to select demonstrations and exercises, not a promise to teach every lesson in full. Assign the remaining lessons, practice, and capstone afterward.
 
 | Day | Focus | Suggested selection |
 | --- | ----- | ------------------- |
@@ -151,7 +151,7 @@ Lessons 1, 3, 4, 5, 6, 11, 12, and 13, using the Worked Demonstrations and a sel
 
 ### Plan D: Self-paced
 
-Complete Lessons 1–32 in sequence, using the unit checkpoints and capstone to consolidate the core skills. Use Lessons 33–54 as a handbook: study each lesson when its subject becomes relevant, or complete the full handbook as an extended professional-development sequence. Do the practice before reading the answer key, and keep a short log of anything that surprised you.
+Complete Units 1–3 in their listed order, then interleave the independent Lessons 25–32 according to the Unit 4 placement table. Use unit checkpoints and the capstone to consolidate the core skills. Use Lessons 33–54 as a handbook: study each lesson when its subject becomes relevant, or complete the full handbook as an extended professional-development sequence. Do the practice before reading the answer key, and keep a short log of anything that surprised you.
 
 ## Assessment
 
