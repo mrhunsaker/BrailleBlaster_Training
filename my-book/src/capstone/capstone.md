@@ -1,9 +1,9 @@
 # Capstone: Transcribe a Textbook Chapter
 
-The capstone brings the whole course together. You will transcribe a short chapter as if it were a real production job, make and defend your decisions, and hand in a finished, volume-ready package.
+The capstone integrates the core production sequence and its quality-assurance requirements. You will transcribe a short chapter as if it were a real production job, make and defend your decisions, and hand in a finished, volume-ready package. Unit 5's Handbook (Lessons 33–54) remains a just-in-time reference rather than a prerequisite for this project.
 
 **Suggested time:** about 4 hours, over one or two sittings.
-**Prerequisites:** Units 1 and 3. Unit 2 is helpful but optional.
+**Prerequisites:** Unit 1, Unit 3, and Lesson 32 (proofreading and quality assurance). Unit 2 is helpful when the project uses imported source formats; use the relevant Unit 5 handbook lessons as references when needed.
 
 > [!CAUTION]
 > The practice source deliberately includes traps and simplified production assumptions. Do not carry its settings into a real textbook job without checking the actual reader's code, agency specifications, paper and embosser, and source authority.
