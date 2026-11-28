@@ -1,11 +1,11 @@
 # Lesson 2: Opening and Converting Word Documents
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 3 hours
-> - **Prerequisites:** [Lesson 1](01-navigating-the-interface.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 3 hours
+> - \*\*Prerequisites:\*\* [Lesson 1](01-navigating-the-interface.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,10 +17,10 @@ By the end of this lesson you will be able to:
 - Decide when converting a file outside BrailleBlaster is worth the extra layer of interpretation.
 
 > [!NOTE]
-> **Handbook:** [Lesson 33](33-what-makes-a-good-source.md) ranks sources and lists the ten import-safety rules, and [Lesson 35](35-word-structure-with-styles.md) shows how to inspect and build a Word file. **Two things in Word files are lost silently on import:** a picture alone in its paragraph (with its caption), and the document title if it uses the *Title* style. Check both.
+> \*\*Handbook:\*\* [Lesson 33](33-what-makes-a-good-source.md) ranks sources and lists the ten import-safety rules, and [Lesson 35](35-word-structure-with-styles.md) shows how to inspect and build a Word file. \*\*Two things in Word files are lost silently on import:\*\* a picture alone in its paragraph (with its caption), and the document title if it uses the \*Title\* style. Check both.
 
 > [!TIP]
-> **More practice:** four real Word files in the [sample files](../samples/index.md), and [Lab 1: Rescue a Poorly Formatted Word Document](../labs/lab-1-rescue-word-document.md), which teaches the Three-Pass Method.
+> \*\*More practice:\*\* four real Word files in the [sample files](../samples/index.md), and [Lab 1: Rescue a Poorly Formatted Word Document](../labs/lab-1-rescue-word-document.md), which teaches the Three-Pass Method.
 
 > [!WARNING]
 > Do not treat a successful import as proof of a complete transcription. Compare the imported document with the source, especially pictures and captions, title metadata, tables, equations, footnotes, and page breaks; missing content may not produce an error message.
@@ -96,7 +96,7 @@ When a document arrives with structure that was faked visually rather than built
 4. **Watch for inconsistency, not just absence.** A poorly-formatted document is often *inconsistently* fake-structured: some "headings" are done with bold-and-larger-font, others with all-caps, others with manual centering. Don't assume the same fix pattern applies throughout; verify each section.
 5. **When in doubt, treat it as prose and add structure deliberately**, the same way you would if you were transcribing directly from a printed page rather than an electronic file. BrailleBlaster's ability to read Word's internal structure is a shortcut when that structure is real — it isn't a substitute for reading the document.
 
-> **Note:** If a .docx file behaves unpredictably on open — content missing, structure garbled beyond what fake-formatting alone would explain — it's sometimes faster to convert it to a plainer intermediate format (HTML, for instance, using Word's own "Save As") and reopen that, since a simpler format leaves less room for BrailleBlaster to misinterpret. This is the same idea used for stubborn LaTeX files (see [Lesson 8](08-ascii-math-hub.md)'s math workflow, and [Lesson 17](17-what-pandoc-does.md) on Pandoc).
+> \*\*Note:\*\* If a .docx file behaves unpredictably on open — content missing, structure garbled beyond what fake-formatting alone would explain — it's sometimes faster to convert it to a plainer intermediate format (HTML, for instance, using Word's own "Save As") and reopen that, since a simpler format leaves less room for BrailleBlaster to misinterpret. This is the same idea used for stubborn LaTeX files (see [Lesson 8](08-ascii-math-hub.md)'s math workflow, and [Lesson 17](17-what-pandoc-does.md) on Pandoc).
 
 ---
 
