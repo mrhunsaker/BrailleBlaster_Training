@@ -1,11 +1,11 @@
 # Lesson 38: DTBook, NIMAS, and MathML
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 37](37-reading-xml.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 37](37-reading-xml.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Recognize the special classes BrailleBlaster adds to DTBook for plays, verse, and typeforms.
 
 > [!TIP]
-> **Practice file:** `nimas-style-sample.zip` (or `sample-dtbook.xml` and `sample-package.opf`) in the [sample files](../samples/index.md).
+> \*\*Practice file:\*\* `nimas-style-sample.zip` (or `sample-dtbook.xml` and `sample-package.opf`) in the [sample files](../samples/index.md).
 
 > [!WARNING]
 > Do not infer that a MathML expression is correct merely because its XML is valid. Confirm the mathematical meaning—especially scripts, fractions, roots, matrices, and operators—against the source image or authoritative source before transcription.
@@ -28,7 +28,7 @@ By the end of this lesson you will be able to:
 When a textbook arrives as a NIMAS file, you are not looking at a document so much as a *database of a book*: every heading, list, page number, sidebar, image, and equation is labeled by what it is. That is why NIMAS is the best source on the ladder in [Lesson 33](33-what-makes-a-good-source.md). It is also why you must be able to read its labels. A missing `pagenum`, an image without alt text, or an equation stored as a picture will not announce itself.
 
 > [!NOTE]
-> **About the tests in this lesson.** Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has **not** been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
+> \*\*About the tests in this lesson.\*\* Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has \*\*not\*\* been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
 
 ---
 
