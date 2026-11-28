@@ -1,11 +1,11 @@
 # Lesson 43: Braille Formats Crosswalk
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 5](05-heading-levels.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 5](05-heading-levels.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -32,7 +32,7 @@ Every lesson in this course says *what BrailleBlaster does*. A transcriber also 
 Read the **hierarchy of authority** first. Then use the **crosswalk** as an index: find your topic, go to the sections it lists, and read the rule in your own copy of the book. The section numbers in the table were taken from the lessons in this course, where each is cited and explained.
 
 > [!NOTE]
-> This course does not reproduce *Braille Formats 2016*, which is a published standard. It cites section numbers, and summarizes in its own words. **Always read the rule in the book.** Section numbers can change between editions, so check them against your copy.
+> This course does not reproduce \*Braille Formats 2016\*, which is a published standard. It cites section numbers, and summarizes in its own words. \*\*Always read the rule in the book.\*\* Section numbers can change between editions, so check them against your copy.
 
 ---
 
