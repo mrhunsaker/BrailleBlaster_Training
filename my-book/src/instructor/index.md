@@ -49,7 +49,7 @@ Most lessons fit this rhythm.
 
 - **A cohort with Word-processing or desktop-publishing experience** can move through Lessons 1 to 6 quickly and spend longer on Units 2 and 3.
 - **A cohort of classroom teachers with no document-production background** should slow down in Unit 1, especially Lessons 2, 4, and 5, and may skip Unit 3.
-- **A cohort of experienced transcribers** can sample Unit 1 with the Worked Demonstrations only and spend most time on Lessons 14 to 24 and the capstone.
+- **A cohort of experienced transcribers** can sample Unit 1 with the Worked Demonstrations only and spend most time on Units 2–4 (Lessons 14–32), then complete the capstone. Assign relevant Unit 5 handbook lessons (33–54) as just-in-time references for the source formats and production tasks they encounter.
 - **A cohort that will mostly do math** should give extra time to Lessons 7 to 10.
 
 Every lesson stands alone, so you can reorder or split sessions to match your length and your learners. Respect the prerequisites listed on each lesson.
