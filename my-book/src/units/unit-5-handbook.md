@@ -1,8 +1,10 @@
 # Unit 5: Handbook (Supplemental)
 
-Units 1 to 4 teach BrailleBlaster. This unit teaches **everything around it**: how the files you receive are built, how to read and repair them, where the braille rules live, how to run a job, and how to work accessibly. It is a **handbook**, so it is meant to be used as well as read: pick the lesson you need, use it, and come back.
+This is the fifth and final instructional unit in the book. Units 1 to 4 teach the principal BrailleBlaster workflows; this handbook develops the surrounding source-format, standards, production, and accessibility knowledge that makes those workflows reliable. It belongs to the instructional body, but it is designed for **selective, just-in-time use** rather than as a prerequisite block that every learner must complete from beginning to end.
 
-The unit has twenty-two lessons in five parts. They are **supplemental**. You can complete Units 1 to 3 without them, but you will meet most of the situations they cover.
+Use the lesson sequence below as a structured reference. The cross-reference table shows when each topic is most useful alongside Units 1 to 4. The instructor guide, expanded practice library, and reference desk are separate supporting appendices; they are not additional instructional units.
+
+The unit has twenty-two lessons in five parts. You can complete the core workflow in Units 1 to 4 without studying every handbook lesson first, but you will encounter most of the situations they cover.
 
 > [!NOTE]
 > Where a lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and running it, with the Pandoc version the program bundles, on test files. It has **not** been confirmed in the application. Each lesson says so. See [`UPSTREAM_ISSUES.md`](https://github.com/mrhunsaker/BrailleBlaster_Training/blob/main/UPSTREAM_ISSUES.md) in the repository for the findings that should be reported to the BrailleBlaster project.
@@ -108,4 +110,4 @@ This checkpoint should take about two hours.
 5. **Fill in an intake ticket** and a **style sheet entry** for one decision (Lesson 48).
 6. **Write a short, accurate source request** for a better file.
 
-**You are ready to use the Handbook independently** when you can say, for any file, what it contains, what BrailleBlaster will do with it, and what you will ask for.
+**You are ready to use the Handbook independently** when you can say, for any file, what it contains, what BrailleBlaster will do with it, and what you need to verify before production.
