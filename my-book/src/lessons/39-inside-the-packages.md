@@ -1,11 +1,11 @@
 # Lesson 39: Inside the Packages: DOCX, ODT, EPUB, eBraille, NIMAS, and BBX
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 37](37-reading-xml.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 37](37-reading-xml.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Decide when looking inside a file is the fastest way to solve an import problem.
 
 > [!TIP]
-> **Practice files:** `word-01-well-structured.docx`, `word-02-flat-structure.docx`, `word-05-braille-aware-styles.docx`, `sample.odt`, `sample.epub`, and `nimas-style-sample.zip` in the [sample files](../samples/index.md).
+> \*\*Practice files:\*\* `word-01-well-structured.docx`, `word-02-flat-structure.docx`, `word-05-braille-aware-styles.docx`, `sample.odt`, `sample.epub`, and `nimas-style-sample.zip` in the [sample files](../samples/index.md).
 
 > [!IMPORTANT]
 > Inspect packages without modifying the original archive. Work on a copy, preserve the internal directory structure when repackaging, and do not assume that changing one XML file leaves the manifest, references, or signatures consistent.
@@ -37,7 +37,7 @@ Almost every format in this course is a **zip file** that holds XML. This lesson
 Read **The Concept**, then run the commands in **Step by step** on the sample files. You need only a zip tool and a terminal, or a text editor.
 
 > [!NOTE]
-> On Windows, you can copy the file, change its extension to `.zip`, and open it in File Explorer. In a terminal, `unzip` works on Linux and macOS, and `python3 -m zipfile -l file.docx` works anywhere Python is installed. Always work on a **copy**.
+> On Windows, you can copy the file, change its extension to `.zip`, and open it in File Explorer. In a terminal, `unzip` works on Linux and macOS, and `python3 -m zipfile -l file.docx` works anywhere Python is installed. Always work on a \*\*copy\*\*.
 
 ---
 
@@ -87,7 +87,7 @@ Compare a **fake heading** from the flat file. There is no `pStyle`. It has only
 A character style, such as *Emphasis* or *Strong*, appears as `<w:rStyle w:val="Emphasis"/>` inside a run, not as direct formatting.
 
 > [!IMPORTANT]
-> `document.xml` records a style by its **ID**, which has no spaces: `BBEmptyParagraph`. The **name** you see in Word, `BB Empty Paragraph`, is stored in `styles.xml`. BrailleBlaster, through Pandoc, matches on the **name**.
+> `document.xml` records a style by its \*\*ID\*\*, which has no spaces: `BBEmptyParagraph`. The \*\*name\*\* you see in Word, `BB Empty Paragraph`, is stored in `styles.xml`. BrailleBlaster, through Pandoc, matches on the \*\*name\*\*.
 
 ### ODT: OpenDocument Text
 
@@ -182,7 +182,7 @@ A **BBZ** is a zip. In BrailleBlaster's code, it holds:
 A file you imported from Word or Markdown is saved as a BBZ.
 
 > [!WARNING]
-> Do not edit a BBX or BBZ by hand unless you have a backup and a reason. A small mistake can make the document unreadable. These formats are for **reading**, to understand what BrailleBlaster did.
+> Do not edit a BBX or BBZ by hand unless you have a backup and a reason. A small mistake can make the document unreadable. These formats are for \*\*reading\*\*, to understand what BrailleBlaster did.
 
 ---
 
