@@ -1,11 +1,11 @@
 # Lesson 11: Using the Contraction Relaxer
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 1](01-navigating-the-interface.md), [Lesson 3](03-typeface-emphasis.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 1](01-navigating-the-interface.md), [Lesson 3](03-typeface-emphasis.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Apply a teacher decision rule and document which unit you chose and why.
 
 > [!TIP]
-> **More practice:** [Lab 7: Choosing the Right Translation Control](../labs/lab-7-relaxation-plan.md) and the [Translation Control Plan job aid](../reference/job-aids.md).
+> \*\*More practice:\*\* [Lab 7: Choosing the Right Translation Control](../labs/lab-7-relaxation-plan.md) and the [Translation Control Plan job aid](../reference/job-aids.md).
 
 > [!IMPORTANT]
 > The correct contraction setting is not determined by the transcriber's preference or by a learner's age. Confirm the student's current instructional level and the team's decision; record the setting and reassess it when the student's reading goals change.
