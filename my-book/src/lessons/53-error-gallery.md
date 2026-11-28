@@ -1,11 +1,11 @@
 # Lesson 53: Error Gallery
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md), [Lesson 35](35-word-structure-with-styles.md), [Lesson 32](32-proofreading-and-quality-assurance.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md), [Lesson 35](35-word-structure-with-styles.md), [Lesson 32](32-proofreading-and-quality-assurance.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -24,7 +24,7 @@ By the end of this lesson you will be able to:
 Experienced transcribers do not make fewer mistakes because they are careful. They make fewer because they have **seen each mistake before**. They know what a dropped image looks like when the Braille View looks tidy, and what a Replace All does to a surname. This lesson is a gallery of those mistakes, sorted by category, with the cause and the fix for each.
 
 > [!NOTE]
-> **About the tests in this lesson.** Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has **not** been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
+> \*\*About the tests in this lesson.\*\* Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has \*\*not\*\* been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
 
 ---
 
