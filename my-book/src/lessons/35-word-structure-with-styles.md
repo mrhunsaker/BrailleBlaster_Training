@@ -1,11 +1,11 @@
 # Lesson 35: Word: Building Structure with Styles
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Export a clean `.docx`.
 
 > [!TIP]
-> **Practice files:** `word-01-well-structured.docx`, `word-02-flat-structure.docx`, and `word-05-braille-aware-styles.docx` in the [sample files](../samples/index.md).
+> \*\*Practice files:\*\* `word-01-well-structured.docx`, `word-02-flat-structure.docx`, and `word-05-braille-aware-styles.docx` in the [sample files](../samples/index.md).
 
 > [!CAUTION]
 > Do not make text look like a heading by changing its font size or boldness alone. Apply the actual semantic heading style; visual formatting is not reliable structure for navigation, conversion, or braille heading assignment.
@@ -36,7 +36,7 @@ Word is the most common source BrailleBlaster sees, and the one with the widest 
 Read **The Concept**, then keep the **shortcut tables** and the **inspection checklist** at hand. The practice uses the three sample files.
 
 > [!NOTE]
-> Shortcuts are for **Word on Windows**. The Mac versions differ in several places, and Word's menus change between releases. Where a Mac key is well established it is listed, and otherwise check Word's own keyboard shortcut list.
+> Shortcuts are for \*\*Word on Windows\*\*. The Mac versions differ in several places, and Word's menus change between releases. Where a Mac key is well established it is listed, and otherwise check Word's own keyboard shortcut list.
 
 ---
 
@@ -74,7 +74,7 @@ BrailleBlaster reads `.docx` files with Pandoc's *styles* option turned on. That
 | A **picture inside a line of text** | Kept, with its alt text |
 
 > [!IMPORTANT]
-> The last two rows are the dangerous ones. Set every picture to **In Line with Text**, put it in a paragraph with some text, and check the figure count after import.
+> The last two rows are the dangerous ones. Set every picture to \*\*In Line with Text\*\*, put it in a paragraph with some text, and check the figure count after import.
 
 ### Margin style names
 
