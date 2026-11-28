@@ -1,6 +1,6 @@
 # Extra Practice Drills
 
-> Supplemental practice only. These exercises extend, but do not replace, the numbered course lessons and their existing practice banks. Work on copies of source files. Verify software actions in the relevant BrailleBlaster views and record the version used. These are original practice prompts, not production specifications.
+> Supplemental practice only. These exercises extend, but do not replace, the numbered course lessons and their existing practice banks. Work on copies of source files. Verify software actions in the relevant BrailleBlaster views and record the version used. This edition provides 20 prompts for each of Lessons 1–32. It has not been extended to Lessons 33–54; the Unit 5 Handbook lessons provide their own integrated practice. These are original practice prompts, not production specifications.
 
 ## Lesson 01: Navigating the BrailleBlaster Interface
 
