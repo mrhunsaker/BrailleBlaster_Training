@@ -1,11 +1,11 @@
 # Lesson 26: Controlling the Page with Style Options
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -19,7 +19,7 @@ By the end of this lesson you will be able to:
 - Place material on facing pages with **Page Side**, and add blank pages with **New Pages Before** and **New Pages After**.
 
 > [!TIP]
-> **More practice:** use `reflow-paragraph.txt` from the [sample files](../samples/index.md) to fill several braille pages, so that page-break options have something to act on.
+> \*\*More practice:\*\* use `reflow-paragraph.txt` from the [sample files](../samples/index.md) to fill several braille pages, so that page-break options have something to act on.
 
 > [!CAUTION]
 > Use page-control options only after the underlying styles and content order are correct. A Keep With Next or Don't Split setting can create unexpected blank space or push content forward; inspect the resulting page flow rather than assuming the option worked as intended.
@@ -31,7 +31,7 @@ A style gives an element the right margins and spacing for *its kind*. But real 
 The guide puts it plainly: there are many oddities in braille formatting, and they cannot all be covered by a predetermined style.
 
 > [!IMPORTANT]
-> Use a Style Option to solve a *specific* problem, after the right style is applied. Do not use options to rebuild a style by hand. If you find yourself applying the same options to every element of one kind, you probably need a different style.
+> Use a Style Option to solve a \*specific\* problem, after the right style is applied. Do not use options to rebuild a style by hand. If you find yourself applying the same options to every element of one kind, you probably need a different style.
 
 ---
 
