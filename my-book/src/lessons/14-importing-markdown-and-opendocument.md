@@ -1,11 +1,11 @@
 # Lesson 14: Importing Source Formats I: Markdown and OpenDocument
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 2: Advanced Lessons
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 2](02-opening-word-documents.md), [Lesson 4](04-layout-styles.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 2: Advanced Lessons
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 2](02-opening-word-documents.md), [Lesson 4](04-layout-styles.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -16,10 +16,10 @@ By the end of this lesson you will be able to:
 - Spot the Markdown list problem that needs checking after import.
 
 > [!NOTE]
-> **Handbook:** Before you import, read [Lesson 34](34-markdown-syntax-guide.md) and [Lesson 36](36-libreoffice-openoffice-and-google-docs.md). In testing, a Markdown **line block** (lines starting with `|`) makes the import **fail**, an **image alone on a line** is dropped with its caption, and the **YAML title** is ignored. An `.odt` file loses style names that a `.docx` keeps.
+> \*\*Handbook:\*\* Before you import, read [Lesson 34](34-markdown-syntax-guide.md) and [Lesson 36](36-libreoffice-openoffice-and-google-docs.md). In testing, a Markdown \*\*line block\*\* (lines starting with `|`) makes the import \*\*fail\*\*, an \*\*image alone on a line\*\* is dropped with its caption, and the \*\*YAML title\*\* is ignored. An `.odt` file loses style names that a `.docx` keeps.
 
 > [!TIP]
-> **More practice:** real files in the [sample files](../samples/index.md) and [Lab 2: Import Comparison](../labs/lab-2-import-comparison.md).
+> \*\*More practice:\*\* real files in the [sample files](../samples/index.md) and [Lab 2: Import Comparison](../labs/lab-2-import-comparison.md).
 
 > [!WARNING]
 > Do not assume that Markdown and ODT preserve the same structures as DOCX. After import, explicitly compare headings, lists, images and captions, tables, title information, and any line-oriented or custom formatting with the original file.
@@ -54,7 +54,7 @@ These formats are not interchangeable.
 
 #### The most important rule
 
-> **The file extension tells you how the source is encoded; the source structure tells you what BrailleBlaster can preserve.**
+> \*\*The file extension tells you how the source is encoded; the source structure tells you what BrailleBlaster can preserve.\*\*
 
 Opening a source file is only the beginning of the transcription process. After importing, the transcriber must inspect the structure and verify that the resulting braille is correct.
 
