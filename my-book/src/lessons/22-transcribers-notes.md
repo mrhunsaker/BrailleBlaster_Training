@@ -1,11 +1,11 @@
 # Lesson 22: Transcriber's Notes in the Text
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 3: Transcriber-Focused Lessons
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 3](03-typeface-emphasis.md), [Lesson 4](04-layout-styles.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 3: Transcriber-Focused Lessons
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 3](03-typeface-emphasis.md), [Lesson 4](04-layout-styles.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -16,7 +16,7 @@ By the end of this lesson you will be able to:
 - Separate a print caption from a transcriber-generated description.
 
 > [!TIP]
-> **More practice:** the Transcriber's Note step in [Lab 7](../labs/lab-7-relaxation-plan.md).
+> \*\*More practice:\*\* the Transcriber's Note step in [Lab 7](../labs/lab-7-relaxation-plan.md).
 
 ---
 
