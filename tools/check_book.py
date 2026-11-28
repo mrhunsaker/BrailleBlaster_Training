@@ -127,7 +127,7 @@ for file_path in files:
 for file_path in files:
     if file_path.startswith("lessons/"):
         text = read(os.path.join(SRC, file_path))
-        if "**Lesson at a glance**" not in text:
+        if "**Lesson at a glance**" not in text and r"\*\*Lesson at a glance\*\*" not in text:
             errors.append(f'{file_path}: missing "Lesson at a glance"')
         if "## Learning objectives" not in text:
             errors.append(f'{file_path}: missing "Learning objectives"')
