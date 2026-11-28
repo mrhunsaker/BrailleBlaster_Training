@@ -1,11 +1,11 @@
 # Lesson 27: Images and Tactile Graphics
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 22](22-transcribers-notes.md), [Lesson 26](26-controlling-the-page.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 22](22-transcribers-notes.md), [Lesson 26](26-controlling-the-page.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Plan the facing-page and blank-page needs of a tactile graphic in an interpoint volume.
 
 > [!NOTE]
-> **Handbook:** [Lesson 46](46-image-description-and-tactile-graphics-resources.md) teaches how to *write* a good description and where the tactile graphics guidelines are.
+> \*\*Handbook:\*\* [Lesson 46](46-image-description-and-tactile-graphics-resources.md) teaches how to \*write\* a good description and where the tactile graphics guidelines are.
 
 > [!IMPORTANT]
 > A print caption and a transcriber-written description are not interchangeable. Preserve the caption as source content and add a separate, objective description only when it gives the reader information needed to understand the image.
@@ -48,7 +48,7 @@ Before choosing a tool, ask what job the image does:
 - **It is decoration.** A border, a logo, a stock photo. Check your agency's rules, but decoration generally does not need a graphic.
 
 > [!NOTE]
-> Describe what the image **shows**, not what you think it means. Keep descriptions objective, and leave interpretation to the reader and the teacher.
+> Describe what the image \*\*shows\*\*, not what you think it means. Keep descriptions objective, and leave interpretation to the reader and the teacher.
 
 ### Caption and description are different things
 
