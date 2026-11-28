@@ -1,11 +1,11 @@
 # Lesson 7: The Math Translation Toggle
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 1](01-navigating-the-interface.md), [Lesson 3](03-typeface-emphasis.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 1](01-navigating-the-interface.md), [Lesson 3](03-typeface-emphasis.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,10 +17,10 @@ By the end of this lesson you will be able to:
 - Choose between Nemeth Block and Nemeth Inline indicators.
 
 > [!NOTE]
-> This lesson uses **Nemeth within UEB contexts**. BrailleBlaster also supports **UEB Technical Material**, a different way to write math, and the student's team decides which one is used. See [Lesson 29](29-ueb-technical-and-numeric-material.md) before you start if you are not sure which code your student reads.
+> This lesson uses \*\*Nemeth within UEB contexts\*\*. BrailleBlaster also supports \*\*UEB Technical Material\*\*, a different way to write math, and the student's team decides which one is used. See [Lesson 29](29-ueb-technical-and-numeric-material.md) before you start if you are not sure which code your student reads.
 
 > [!TIP]
-> **More practice:** the math items in the [Drill Bank](../reference/drill-bank.md#c-math-lessons-7-and-8) and [Lab 7](../labs/lab-7-relaxation-plan.md).
+> \*\*More practice:\*\* the math items in the [Drill Bank](../reference/drill-bank.md#c-math-lessons-7-and-8) and [Lab 7](../labs/lab-7-relaxation-plan.md).
 
 > [!CAUTION]
 > A symbol's appearance does not tell you whether it is mathematical. The letter `x`, a hyphen, a dash, and a minus sign can look similar in print but have different meanings; use the sentence and source context before marking math.
@@ -74,7 +74,7 @@ The same logic extends to other symbols that mean different things in the two co
 3. If the document's translation is UEB with Nemeth math, and the expression should be transcribed in Nemeth code, select the (now math-flagged) text again and choose **Math > Nemeth Block** or **Math > Nemeth Inline**, depending on whether the material is a displayed equation or an inline reference.
 4. Check the **Braille View** to confirm the indicators appear correctly on either side of the passage.
 
-> **Note:** Turn on the Math toolbar before teaching this lesson — **View > Toolbar > Math** — so the Nemeth Block/Inline and related buttons are visible on screen rather than buried in menus. Math tools are one of the few toolbar groups *not* shown by default.
+> \*\*Note:\*\* Turn on the Math toolbar before teaching this lesson — \*\*View > Toolbar > Math\*\* — so the Nemeth Block/Inline and related buttons are visible on screen rather than buried in menus. Math tools are one of the few toolbar groups \*not\* shown by default.
 
 ---
 
