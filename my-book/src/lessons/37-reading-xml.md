@@ -1,11 +1,11 @@
 # Lesson 37: Reading and Working with XML
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Recognize where XML hides inside the formats you already use.
 
 > [!TIP]
-> **Practice file:** `sample-dtbook.xml` in the [sample files](../samples/index.md).
+> \*\*Practice file:\*\* `sample-dtbook.xml` in the [sample files](../samples/index.md).
 
 > [!CAUTION]
 > Well-formed XML is not necessarily valid against its schema or useful for transcription. Check both syntax and the expected vocabulary/namespace; a file can parse successfully while omitting required structure or using elements incorrectly.
@@ -30,7 +30,7 @@ XML is the language underneath most of the structured formats this course touche
 You do not need to write XML to be a good transcriber. But being able to *read* it lets you answer questions no menu can: Does this file really contain the page numbers I was promised? Is that note a production note or part of the text? Why did a heading not come through? This lesson teaches you to read XML calmly.
 
 > [!NOTE]
-> **About the tests in this lesson.** Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has **not** been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
+> \*\*About the tests in this lesson.\*\* Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has \*\*not\*\* been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
 
 ---
 
@@ -90,7 +90,7 @@ These are the errors you meet in practice. The messages are from the standard XM
 | HTML entity | `<a>&nbsp;</a>` | Entity 'nbsp' not defined |
 
 > [!NOTE]
-> The last one is common. `&nbsp;` is an **HTML** entity, not an XML one. In XML, write the non-breaking space as `&#160;`.
+> The last one is common. `&nbsp;` is an \*\*HTML\*\* entity, not an XML one. In XML, write the non-breaking space as `&#160;`.
 
 ### Well-formed is not valid
 
