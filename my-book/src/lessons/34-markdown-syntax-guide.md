@@ -1,11 +1,11 @@
 # Lesson 34: Markdown Syntax Guide for Braille Sources
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Prepare and check a Markdown file for import.
 
 > [!TIP]
-> **Practice file:** `markdown-syntax-tour.md`, inside [markdown-samples.zip](../samples/index.md). It uses every construct in this lesson.
+> \*\*Practice file:\*\* `markdown-syntax-tour.md`, inside [markdown-samples.zip](../samples/index.md). It uses every construct in this lesson.
 
 > [!WARNING]
 > Do not assume that valid Markdown is necessarily safe to import into BrailleBlaster. This lesson documents observed behavior for a particular conversion pipeline; test the constructs used in your file and check for dropped or flattened content after import.
