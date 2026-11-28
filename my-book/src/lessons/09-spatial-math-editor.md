@@ -1,11 +1,11 @@
 # Lesson 9: The Spatial Math Editor
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 3 hours
-> - **Prerequisites:** [Lesson 7](07-math-translation-toggle.md), [Lesson 8](08-ascii-math-hub.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 3 hours
+> - \*\*Prerequisites:\*\* [Lesson 7](07-math-translation-toggle.md), [Lesson 8](08-ascii-math-hub.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
