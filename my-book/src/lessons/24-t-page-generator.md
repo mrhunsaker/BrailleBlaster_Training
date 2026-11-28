@@ -1,11 +1,11 @@
 # Lesson 24: The T-Page Generator
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 3: Transcriber-Focused Lessons
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 21](21-running-heads-and-page-numbers.md), [Lesson 22](22-transcribers-notes.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 3: Transcriber-Focused Lessons
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 21](21-running-heads-and-page-numbers.md), [Lesson 22](22-transcribers-notes.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -16,7 +16,7 @@ By the end of this lesson you will be able to:
 - Verify what the generator produced instead of trusting it blindly.
 
 > [!TIP]
-> **More practice:** the [Production Checklist and Production Log](../reference/job-aids.md).
+> \*\*More practice:\*\* the [Production Checklist and Production Log](../reference/job-aids.md).
 
 ---
 
@@ -50,15 +50,15 @@ The generator automates structure; it does not remove the need for proofreading.
 ### Where to find the generator
 
 > [!IMPORTANT]
-> **Where these tools live depends on your BrailleBlaster version.** The older 2.x User Guide describes the T-Page Generator as an ordinary tool. In the current 3.x source code, however, it sits in a **Debug** menu that stays hidden until you press `Ctrl+Shift+` ` (the backtick key) in the Print View. The 3.x User Guide does not document it, so it may be unfinished. To find out what your version does, press `Ctrl+Shift+` ` and look for a **Debug** item in the menu bar. If there is one, use it and **proofread everything it produces**. If it is missing or does not work, use the manual method described below.
+> \*\*Where these tools live depends on your BrailleBlaster version.\*\* The older 2.x User Guide describes the T-Page Generator as an ordinary tool. In the current 3.x source code, however, it sits in a \*\*Debug\*\* menu that stays hidden until you press `Ctrl+Shift+` ` (the backtick key) in the Print View. The 3.x User Guide does not document it, so it may be unfinished. To find out what your version does, press `Ctrl+Shift+` ` and look for a \*\*Debug\*\* item in the menu bar. If there is one, use it and \*\*proofread everything it produces\*\*. If it is missing or does not work, use the manual method described below.
 
 ### Before you open the generator
 
 > [!IMPORTANT]
-> Generate the T-pages **last**. The official guide recommends using the T-Page Generator after you have finished the whole transcription, including any volume breaks ([Lesson 23](23-toc-and-volumes.md)), because BrailleBlaster uses the volume breaks to place the T-pages in the right volumes. Special symbols are also arranged by volume, so check your volume breaks before you start on that tab.
+> Generate the T-pages \*\*last\*\*. The official guide recommends using the T-Page Generator after you have finished the whole transcription, including any volume breaks ([Lesson 23](23-toc-and-volumes.md)), because BrailleBlaster uses the volume breaks to place the T-pages in the right volumes. Special symbols are also arranged by volume, so check your volume breaks before you start on that tab.
 
 > [!WARNING]
-> Make every edit to a T-page **inside the generator window**. If you edit a generated T-page directly in the Print View and then reopen the generator, those edits are lost.
+> Make every edit to a T-page \*\*inside the generator window\*\*. If you edit a generated T-page directly in the Print View and then reopen the generator, those edits are lost.
 
 Open the **T-Page Generator**. The window has four tabs: **Title Page 1**, **Title Page 2** (a secondary title page, when your format or agency requires one), **Special Symbols**, and **Transcriber's Notes**. The buttons at the bottom stay the same on every tab:
 
