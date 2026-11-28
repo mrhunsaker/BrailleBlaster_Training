@@ -1,5 +1,8 @@
 # Professionalization Roadmap
 
+> [!NOTE]
+> This roadmap records the project state at earlier review points and is not the current curriculum map. The maintained book now contains 54 numbered lessons in five units: Units 1–4 (Lessons 1–32) are the core sequence; Unit 5 (Lessons 33–54) is the supplemental, just-in-time Handbook. See `README.md` and `my-book/src/SUMMARY.md` for the current structure.
+
 What this curriculum needs, beyond its current content, to be used confidently by agencies, districts, and training programs. Items are grouped by priority and sized small (S, about a day), medium (M, about a week), or large (L, a month or more of part-time work).
 
 
