@@ -6,7 +6,7 @@
 What this curriculum needs, beyond its current content, to be used confidently by agencies, districts, and training programs. Items are grouped by priority and sized small (S, about a day), medium (M, about a week), or large (L, a month or more of part-time work).
 
 
-> **Status (version 2.3.0).** The earlier roadmap's Priority B, much of Priority D, and Priority E1 have been addressed: Units 4 and 5 now cover the missing lessons, and Unit 5 adds a source-preparation handbook, quick-reference cards, an agency style sheet and intake ticket, decision trees, an error gallery, and a model job. The items below that remain open are the ones that need **people and the application**: verification, expert review, learner testing, accessibility testing, and licensing.
+> \*\*Status (version 2.3.0).\*\* The earlier roadmap's Priority B, much of Priority D, and Priority E1 have been addressed: Units 4 and 5 now cover the missing lessons, and Unit 5 adds a source-preparation handbook, quick-reference cards, an agency style sheet and intake ticket, decision trees, an error gallery, and a model job. The items below that remain open are the ones that need \*\*people and the application\*\*: verification, expert review, learner testing, accessibility testing, and licensing.
 
 ### Open items added by the Handbook
 
@@ -117,7 +117,7 @@ See Priority E. This item is listed under "trust" because a braille curriculum t
 
 ## B. Content gaps against what BrailleBlaster actually does
 
-> **Status (version 2.2.0):** most of the gaps below are now written as Unit 4 (Lessons 25 to 32). The table is kept so you can see where each lesson came from. Two items remain open: the experimental guide-word tools and multi-transcriber workflows.
+> \*\*Status (version 2.2.0):\*\* most of the gaps below are now written as Unit 4 (Lessons 25 to 32). The table is kept so you can see where each lesson came from. Two items remain open: the experimental guide-word tools and multi-transcriber workflows.
 
 The official User Guide documents these feature areas. None has a lesson yet. They are listed in the order we recommend writing them.
 
