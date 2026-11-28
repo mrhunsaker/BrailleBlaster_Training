@@ -1,11 +1,11 @@
 # Lesson 49: File Management, Backups, Version Control, and Student Privacy
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 13](13-paper-size-and-embossers.md), [Lesson 28](28-editing-the-translation.md), [Lesson 48](48-job-intake-and-the-agency-style-sheet.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 13](13-paper-size-and-embossers.md), [Lesson 28](28-editing-the-translation.md), [Lesson 48](48-job-intake-and-the-agency-style-sheet.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -26,7 +26,7 @@ Braille production produces a lot of files for one job: the source, a working co
 Good file habits prevent the first two problems, and good privacy habits prevent the third. Both are cheap to build and expensive to skip.
 
 > [!NOTE]
-> **About the tests in this lesson.** Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has **not** been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
+> \*\*About the tests in this lesson.\*\* Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has \*\*not\*\* been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
 
 ---
 
@@ -35,7 +35,7 @@ Good file habits prevent the first two problems, and good privacy habits prevent
 Read **The Concept**, adopt the **folder and naming pattern** or adapt it to your agency's, and use the **privacy checklist** on every job. The practice asks you to audit a folder.
 
 > [!IMPORTANT]
-> **This lesson is not legal advice.** Student privacy is governed by law and by the policies of your school, district, and agency. Where they differ from anything here, **follow them**, and ask your administrator when in doubt.
+> \*\*This lesson is not legal advice.\*\* Student privacy is governed by law and by the policies of your school, district, and agency. Where they differ from anything here, \*\*follow them\*\*, and ask your administrator when in doubt.
 
 ---
 
@@ -106,7 +106,7 @@ git diff                           # what changed since the last commit
 ```
 
 > [!WARNING]
-> Git is **not** a place for student data. Use a **private** repository only, and only if your agency allows it. **Never** put a student's name or records in a public repository, and be careful of hosted services whose servers are outside your agency's control. Git is also poor at binary files such as a `.bbz` or a `.docx`, because it cannot show what changed inside them.
+> Git is \*\*not\*\* a place for student data. Use a \*\*private\*\* repository only, and only if your agency allows it. \*\*Never\*\* put a student's name or records in a public repository, and be careful of hosted services whose servers are outside your agency's control. Git is also poor at binary files such as a `.bbz` or a `.docx`, because it cannot show what changed inside them.
 
 ### Retention and disposal
 
@@ -152,7 +152,7 @@ BrailleBlaster has a **Privacy settings** tab, on the **Help** menu. It offers t
 APH's privacy policy, which ships with the program, says that if you press the **Report Error** button, APH **collects the error's stack trace, the version number, a generated unique ID saved in your settings, and your IP address**, and uses them to process your report and provide support. A **stack trace** is the program's own record of what failed. It does not normally include your document. **Help > View log** shows a record of what the program has written, and it can include **file paths**, which may contain folder names. Read a log before you send it.
 
 > [!NOTE]
-> Read the current **APH Privacy Policy** for yourself. A copy is installed with the program, and it is published on APH's website. It may change between versions, and your agency may have its own requirements about usage reporting. Ask your administrator before you turn it on.
+> Read the current \*\*APH Privacy Policy\*\* for yourself. A copy is installed with the program, and it is published on APH's website. It may change between versions, and your agency may have its own requirements about usage reporting. Ask your administrator before you turn it on.
 
 ---
 
