@@ -29,7 +29,7 @@ What this curriculum needs, beyond its current content, to be used confidently b
 
 **Strong now:**
 
-- 24 lessons with objectives, practice documents, answer keys, and citations to *Braille Formats 2016*
+- 54 numbered lessons across five units, with objectives, practice documents, answer keys, and source citations; Units 1–4 (Lessons 1–32) form the core sequence and Unit 5 (Lessons 33–54) is a just-in-time handbook.
 - Nine labs and a drill bank that use real sample files
 - An Instructor Guide with strategy, pitfalls, practice tiers, and session plans
 - A capstone with a rubric, printable job aids, and automated link and structure checks
@@ -39,7 +39,7 @@ What this curriculum needs, beyond its current content, to be used confidently b
 - **No in-application verification.** Menu paths come from documentation and drafts. Two errors found this session (the default save format, and the volume workflow) show this risk is real.
 - **No learner testing.** Time estimates, difficulty, and answer keys have never met real learners.
 - **No subject-matter expert review** by a certified transcriber, which is the single most credible quality signal.
-- **Large feature areas are missing** (Tables, glossaries and indexes, tactile graphics, page-control options). See Priority B.
+- **Full in-application verification remains incomplete.** The curriculum covers tables, glossaries and indexes, tactile graphics, and page-control options, but those lessons still need systematic testing against supported application releases. See Priority A1.
 - **No formal assessment beyond one capstone.**
 - **Accessibility of the book itself is unverified.** For a braille curriculum this matters more than for most.
 
