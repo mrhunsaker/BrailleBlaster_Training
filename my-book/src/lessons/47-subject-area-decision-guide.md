@@ -1,11 +1,11 @@
 # Lesson 47: Subject-Area Decision Guide
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 22](22-transcribers-notes.md), [Lesson 25](25-tables.md), [Lesson 27](27-images-and-tactile-graphics.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 22](22-transcribers-notes.md), [Lesson 25](25-tables.md), [Lesson 27](27-images-and-tactile-graphics.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -34,7 +34,7 @@ This lesson is a **decision guide**: for each subject, the questions to ask, the
 Find the subject you are working on, read its **questions**, and ask them **before** you start. Keep the answers on the job ticket ([Lesson 48](48-job-intake-and-the-agency-style-sheet.md)). The practice gives you six jobs to size up.
 
 > [!IMPORTANT]
-> Most of the decisions in this lesson belong to the **student's team**, not to the transcriber: which math code the student reads, whether text is contracted, how much description is wanted. Ask. Do not assume.
+> Most of the decisions in this lesson belong to the \*\*student's team\*\*, not to the transcriber: which math code the student reads, whether text is contracted, how much description is wanted. Ask. Do not assume.
 
 ---
 
@@ -142,7 +142,7 @@ Early literacy textbooks have **their own formatting guidelines**: BANA publishe
 | Are there **answer keys** that must match? | The transcription of the item and the key must agree |
 
 > [!WARNING]
-> **Secure test materials** carry confidentiality rules. Do not share, post, or keep a copy outside the agency's procedures. See [Lesson 49](49-file-management-and-student-privacy.md).
+> \*\*Secure test materials\*\* carry confidentiality rules. Do not share, post, or keep a copy outside the agency's procedures. See [Lesson 49](49-file-management-and-student-privacy.md).
 
 ---
 
