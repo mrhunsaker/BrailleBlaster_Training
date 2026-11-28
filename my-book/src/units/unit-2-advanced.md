@@ -19,7 +19,7 @@ Suggested total time: about 11 hours.
 
 ## The big idea of this unit
 
-> **Importing is not transcribing.** A file that opens is only a starting point. Every format carries a different amount of real structure, and your job is to find out what survived and fix what did not.
+> \*\*Importing is not transcribing.\*\* A file that opens is only a starting point. Every format carries a different amount of real structure, and your job is to find out what survived and fix what did not.
 
 Lessons 14 to 17 build that mindset across seven formats. Lesson 18 applies the same principle to structures that look different in print than they should in braille: you preserve the *function* of boxes, plays, poems, and deep lists, not their appearance. Lesson 19 looks ahead to where braille files are heading.
 
@@ -76,7 +76,7 @@ Suggested total time: about 11 hours.
 
 ## The big idea of this unit
 
-> **Importing is not transcribing.** A file that opens is only a starting point. Every format carries a different amount of real structure, and your job is to find out what survived and fix what did not.
+> \*\*Importing is not transcribing.\*\* A file that opens is only a starting point. Every format carries a different amount of real structure, and your job is to find out what survived and fix what did not.
 
 Lessons 14 to 17 build that mindset across seven formats. Lesson 18 applies the same principle to structures that look different in print than they should in braille: you preserve the *function* of boxes, plays, poems, and deep lists, not their appearance. Lesson 19 looks ahead to where braille files are heading.
 
