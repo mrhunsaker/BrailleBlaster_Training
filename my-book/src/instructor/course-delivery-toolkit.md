@@ -86,11 +86,11 @@ Create one row per learner and one record per assessed milestone. Use learner ID
 
 ### Cohort learner register
 
-| Learner ID | Prerequisite check | Baseline / pre-assessment | Unit 1 | Unit 2 | Unit 3 | Unit 4 | Labs | Capstone | Portfolio reviewed | Completion decision | Follow-up |
+| Learner ID | Prerequisite check | Baseline / pre-assessment | Unit 1 | Unit 2 | Unit 3 | Unit 4 | Unit 5 handbook (as assigned) | Labs | Capstone | Portfolio reviewed | Completion decision | Follow-up |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L-001 | | | Not assessed | Not assessed | Not assessed | Not assessed | | Not assessed | | Pending | |
-| L-002 | | | Not assessed | Not assessed | Not assessed | Not assessed | | Not assessed | | Pending | |
-| L-003 | | | Not assessed | Not assessed | Not assessed | Not assessed | | Not assessed | | Pending | |
+| L-001 | | | Not assessed | Not assessed | Not assessed | Not assessed | Not assessed / N.A. | | Not assessed | | Pending | |
+| L-002 | | | Not assessed | Not assessed | Not assessed | Not assessed | Not assessed / N.A. | | Not assessed | | Pending | |
+| L-003 | | | Not assessed | Not assessed | Not assessed | Not assessed | Not assessed / N.A. | | Not assessed | | Pending | |
 
 Add rows as needed. Do not infer completion from an empty cell.
 
