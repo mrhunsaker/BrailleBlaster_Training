@@ -1,11 +1,11 @@
 # Lesson 18: Advanced Formatting: Boxes, Plays, Poems, and Deep Lists
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 2: Advanced Lessons
-> - **Suggested time:** about 3 hours
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md), [Lesson 6](06-list-formatting.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 2: Advanced Lessons
+> - \*\*Suggested time:\*\* about 3 hours
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md), [Lesson 6](06-list-formatting.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Format deep lists with the correct list style and margins.
 
 > [!TIP]
-> **More practice:** [Lab 9: Special Structures Studio](../labs/lab-9-special-structures.md), with an original play, poem, and outline.
+> \*\*More practice:\*\* [Lab 9: Special Structures Studio](../labs/lab-9-special-structures.md), with an original play, poem, and outline.
 
 > [!CAUTION]
 > Do not choose a style because it looks most like the print page. First identify the function of the material—box, speaker label, stage direction, poetic line, or nested list—then select the structure that communicates that function to the braille reader.
