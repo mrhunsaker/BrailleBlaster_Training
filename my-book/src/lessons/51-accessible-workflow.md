@@ -1,11 +1,11 @@
 # Lesson 51: An Accessible Workflow: Screen Readers, Braille Displays, and the Keyboard
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 1](01-navigating-the-interface.md), [Lesson 4](04-layout-styles.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 1](01-navigating-the-interface.md), [Lesson 4](04-layout-styles.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Report an accessibility barrier so that it can be fixed.
 
 > [!TIP]
-> **Template:** the **Accessibility Test Log** is in the [Job Aids](../reference/job-aids.md) as Aid 13.
+> \*\*Template:\*\* the \*\*Accessibility Test Log\*\* is in the [Job Aids](../reference/job-aids.md) as Aid 13.
 
 > [!IMPORTANT]
 > Do not assume that one person's assistive-technology setup represents every learner's setup. Test the actual operating system, screen reader, braille display, and BrailleBlaster release together, and provide an equivalent route when a control is inaccessible.
@@ -30,7 +30,7 @@ Braille transcription is work that blind and sighted people do side by side, and
 This lesson does not claim to settle that. It does three things: it collects what the official sources **say** about keyboard and screen-reader support; it gives a **protocol** for testing your own setup; and it describes **working habits** that help everyone.
 
 > [!NOTE]
-> **An invitation.** This lesson would be stronger with tested guidance from blind transcribers and from teachers of students with visual impairments who use screen readers and braille displays daily. If that is you, please add what you know, as described under "Report a barrier."
+> \*\*An invitation.\*\* This lesson would be stronger with tested guidance from blind transcribers and from teachers of students with visual impairments who use screen readers and braille displays daily. If that is you, please add what you know, as described under "Report a barrier."
 
 {HB}
 
@@ -68,7 +68,7 @@ These are the statements about keyboard use and accessibility that were found in
 2. **Breadcrumbs are announced.** The guide says that when a screen reader is in use and Breadcrumbs are on, **every change to the Breadcrumbs is read**. It adds that you can turn them off at **View > Toggle Views > Breadcrumbs**.
 
 > [!IMPORTANT]
-> Earlier lessons tell you to keep Breadcrumbs on. **If you use a screen reader and find the announcements disruptive, turn them off,** and use the **Style View** and **Previous and Next Element** (`Ctrl+Up` and `Ctrl+Down`) to learn the style of what you are on. Turn Breadcrumbs back on when you want to check a container.
+> Earlier lessons tell you to keep Breadcrumbs on. \*\*If you use a screen reader and find the announcements disruptive, turn them off,\*\* and use the \*\*Style View\*\* and \*\*Previous and Next Element\*\* (`Ctrl+Up` and `Ctrl+Down`) to learn the style of what you are on. Turn Breadcrumbs back on when you want to check a container.
 
 ### What this means for the course's own habits
 
