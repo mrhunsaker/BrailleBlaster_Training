@@ -52,7 +52,7 @@ For each, decide which control applies and why.
 3. **For the mathematics.** Flag true math with `Ctrl+M` and choose Inline or Block, using the rule from [Lesson 7](../lessons/07-math-translation-toggle.md).
 
 > [!NOTE]
-> The Relaxer changes the **whole document**, so run it once, first, and then apply the selection-level controls. If you reverse the order, check that the Relaxer has not changed your selections.
+> The Relaxer changes the \*\*whole document\*\*, so run it once, first, and then apply the selection-level controls. If you reverse the order, check that the Relaxer has not changed your selections.
 
 ### Pass 4: Verify
 
@@ -66,7 +66,7 @@ Read the Braille View from top to bottom. Confirm that:
 
 Write a short Transcriber's Note ([Lesson 22](../lessons/22-transcribers-notes.md)) that tells the reader what is unusual, and a separate line in your plan that records the **unit** and the **reason** for the teacher. A model note:
 
-> *Computer code is shown uncontracted so that every character can be read exactly.*
+> \*Computer code is shown uncontracted so that every character can be read exactly.\*
 
 ## A decision rule to apply
 
