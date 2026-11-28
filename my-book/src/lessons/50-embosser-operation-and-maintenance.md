@@ -1,11 +1,11 @@
 # Lesson 50: Embosser Operation and Maintenance
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 13](13-paper-size-and-embossers.md), [Lesson 45](45-page-geometry-and-volume-sizing.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 13](13-paper-size-and-embossers.md), [Lesson 45](45-page-geometry-and-volume-sizing.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Keep a maintenance log, and know when to stop and call the manufacturer or a technician.
 
 > [!TIP]
-> **Template:** the **Embosser Maintenance Log** and **Pre-Flight Checklist** are in the [Job Aids](../reference/job-aids.md) as Aid 12.
+> \*\*Template:\*\* the \*\*Embosser Maintenance Log\*\* and \*\*Pre-Flight Checklist\*\* are in the [Job Aids](../reference/job-aids.md) as Aid 12.
 
 > [!CAUTION]
 > Never reach into a powered embosser, bypass an interlock, or attempt an internal repair while the machine is energized. Follow the manufacturer's safety and maintenance instructions, and stop work when a fault requires a qualified technician.
@@ -29,7 +29,7 @@ All the careful work in the earlier lessons ends at the embosser. A tired machin
 This lesson gives a short, careful routine for the **transcriber** who operates an embosser. It is deliberately general.
 
 > [!IMPORTANT]
-> **The manufacturer's manual is the authority** for your model: how to load paper, what paper it takes, how to clean it, how often it needs service, and what its settings mean. Where this lesson and the manual disagree, **follow the manual**. This lesson does not replace training from your agency or the manufacturer.
+> \*\*The manufacturer's manual is the authority\*\* for your model: how to load paper, what paper it takes, how to clean it, how often it needs service, and what its settings mean. Where this lesson and the manual disagree, \*\*follow the manual\*\*. This lesson does not replace training from your agency or the manufacturer.
 
 {HB}
 
@@ -122,7 +122,7 @@ Work down the list for the symptom, and **stop and call for service** if the cau
 | **Everything is right in the preview but wrong on paper** | The profile and the embosser's own settings, then the hardware |
 
 > [!NOTE]
-> **Missing dots, uneven dots, or a noise that was not there before** point to a worn or damaged embossing head or mechanism. Stop embossing, record it, and call the manufacturer or an authorized technician. Do not try to repair it.
+> \*\*Missing dots, uneven dots, or a noise that was not there before\*\* point to a worn or damaged embossing head or mechanism. Stop embossing, record it, and call the manufacturer or an authorized technician. Do not try to repair it.
 
 ---
 
