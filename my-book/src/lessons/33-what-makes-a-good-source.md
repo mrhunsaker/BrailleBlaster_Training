@@ -1,11 +1,11 @@
 # Lesson 33: What Makes a Good Source
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 2](02-opening-word-documents.md), [Lesson 14](14-importing-markdown-and-opendocument.md), [Lesson 16](16-choosing-an-import-workflow.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 2](02-opening-word-documents.md), [Lesson 14](14-importing-markdown-and-opendocument.md), [Lesson 16](16-choosing-an-import-workflow.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -88,7 +88,7 @@ These came from running BrailleBlaster's own conversion script, with the bundled
 10. **Characters that are not allowed in XML 1.0 are deleted** from a plain text file, with only a log entry to show for it. Clean control characters first ([Lesson 41](41-text-encoding-and-braille-characters.md)).
 
 > [!IMPORTANT]
-> Rules 1 to 3 lose content **silently**. No error appears, and the Braille View looks tidy. The only defense is a deliberate comparison with the source after every import. Make "count the figures, read the first and last paragraph of every chapter" part of your routine ([Lesson 32](32-proofreading-and-quality-assurance.md)).
+> Rules 1 to 3 lose content \*\*silently\*\*. No error appears, and the Braille View looks tidy. The only defense is a deliberate comparison with the source after every import. Make "count the figures, read the first and last paragraph of every chapter" part of your routine ([Lesson 32](32-proofreading-and-quality-assurance.md)).
 
 ### What good source looks like: a short requirements list
 
@@ -119,15 +119,15 @@ When you can ask for a source, ask for these things:
 
 Keep it short, polite, and specific. A model:
 
-> **Subject:** Source file for *Energy and Motion*, Chapter 3
+> \*\*Subject:\*\* Source file for \*Energy and Motion\*, Chapter 3
 >
-> Thank you for sending the chapter. To make an accurate braille copy, could you send the original **Word file** (not a PDF)? If the chapter was written in Word, it would help if:
+> Thank you for sending the chapter. To make an accurate braille copy, could you send the original \*\*Word file\*\* (not a PDF)? If the chapter was written in Word, it would help if:
 >
 > - headings use Word's Heading styles and lists use list styles;
 > - pictures sit inside a line of text, with alt text;
 > - equations were typed with Word's equation tool and not pasted as pictures.
 >
-> If the publisher supplied a **NIMAS file** for this title, that would be even better. I can open either one directly. If neither exists, a clean scan is fine, and I will proofread it against the book.
+> If the publisher supplied a \*\*NIMAS file\*\* for this title, that would be even better. I can open either one directly. If neither exists, a clean scan is fine, and I will proofread it against the book.
 >
 > Thank you,
 
