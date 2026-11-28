@@ -1,11 +1,11 @@
 # Lesson 28: Editing the Translation
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 3](03-typeface-emphasis.md), [Lesson 7](07-math-translation-toggle.md), [Lesson 11](11-contraction-relaxer.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 3](03-typeface-emphasis.md), [Lesson 7](07-math-translation-toggle.md), [Lesson 11](11-contraction-relaxer.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -33,7 +33,7 @@ This lesson pulls together the translation-editing tools into one decision guide
 Read **The Concept**, then use the **decision table** in the practice. Work with a short, private practice document, never a real student's file.
 
 > [!WARNING]
-> The tools in this lesson can **send information outside your computer**. Saving a correction **globally** submits it to APH. Do not use real student names, addresses, or other private information in anything you save globally. Use **Save Translation Locally** unless you are sure.
+> The tools in this lesson can \*\*send information outside your computer\*\*. Saving a correction \*\*globally\*\* submits it to APH. Do not use real student names, addresses, or other private information in anything you save globally. Use \*\*Save Translation Locally\*\* unless you are sure.
 
 ---
 
@@ -112,7 +112,7 @@ When BrailleBlaster meets a Unicode character it has no braille for, such as the
 3. Click **Cancel** to return without changes.
 
 > [!TIP]
-> BrailleBlaster 3.x also has **Tools > Spell Check**. Spell-check the print text before you transcribe, and fix print typos in the source or the Print View, so that you do not "correct" a translation that was only a typing mistake.
+> BrailleBlaster 3.x also has \*\*Tools > Spell Check\*\*. Spell-check the print text before you transcribe, and fix print typos in the source or the Print View, so that you do not "correct" a translation that was only a typing mistake.
 
 ---
 
