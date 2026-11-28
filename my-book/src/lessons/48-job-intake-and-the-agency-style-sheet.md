@@ -1,11 +1,11 @@
 # Lesson 48: Job Intake and the Agency Style Sheet
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md), [Lesson 43](43-braille-formats-crosswalk.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md), [Lesson 43](43-braille-formats-crosswalk.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Keep a log of exceptions, so that a decision made once is not made again from scratch.
 
 > [!TIP]
-> **Templates:** the blank **Job Intake Ticket** and **Agency Style Sheet** are in the [Job Aids](../reference/job-aids.md), as Aids 10 and 11.
+> \*\*Templates:\*\* the blank \*\*Job Intake Ticket\*\* and \*\*Agency Style Sheet\*\* are in the [Job Aids](../reference/job-aids.md), as Aids 10 and 11.
 
 > [!IMPORTANT]
 > Do not begin production on an ambiguous request by silently choosing defaults. Resolve the intended code, audience, source authority, deliverables, deadlines, and approval path; record unresolved items as questions or assumptions in the intake ticket.
@@ -139,7 +139,7 @@ No style sheet covers everything. When you make a decision the sheet does not co
 
 This email arrives:
 
-> *Hi, can you braille Ch. 4 of the science book for my student by next week? It's about energy. Thanks.*
+> \*Hi, can you braille Ch. 4 of the science book for my student by next week? It's about energy. Thanks.\*
 
 ### Tasks
 
