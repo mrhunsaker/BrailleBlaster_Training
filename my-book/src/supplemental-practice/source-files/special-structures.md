@@ -21,6 +21,6 @@ And every leaf reflects the line.
 
 ## Boxed note
 
-> **REMINDER**
+> \*\*REMINDER\*\*
 >
 > Keep the seed inventory updated after each planting session. Record unused packets and their storage location.
