@@ -1,11 +1,11 @@
 # Lesson 41: Text Encoding, Clean Text, and Braille Characters
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Convert between dot numbers, Unicode braille, and Braille ASCII, and read a BRF file as text.
 
 > [!TIP]
-> **Practice file:** make your own test with the script in this lesson, or use any text you have copied from a PDF or a web page.
+> \*\*Practice file:\*\* make your own test with the script in this lesson, or use any text you have copied from a PDF or a web page.
 
 > [!WARNING]
 > Do not change a file's encoding or normalize characters in place without keeping an untouched copy. A conversion can silently replace characters or alter byte interpretation; inspect the result and confirm that braille cells, punctuation, and non-English text remain intact.
@@ -53,7 +53,7 @@ A computer stores a file as **bytes**. An **encoding** is the rule for turning b
 **Use UTF-8.** BrailleBlaster reads its text and XML in UTF-8. A file saved in Windows-1252 shows `é` as a nonsense pair of characters when read as UTF-8.
 
 > [!NOTE]
-> A **byte-order mark** (BOM) is the three bytes `EF BB BF` at the start of some UTF-8 files, written by some Windows programs. It is the character U+FEFF. It is harmless in many programs and a nuisance in others. Remove it if it appears as a stray character at the top of your text.
+> A \*\*byte-order mark\*\* (BOM) is the three bytes `EF BB BF` at the start of some UTF-8 files, written by some Windows programs. It is the character U+FEFF. It is harmless in many programs and a nuisance in others. Remove it if it appears as a stray character at the top of your text.
 
 ### The invisible troublemakers
 
@@ -159,7 +159,7 @@ For the six-dot cells, **the Unicode character is U+2800 plus the sum of 2 raise
 **Worked example: *hello*.** The letters are dots 125, 15, 123, 123, 135. Their values are 19, 17, 7, 7, and 21. In Unicode that is `⠓⠑⠇⠇⠕`, and in Braille ASCII it is `HELLO`. For the letters *a* to *z*, Braille ASCII is the same letter in capitals.
 
 > [!NOTE]
-> The letters match, but the punctuation and the digits do not. In Braille ASCII, the character `1` is **dot 2**, not the numeral one. The numeral one is the cell for *a* with a numeric indicator before it. The capital sign (dot 6) is the comma `,`, and the numeric indicator (dots 3456) is the number sign `#`.
+> The letters match, but the punctuation and the digits do not. In Braille ASCII, the character `1` is \*\*dot 2\*\*, not the numeral one. The numeral one is the cell for \*a\* with a numeric indicator before it. The capital sign (dot 6) is the comma `,`, and the numeric indicator (dots 3456) is the number sign `#`.
 
 ### The full table
 
