@@ -7,7 +7,7 @@ Use the lesson sequence below as a structured reference. The cross-reference tab
 The unit has twenty-two lessons in five parts. You can complete the core workflow in Units 1 to 4 without studying every handbook lesson first, but you will encounter most of the situations they cover.
 
 > [!NOTE]
-> Where a lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and running it, with the Pandoc version the program bundles, on test files. It has **not** been confirmed in the application. Each lesson says so. See [`UPSTREAM_ISSUES.md`](https://github.com/mrhunsaker/BrailleBlaster_Training/blob/main/UPSTREAM_ISSUES.md) in the repository for the findings that should be reported to the BrailleBlaster project.
+> Where a lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and running it, with the Pandoc version the program bundles, on test files. It has \*\*not\*\* been confirmed in the application. Each lesson says so. See [`UPSTREAM_ISSUES.md`](https://github.com/mrhunsaker/BrailleBlaster_Training/blob/main/UPSTREAM_ISSUES.md) in the repository for the findings that should be reported to the BrailleBlaster project.
 
 ## Part A: Sources and source formats
 
