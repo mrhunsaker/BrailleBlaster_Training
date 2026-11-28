@@ -1,11 +1,11 @@
 # Lesson 17: What Pandoc Does for BrailleBlaster
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 2: Advanced Lessons
-> - **Suggested time:** about 60 minutes
-> - **Prerequisites:** [Lesson 14](14-importing-markdown-and-opendocument.md), [Lesson 15](15-importing-latex-xml-nimas-epub.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 2: Advanced Lessons
+> - \*\*Suggested time:\*\* about 60 minutes
+> - \*\*Prerequisites:\*\* [Lesson 14](14-importing-markdown-and-opendocument.md), [Lesson 15](15-importing-latex-xml-nimas-epub.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -16,10 +16,10 @@ By the end of this lesson you will be able to:
 - Use "convert to HTML first" as a deliberate troubleshooting step.
 
 > [!NOTE]
-> **Handbook:** BrailleBlaster **bundles its own copy of Pandoc** (version 3.12.1 in the source examined) and runs the result through its own conversion script, `bbx.lua`. What survives a conversion is decided by that script, not by Pandoc alone. See [Lessons 33](33-what-makes-a-good-source.md) and [34](34-markdown-syntax-guide.md), and the [Pandoc Cookbook](../reference/pandoc-cookbook.md).
+> \*\*Handbook:\*\* BrailleBlaster \*\*bundles its own copy of Pandoc\*\* (version 3.12.1 in the source examined) and runs the result through its own conversion script, `bbx.lua`. What survives a conversion is decided by that script, not by Pandoc alone. See [Lessons 33](33-what-makes-a-good-source.md) and [34](34-markdown-syntax-guide.md), and the [Pandoc Cookbook](../reference/pandoc-cookbook.md).
 
 > [!TIP]
-> **More practice:** the [Pandoc Cookbook](../reference/pandoc-cookbook.md) and [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
+> \*\*More practice:\*\* the [Pandoc Cookbook](../reference/pandoc-cookbook.md) and [Lab 3](../labs/lab-3-when-latex-misbehaves.md).
 
 > [!NOTE]
 > Pandoc conversion is one stage in a larger pipeline. A construct supported by Pandoc can still be altered or discarded by BrailleBlaster's own conversion script, so verify behavior in the installed application and against the source rather than general Pandoc documentation alone.
