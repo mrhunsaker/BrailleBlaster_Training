@@ -1,11 +1,11 @@
 # Lesson 42: PDFs, Scans, and OCR
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md), [Lesson 41](41-text-encoding-and-braille-characters.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md), [Lesson 41](41-text-encoding-and-braille-characters.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -26,7 +26,7 @@ A PDF is a picture of a page that happens to contain some text. It was built to 
 Sometimes a PDF is all you can get. This lesson shows how to get the most out of one, how to tell how bad it is before you start, and how to ask for something better.
 
 > [!NOTE]
-> **About the tests in this lesson.** Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has **not** been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
+> \*\*About the tests in this lesson.\*\* Where this lesson says what BrailleBlaster does with a file, the statement comes from reading BrailleBlaster's conversion script and from running that script on the sample files with Pandoc 3.12.1, the version the program bundles. It has \*\*not\*\* been confirmed by opening the files in the application. Treat each as an expectation, check it in your own copy, and report differences.
 
 ---
 
@@ -35,7 +35,7 @@ Sometimes a PDF is all you can get. This lesson shows how to get the most out of
 Read **The Concept** and the **tool table**. If you have a PDF handy, run the commands on it. The OCR exercise at the end asks you to find the errors in a deliberately damaged passage.
 
 > [!NOTE]
-> The commands in this lesson use **poppler** (`pdfinfo`, `pdffonts`, `pdfimages`, `pdftotext`, `pdftoppm`) and **Tesseract**, all free. They were run on test files made for this lesson. `ocrmypdf` is also free, and its options are taken from its documentation but were not run here.
+> The commands in this lesson use \*\*poppler\*\* (`pdfinfo`, `pdffonts`, `pdfimages`, `pdftotext`, `pdftoppm`) and \*\*Tesseract\*\*, all free. They were run on test files made for this lesson. `ocrmypdf` is also free, and its options are taken from its documentation but were not run here.
 
 ---
 
