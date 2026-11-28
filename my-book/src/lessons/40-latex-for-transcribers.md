@@ -1,11 +1,11 @@
 # Lesson 40: LaTeX for Transcribers
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 7](07-math-translation-toggle.md), [Lesson 37](37-reading-xml.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 7](07-math-translation-toggle.md), [Lesson 37](37-reading-xml.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Spot the constructs that are silently lost, and request a better LaTeX file.
 
 > [!TIP]
-> **Practice files:** `sample.tex` and `math-foundations.tex` in the [sample files](../samples/index.md).
+> \*\*Practice files:\*\* `sample.tex` and `math-foundations.tex` in the [sample files](../samples/index.md).
 
 > [!CAUTION]
 > Do not treat a LaTeX command as proof that the visible output is correct or complete. Macros, packages, custom commands, and included files can change meaning; request the compiled source or a complete project when the supplied `.tex` file is incomplete.
@@ -37,7 +37,7 @@ But LaTeX is a programming-style language. A transcriber who cannot read it cann
 Read **The Concept**, then study the **math reading table**. The practice asks you to read equations aloud and check your reading against the structure BrailleBlaster receives. [Lesson 38](38-dtbook-nimas-and-mathml.md) explains MathML, which this lesson uses.
 
 > [!NOTE]
-> You do **not** need LaTeX software installed. BrailleBlaster's converter, Pandoc, reads the `.tex` file itself. A LaTeX program is only needed to *typeset* a document, which is not part of your job.
+> You do \*\*not\*\* need LaTeX software installed. BrailleBlaster's converter, Pandoc, reads the `.tex` file itself. A LaTeX program is only needed to \*typeset\* a document, which is not part of your job.
 
 ---
 
@@ -99,7 +99,7 @@ These results come from running BrailleBlaster's own conversion script on test `
 | **TikZ** pictures | **Silently dropped** |
 
 > [!IMPORTANT]
-> **The document class changes the heading levels.** In an `article`, `\section` is the top level. In a `book` or `report`, `\chapter` is. So the same `\section` is a Centered Heading in one file and a Cell 5 Heading in the other. Read the first line of the file, `\documentclass{...}`, before you judge the headings.
+> \*\*The document class changes the heading levels.\*\* In an `article`, `\section` is the top level. In a `book` or `report`, `\chapter` is. So the same `\section` is a Centered Heading in one file and a Cell 5 Heading in the other. Read the first line of the file, `\documentclass{...}`, before you judge the headings.
 
 ---
 
