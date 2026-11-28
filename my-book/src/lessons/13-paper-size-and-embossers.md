@@ -1,11 +1,11 @@
 # Lesson 13: Paper Size and Connecting an Embosser
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 3 hours
-> - **Prerequisites:** [Lesson 1](01-navigating-the-interface.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 3 hours
+> - \*\*Prerequisites:\*\* [Lesson 1](01-navigating-the-interface.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,10 +17,10 @@ By the end of this lesson you will be able to:
 - Troubleshoot a bad emboss in a sensible order.
 
 > [!NOTE]
-> **Handbook:** [Lesson 45](45-page-geometry-and-volume-sizing.md) covers the arithmetic of page geometry and volume sizing, and [Lesson 50](50-embosser-operation-and-maintenance.md) covers operating and maintaining an embosser.
+> \*\*Handbook:\*\* [Lesson 45](45-page-geometry-and-volume-sizing.md) covers the arithmetic of page geometry and volume sizing, and [Lesson 50](50-embosser-operation-and-maintenance.md) covers operating and maintaining an embosser.
 
 > [!TIP]
-> **More practice:** [Lab 5: Page Properties and the Test Emboss](../labs/lab-5-test-page-and-embosser.md) and the [Embosser Profile Log](../reference/job-aids.md).
+> \*\*More practice:\*\* [Lab 5: Page Properties and the Test Emboss](../labs/lab-5-test-page-and-embosser.md) and the [Embosser Profile Log](../reference/job-aids.md).
 
 > [!WARNING]
 > Do not emboss a production job until the document's page geometry, paper stock, interpoint setting, and selected embosser profile agree. A profile that merely connects successfully can still produce unusable pages.
@@ -97,7 +97,7 @@ A teacher should understand the distinction:
 2. Choose the embosser profile, the number of copies, and the page range (All, or a specific range).
 3. Click **OK** to send the job to the embosser, or **Cancel** to back out without embossing.
 
-> **Note:** BrailleBlaster prints the *Print View* when you use **File > Print**, and embosses the *Braille View* when you use **File > Emboss** — these are two different output paths for two different audiences (a sighted proofreader vs. a braille reader), and it's easy for a new transcriber to reach for the wrong one when they mean "get this out of the computer."
+> \*\*Note:\*\* BrailleBlaster prints the \*Print View\* when you use \*\*File > Print\*\*, and embosses the \*Braille View\* when you use \*\*File > Emboss\*\* — these are two different output paths for two different audiences (a sighted proofreader vs. a braille reader), and it's easy for a new transcriber to reach for the wrong one when they mean "get this out of the computer."
 
 ---
 
