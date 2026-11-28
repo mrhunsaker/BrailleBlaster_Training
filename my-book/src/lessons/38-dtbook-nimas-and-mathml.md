@@ -96,7 +96,7 @@ This table comes from BrailleBlaster's own mapping file, `nimas.parserMap.xml`. 
 | `p` | Body Text |
 
 > [!IMPORTANT]
-> BrailleBlaster picks the heading style from the **`h` number**, not from how deeply the `level` is nested. A `level3` that begins with an `h2` is a Cell 5 heading. Compare the two when a heading looks wrong.
+> BrailleBlaster picks the heading style from the \*\*`h` number\*\*, not from how deeply the `level` is nested. A `level3` that begins with an `h2` is a Cell 5 heading. Compare the two when a heading looks wrong.
 
 ### Lists, definitions, and tables
 
