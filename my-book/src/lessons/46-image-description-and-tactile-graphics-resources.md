@@ -1,11 +1,11 @@
 # Lesson 46: Image Description and Tactile Graphics: Methods and Resources
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 22](22-transcribers-notes.md), [Lesson 27](27-images-and-tactile-graphics.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 22](22-transcribers-notes.md), [Lesson 27](27-images-and-tactile-graphics.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
