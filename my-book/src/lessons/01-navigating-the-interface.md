@@ -1,11 +1,11 @@
 # Lesson 1: Navigating the BrailleBlaster Interface
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 60 minutes
-> - **Prerequisites:** None
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 60 minutes
+> - \*\*Prerequisites:\*\* None
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -34,7 +34,7 @@ This lesson is deliberately short and hands-on. You will not transcribe anything
 Read **The Concept** first. Then work through the **Orientation Exercise**, which uses a short practice passage you paste into a new document. Check your results against the **Answer Key**.
 
 > [!NOTE]
-> BrailleBlaster changes between releases. This course follows the BrailleBlaster 3.x documentation. If a menu item has moved in your version, use the **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`) to find it. The idea behind each step stays the same even when a label changes.
+> BrailleBlaster changes between releases. This course follows the BrailleBlaster 3.x documentation. If a menu item has moved in your version, use the \*\*BrailleBlaster User Guide\*\* (\*\*Help > BrailleBlaster User Guide\*\*, or `F1`) to find it. The idea behind each step stays the same even when a label changes.
 
 ---
 
