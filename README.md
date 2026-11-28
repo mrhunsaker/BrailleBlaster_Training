@@ -34,7 +34,7 @@ The book has **five instructional units**, followed by applied practice and a ca
 | [Appendix C: Reference Desk](reference/resources.md) | External standards, technical references, shortcuts, job aids, troubleshooting, glossary, and drills |
 | [Back Matter](Backmatter/backmatter.md) | Completion guidance, production principles, version control, and attribution |
 
-**Reading order:** Work through Units 1–4 in sequence for the main BrailleBlaster skill progression. Unit 5 is the fifth instructional unit, but it is designed as a handbook: use its lessons when their topics arise rather than treating all twenty-two lessons as prerequisites. Complete the labs after the relevant lessons and use the capstone as the culminating production task. Return to the appendices as needed.
+**Reading order:** Work through Units 1–3 in their listed order. Integrate the independent Lessons 25–32 in Unit 4 according to the placement table on the Unit 4 overview; together, Units 1–4 make up the 32-lesson core. Use the 22 lessons in Unit 5 (Lessons 33–54) as a just-in-time handbook rather than as prerequisites. Complete labs after the relevant lessons and use the capstone as the culminating production task. Return to the appendices as needed.
 
 ## How every lesson works
 
