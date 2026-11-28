@@ -1,16 +1,15 @@
 # Summary
 
-[BrailleBlaster v3 Training](README.md)
+# Introduction
+- [BrailleBlaster v3 Training](README.md)
 
 # Start Here
-
 - [How to Use This Course](start/how-to-use.md)
 - [Setup and Prerequisites](start/setup.md)
 - [Syllabus and Pacing](start/syllabus.md)
 
 # Unit 1: Universal Lessons
-
-- [Unit overview and checkpoint](units/unit-1-universal.md)
+- [Unit 1 overview, lesson sequence, and checkpoint](units/unit-1-universal.md)
   - [Lesson 1: Navigating the BrailleBlaster Interface](lessons/01-navigating-the-interface.md)
   - [Lesson 2: Opening and Converting Word Documents](lessons/02-opening-word-documents.md)
   - [Lesson 3: Typeface Emphasis](lessons/03-typeface-emphasis.md)
@@ -26,8 +25,7 @@
   - [Lesson 13: Paper Size and Connecting an Embosser](lessons/13-paper-size-and-embossers.md)
 
 # Unit 2: Advanced Lessons
-
-- [Unit overview and checkpoint](units/unit-2-advanced.md)
+- [Unit 2 overview, lesson sequence, and checkpoint](units/unit-2-advanced.md)
   - [Lesson 14: Importing Source Formats I: Markdown and OpenDocument](lessons/14-importing-markdown-and-opendocument.md)
   - [Lesson 15: Importing Source Formats II: LaTeX, XML, NIMAS, and EPUB](lessons/15-importing-latex-xml-nimas-epub.md)
   - [Lesson 16: Choosing an Import Workflow](lessons/16-choosing-an-import-workflow.md)
@@ -36,8 +34,7 @@
   - [Lesson 19: The eBraille Format](lessons/19-ebraille.md)
 
 # Unit 3: Transcriber-Focused Lessons
-
-- [Unit overview and checkpoint](units/unit-3-transcriber.md)
+- [Unit 3 overview, lesson sequence, and checkpoint](units/unit-3-transcriber.md)
   - [Lesson 20: Importing and Working with NIMAS Files](lessons/20-nimas-production-files.md)
   - [Lesson 21: Running Heads and Page Numbering](lessons/21-running-heads-and-page-numbers.md)
   - [Lesson 22: Transcriber's Notes in the Text](lessons/22-transcribers-notes.md)
@@ -45,8 +42,7 @@
   - [Lesson 24: The T-Page Generator](lessons/24-t-page-generator.md)
 
 # Unit 4: Specialized Content
-
-- [Unit overview and checkpoint](units/unit-4-specialized.md)
+- [Unit 4 overview, lesson sequence, and checkpoint](units/unit-4-specialized.md)
   - [Lesson 25: Tables](lessons/25-tables.md)
   - [Lesson 26: Controlling the Page](lessons/26-controlling-the-page.md)
   - [Lesson 27: Images and Tactile Graphics](lessons/27-images-and-tactile-graphics.md)
@@ -57,8 +53,7 @@
   - [Lesson 32: Proofreading and Quality Assurance](lessons/32-proofreading-and-quality-assurance.md)
 
 # Unit 5: Handbook (Supplemental)
-
-- [Unit overview and checkpoint](units/unit-5-handbook.md)
+- [Unit 5 Handbook: reference lessons, placement guidance, and checkpoint](units/unit-5-handbook.md)
   - [Lesson 33: What Makes a Good Source](lessons/33-what-makes-a-good-source.md)
   - [Lesson 34: Markdown Syntax Guide](lessons/34-markdown-syntax-guide.md)
   - [Lesson 35: Word: Building Structure with Styles](lessons/35-word-structure-with-styles.md)
@@ -82,9 +77,8 @@
   - [Lesson 53: Error Gallery](lessons/53-error-gallery.md)
   - [Lesson 54: A Model Job: Capstone Walkthrough](lessons/54-a-model-job-capstone-walkthrough.md)
 
-# Labs and Samples
-
-- [Labs Overview](labs/index.md)
+# Applied Labs and Sample Materials
+- [Integrated Labs](labs/index.md)
   - [Lab 1: Rescue a Poorly Formatted Word Document](labs/lab-1-rescue-word-document.md)
   - [Lab 2: Import Comparison](labs/lab-2-import-comparison.md)
   - [Lab 3: When LaTeX Misbehaves](labs/lab-3-when-latex-misbehaves.md)
@@ -94,33 +88,136 @@
   - [Lab 7: Choosing the Right Translation Control](labs/lab-7-relaxation-plan.md)
   - [Lab 8: A Safe Find-and-Replace Cleanup](labs/lab-8-find-and-replace-cleanup.md)
   - [Lab 9: Special Structures Studio](labs/lab-9-special-structures.md)
-- [Sample Files](samples/index.md)
+- [Sample Files and Source Specimens](samples/index.md)
+- [Extra Practice Drills](reference/extra-practice-drills.md)
+- [Student Job Aids and Logbooks](reference/student-job-aids-and-logbooks.md)
 
 # Capstone
-
 - [Capstone: Transcribe a Textbook Chapter](capstone/capstone.md)
 
-# Instructor Guide
+# Appendices
 
-- [Instructor Guide](instructor/index.md)
+# Appendix A: Instructor Guide and Delivery Resources
+- [Instructor Guide and Instructor Resource Index](instructor/index.md)
   - [Teaching Notes: Unit 1](instructor/unit-1.md)
   - [Teaching Notes: Unit 2](instructor/unit-2.md)
   - [Teaching Notes: Unit 3](instructor/unit-3.md)
   - [Teaching Notes: Unit 4](instructor/unit-4.md)
   - [Teaching Notes: Unit 5](instructor/unit-5.md)
   - [Session Plans](instructor/session-plans.md)
-  - [Assessment and Grading](instructor/assessment.md)
+  - [Course Delivery Toolkit](instructor/course-delivery-toolkit.md)
+  - [Cohort Management](instructor/cohort-management/README.md)
+    - [Cohort Pacing Tracker](instructor/cohort-pacing-tracker.md)
+    - [Cohort Session Record](instructor/cohort-session-record.md)
+    - [Cohort Skills Dashboard](instructor/cohort-skills-dashboard.md)
+    - [Delivery Pacing Tracker](instructor/cohort-management/delivery-pacing-tracker.md)
+    - [Learner Progress Register](instructor/cohort-management/learner-progress-register.md)
+    - [End of Course Cohort Report](instructor/end-of-course-cohort-report.md)
+  - [Instructor Answer Keys](instructor/answer-keys/README.md)
+    - [Assignment Answer Guide](instructor/answer-keys/assignment-answer-guide.md)
+    - [Graphics Practice Answer Key](instructor/answer-keys/graphics-practice.md)
+    - [Math Practice Answer Key](instructor/answer-keys/math-practice.md)
+    - [Production Challenges Answer Key](instructor/answer-keys/production-challenges.md)
+    - [Seeded Error Set Answer Key](instructor/answer-keys/seeded-error-set.md)
+    - [Multi-Format Source-Pack Key](instructor/answer-keys/multi-format-source-pack.md)
+    - [Word/OpenDocument Import Key](instructor/answer-keys/word-opendocument-import.md)
+  - [Assessment Rubrics and Evaluation Tools](instructor/assessment-rubrics/README.md)
+    - [Conversion Rubric](instructor/assessment-rubrics/conversion-rubric.md)
+    - [Applied Import Assessment Rubric](instructor/assessment-rubrics/applied-import-assessment-rubric.md)
+    - [Applied Import Instructor Guide](instructor/assessment-rubrics/applied-import-instructor-guide.md)
+    - [Practical Assessment Observation Checklist](instructor/assessment-rubrics/observation-checklist.md)
+    - [Practical Assessment Evaluator Score Sheet](instructor/assessment-rubrics/evaluator-score-sheet.md)
+    - [Practical Assessment Remediation and Retest Form](instructor/assessment-rubrics/remediation-retest-form.md)
+    - [Practice Assignment Rubric](instructor/assessment-rubrics/practice-assignment-rubric.md)
+    - [Proofreading QA Rubric](instructor/assessment-rubrics/proofreading-qa-rubric.md)
+  - [Demonstration Guides](instructor/demonstration-guides/README.md)
+    - [Demonstration Template](instructor/demonstration-guides/demonstration-template.md)
+    - [Import Demonstration](instructor/demonstration-guides/import-demonstration.md)
+    - [QA Demonstration](instructor/demonstration-guides/qa-demonstration.md)
+  - [Troubleshooting Casebook](instructor/troubleshooting/README.md)
+    - [Casebook](instructor/troubleshooting/casebook.md)
+  - [Assessment Bank](instructor/assessment-bank.md)
+  - [Assessment Guide](instructor/assessment.md)
+  - [Capstone Rubric](instructor/capstone-rubric.md)
+  - [Learner Progress Register](instructor/learner-progress-register.md)
+  - [Lesson Resource Map](instructor/lesson-resource-map.md)
+  - [Portfolio Review Guide](instructor/portfolio-review-guide.md)
+  - [Practical Assessment Delivery Guide](instructor/practical-assessment-delivery-guide.md)
+  - [Practical Assessment Expected Evidence](instructor/practical-assessment-expected-evidence.md)
+  - [Practical Assessment Standardized Prompts](instructor/practical-assessment-standardized-prompts.md)
 
-# Reference
+# Appendix B: Expanded Supplemental Practice Library
+- [Expanded Supplemental Practice Library](supplemental-practice/README.md)
+  - [Student Assignment Workbook](supplemental-practice/student-assignments/README.md)
+    - [Applied Import and Conversion Assessment](supplemental-practice/student-assignments/applied-import-assessment-pack.md)
+    - [Instructor-Led Practical Assessment Candidate Packet](supplemental-practice/student-assignments/instructor-led-practical-assessment.md)
+    - [Practical Assessment Candidate Results Record](supplemental-practice/student-assignments/practical-assessment-results-record.md)
+    - [Competency Portfolio Guide](supplemental-practice/student-assignments/competency-portfolio-guide.md)
+    - [Competency Evidence Log](supplemental-practice/student-assignments/competency-evidence-log.md)
+    - [Competency Skills Sign-Off](supplemental-practice/student-assignments/competency-skills-signoff.md)
+    - [Project Review Record](supplemental-practice/student-assignments/project-review-record.md)
+    - [Course Completion Checklist](supplemental-practice/student-assignments/course-completion-checklist.md)
+    - [Capstone Intake Packet](supplemental-practice/student-assignments/capstone-intake-packet.md)
+    - [Production Handoff Template](supplemental-practice/student-assignments/production-handoff-template.md)
+    - [Capstone Peer-Review Protocol](supplemental-practice/student-assignments/peer-review-protocol.md)
+  - [Source-File Practice Pack](supplemental-practice/source-files/README.md)
+    - [eBraille Review Checklist](supplemental-practice/source-files/ebraille-review-checklist.md)
+    - [Emphasis Audit](supplemental-practice/source-files/emphasis-audit.md)
+    - [Glossary and Index Sample](supplemental-practice/source-files/glossary-index-sample.md)
+    - [Special Structures](supplemental-practice/source-files/special-structures.md)
+    - [Structured Content](supplemental-practice/source-files/structured-content.md)
+    - [Table Examples](supplemental-practice/source-files/table-examples.md)
+    - [Translation Edit Cases](supplemental-practice/source-files/translation-edit-cases.md)
+    - [Word Source Sample](supplemental-practice/source-files/word-source-sample.md)
+    - [Energy Field Guide Master Source](supplemental-practice/source-files/energy-field-guide.md)
+    - [Multi-Format Source-Pack Lab](supplemental-practice/source-files/multi-format-source-pack-lab.md)
+    - [Word/OpenDocument Import Comparison Lab](supplemental-practice/source-files/word-opendocument-import-lab.md)
+  - [Seeded-Error Exercises](supplemental-practice/seeded-errors/README.md)
+    - [E01: Heading Hierarchy](supplemental-practice/seeded-errors/E01-heading-hierarchy.md)
+    - [E02: Nested List](supplemental-practice/seeded-errors/E02-nested-list.md)
+    - [E03: Emphasis Scope](supplemental-practice/seeded-errors/E03-emphasis-scope.md)
+    - [E04: Find and Replace](supplemental-practice/seeded-errors/E04-find-replace.md)
+    - [E05: Math Context](supplemental-practice/seeded-errors/E05-math-context.md)
+    - [E06: Table Header](supplemental-practice/seeded-errors/E06-table-header.md)
+    - [E07: Figure Description](supplemental-practice/seeded-errors/E07-figure-description.md)
+    - [E08: Running Head](supplemental-practice/seeded-errors/E08-running-head.md)
+    - [E09: Volume Break](supplemental-practice/seeded-errors/E09-volume-break.md)
+    - [E10: Production Note](supplemental-practice/seeded-errors/E10-production-note.md)
+    - [E11: Glossary Reference](supplemental-practice/seeded-errors/E11-glossary-reference.md)
+    - [E12: Proofread Regression](supplemental-practice/seeded-errors/E12-proofread-regression.md)
+    - [Error Log Template](supplemental-practice/seeded-errors/error-log-template.md)
+    - [Seeded Error Set](supplemental-practice/seeded-errors/seeded-error-set.md)
+  - [Math and Technical Practice](supplemental-practice/math-practice/README.md)
+    - [Mixed Math and Literary Context](supplemental-practice/math-practice/mixed-math-literary.md)
+    - [Number Line Brief](supplemental-practice/math-practice/number-line-brief.md)
+    - [Technical Numeric Set](supplemental-practice/math-practice/technical-numeric-set.md)
+  - [Graphics and Image-Description Practice](supplemental-practice/graphics-practice/README.md)
+    - [Description Rubric](supplemental-practice/graphics-practice/description-rubric.md)
+    - [Figure Decision Cases](supplemental-practice/graphics-practice/figure-decision-cases.md)
+    - [Tactile Graphic Brief](supplemental-practice/graphics-practice/tactile-graphic-brief.md)
+  - [Production Workflow Challenges](supplemental-practice/production-challenges/README.md)
+    - [Capstone Production Brief](supplemental-practice/production-challenges/capstone-production-brief.md)
+    - [Multivolume Textbook](supplemental-practice/production-challenges/multivolume-textbook.md)
+    - [Production Handoff Checklist](supplemental-practice/production-challenges/production-handoff-checklist.md)
+    - [Production Worklog Template](supplemental-practice/production-challenges/production-worklog-template.md)
+    - [Pagination and Volume Planning Lab](supplemental-practice/production-challenges/pagination-volume-planning-lab.md)
+    - [Production QA Scorecard](supplemental-practice/production-challenges/production-qa-scorecard.md)
 
+# Appendix C: Reference Desk and Technical Resources
+- [Reference Desk: External Standards, Course Aids, and Technical Resources](reference/resources.md)
 - [Keyboard Shortcuts and Menu Paths](reference/shortcuts.md)
-- [Practice Drill Bank](reference/drill-bank.md)
 - [Job Aids](reference/job-aids.md)
 - [Pandoc Cookbook](reference/pandoc-cookbook.md)
+- [Converting LaTeX to HTML](reference/latex-to-html-conversion.md)
 - [Policy and Standards Background](reference/policy-background.md)
-- [Glossary](reference/glossary.md)
 - [Troubleshooting](reference/troubleshooting.md)
-- [Resources](reference/resources.md)
+- [Glossary](reference/glossary.md)
+- [Drill Bank](reference/drill-bank.md)
+
+# Back Matter
+- [Backmatter](Backmatter/backmatter.md)
+- [Contributors](Contributors.md)
+- [Indexing](indexing.md)
 
 ---
 
