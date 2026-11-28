@@ -1,11 +1,11 @@
 # Lesson 30: Line Numbers for Prose and Poetry
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 60 minutes
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 18](18-advanced-formatting.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 60 minutes
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 18](18-advanced-formatting.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
