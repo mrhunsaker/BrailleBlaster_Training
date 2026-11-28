@@ -58,7 +58,7 @@ Every lesson follows the same pattern, so you always know what to expect:
 - **Teaching a group?** Start with [Appendix A: Instructor Guide](instructor/index.md). Keep instructor answer keys and assessment materials separate from student-facing copies when appropriate.
 
 > [!IMPORTANT]
-> BrailleBlaster changes between releases. This course follows the 3.x documentation. When a menu item has moved in your version, the concept and workflow still apply. Use the **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`) to find the renamed item.
+> BrailleBlaster changes between releases. This course follows the 3.x documentation. When a menu item has moved in your version, the concept and workflow still apply. Use the \*\*BrailleBlaster User Guide\*\* (\*\*Help > BrailleBlaster User Guide\*\*, or `F1`) to find the renamed item.
 
 ## About the author
 
