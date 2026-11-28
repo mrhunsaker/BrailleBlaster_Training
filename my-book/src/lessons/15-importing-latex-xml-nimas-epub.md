@@ -1,11 +1,11 @@
 # Lesson 15: Importing Source Formats II: LaTeX, XML, NIMAS, and EPUB
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 2: Advanced Lessons
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 14](14-importing-markdown-and-opendocument.md), [Lesson 7](07-math-translation-toggle.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 2: Advanced Lessons
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 14](14-importing-markdown-and-opendocument.md), [Lesson 7](07-math-translation-toggle.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,10 +17,10 @@ By the end of this lesson you will be able to:
 - Write a post-import checklist for each format.
 
 > [!NOTE]
-> **Handbook:** [Lesson 40](40-latex-for-transcribers.md) teaches how to read LaTeX, and [Lessons 37](37-reading-xml.md) to [39](39-inside-the-packages.md) teach how to read XML and package files. In testing, the LaTeX **document class** changes the heading levels, and `\maketitle`, TikZ pictures, and `figure` environments are **dropped**.
+> \*\*Handbook:\*\* [Lesson 40](40-latex-for-transcribers.md) teaches how to read LaTeX, and [Lessons 37](37-reading-xml.md) to [39](39-inside-the-packages.md) teach how to read XML and package files. In testing, the LaTeX \*\*document class\*\* changes the heading levels, and `\maketitle`, TikZ pictures, and `figure` environments are \*\*dropped\*\*.
 
 > [!TIP]
-> **More practice:** [Lab 2](../labs/lab-2-import-comparison.md), [Lab 3: When LaTeX Misbehaves](../labs/lab-3-when-latex-misbehaves.md), and a NIMAS-style set in the [sample files](../samples/index.md).
+> \*\*More practice:\*\* [Lab 2](../labs/lab-2-import-comparison.md), [Lab 3: When LaTeX Misbehaves](../labs/lab-3-when-latex-misbehaves.md), and a NIMAS-style set in the [sample files](../samples/index.md).
 
 ---
 
@@ -58,7 +58,7 @@ The current BrailleBlaster documentation notes an important exception involving 
 
 Therefore:
 
-> **Do not assume that seeing LaTeX source commands in the original file means those commands will remain visible after import.**
+> \*\*Do not assume that seeing LaTeX source commands in the original file means those commands will remain visible after import.\*\*
 
 The mathematics enters BrailleBlaster's math workflow and must be checked there.
 
@@ -250,7 +250,7 @@ NIMAS is an XML-based standard used for accessible instructional materials.
 
 It is important to distinguish:
 
-> **General XML is not automatically NIMAS.**
+> \*\*General XML is not automatically NIMAS.\*\*
 
 NIMAS has a particular structure and intended use, and BrailleBlaster provides specialized tools for NIMAS files.
 
@@ -432,7 +432,7 @@ The current BrailleBlaster documentation notes an important exception involving 
 
 Therefore:
 
-> **Do not assume that seeing LaTeX source commands in the original file means those commands will remain visible after import.**
+> \*\*Do not assume that seeing LaTeX source commands in the original file means those commands will remain visible after import.\*\*
 
 The mathematics enters BrailleBlaster's math workflow and must be checked there.
 
@@ -624,7 +624,7 @@ NIMAS is an XML-based standard used for accessible instructional materials.
 
 It is important to distinguish:
 
-> **General XML is not automatically NIMAS.**
+> \*\*General XML is not automatically NIMAS.\*\*
 
 NIMAS has a particular structure and intended use, and BrailleBlaster provides specialized tools for NIMAS files.
 
@@ -1268,7 +1268,7 @@ An EPUB is a packaged electronic publication, not simply another form of XML or 
 
 Whether the source is Markdown, ODT, LaTeX, XML, NIMAS, or EPUB, the transcriber remains responsible for verifying the final braille.
 
-> **The extension tells you how the source is encoded; the source structure tells you what BrailleBlaster can preserve.**
+> \*\*The extension tells you how the source is encoded; the source structure tells you what BrailleBlaster can preserve.\*\*
 
 ---
 
