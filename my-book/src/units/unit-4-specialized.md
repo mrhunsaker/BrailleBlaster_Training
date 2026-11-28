@@ -1,6 +1,6 @@
 # Unit 4: Specialized Content
 
-Units 1 to 3 teach the core of BrailleBlaster and the production workflow. Unit 4 covers the **specialized content and finishing skills** that real textbooks need: tables, page control, images, translation corrections, alternative math codes, line numbers, glossaries and indexes, and proofreading.
+Units 1 to 3 establish the core BrailleBlaster and book-production workflows. Unit 4 (Lessons 25–32) completes the 32-lesson core sequence with **specialized content and finishing skills** that real textbooks need: tables, page control, images, translation corrections, alternative math codes, line numbers, glossaries and indexes, and proofreading. Unit 5 (Lessons 33–54) is a separate just-in-time Handbook for source preparation, standards, job management, accessibility, and learning aids.
 
 These eight lessons are written to stand alone. Each lists its own prerequisites, so you can teach them in a different order, or only the ones your learners need.
 
