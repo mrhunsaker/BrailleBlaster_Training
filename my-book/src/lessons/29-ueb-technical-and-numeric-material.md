@@ -1,11 +1,11 @@
 # Lesson 29: UEB Technical Material, Numeric Passages, and Other Codes
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 7](07-math-translation-toggle.md), [Lesson 8](08-ascii-math-hub.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 7](07-math-translation-toggle.md), [Lesson 8](08-ascii-math-hub.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -52,7 +52,7 @@ Go to **Settings > Translation Settings**. The default is **UEB**. The other opt
 The same tab lets you choose your **default math translation table**.
 
 > [!NOTE]
-> Choosing a code sets the *default*. You can still change the translation of individual selections ([Lesson 28](28-editing-the-translation.md)), but changing the whole document's code is a decision to make once, at the start. Click **OK** to apply it to this document, or **Make Default** to apply it to future documents too.
+> Choosing a code sets the \*default\*. You can still change the translation of individual selections ([Lesson 28](28-editing-the-translation.md)), but changing the whole document's code is a decision to make once, at the start. Click \*\*OK\*\* to apply it to this document, or \*\*Make Default\*\* to apply it to future documents too.
 
 ### Two ways to write math inside UEB
 
@@ -65,7 +65,7 @@ The same tab lets you choose your **default math translation table**.
 Both rely on the same first step, **Toggle Math Translation** (`Ctrl+M`), which marks the text as math and highlights it **bright pink** in the Print View. Both can be built with the **ASCII Math Hub** and the **Spatial Math Editor**.
 
 > [!WARNING]
-> **Block** and **Inline** work the same way in each family: *Block* puts the indicators on the line before and after the material, and *Inline* puts them directly before and after it, separated only by a space. But the indicators are **different**. Do not mix a Nemeth indicator into a UEB Technical document or the other way around.
+> \*\*Block\*\* and \*\*Inline\*\* work the same way in each family: \*Block\* puts the indicators on the line before and after the material, and \*Inline\* puts them directly before and after it, separated only by a space. But the indicators are \*\*different\*\*. Do not mix a Nemeth indicator into a UEB Technical document or the other way around.
 
 ### Numeric passages and series
 
