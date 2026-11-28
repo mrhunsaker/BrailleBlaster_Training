@@ -1,11 +1,11 @@
 # Lesson 31: Glossaries and Indexes
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 3](03-typeface-emphasis.md), [Lesson 4](04-layout-styles.md), [Lesson 13](13-paper-size-and-embossers.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 3](03-typeface-emphasis.md), [Lesson 4](04-layout-styles.md), [Lesson 13](13-paper-size-and-embossers.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -70,7 +70,7 @@ Typically the **publisher** has already identified the term and the definition i
 In a long alphabetic reference, braille pages often carry **guide words** at the top: the first and last entries on the page, so a reader can find the right page quickly. Because guide words depend on where the page breaks fall, they must be added **last**, after every formatting decision that could move text. A running head and guide words are skipped automatically by **Skip Number Lines** ([Lesson 26](26-controlling-the-page.md)).
 
 > [!NOTE]
-> In current 3.x builds, the **Alphabetic Reference** tools (such as **Identify Guide Word**, **Edit Guide Word**, and **Add/Remove Uncontracted Glossary Items**) are in the hidden **Debug** menu, which you show with `Ctrl+Shift+` `. The 3.x User Guide does not document them, so treat them as experimental and proofread every page they affect. The styles and the emphasis tool below are documented and safe to use.
+> In current 3.x builds, the \*\*Alphabetic Reference\*\* tools (such as \*\*Identify Guide Word\*\*, \*\*Edit Guide Word\*\*, and \*\*Add/Remove Uncontracted Glossary Items\*\*) are in the hidden \*\*Debug\*\* menu, which you show with `Ctrl+Shift+` `. The 3.x User Guide does not document them, so treat them as experimental and proofread every page they affect. The styles and the emphasis tool below are documented and safe to use.
 
 ---
 
