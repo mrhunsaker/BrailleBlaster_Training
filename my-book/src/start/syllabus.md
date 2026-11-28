@@ -1,5 +1,7 @@
 # Syllabus and Pacing
 
+The maintained curriculum contains **54 numbered lessons in five units**. Units 1–4 contain Lessons 1–32 and form the main instructional sequence; Unit 5 contains Lessons 33–54 and is a supplemental handbook for just-in-time use. The [book summary](SUMMARY.md) is the authoritative reading order. The tables below list every numbered lesson in that order.
+
 > [!IMPORTANT]
 > The suggested pacing is a planning estimate, not a competency standard. Do not advance a learner solely because the scheduled time has elapsed; use the lesson practice and checkpoints to confirm that the skill can be performed and explained independently.
 
@@ -76,7 +78,7 @@ Times are planning estimates for an instructor-led session including practice. S
 
 These lessons are independent. The [Unit 4 page](../units/unit-4-specialized.md) suggests where to fit each among the earlier lessons.
 
-### Unit 5: Handbook, supplemental (about 41 hours)
+### Unit 5: Handbook (Lessons 33–54; supplemental, about 41 hours)
 
 | #  | Lesson | Minutes |
 | -- | ------ | ------- |
@@ -103,7 +105,7 @@ These lessons are independent. The [Unit 4 page](../units/unit-4-specialized.md)
 | 53 | [Error Gallery](../lessons/53-error-gallery.md) | 120 |
 | 54 | [A Model Job: Capstone Walkthrough](../lessons/54-a-model-job-capstone-walkthrough.md) | 150 |
 
-These lessons are supplemental and independent. The [Unit 5 page](../units/unit-5-handbook.md) shows where each fits among the earlier lessons.
+Lessons 33–54 are part of the 54-lesson curriculum, but the Handbook is designed for selective, just-in-time use rather than as a prerequisite block. The [Unit 5 page](../units/unit-5-handbook.md) shows where each topic fits alongside Units 1–4.
 
 ### Labs (about 10 hours)
 
@@ -117,32 +119,31 @@ Nine integrated [labs](../labs/index.md) use the [sample files](../samples/index
 
 ## Pacing plans
 
-### Plan A: Twelve-week course (two 2-hour sessions per week)
+### Plan A: Eighteen-week comprehensive core course (two 2-hour sessions per week)
 
-| Weeks | Lessons |
-| ----- | ------- |
-| 1 | 1, 2 |
-| 2 | 3, 4 |
-| 3 | 5, 6, 7 (start) |
-| 4 | 7, 8 |
-| 5 | 9, 10 |
-| 6 | 11, 12 |
-| 7 | 13, 14 |
-| 8 | 15, 16, 17 |
-| 9 | 18, 19 |
-| 10 | 20, 21 |
-| 11 | 22, 23, 24 |
-| 12 | Capstone and presentation |
+This plan covers the complete sequential core: Lessons 1–32 across Units 1–4, followed by the capstone. It budgets approximately 69–70 hours. Unit 5 (Lessons 33–54) remains available as a just-in-time handbook and is assigned when a learner's work calls for that topic. The nine labs add about 10 hours and can be scheduled as an extension.
 
-### Plan B: Five-day intensive (about 8 hours per day)
+| Weeks | Focus | Lessons / work |
+| ----- | ----- | -------------- |
+| 1–3 | Interface, Word, emphasis, styles, headings, lists | 1–6 |
+| 4–6 | Math, contraction settings, Find and Replace, page setup | 7–13 |
+| 7–9 | Source imports, Pandoc, advanced formatting, eBraille | 14–19 |
+| 10–12 | NIMAS and production workflow | 20–24 |
+| 13–16 | Specialized content and quality assurance | 25–32, interleaved according to the Unit 4 placement table |
+| 17 | Integrated practice and remediation | Relevant labs and unit checkpoints |
+| 18 | Capstone and presentation | Capstone |
 
-| Day | Focus | Lessons |
-| --- | ----- | ------- |
-| 1 | Interface, Word, emphasis, styles, headings, lists | 1 to 6 |
-| 2 | Math and instruction tools | 7 to 11 |
-| 3 | Productivity, output, importing | 12 to 16 |
-| 4 | Advanced and production | 17 to 21 |
-| 5 | Notes, volumes, T-pages, and the capstone | 22 to 24, Capstone |
+### Plan B: Five-day intensive orientation (selected lessons, not the complete course)
+
+Five days cannot cover all 54 lessons or the full 69–70-hour core sequence. Use this plan as a high-level introduction for experienced participants; assign the remaining lessons, practice, and capstone afterward.
+
+| Day | Focus | Suggested selection |
+| --- | ----- | ------------------- |
+| 1 | Interface and document structure | 1–6 |
+| 2 | Math and learner-specific translation | 7–11 |
+| 3 | Productivity, output, and import decisions | 12–17 |
+| 4 | Advanced formatting and production overview | 18–24 |
+| 5 | Specialized-content sampler and next steps | Selected topics from 25–32; introduce the capstone and identify relevant Unit 5 handbook lessons |
 
 ### Plan C: Short workshop for classroom TVIs (one day, about 6 hours)
 
@@ -150,7 +151,7 @@ Lessons 1, 3, 4, 5, 6, 11, 12, and 13, using the Worked Demonstrations and a sel
 
 ### Plan D: Self-paced
 
-Complete one lesson per sitting. Do the practice before reading the answer key, and keep a short log of anything that surprised you.
+Complete Lessons 1–32 in sequence, using the unit checkpoints and capstone to consolidate the core skills. Use Lessons 33–54 as a handbook: study each lesson when its subject becomes relevant, or complete the full handbook as an extended professional-development sequence. Do the practice before reading the answer key, and keep a short log of anything that surprised you.
 
 ## Assessment
 
