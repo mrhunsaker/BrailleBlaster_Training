@@ -1,11 +1,11 @@
 # Lesson 54: A Model Job: Capstone Walkthrough
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 48](48-job-intake-and-the-agency-style-sheet.md), [Lesson 32](32-proofreading-and-quality-assurance.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 48](48-job-intake-and-the-agency-style-sheet.md), [Lesson 32](32-proofreading-and-quality-assurance.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Use the model as a pattern for real jobs.
 
 > [!IMPORTANT]
-> **Try the [Capstone](../capstone/capstone.md) first.** This walkthrough is a *model*, and not the only right answer. If you read it before you try the job, you will learn much less.
+> \*\*Try the [Capstone](../capstone/capstone.md) first.\*\* This walkthrough is a \*model\*, and not the only right answer. If you read it before you try the job, you will learn much less.
 
 > [!IMPORTANT]
 > The model demonstrates one defensible workflow, not a universal template. Do not copy its page dimensions, code choice, volume assumptions, or formatting decisions into a real job without checking that job's source, reader requirements, agency rules, and equipment.
@@ -35,13 +35,13 @@ Rubrics tell you what a good job looks like. A model shows you one. This lesson 
 Work through the capstone yourself. Then read each step here and compare. Where you differ, ask the questions at the end: is yours defensible, consistent, and recorded?
 
 > [!NOTE]
-> The agency, the student ID, the dates, and the time and size figures here are **made up** for the walkthrough. The tool names and menu paths are the documented ones. The Debug-menu tools are described as in [Lessons 23](23-toc-and-volumes.md) and [24](24-t-page-generator.md), with the manual method as a fallback. Nothing here has been run in the application.
+> The agency, the student ID, the dates, and the time and size figures here are \*\*made up\*\* for the walkthrough. The tool names and menu paths are the documented ones. The Debug-menu tools are described as in [Lessons 23](23-toc-and-volumes.md) and [24](24-t-page-generator.md), with the manual method as a fallback. Nothing here has been run in the application.
 
 ---
 
 ## 1. The job
 
-> *"Hi, could you braille Chapter 3 of the science book, "Energy and Motion," for my student? She reads UEB, and Nemeth for math. Thanks."*
+> \*"Hi, could you braille Chapter 3 of the science book, "Energy and Motion," for my student? She reads UEB, and Nemeth for math. Thanks."\*
 
 ### The intake ticket (filled in)
 
@@ -142,7 +142,7 @@ In each case, **look at the Braille View**, and look for the pink highlighting i
 - **The print caption** *Figure 3.1 A roller coaster at the top of a hill and at the bottom.* takes the **Caption** style.
 - **The description** is yours, in the **Description** style, with the **whole item selected first**:
 
-> *A diagram of a roller coaster track. At the left, the track climbs to a high peak, where a car waits. The track then drops steeply to a low point at the right, where the car is shown again.*
+> \*A diagram of a roller coaster track. At the left, the track climbs to a high peak, where a car waits. The track then drops steeply to a low point at the right, where the car is shown again.\*
 
 It is objective, in a fixed order, and it adds nothing the picture does not show.
 
@@ -157,7 +157,7 @@ It is objective, in a fixed order, and it adds nothing the picture does not show
 - **An inline note**, short and tied to one place, such as the figure description, which the Description style adds for you.
 - **A separate paragraph note**, near the top of the chapter:
 
-> *Transcriber's Note: Words highlighted in yellow in the print are shown with transcriber-defined typeform 1. See the Special Symbols page.*
+> \*Transcriber's Note: Words highlighted in yellow in the print are shown with transcriber-defined typeform 1. See the Special Symbols page.\*
 
 Both go on the Transcriber's Notes page as well.
 
