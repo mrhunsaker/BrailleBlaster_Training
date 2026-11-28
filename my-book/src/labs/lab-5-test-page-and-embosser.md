@@ -27,7 +27,7 @@ Page properties control where lines and pages break, so **set them before you tr
 | A margin | | |
 
 > [!IMPORTANT]
-> **OK** applies the changes to this document. **Make Default** applies them to *future* documents. Click **OK** while you are experimenting, and click **Make Default** only after you have confirmed that the values match your agency's standard.
+> \*\*OK\*\* applies the changes to this document. \*\*Make Default\*\* applies them to \*future\* documents. Click \*\*OK\*\* while you are experimenting, and click \*\*Make Default\*\* only after you have confirmed that the values match your agency's standard.
 
 **Expected observations.** Fewer cells per line or fewer lines per page should mean more pages for the same text, and the reverse should mean fewer. If your result is different, record what you see.
 
@@ -49,7 +49,7 @@ Page properties control where lines and pages break, so **set them before you tr
 5. Compare with the Braille View. If they differ, work through the troubleshooting order: the profile (manufacturer and model), then **Generic Text only** as a diagnostic, then advanced options.
 
 > [!NOTE]
-> Without an embosser, do Parts A and B, then use the Braille Preview to check the heading, list, body paragraph, and math line. Remember that a correct preview shows what BrailleBlaster *intends* to send. Only a real emboss shows what the device *does*.
+> Without an embosser, do Parts A and B, then use the Braille Preview to check the heading, list, body paragraph, and math line. Remember that a correct preview shows what BrailleBlaster \*intends\* to send. Only a real emboss shows what the device \*does\*.
 
 ## Part D: Print versus emboss
 
