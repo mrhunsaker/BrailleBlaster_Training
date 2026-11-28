@@ -1,11 +1,11 @@
 # Lesson 45: Page Geometry and Sizing Volumes
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 13](13-paper-size-and-embossers.md), [Lesson 23](23-toc-and-volumes.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 13](13-paper-size-and-embossers.md), [Lesson 23](23-toc-and-volumes.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -34,7 +34,7 @@ A transcription is not finished when the last page is formatted. It has to be **
 Read **The Concept**, then work the estimator on a real or imagined book. The practice has three jobs to size.
 
 > [!NOTE]
-> Physical measurements here are **approximations**. A braille cell is about a quarter of an inch wide and a line is about four-tenths of an inch tall, but the exact figures depend on the embosser. **Always read the real numbers from BrailleBlaster's Page Properties** and from your embosser's manual. Planning figures such as sheets per volume are **agency decisions**, not rules.
+> Physical measurements here are \*\*approximations\*\*. A braille cell is about a quarter of an inch wide and a line is about four-tenths of an inch tall, but the exact figures depend on the embosser. \*\*Always read the real numbers from BrailleBlaster's Page Properties\*\* and from your embosser's manual. Planning figures such as sheets per volume are \*\*agency decisions\*\*, not rules.
 
 ---
 
