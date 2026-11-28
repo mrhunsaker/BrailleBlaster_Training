@@ -1,11 +1,11 @@
 # Lesson 4: Applying Layout Styles
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 1](01-navigating-the-interface.md), [Lesson 3](03-typeface-emphasis.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 1](01-navigating-the-interface.md), [Lesson 3](03-typeface-emphasis.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 - Say why you choose what a block of text *is* instead of typing margins by hand.
 
 > [!TIP]
-> **More practice:** the style items in the [Drill Bank](../reference/drill-bank.md#b-styles-headings-and-lists-lessons-4-to-6) and the [Style Map job aid](../reference/job-aids.md).
+> \*\*More practice:\*\* the style items in the [Drill Bank](../reference/drill-bank.md#b-styles-headings-and-lists-lessons-4-to-6) and the [Style Map job aid](../reference/job-aids.md).
 
 > [!CAUTION]
 > Do not create layout by typing spaces, tabs, or repeated blank lines. These are fragile visual imitations, not structural styles, and they can fail when text wraps, page geometry changes, or the document is translated.
