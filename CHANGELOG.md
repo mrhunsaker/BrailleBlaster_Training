@@ -1,5 +1,7 @@
 # Changelog
 
+Historical entries below describe the curriculum at the time of each change; older lesson counts and unit structures are intentionally retained as history. The current maintained curriculum contains **54 numbered lessons in five units**: Units 1–4 (Lessons 1–32) form the core sequence, and Unit 5 (Lessons 33–54) is the supplemental Handbook. See `README.md` and `my-book/src/SUMMARY.md` for the current reading order.
+
 All notable changes to this curriculum are recorded here. The format follows [Keep a Changelog](https://keepachangelog.com/), and versions follow [Semantic Versioning](https://semver.org/) with this meaning: **major** for a change in structure or lesson numbering, **minor** for new lessons, labs, or reference pages, and **patch** for corrections.
 
 ## [2.3.0]
