@@ -1,11 +1,11 @@
 # Lesson 19: The eBraille Format
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 2: Advanced Lessons
-> - **Suggested time:** about 60 minutes
-> - **Prerequisites:** [Lesson 13](13-paper-size-and-embossers.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 2: Advanced Lessons
+> - \*\*Suggested time:\*\* about 60 minutes
+> - \*\*Prerequisites:\*\* [Lesson 13](13-paper-size-and-embossers.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Say why eBraille supplements and does not replace embossed braille.
 
 > [!NOTE]
-> **Background:** see [Policy and Standards Background](../reference/policy-background.md) for where eBraille and NIMAS fit in the wider standards picture.
+> \*\*Background:\*\* see [Policy and Standards Background](../reference/policy-background.md) for where eBraille and NIMAS fit in the wider standards picture.
 
 > [!IMPORTANT]
 > Do not describe eBraille as a digital replacement for every braille format or as a guarantee of accessibility. It is a structured, reflowable braille publication format; the receiving reader, software, and delivery requirements still determine whether it is suitable.
@@ -35,7 +35,7 @@ For decades the end product of braille transcription has been the **BRF** (Brail
 This is mostly a **concept lesson**, with one short hands-on section that is optional. Read the sections, work through the three exercises at the end, and check your answers against the key.
 
 > [!NOTE]
-> eBraille is new and still being adopted. BrailleBlaster has an eBraille exporter, but in the current 3.x source it is an **experimental** feature that is hidden from the normal menus. The section "Making an eBraille file with BrailleBlaster" explains how to reach it. The concepts do not depend on any menu.
+> eBraille is new and still being adopted. BrailleBlaster has an eBraille exporter, but in the current 3.x source it is an \*\*experimental\*\* feature that is hidden from the normal menus. The section "Making an eBraille file with BrailleBlaster" explains how to reach it. The concepts do not depend on any menu.
 
 ---
 
