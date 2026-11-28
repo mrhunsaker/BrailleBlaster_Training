@@ -1,11 +1,11 @@
 # Lesson 32: Proofreading and Quality Assurance
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -18,10 +18,10 @@ By the end of this lesson you will be able to:
 - Use the Help menu to check your version, view the log, and report an error to APH.
 
 > [!NOTE]
-> **Handbook:** [Lesson 53](53-error-gallery.md) is a gallery of common errors by symptom, [Lesson 51](51-accessible-workflow.md) covers proofreading by sight, speech, and touch, and [Lesson 54](54-a-model-job-capstone-walkthrough.md) shows a completed error log.
+> \*\*Handbook:\*\* [Lesson 53](53-error-gallery.md) is a gallery of common errors by symptom, [Lesson 51](51-accessible-workflow.md) covers proofreading by sight, speech, and touch, and [Lesson 54](54-a-model-job-capstone-walkthrough.md) shows a completed error log.
 
 > [!TIP]
-> **More practice:** the **Proofreading Error Log** in the [Job Aids](../reference/job-aids.md), and the [Production Checklist](../reference/job-aids.md).
+> \*\*More practice:\*\* the \*\*Proofreading Error Log\*\* in the [Job Aids](../reference/job-aids.md), and the [Production Checklist](../reference/job-aids.md).
 
 > [!WARNING]
 > A clean-looking Print View or a successful export does not establish that the braille is correct. Proofread the source, structure, translation, page layout, and final BRF in separate passes; a single pass tends to miss errors outside its immediate focus.
@@ -101,7 +101,7 @@ These are common professional practices and not rules from a braille authority, 
 If a program error (an exception) appears, **revert to your most recent save** and try again. Then use the button **Tell APH About This Error So They Can Fix It** in the pop-up, instead of dismissing it, so that the problem can be fixed for everyone.
 
 > [!CAUTION]
-> **Help > Reset BB** deletes *all* user data, including your translation changes, page settings, and font size. Use it only when an APH employee tells you to.
+> \*\*Help > Reset BB\*\* deletes \*all\* user data, including your translation changes, page settings, and font size. Use it only when an APH employee tells you to.
 
 ---
 
