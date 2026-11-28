@@ -28,7 +28,7 @@ The lessons follow the order you will actually work in:
 6. **Proofread,** then emboss or export.
 
 > [!IMPORTANT]
-> **Check where your tools are.** Lessons 23 and 24 use the TOC Builder, Volume Manager, and T-Page Generator. In the current 3.x source these three live in a hidden **Debug** menu (press `Ctrl+Shift+` ` to show it), and the 3.x User Guide does not describe them. Each lesson says how to find them and gives a manual method for when they are missing.
+> \*\*Check where your tools are.\*\* Lessons 23 and 24 use the TOC Builder, Volume Manager, and T-Page Generator. In the current 3.x source these three live in a hidden \*\*Debug\*\* menu (press `Ctrl+Shift+` ` to show it), and the 3.x User Guide does not describe them. Each lesson says how to find them and gives a manual method for when they are missing.
 
 > [!IMPORTANT]
 > A generator or an automatic import saves time but never removes the need to proofread. Every lesson in this unit ends with verification.
@@ -95,7 +95,7 @@ The lessons follow the order you will actually work in:
 6. **Proofread,** then emboss or export.
 
 > [!IMPORTANT]
-> **Check where your tools are.** Lessons 23 and 24 use the TOC Builder, Volume Manager, and T-Page Generator. In the current 3.x source these three live in a hidden **Debug** menu (press `Ctrl+Shift+` ` to show it), and the 3.x User Guide does not describe them. Each lesson says how to find them and gives a manual method for when they are missing.
+> \*\*Check where your tools are.\*\* Lessons 23 and 24 use the TOC Builder, Volume Manager, and T-Page Generator. In the current 3.x source these three live in a hidden \*\*Debug\*\* menu (press `Ctrl+Shift+` ` to show it), and the 3.x User Guide does not describe them. Each lesson says how to find them and gives a manual method for when they are missing.
 
 > [!IMPORTANT]
 > A generator or an automatic import saves time but never removes the need to proofread. Every lesson in this unit ends with verification.
