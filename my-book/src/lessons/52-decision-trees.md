@@ -1,11 +1,11 @@
 # Lesson 52: Decision Trees
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md), [Lesson 47](47-subject-area-decision-guide.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md), [Lesson 47](47-subject-area-decision-guide.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -32,7 +32,7 @@ A transcriber makes the same dozen decisions on every job: Is this math? Does th
 Each tree is a numbered list of **questions**. Answer the first one, and follow the instruction to the next. Each tree ends with an **action** and the lesson that explains it. The trees are written as text so that a screen reader or a braille display reads them in order.
 
 > [!IMPORTANT]
-> A tree **summarizes decisions the earlier lessons teach.** It does not replace them, the standards, or your agency's style sheet. When a tree does not fit your case, **stop, decide on judgment, and write the decision down** ([Lesson 43](43-braille-formats-crosswalk.md)).
+> A tree \*\*summarizes decisions the earlier lessons teach.\*\* It does not replace them, the standards, or your agency's style sheet. When a tree does not fit your case, \*\*stop, decide on judgment, and write the decision down\*\* ([Lesson 43](43-braille-formats-crosswalk.md)).
 
 ---
 
