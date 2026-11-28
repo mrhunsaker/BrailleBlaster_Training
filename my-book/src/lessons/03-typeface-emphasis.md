@@ -1,11 +1,11 @@
 # Lesson 3: Typeface Emphasis
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 1](01-navigating-the-interface.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 1](01-navigating-the-interface.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -18,10 +18,10 @@ By the end of this lesson you will be able to:
 - Apply emphasis in BrailleBlaster by selecting existing text first.
 
 > [!TIP]
-> **More practice:** the emphasis items in the [Drill Bank](../reference/drill-bank.md#a-emphasis-lesson-3).
+> \*\*More practice:\*\* the emphasis items in the [Drill Bank](../reference/drill-bank.md#a-emphasis-lesson-3).
 
 > [!IMPORTANT]
-> Do not preserve every bold or italic span automatically. First determine whether the print treatment conveys meaning for the reader and whether the governing code or *Braille Formats* calls for it; decorative or redundant emphasis can make braille harder to read.
+> Do not preserve every bold or italic span automatically. First determine whether the print treatment conveys meaning for the reader and whether the governing code or \*Braille Formats\* calls for it; decorative or redundant emphasis can make braille harder to read.
 
 ## Why this matters
 
@@ -99,13 +99,13 @@ When double emphasis occurs (bold italics, bold highlighting), §5.1.5 notes it'
 
 To remove emphasis, highlight the same text and apply the same emphasis command again — it toggles off. For a large passage with mixed emphasis, use **Emphasis > Remove Emphasis from Section** (`Ctrl+Shift+R`) to strip everything from the selection in one step, rather than hunting for each individually formatted run.
 
-> **Note:** Two cleanup tools are worth learning alongside the basics, because braille conventions actually call for removing certain print emphasis rather than preserving it: **Emphasis > Remove All Emphasis from Headings** and **Emphasis > Remove All Emphasis from List Prefixes**. Braille headings and list markers are not usually bolded even when their print counterparts are — these tools sweep the whole document in one pass instead of requiring a manual check of every heading and list item.
+> \*\*Note:\*\* Two cleanup tools are worth learning alongside the basics, because braille conventions actually call for removing certain print emphasis rather than preserving it: \*\*Emphasis > Remove All Emphasis from Headings\*\* and \*\*Emphasis > Remove All Emphasis from List Prefixes\*\*. Braille headings and list markers are not usually bolded even when their print counterparts are — these tools sweep the whole document in one pass instead of requiring a manual check of every heading and list item.
 
 ---
 
 ## Worked Demonstration (small, fully correct)
 
-> The **photosynthesis** process in *The Chemistry of Life* requires ++caution when handling open flames++. A student wrote in the margin: [SCRIPT]Remember safety goggles![/SCRIPT]
+> The \*\*photosynthesis\*\* process in \*The Chemistry of Life\* requires ++caution when handling open flames++. A student wrote in the margin: [SCRIPT]Remember safety goggles![/SCRIPT]
 
 - `**photosynthesis**` → one word, bold → **bold word indicator**.
 - `*The Chemistry of Life*` → four consecutive words (a book title) → **italic passage indicator**, opening before "The" and terminating after "Life."
