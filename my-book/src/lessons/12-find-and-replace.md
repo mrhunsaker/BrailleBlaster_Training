@@ -1,11 +1,11 @@
 # Lesson 12: Global Find and Replace with Formatting
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 5](05-heading-levels.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Spot a Replace All that would damage a document before you run it.
 
 > [!TIP]
-> **More practice:** [Lab 8: A Safe Find-and-Replace Cleanup](../labs/lab-8-find-and-replace-cleanup.md), which includes a deliberate trap.
+> \*\*More practice:\*\* [Lab 8: A Safe Find-and-Replace Cleanup](../labs/lab-8-find-and-replace-cleanup.md), which includes a deliberate trap.
 
 > [!CAUTION]
 > Before using Replace All, inspect the exact match scope and test the replacement on a small, reversible sample. A global replacement can alter proper names, code, URLs, or text inside structures that were not part of the intended correction.
@@ -93,7 +93,7 @@ Replace All is powerful because it acts everywhere the search matches. A teacher
 5. Click **Close Formatting** to return to the main Find and Replace window; the formatting condition now appears as text under the Find (and/or Replace) field.
 6. Run **Find**, **Replace**, or **Replace All** as with a plain text search — the results are now filtered by the formatting condition as well as by any text entered.
 
-> **Note:** Click **Reset** to clear all selected formatting conditions and checkboxes at once. The most recently searched text itself is preserved in the Find Text and Replace With fields even after a Reset, so you can re-scope a search without retyping the search term.
+> \*\*Note:\*\* Click \*\*Reset\*\* to clear all selected formatting conditions and checkboxes at once. The most recently searched text itself is preserved in the Find Text and Replace With fields even after a Reset, so you can re-scope a search without retyping the search term.
 
 ---
 
