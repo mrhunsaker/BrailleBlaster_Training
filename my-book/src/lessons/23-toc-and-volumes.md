@@ -1,11 +1,11 @@
 # Lesson 23: The TOC Tool and Distributing a TOC Among Volumes
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 3: Transcriber-Focused Lessons
-> - **Suggested time:** about 2 hours
-> - **Prerequisites:** [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md), [Lesson 21](21-running-heads-and-page-numbers.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 3: Transcriber-Focused Lessons
+> - \*\*Suggested time:\*\* about 2 hours
+> - \*\*Prerequisites:\*\* [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md), [Lesson 21](21-running-heads-and-page-numbers.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,10 +17,10 @@ By the end of this lesson you will be able to:
 - Verify volume and page numbers before proofreading.
 
 > [!NOTE]
-> **Handbook:** [Lesson 45](45-page-geometry-and-volume-sizing.md) shows how to estimate sheets and volumes from a measured sample.
+> \*\*Handbook:\*\* [Lesson 45](45-page-geometry-and-volume-sizing.md) shows how to estimate sheets and volumes from a measured sample.
 
 > [!TIP]
-> **More practice:** the [Volume Plan job aid](../reference/job-aids.md).
+> \*\*More practice:\*\* the [Volume Plan job aid](../reference/job-aids.md).
 
 ---
 
@@ -58,7 +58,7 @@ BrailleBlaster's User Guide specifically includes **Building the Table of Conten
 ### How this works in BrailleBlaster: the Volume Manager and the TOC Builder
 
 > [!IMPORTANT]
-> **Where these tools live depends on your BrailleBlaster version.** The older 2.x User Guide describes the Volume Manager and the TOC Builder as an ordinary tool. In the current 3.x source code, however, it sits in a **Debug** menu that stays hidden until you press `Ctrl+Shift+` ` (the backtick key) in the Print View. The 3.x User Guide does not document it, so it may be unfinished. To find out what your version does, press `Ctrl+Shift+` ` and look for a **Debug** item in the menu bar. If there is one, use it and **proofread everything it produces**. If it is missing or does not work, use the manual method described below.
+> \*\*Where these tools live depends on your BrailleBlaster version.\*\* The older 2.x User Guide describes the Volume Manager and the TOC Builder as an ordinary tool. In the current 3.x source code, however, it sits in a \*\*Debug\*\* menu that stays hidden until you press `Ctrl+Shift+` ` (the backtick key) in the Print View. The 3.x User Guide does not document it, so it may be unfinished. To find out what your version does, press `Ctrl+Shift+` ` and look for a \*\*Debug\*\* item in the menu bar. If there is one, use it and \*\*proofread everything it produces\*\*. If it is missing or does not work, use the manual method described below.
 
 In the practice documents below, a line such as `[END OF VOLUME]` is a plain-text stand-in that shows you *where* a break belongs. In BrailleBlaster you do not type that marker. You insert a real **volume break** with the Volume Manager, and BrailleBlaster adds the End of Volume statement and records which text belongs to which volume. Defining volumes this way is what lets the T-Page Generator, the TOC Builder, and BRF saving work correctly, so do it first.
 
