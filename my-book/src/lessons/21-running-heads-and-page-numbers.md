@@ -1,11 +1,11 @@
 # Lesson 21: Running Heads and Page Numbering
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 3: Transcriber-Focused Lessons
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 3: Transcriber-Focused Lessons
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 5](05-heading-levels.md), [Lesson 13](13-paper-size-and-embossers.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Edit and delete page numbers deliberately and review them in the Page Change List.
 
 > [!TIP]
-> **More practice:** [Lab 6: Running Heads and Page Numbers](../labs/lab-6-running-heads-and-page-numbers.md) and the [Page Numbering and Running Head Plan](../reference/job-aids.md).
+> \*\*More practice:\*\* [Lab 6: Running Heads and Page Numbers](../labs/lab-6-running-heads-and-page-numbers.md) and the [Page Numbering and Running Head Plan](../reference/job-aids.md).
 
 > [!CAUTION]
 > Print page numbers, braille page numbers, and ordinal page positions serve different purposes. Never copy one numbering system into another without checking the book's front matter, preliminary pages, and volume plan.
@@ -78,7 +78,7 @@ The **Running Head** is text that appears at the top of every braille page in th
 2. In the small window that opens, **No Running Head** is selected by default (many short transcriptions don't need one at all). Select **Enter Title** instead, and type the running head text.
 3. Click **OK** to save.
 
-> **Note:** Before finalizing a running head, confirm its length actually fits at the top of the braille page alongside the print page number for *every* print page number the document will use — including the longest ones — as required by *Braille Formats 2016*. A running head that fits comfortably next to "5" may not fit next to "247" or a hyphenated combined page number; check the longest cases, not just the first one.
+> \*\*Note:\*\* Before finalizing a running head, confirm its length actually fits at the top of the braille page alongside the print page number for \*every\* print page number the document will use — including the longest ones — as required by \*Braille Formats 2016\*. A running head that fits comfortably next to "5" may not fit next to "247" or a hyphenated combined page number; check the longest cases, not just the first one.
 
 ### Adding Page Numbers
 
