@@ -70,7 +70,7 @@ The play and the poem were written for this course, so you can reuse them freely
 
 These are optional extension resources and are not required course assignments:
 
-- [Extra Practice Drills](../reference/extra-practice-drills.md) — 20 additional prompts for each of the 32 lessons.
+- [Extra Practice Drills](../reference/extra-practice-drills.md) — 20 additional prompts for each of Lessons 1–32. This drill bank has not been extended to Lessons 33–54; those Handbook lessons provide their own integrated practice.
 - [Student Job Aids and Logbooks](../reference/student-job-aids-and-logbooks.md) — intake, import verification, page/embosser setup, production passes, and reusable logs.
 - [Expanded Supplemental Practice Library](../supplemental-practice/README.md) — 16 assignments, source specimens, math and graphics practice, production challenges, and 12 seeded-error exercises.
 - [Instructor Answer Keys and Teaching Resources](../instructor/answer-keys/README.md) — separate instructor-facing evaluation guidance; distribute independently when needed.
