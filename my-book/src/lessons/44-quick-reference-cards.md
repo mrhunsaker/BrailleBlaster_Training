@@ -1,11 +1,11 @@
 # Lesson 44: Quick-Reference Cards
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 5: Handbook (Supplemental)
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 33](33-what-makes-a-good-source.md), [Lesson 41](41-text-encoding-and-braille-characters.md)
-> - **You will need:** A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
+> - \*\*Unit:\*\* Unit 5: Handbook (Supplemental)
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 33](33-what-makes-a-good-source.md), [Lesson 41](41-text-encoding-and-braille-characters.md)
+> - \*\*You will need:\*\* A computer, and the sample files from the [Sample Files](../samples/index.md) page where a lesson uses them.
 
 ## Learning objectives
 
@@ -34,7 +34,7 @@ This lesson is a set of cards. Print them, braille them, or keep them in a windo
 The **braille cards** list indicators as dot numbers, as Unicode cells, and as Braille ASCII. All three were generated from the dot numbers by the formula in [Lesson 41](41-text-encoding-and-braille-characters.md), so they agree with one another. The **print-source cards** repeat the key results of Lessons 33 to 42 in one place.
 
 > [!IMPORTANT]
-> **These cards are reminders and not the rules.** They list the *cells* for common indicators. They do not say **when** to use them, and the rules for that are long. For the rules, read *The Rules of Unified English Braille* and the *Nemeth Braille Code*, and check every card against your copy of the book. The cards were prepared for this course and have not been reviewed by a certified transcriber. Treat any difference as a mistake in the card.
+> \*\*These cards are reminders and not the rules.\*\* They list the \*cells\* for common indicators. They do not say \*\*when\*\* to use them, and the rules for that are long. For the rules, read \*The Rules of Unified English Braille\* and the \*Nemeth Braille Code\*, and check every card against your copy of the book. The cards were prepared for this course and have not been reviewed by a certified transcriber. Treat any difference as a mistake in the card.
 
 ---
 
