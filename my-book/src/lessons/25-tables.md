@@ -1,11 +1,11 @@
 # Lesson 25: Tables
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 4: Specialized Content
-> - **Suggested time:** about 2 hr 30 min
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md), [Lesson 6](06-list-formatting.md), [Lesson 12](12-find-and-replace.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 4: Specialized Content
+> - \*\*Suggested time:\*\* about 2 hr 30 min
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md), [Lesson 6](06-list-formatting.md), [Lesson 12](12-find-and-replace.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -19,7 +19,7 @@ By the end of this lesson you will be able to:
 - Decide whether a print table can stay a table in braille or must be restructured.
 
 > [!TIP]
-> **More practice:** the Print Source Legend and tasks below use only plain text, so you can paste them straight into the Table Editor.
+> \*\*More practice:\*\* the Print Source Legend and tasks below use only plain text, so you can paste them straight into the Table Editor.
 
 > [!IMPORTANT]
 > A print table's visual grid is not automatically the best braille presentation. Choose the table type by the relationships a reader must compare and by whether the content fits the available width; if the format changes, explain the change in a Transcriber's Note.
@@ -37,7 +37,7 @@ Tables are everywhere in textbooks, and they are among the hardest things to tra
 Read **The Concept**, then follow **Step by step**. Work through the practice tables in order, keeping the Table Editor open and the Braille View visible, and check yourself against the **Answer Key**.
 
 > [!NOTE]
-> This lesson follows the BrailleBlaster 3.x User Guide. Menu names can change between releases. If **Insert > Table** is not where you expect it, use the **BrailleBlaster User Guide** (**Help > BrailleBlaster User Guide**, or `F1`).
+> This lesson follows the BrailleBlaster 3.x User Guide. Menu names can change between releases. If \*\*Insert > Table\*\* is not where you expect it, use the \*\*BrailleBlaster User Guide\*\* (\*\*Help > BrailleBlaster User Guide\*\*, or `F1`).
 
 ---
 
@@ -58,7 +58,7 @@ BrailleBlaster separates the two. You type the data once, in the **Table Editor*
 - **Linear.** The column headings go into a Transcriber's Note before the table, and each row becomes one line in a list, separated by colons and semicolons.
 
 > [!IMPORTANT]
-> Listed, Stairstep, and Linear **change the print format**, so the reader must be told. BrailleBlaster adds a Transcriber's Note field for each of them, with default wording you can edit. Never leave out the explanation.
+> Listed, Stairstep, and Linear \*\*change the print format\*\*, so the reader must be told. BrailleBlaster adds a Transcriber's Note field for each of them, with default wording you can edit. Never leave out the explanation.
 
 ### Choose the format by fit and by meaning
 
