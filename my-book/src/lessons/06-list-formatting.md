@@ -1,11 +1,11 @@
 # Lesson 6: Applying List Formatting
 
-> **Lesson at a glance**
+> \*\*Lesson at a glance\*\*
 >
-> - **Unit:** Unit 1: Universal Lessons
-> - **Suggested time:** about 90 minutes
-> - **Prerequisites:** [Lesson 4](04-layout-styles.md)
-> - **You will need:** BrailleBlaster open and ready, and a way to copy text from this page.
+> - \*\*Unit:\*\* Unit 1: Universal Lessons
+> - \*\*Suggested time:\*\* about 90 minutes
+> - \*\*Prerequisites:\*\* [Lesson 4](04-layout-styles.md)
+> - \*\*You will need:\*\* BrailleBlaster open and ready, and a way to copy text from this page.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ By the end of this lesson you will be able to:
 - Format a list that is eight levels deep and check it against the answer key.
 
 > [!TIP]
-> **More practice:** [Drill B3](../reference/drill-bank.md#b-styles-headings-and-lists-lessons-4-to-6) (a list that is not a list) and [Lab 9](../labs/lab-9-special-structures.md).
+> \*\*More practice:\*\* [Drill B3](../reference/drill-bank.md#b-styles-headings-and-lists-lessons-4-to-6) (a list that is not a list) and [Lab 9](../labs/lab-9-special-structures.md).
 
 ---
 
@@ -40,7 +40,7 @@ A list with no subentries is a **simple list**. Per §8.3.1, use **1-3 margins**
 
 A **nested list** is a list within a list: it has main entries and at least one level of subentries (§8.5.1). The margin rule, stated in §8.5.1(b), is simple and completely regular:
 
-> The main entry begins in cell 1. Each subentry level begins two cells to the right of the previous level. **All runovers begin two cells to the right of the farthest indented subentry** — the same runover cell is shared by every level in that list.
+> The main entry begins in cell 1. Each subentry level begins two cells to the right of the previous level. \*\*All runovers begin two cells to the right of the farthest indented subentry\*\* — the same runover cell is shared by every level in that list.
 
 This gives a clean formula. For a list nested **n** levels deep:
 
