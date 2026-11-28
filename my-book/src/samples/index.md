@@ -8,7 +8,7 @@ The lessons give you practice text to copy and paste. Several topics also need *
 - Or choose individual files from the tables on this page.
 
 > [!IMPORTANT]
-> These files were generated for this course by `tools/build_samples.py` in the repository. They are **practice files**, not production files. We confirmed their structure with other software (for example, that the well-structured Word file really contains Heading 1, 2, and 3 styles), but we have not opened every file in every BrailleBlaster release. When BrailleBlaster does something different from what a lab expects, **record what you see** and treat it as a finding. That is exactly the habit [Lesson 16](../lessons/16-choosing-an-import-workflow.md) teaches.
+> These files were generated for this course by `tools/build_samples.py` in the repository. They are \*\*practice files\*\*, not production files. We confirmed their structure with other software (for example, that the well-structured Word file really contains Heading 1, 2, and 3 styles), but we have not opened every file in every BrailleBlaster release. When BrailleBlaster does something different from what a lab expects, \*\*record what you see\*\* and treat it as a finding. That is exactly the habit [Lesson 16](../lessons/16-choosing-an-import-workflow.md) teaches.
 
 ## Word documents (Lessons 2 and 12, Lab 1)
 
@@ -43,7 +43,7 @@ Open files 01 and 02 side by side. They hold the same words and look nearly iden
 The content has two chapters, level-2 sections, a nested list, print page numbers, a sidebar, a publisher production note, a figure with a caption, and one MathML fraction.
 
 > [!NOTE]
-> This is a **NIMAS-style** teaching file. It has not been validated as a NIMAC file set. Real NIMAS files come to your agency through the NIMAC or your state. When you have access to one, repeat Lab 4 with it. See [Policy and Standards Background](../reference/policy-background.md).
+> This is a \*\*NIMAS-style\*\* teaching file. It has not been validated as a NIMAC file set. Real NIMAS files come to your agency through the NIMAC or your state. When you have access to one, repeat Lab 4 with it. See [Policy and Standards Background](../reference/policy-background.md).
 
 ## Test cases for import problems (Handbook, Lessons 33 to 40)
 
